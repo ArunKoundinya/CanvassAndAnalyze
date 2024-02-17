@@ -1,0 +1,50 @@
+---
+title: "Does end in Poverty leads to end in Hunger? { Part - 2 }"
+author: "Arun Koundinya Parasa"
+date: "2019-10-16"
+categories: [poverty, economy]
+---
+
+This blog is in continuation of my earlier blog . [Click Here](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/poverty-part1/)
+
+World Food Day is celebrated every year across the world on 16 October which is the founding data of  Food and Agriculture Organisation.
+
+Theme for 2018 was “Our Actions Are Our Future, Ending World Hunger by 2030 is Possible” which emoted me to write the earlier blog.
+
+Current year theme is "Our Actions Are Our Future, Healthy Diets for A #ZeroHunger World" which gave me an impetus to continue where i left earlier.
+
+[*Background*]{.underline}:
+
+![](hungerindex.png){fig-align="center" width="466"}
+
+Hunger Index is prepared on three variables:
+
+1.  The Proportion of Population that doesn't consume adequate amount of calories
+
+2.  Proportion of Underweight children under the age of five.
+
+3.  The mortality rate among children under five years of age, expressed as the percentage of children born alive who die before they reach the age of five.
+
+China's GHI is 7 vis-a-vis India is 23.
+
+In this article would like to discuss on the below pointers *Are we inclined to buy more tastier than nutritious.?* *Taking full calorie diet is enough - Read the Link on [How many calories do you need](https://www.medicalnewstoday.com/articles/263028.php) ?* *or* *Should we stop counting Calories and Count Nutrients Instead - [Article](https://www.huffingtonpost.com.au/2016/10/11/why-you-should-stop-counting-calories-and-count-nutrients-inste_a_21475199/)*\
+RDA for Calories is between 2000 to 2500 - [Link for RDA for Calories](https://health.gov/dietaryguidelines/2015/guidelines/appendix-2/) and [Link for RDA for Nutrients](https://health.gov/dietaryguidelines/2015/guidelines/appendix-7/).\
+The biggest challenge these days for government, nutritionists and people is to create a balance between calories and nutrients. As a part of lifestyle most of us would have started consuming nutrition supplement as a part of our daily diet; which is ideally not recommended, as absorption of nutrients from real food would go in a declining phase. \[ Some Links - [Link1](https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/vitamin-supplements-hype-or-help-for-healthy-eating) ; [Link2](https://www.health.harvard.edu/staying-healthy/dietary-supplements-do-they-help-or-hurt) \]\
+\
+On the other side, the interesting fact is that there are more number of obese people in India than starving for hunger. Overweight and obesity kills more people than underweight and act as a predisposing factor for non-communicable diseases such as cardiovascular diseases, diabetes, musculoskeletal disorders, some cancers.\
+\
+The top three reasons for obesity is\
+1) Engineering Junk Food\
+2) Excessive Food Addiction\
+3) Lack of Right Food Availability\
+\
+Lack of Right Food Availability is the common reason for both being obese as well as being in malnutrition and in hidden hunger. We have to agree that stomach full is not equal to nutrient full. The reasons for choosing the tastier or available food can be future cost, savings, current money, craving, necessity and taste.\
+\
+Our Grand Parents rarely see the locally grown pulses/vegetables being grown by farmers in large quantities. Most know that the reasons for the same has its root from green revolution.\
+\
+The challenge for future Industries is also to make Nutrient Dense Foods at a cheaper/best price alternative which will be accessible to all.\
+\
+To Conclude:\
+Every one has a role to play to achieve the #ZeroHunger state in this world.
+
+{{< video https://www.youtube.com/embed/GDLNiSmuq5I?si=YTWitoaOxan1xs75 width="450" height="300" title='#ZeroHunger' >}}

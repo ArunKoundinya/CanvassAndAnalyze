@@ -3,10 +3,6 @@ title: "Love, Power & Sex"
 author: "Arun Koundinya Parasa"
 date: "2019-09-17"
 categories: [psychology, economics]
-website:
-  comments: 
-    utterances:
-      ArunKoundinya: quarto-dev/quarto-web
 image: "image.png"
 ---
 
