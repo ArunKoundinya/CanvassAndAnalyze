@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "CanvassAndAnalyze"
+  title: "Canvass And Analyze"
   navbar:
     right:
       - about.qmd
@@ -12,7 +12,7 @@ website:
         href: https://www.linkedin.com/in/arunkoundinya0710/
 format:
   html:
-    theme: lumen
+    theme: slate
     css: styles.css
 
 
