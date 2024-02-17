@@ -1,0 +1,28 @@
+---
+title: "The New Beginning"
+author: "Arun Koundinya"
+date: "2017-01-22"
+categories: [reflection]
+---
+
+Long ago, my close friend used to say "There is a reason for everything we do; All it needs is to put our guts to know the reason to go ahead in right direction".
+
+Often lately I have started questioning myself - “Why am writing blogs? What is the necessity of writing blogs? If I want to write what should I write?" This was first surfaced to my subconscious on 22nd March 2015, the day after I have received my second masters’ degree in “Business Analytics” at ISB Hyderabad.
+
+In the course of time a lot of questions have exploded in my head. So, I felt that there is a need to understand the roots of my blogging habit (how it has started and matured over time).
+
+To understand my habit, I have used the most fascinating and powerful book, "How Habits Work" by Charles Duhigg. In this book he mentions that habit works in a loop as Cue, Routine and Reward.
+
+![](cue-routine-reward.png){fig-align="center"}
+
+I have started blogging from the year 2010 to improve my communication skills only. Certainly, I have used blogger as a platform to improve my written skills such that when people read my blogs they should not feel awkward about my way of expression. Also, I’m fortunate enough to receive best in class feedback from my friends, family and well-wishers. And if you are able to comprehend this particular piece of blog, of course it is their consistent feedback that helped me to improve.
+
+After a year, I have upgraded my usage of blogger platform for expressing my personal views on well-known topics/issues. This helped me to improve my essay structure. Eventually, after six months I have dried out of interesting topics. So, I consulted my friends and well-wishers on any topic that they would like to have a novel analysis. Thus the blog finally emerged as <http://www.arunviews.com> {which is currently not available}. In this blog, I have started to share my own views on various topics of audience interest. Certainly, this helped me to improve my reading and analytical skills as I have to comprehend on multifarious topics and provide short analysis.
+
+In a while, my habit loop for blogging has become: Cue: Finalizing one of the topic for the blog provided by my friends. Routine: Read and Analyze on the specific topic & post the blog online. Reward: Expression of satisfaction of the topic especially by topic provider.
+
+Indeed, I was enjoying in this way for more than a year. Also, whenever I see a research on similar lines of my blog it always provided me a deep sense of satisfaction. However, as I have started to read and analyze on various topics; my particular interest on confluence of Psychology, Analytics and Management always leave me intrigued, amazed and thrilled. Consequently, I could not generate further cue for writing blogs as I hardly created a blog of my own topic.
+
+So I would like to change my existing habit loop for blogging as below: Cue: Pick a topic of my interest in the confluence area of three topics. Routine: Read and Analyze on the specific topic & post the blog online. Reward: Expression of satisfaction of the topic by the blog reader and by myself.
+
+It gives a sense of fulfilment in finding out the reasons of our old habits and to take the outcome in our stride. Therefore, I would like to write blogs of my own interest which leaves me extremely happy and satisfied when I finally post it online.

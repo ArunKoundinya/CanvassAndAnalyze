@@ -1,0 +1,36 @@
+---
+title: "Does end in Poverty leads to end in Hunger? { Part -1 }"
+author: "Arun Koundinya Parasa"
+date: "2018-10-16"
+categories: [poverty, economy]
+image: "image.png"
+---
+
+[***Poverty***]{.underline}: the state of being inferior in quality or insufficient in amount.
+[***Hunger***]{.underline}: a situation in which the body does not have enough food.
+Above definitions becomes subjective without any substantial numerical adjective to it. So, the world bank updates the poverty line, as per changing cost of living, to identify the families whose economic position falls below the min. threshold/acceptance value. As of October 2015, the new global line updated to \$1.90 per day i.e.; approx. 120 INR per day.
+
+Ideally the arriving at this number is extremely important as it helps the government to torchlight the projects & policies on alleviating the poverty through subsidies, health programs and etc.; which as well helps them to take necessary decisions on the viability of the programs.
+
+As per these definitions, on an average 1 person out of 10 are in poverty globally; India has the same figures as well. { 2 in year 2011 }
+
+It is in generally assumed that a person will be remained in poverty trap forever if his future earnings are less than that of present earnings. However, the inability of the poor to feed themselves properly is also one of the most frequently cited root causes of a poverty trap. The intuition is powerful: the poor cannot afford to eat enough; this makes them less productive and keeps them poor.\
+
+In last two decades thanks to the Indian Government for its policies and subsidies and thanks for our hard working people. 4/10 in year 2000 has reduced to 2/10 in 2011 and is expected to be 1/10 by this time.\
+\
+If the above intuition is right the reverse is as well should be right. i.e.; when more people are becoming less poor there should be lesser and lesser hunger people. Also, the people who are in actual hunger has to be less than that of poor people.\
+\
+On the contray, the figures showcases something different. 1 in 7 are in hunger. Figures would be worst, if we include the people who are in *hidden hunger*.
+
+So, the above definitions on poverty suggests us that it is a one dimensional measure i.e.; income. This it all boils down to the fundamental principle of analytics i.e.; correlation and causality. Lower Income Correlates to Poverty. But does that explain the reasons for poverty. Because, the right measure and insight helps the government to deploy its resources and design the policies and create subsidies such that the required resources reaches to the needy in time. 
+
+\
+As of now, Let us assume that the world banks benchmark on poverty is right. If the people has enough money to meet their basic needs then where does the money spent by poor goes ???
+
+-   Does the poor are inclined to buy more tastier than nutritious.?
+-   Does the subsidised food becomes over subsidised such that it makes the consumer surplus become negligible.?
+-   Are they love to spend on status acquiring things like tv, mobiles and etc.; than taking care of their health?
+
+[***To conclude***]{.underline}:
+
+The world produces enough food to feed everyone. Achieving food and nutrition security is still a great challenge for the poorest around the world. The world continues to consume more food every year as the population grows, and due to rising demand for industrial uses of food.

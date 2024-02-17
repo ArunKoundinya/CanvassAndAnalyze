@@ -1,0 +1,55 @@
+---
+title: "Can we claim success?"
+author: "Arun Koundinya Parasa"
+date: "2018-09-24"
+categories: [analytical, reflection]
+image: success.png
+---
+
+What is [*SUCCESS*]{.underline}:\
+Below reference has been taken from "[business dictionary](http://www.businessdictionary.com/definition/success.html)"
+
+*Achievement of an action within a specified period of time or within a specified parameter. Success can also mean completing an objective or reaching a goal. Success can be expanded to encompass an entire project or be restricted to a single component of a project or task. It can be achieved within the workplace, or in an individual's personal life. For example, if an individual's personal goal is to be accepted in a new career, success would occur after the individual has been officially accepted into his or her new place of employment*.\
+
+[*Example*]{.underline}:\
+Now let us assume that a person(say a student) success is to get accepted in a good college. Mathematically, the outcome of a success is a boolean outcome that is Yes/No. { i.e.; Either he gets accepted or not }.\
+\
+Usually, that particular student works hard for the required entrance examination. And he practices many mock tests to minimise the errors in the actual test. Unknowingly, the student has modelled success in his mind as a function of hard work & function of practice.\
+\
+F(Success) = F(Hard-work) + F(Practice).\
+\
+Good for the student. He cracked the exam and got into the college that he aimed for. Thus he achieved success.\
+\
+The by-product of this success is that the student assumes that his "so called success model" is correct; that is success is a function of Hard-work & Practice.\
+\
+During his graduation process for each semester he uses his best worked success model { as it is already proven according to him } to get better grades. Good for him!!! He got his assumed success in each and every semester.\
+\
+And you have to agree that each time his success model got reinforced in his brain as it is the best success model and can usher him to achieve the endless success in life.\
+\
+Yet again he aimed for the one of the big-4 companies and got succeeded.\
+\
+Again and Again his SUCCESS Model got reinforced in his mind.\
+\
+As it is a story now let us assume that after one year of his work life he faced his first failure i.e.; he couldn't get the assumed hike.\
+\
+As his conscious thought process already got over-written by his reinforced thinking of his success model. It would be ideally be tough for the person to accept the failure in his model and starts reacting on the failure.\
+\
+He further works hard and practices hard and yet in the consecutive year he faces another failure. Then for the first time he starts questioning about his "so called success model". Then he realises that that the actual model for the success is:\
+\
+F(Success) = F(Hard-work) + F(Practice) + Residual(or)Random\
+\
+Upon deeper introspection into his life he realises that the another most important factor that has contributed to his success is his peers. So, he adjusts the success model again as\
+\
+F(Success) = F(Hard-work) + F(Practice) + F(Peers/Friends) + Residual(or)Random
+
+However, he kept the Residual/Random to be part of the model for his future learning. Because he has believed and reinforced the old adage "FAILURES ARE THE STEPPING STONES FOR THE SUCCESS".
+
+To conclude, we can enjoy the fruits of success; however we should be humble enough to give due credit for the surrounding environment/circumstances that helped us to achieve the success. 
+
+[***Note***]{.underline}: Usually the higher the success a person aims for the larger the model it is and attribution of randomness to success cannot be negated.
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+
+When coming to business we cannot have multiple failures and unexplained Randomness for the business success. As the business has to stand longer than human life.
+
+So, on the same lines the Key Performance Indicators are brought into business dictionary to reduce the randomness of the business success and have better controls.

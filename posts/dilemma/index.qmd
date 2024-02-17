@@ -1,0 +1,72 @@
+---
+title: "Dilemma ? { Present & Future }"
+author: "Arun Koundinya Parasa"
+date: "2018-09-30"
+categories: [game theory, reflection]
+image: "image.png"
+---
+
+In this blog post i would like to discuss a special case of game theory {Non-Cooperative game} within ourselves. Let me run thru basic introduction on game theory. { for new learners }
+
+[***Game Theory***]{.underline}: { https://en.wikipedia.org/wiki/Game_theory} { Bargaining Problem - By Sir John Nash }
+
+Those who love Intense Mathematics & Differential Equations can run through the above links. In this blog post, let me explain the beautiful theory with a famous example that is discussed in most of the Text Books.\
+\
+[***Situation***]{.underline}: There are two thieves { say Mahesh & Ram } have committed a diamond burglary.  Sleuths have gathered basic evidence, but still they need more evidence to imprison them. So, they decided to apply the Non-Cooperative game theory.\
+\
+They approached the thieves separately and discussed three scenarios: { And asked them to pick one of these three }\
+\
+***Scenario-1***: If you did confess and other didn't: You will get zero years. Other will get 10 years of sentence.\
+**Scenario-2**: If both you confess. You both will get 5 years of sentence.\
+***Scenario-3***: If both you didn't confess. Both of you will get 2 years of sentence.\
+
+|               |               |         |
+|---------------|---------------|---------|
+|  Mahesh/Ram   | Don't Confess | Confess |
+| Don't Confess | 2,2           | 10,0    |
+| Confess       | 0,10          | 5,5     |
+
+In an ideal situation, if both of them are to be safe they should not confess. 
+
+However, as they aren't not loyal to each other. Probability to confess for evading the sentence is high; which is usually called as Prisoners dilemma. And in most cases, it happens to be that they both confesses the crimes.
+
+[***Definition***]{.underline}: Game theory is the analysis of a situation involving conflicting interests in terms of gains and losses among opposing players
+
+This is a very simple example; the mathematical model and its application for "n" number of players has made by Sir John Nash for which he has awarded with Nobel Prize.
+
+[***Blog***]{.underline}:
+
+Let us assume that there are two people { That is Present-You & Future-You }. Let us take a simple decision/situation that we take in our life "[*We want to maintain our weight & health by consistent work-out*]{.underline}"
+
+The ideal situation is where-in we can become better-off is by taking time for our daily work-out. Let us see how decision happens for most of us. { It is just a simple example for portraying the outcome for this blog }
+
+*Present-You has to take two decisions i.e.; to perform work-out or not and similarly Future-You has to accommodate the work-out or no work-out for the future.*
+
+Present-You thinks that if i take a decision to work-out it would be good. If Present-You didn't perform work-out; it will all its time and energy to glorify the better present for the future. Such that Future-You has all its time to perform work out.
+
+Similarly, Future-You thinks that i would not be able to perform workout as I have to manage my time and energy for future. So, Future-You wants Present-You to perform work out such that upgraded future demands more time and energy than present.
+
+This results in a no work-out situation for both Present-You and Future-You. 
+
+I tried to portray through this classic example where we create our daily dilemma that works against us which hinders our health and wellness.
+
+|             |                                 |                                            |
+|:------:|:-------:|:---------------:|
+|             |                                 |                Present You                 |
+|             |                                 |                  Work-Out                  |
+| Future You  |            Work-Out             |           Best & Ideal Situation           |
+| No Work-Out | I can manage future work & Time | I can manage both work & time at all times |
+
+[***To conclude***]{.underline}:
+
+There are similar situations that arise in our life; where-in we remain in status-quo for long duration of time.
+
+It is not that we are afraid to take risks and go ahead. It is just that our own forces work against us albeit we know that the results are always fruitful.
+
+[*Note*]{.underline}: As Sadguru says - " The Individual who has to take care of his their own health & wellness is only YOU".
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+[***My favourite scenes from " A Beautiful Mind" Movie***]{.underline}:/
+
+<https://www.youtube.com/watch?v=2d_dtTZQyUM>
