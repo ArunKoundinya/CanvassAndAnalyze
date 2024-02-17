@@ -12,7 +12,7 @@ website:
         href: https://www.linkedin.com/in/arunkoundinya0710/
 format:
   html:
-    theme: slate
+    theme: lumen
     css: styles.css
 
 
