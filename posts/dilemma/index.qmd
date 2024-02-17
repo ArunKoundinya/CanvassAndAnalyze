@@ -50,12 +50,12 @@ This results in a no work-out situation for both Present-You and Future-You. 
 
 I tried to portray through this classic example where we create our daily dilemma that works against us which hinders our health and wellness.
 
-|             |                                 |                                            |
-|:------:|:-------:|:---------------:|
-|             |                                 |                Present You                 |
-|             |                                 |                  Work-Out                  |
-| Future You  |            Work-Out             |           Best & Ideal Situation           |
-| No Work-Out | I can manage future work & Time | I can manage both work & time at all times |
+|            |             |                                 |                                            |
+|-----------|:-----------:|:--------------:|:--------------------:|
+|            |             |           Present You           |                Present You                 |
+|            |             |            Work Out             |                No Work Out                 |
+| Future You |  Work Out   |     Best & Ideal Situation      |      I can manage present work & Time      |
+| Future You | No Work-Out | I can manage future work & Time | I can manage both work & time at all times |
 
 [***To conclude***]{.underline}:
 
@@ -67,6 +67,8 @@ It is not that we are afraid to take risks and go ahead. It is just that our own
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-[***My favourite scenes from " A Beautiful Mind" Movie***]{.underline}:/
+[***My favourite scenes from " A Beautiful Mind" Movie***]{.underline}:
 
-<https://www.youtube.com/watch?v=2d_dtTZQyUM>
+**Game theory Explanation**
+
+{{< video https://www.youtube.com/embed/2d_dtTZQyUM?si=X7STUQ-aEsOwHtQZ width="600" height="400" >}}
