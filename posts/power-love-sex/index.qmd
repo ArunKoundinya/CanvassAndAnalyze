@@ -1,0 +1,88 @@
+---
+title: "Love, Power & Sex"
+author: "Arun Koundinya Parasa"
+date: "2019-09-17"
+categories: [psychology, economics]
+website:
+  comments: 
+    utterances:
+      ArunKoundinya: quarto-dev/quarto-web
+image: "image.png"
+---
+
+This post was supposed to be written as on Apr 2013 in the blog www.arunviews.com { *which is currently not available* } based on certain events that took in my life till that time. Hope it is not too late to write & publish an old thought.
+
+This blog is written on non linear and disengaged screenplay without a conclusion for a purpose; In this post I will be sharing few personal events as well as some fictional; and certainly not to portray a CnC. Hope you will like it.
+
+Back then I was leading a delivery and configuration team { *It is prior to current Scrum Master teams in IT Sector* } along with couple of girls where-in the role involves a lot of responsibility on delivery quality. So the *Noblesse oblige* has became a defacto. After a successful year with the team; one of my team member is struggling to cope up with the speed of the delivery as well as to co-exist along with the other stakeholder team members. Upon asking the reason she replied, "Bhai! aap ke jaise thoda power and control hona chahiye merko bhi". I tried to convince her but she was reluctant and i took the responsibility; and slowly and luckily I moved away from that project to other project as she understood my commitment and responsibility for power.
+
+Later after a month of settling down in the new place and project; I pondered did i display the same behaviour on how she perceived me and tried to correlate between love and power.
+
+Came across some summaries of book at that time - *Love & Power : A Theory and practice of social change*. But didn't bought the book due to spendings at that time. Related video - [Youtube](https://www.youtube.com/watch?v=v8ScJqk25yo)
+
+Authors Ted-Ex Video
+
+{{< video https://www.youtube.com/embed/1nPfpepxEuE?si=nTpPTn4n0OljLxRq width="450" height="300" >}}
+
+And very recently i came across this link in Psychology Today - [Link](https://www.psychologytoday.com/us/articles/201401/love-and-power)
+
+Few months later in search for this answer i learnt that love and sex are related in personal life. Then i rolled a questionnaire survey inside my working group whether they had best experience in first love or in first night. 75% of them replied that it is later and balance replied in combination. Then i realised that there is indeed a process for love which was an interesting revelation.
+
+Which lead to me to this link - How love works - [link](https://people.howstuffworks.com/love4.htm).
+
+" '*And she is not growing*' was an interesting revelation in this movie; Isn't it."
+
+{{< video https://www.youtube.com/embed/GSnjt83nEho?si=_Gw8vIZxC5HCmCte width="450" height="300" >}}
+
+"It involves lots of love and confidence upon his thinking process which made him realise," replied Madhu.\
+\
+"Hope it is not a double entendre reply" asked Sanjay with a doubt.\
+\
+"Of course it is!!!", replied madhu with a smile and continued, "it is been 3 months you cannot even shout in this theatre and say it to your friends that we are in love"\
+\
+"Madhu, please give me some time!!!"\
+\
+---------------------------------------------------------------------------------------------------------------------------------\
+"This is your fifth consecutive love failure and yet you are after an another one. This is not called as love. It is lust or much worser than it" replied Vivek in anguish to Rahul in their fifth tequila round in a bar and restaurant at round 11 past in night.\
+\
+"My friend!!! Rahul defines the relationship as directly proportional to either of their intimacies shared and inversely proportional to the square of the misunderstandings"\
+\
+"Oh my goodness. My dear friend let us move it is almost midnight".\
+\
+As they are walking to the parking lot; Rahul suddenly shouted like a drunken master - "Friend!! i think you are not convinced by my earlier logic. Let me explain my new thought process. Assume there are 10 balls of equal size in an empty space they tend to be in that space in balance for ever. Assume these balls are like emotions towards our friends, family and etc.; Now what happens when we remove one ball from this balance structure. Ideally the rest of the balls adjust their position themselves to get into a balance. Personally, It is difficult and wrong for my family to get affected due to them so I replace the ball to be in composure. I hope you will understand me"\
+\
+"Yeh bhakwas ne kuch bhi bolke convince karlega"\
+\
+---------------------------------------------------------------------------------------------------------------------------------\
+During my classes at GLIM I came across the concept called as leader follower relationship. Usually in academics the topic is limited to politicians and organisation. I felt it can be applied the same to any two individuals then I approached the professor and asked - "Sir, I feel that husband and wife can also be like a leader and follower where in the the roles can be exchange between them at different times. Am I right?"\
+\
+"You are absolutely right Arun, I'm happy that you are listening to my classes. But do participate in class participation as well; as it involves marks for your final grade"\
+\
+"Sure Sir"\
+\
+and then we spoke for some time and in the end he told..\
+\
+"Important thing in leader follower relationship is when to be a leader and when to be a follower."\
+and continued, "Leader tries to create a balance between what he knows versus what he is. Whenever there is an imbalance he becomes a follower to create a balance"\
+\
+"Hope you will understand about it before the term ends"\
+\
+But in reality i didn't understand it even after i received degree from the college.\
+\
+---------------------------------------------------------------------------------------------------------------------------------\
+Eeswar in frustration of love failure booked a call-girl for a night and below is the conversation between them.\
+\
+Lady: What kind of experience do you want. Like GF Experience, Dinner Experience etc.;\
+Eeswar: Let us live in reality and have the current experience in the real roles.\
+Lady: Sure Sir.\
+Eeswar: I have a personal question before we begin with our session. Can I ask?\
+Lady: I'm all yours Eeswar. You can ask me anything.\
+Eeswar: You meet many people in a day or month. How can you ensure for unique experience with all of them.\
+Lady: I cannot ensure for the experience. But I ensure that my behaviour is consistent with all of them. If they treat us better their experience may get multiplied.\
+Eeswar: If they are not good looking. Do you ensure that your behaviour is consistent.\
+Lady laughed and replied - "India mein intha population kaisa hoga ji. Ab tho light bandh karenge"\
+\
+and then they enjoyed.\
+\
+---------------------------------------------------------------------------------------------------------------------------------\
+To Conclude - Are Power, Love and Sex are Independent variables or Interrelated variables or their Interaction causes something else?
