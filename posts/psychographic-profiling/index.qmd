@@ -1,0 +1,42 @@
+---
+title: "PsychoGraphic Profiling?"
+author: "Arun Koundinya Parasa"
+date: "2020-02-12"
+categories: [consumerbehavior, psychology]
+---
+
+If we just google "[Pyschographic](https://www.google.com/search?source=hp&ei=VjlEXpXZH7qU4-EP3-KlsAk&q=psychographic&oq=PSYCHOGRA&gs_l=psy-ab.3.2.0l10.2966.5268..6888...2.0..0.126.1226.6j6......0....1..gws-wiz.....0..0i131j0i10.UKcZXl72iVY) " we will decent material for our consumption. However, this article is not intended on those lines. Hope you will find it interesting.
+
+One day i felt very enthusiastic and started to think about it while i was on my way to  Diamond Garden in Chembur, Mumbai which is approximately 2 Kms from my living place. Being a Sunday, I woke up late that day and usually my regular chores gets shift by 2 to 3 hours. 
+
+While i was walking i came across two small entrepreneur and one transportation system
+
+-   If you have travelled to Mumbai or living in Mumbai; you would come across Local. How do we apply Psychographic in this context?
+
+![](mumbai-local.png){fig-align="center" width="442"}
+
+-   Here is a picture of a newspaper vendor near Chembur Station. How do we aly Psychographic in this context?
+
+![](paper-wala.png){fig-align="center" width="397"}
+
+-   Here is a picture of a idli vada vendor near Ambedkar Garden. How do we apply Psychographic in this context?
+
+![](tiffin-wala.png){fig-align="center" width="310"}
+
+So, in order to understand the implementation context i have to understand its business. In absence of right availability person for Mumbai Locals; have approached these two entrepreneurs and started conversing with them.
+
+[*Newspaper Delivery Business*]{.underline}*:* He wakes up at 3:30 A.M. in the morning for which he places the indents before day itself and collects the newspaper from one location. And in early morning he and his team sorts the newspaper and writes the apartment name and flat number such that the delivery boy will not misplace it while delivering {*There is no digitisation in this system*}. He has to ensure that at maximum he has to finish the delivery before 8:30 A.M. in the morning. Coming to revenue he earns approximately 20% on each news paper. All news papers except TOI will take back the leftover newspaper next day only at total cost and not the day after day.
+
+When asked his current pain point. He enumerated the following: 1) risk of loosing to competitor in case of delay. As customers these days are not happy with delay in newspaper delivery 2) risk of misplacing or missing a news paper. Which usually irate the customers.
+
+[*Idli Vada Vendor*]{.underline}*:* His business is simple where he bring 40 plates of idli, vada along with couple of chutneys which are made early in the morning at his home. He earns approximately 20% to 25% {*as there is no retail space or shelf space to be paid except to some other officials at times*}. The main challenge for him to avoid the wastage as there is no possibility of extension of shelf life. Usually on an average 40 plates seems be a no wastage for him as per his customer flow. However, when there is a wastage he gives its to other days. Additional cross sell that he does is selling a 500 ml water bottle.
+
+When asked his current pain point. He enumerated the following: 1) risk of un-sell idlis or vadas.
+
+There is no price threat to him as he is the cheapest in that location at that time.
+
+So, coming to the blog purview. How do we apply psychographic in these business contexts?
+
+Answer is that we cannot apply psychographic from the business purview. This is a realisation to me that we have to see from "Customer" purview and may be we re-define or create alternatives such that it helps or addresses to the consumers.\
+
+To conclude, I visit two coffee shops one sells at 30 Rs and other sells at 250 Rs. Apart from product and quantity differentiation; that particular coffee shop has positioned its format differently vis-a-vis the other one.
