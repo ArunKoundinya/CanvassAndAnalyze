@@ -1,7 +1,7 @@
 ---
 title: "COVID-19 & NETIZENS REACTIONS"
 author: "Arun Koundinya Parasa, Mahesh Kolli"
-date: "2020-03-30"
+date: "2020-03-29"
 categories: [covid19]
 ---
 

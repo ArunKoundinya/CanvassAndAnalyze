@@ -1,0 +1,96 @@
+---
+title: "COVID 19: FEAR, STRESS & SUICIDE"
+author: "Arun Koundinya Parasa, Mahesh Kolli"
+date: "2020-05-10"
+categories: [covid19]
+image: "image.png"
+---
+
+[*Note*]{.underline}: My Opine on suicidal related news w.r.t. Indian Sub-Continent; Nonetheless can be projected for Pan World!!!
+
+In my previous blogs' {COVID 19: DEATHS , LOCK DOWN & RECESSION} Fig:1 we have reviewed about top reasons of deaths for India. The one that moved my mind & heart is about the "Suicides" between the age group 15 & 34. To quote an interesting and emotive statistic is that ''Suicide" is the top reason for the deaths for that age group.
+
+Irony is that Psychiatry, Psychology, Psychotherapy etc.; has not yet observed any booming upsurge either in pedagogy or from the doctoral takers in India. {*Note: AIDS has created a niche market for Sexual Specialists*} It may be *market* or *inherent bias* or '*Psychology isn't so tough to understand*'; usually people try to limit themselves for a self therapy or a community therapy. Former isn't helpful at all and latter provide a great relief. On a Hindsight, we should never forget that there is no substitute for an expert advice if we are in a listening mode.
+
+*Before reading further; I request to read my earlier blog on  [Fear & Stress](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/fear-stress/)  where I tried to link both of these concepts with a cute love story; hope you will enjoy reading that blog again. Also, request to read an quick summary/abstract of research article done by Researchers on [Stress & Suicide in Adolescents](https://uh.edu/class/psychology/clinical-psych/research/dpl/publications/_files/Buitron_et_al_2016.pdf)* 
+
+Let us now explore the Indian Sub-Continent Suicidal data and its reasons. The growth of suicides is on increasing trend with 2% Y-on-Y while that of our population growth is 1% annually.
+
+[*Quick Highlights from Fig1 & Fig2*]{.underline}:
+
+-   Suicidal Male/Female ratio is 20% higher than that of the population Male/Female ratio.
+-   Educational/Peer/Career Pressure has been growing YonY at 2 to 3%
+-   Marriage & Love Affairs growing at 4 to 5% { and on higher side for Females } - Still in 20th century Dowry related issues remains among the top reasons for Females 
+-   Other Family Problems at 2 to 3%
+-   Poverty Deaths is almost at constant rate of that population.
+-   Drug Abuse/ Addiction is growing at 13%.
+-   *Note*: *The Emerging Cause of "Cyber-Bullying & Suicide" documentation seems not perfect yet.*
+
+As per WHO, the ratio of ***Suicidal Attempts : Actual Suicides*** for this age group is 20:1. Which translates to 8000 suicidal attempts per day for that age group in India. {*A suicide attempt is an attempt where a person tries to die by suicide but survives*} {*Also, the suicide attempts can lead to serious injuries to permanent disabilities*}
+
+![Fig1: Suicide Causes for Age Group 15 to 30 Years in Indian Sub-Continent.](fear-1.jpeg){fig-align="center"}
+
+![Fig2: Suicides/Day Trend Chart for Last 12 Years in Indian Sub-Continent {Age Group- 15 Years to 30 Years}](fear2.jpeg){fig-align="center"}
+
+For every suicidal attempt there will be a train of negative thoughts that will happen in our mind that triggers the suicidal event which is usually termed as suicidal thoughts. The Ratio of ***Suicidal Thoughts: Suicidal Attempts*** is approximately considered as 5:1 which translates to over-all **40,000** **suicidal thoughts per day for this age group alone**. May be if we draw unique citizens of these 40K suicidal thoughts it may reduce to 25K; that is almost **equal to that of Total Deaths/Day across all age groups in India**.
+
+Few may be thinking as what might this be related to that of "COVID-19" situation. The Gravity of suicides committed in India and the required capacity of institutions which can prevent or offer therapy is equal to the medical need for India. Also, suicide can became a situation which can be correlated to the pandemic as well. Let us see some Social Isolation Suicidal causes across in the below table.
+
+![Fig3: Social Distancing Suicides across World; { Data still under compilation }](fear3.png){fig-align="center" width="919"}
+
+The additional factors that might trigger additional suicides during this Pandemic are "24X7 Anxiety News", "Social Isolation", "Economy Stress", "Future UnEmployment","Uncertainty on Vaccine/Therapy" etc.; However, on a positive note as per the so-called ***pulling-together effect***, whereby individuals undergoing a shared experience might support one another, thus strengthening social connectedness. Recent advancements in technology (eg, video conferencing) might facilitate pulling together. Epidemics and pandemics may also alter one’s views on health and mortality, making life more precious, death more fearsome, and suicide less likely.
+
+To Conclude, as per the various studies done by experts the prime reason for suicide remains to be Fear. It happens to be that Fear triggers anxiety which in-turn triggers STRESS. Severe Stress and anxiety further leads to Depression; if aided with isolation may lead to Suicide.  Management of FEAR is utmost necessary to avoid stress and its related activities. UnderstandingOurFear & learning about it helps us to keep a "check on our health". *{Note: Fear is an underrated feeling which is the root cause of our survival as well as failures}*
+
+Understanding the initial phases of physical signs of stress for either ourselves or our near ones and addressing with right care at right time helps the needy. { [WHO Stress Management Tool Kit](https://apps.who.int/iris/rest/bitstreams/1276043/retrieve) }
+
+![Fig4: Physical Signs of Stress](fear4.jpeg){fig-align="center" width="500"}
+
+***Final Commentary***:
+
+-   Home Hacks to Reduce Stress: { Ministry of Health and Family Welfare  - Minding our Minds has shared this in relation to COVID-19 Stress Management; Request to go through as well}
+
+    -   [*What To-Do & Not-To-Do during COVID-19:*]{.underline}
+        -   Do not Follow Sensational News
+        -   Do not discuss the negative events with your friends but discuss the positive side of it.
+        -   Be Busy. Have a hobby of yourself.
+        -   Knowledge is power; the more you know about a certain issue, the less fearful you may feel. Make sure to access and believe only the most reliable sources of information for self-protection.
+    -   [*Quick Mind Diversion Techniques*]{.underline}:
+        -   Call Distant Friends
+        -   Write a To-Do List for the week
+        -   Read a book
+        -   Cook; Let us involve in Innovative Cooking
+        -   Last but not the least - Take a Deep Breath
+    -   [*Habitual Techniques for Long Term*]{.underline}:
+        -   Exercise with breathing - Cardiac Exercises helps better. { Even Step-Up Exercises for 5 Minutes every day helps a lot }
+        -   Regularize the Sleep Pattern.
+        -   Reduce Caffeine Intake.
+        -   Balanced & Healthy Cooked Food
+        -   Have a healthy company and Increase your Healthy network which will boost your confidence { As Belongingness is inversely proportional to  Stress }
+
+-   Since the families are going nuclear at times it is tough to provide in person solution at right time. So, to mitigate the damage control; if we can built an app that can predict or identify the suicidal tendencies based on the search pattern. Which eventually alerts either a police or family person or counsellor for necessary support. The must necessity is that it has to be built with necessary data privacy TnCs.
+
+-   Apart from Clinical Psychology, Consulting & Counselling Psychology has to be promoted to larger extent such that it can be considered as a future career thus improving the employment ratio.
+
+-   Schools and Educational Institutions and even Companies should be tied-up with Doctors and Counsellors for better Emotional Management and work for improving the Gross National Happiness.
+
+-   Finally, If we are getting few suicidal or negative thoughts there is nothing wrong to discuss with near ones or with experts. Community therapy is always helpful and added expert suggestion will help us to refrain to re-trace those thoughts.
+
+**Foot Note**: According to the National Science Foundation, an average person has about 12,000 to 60,000 thoughts per day. Of those, 80% are negative and 95% are repetitive thoughts. If we repeat those negative thoughts, we think negative way more than we think positive thoughts.
+
+***STAY POSITIVE & STAY HEALTHY & EAT HEALTHY***
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+It is great learning experience during the weekends and holidays of lockdown to learn on this corona virus pandemic. Readers will see more interesting articles in the coming weeks.\
+[***Our Earlier Blogs***]{.underline}:\
+
+1.  [COVID 19 : FACTS & REALTY CHECK](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-factcheck/) - Where I learned about this pandemic - Published on 25th March 2020
+
+2.  [COVID 19: NETIZEN REACTIONS](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-netizenreactions/) - Where tried to show case few examples where netizens try to forward without a fact check. - Published on 29th March 2020
+
+3.  [COVID 19: LESSONS FROM "IN" LAND](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-lessonsfrom-inland/) - Our Learning from Kerala - Published on 5th April 2020.
+
+4.  [COVID 19 : MEDICAL SCIENCE TO OVERCOME PANDEMIC](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-medicalscience/) - My Learning on the Corona Virus on Scientific Terminology. - Published on 15th of April 2020
+
+5.  [COVID 19: DEATHS , LOCK DOWN & RECESSION](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-deaths-lockdowns-recission/) - My Opine along with little research on inter relation about the same - Published on 28th of April 2020.

@@ -1,0 +1,106 @@
+---
+title: "COVID 19: THE CONCLUSION"
+author: "Arun Koundinya Parasa"
+date: "2020-07-11"
+categories: [covid19]
+---
+
+[*Note*]{.underline}: This is my personal learning and quick summary of readings & learnings for last 100 days on various topics !!!
+
+Hope the readers are liking the COVID19 blog series. However, my personal learning has helped me to debunk my old thoughts and helped me to create few fresh perspectives.
+
+[***Our Earlier Blogs***]{.underline}:
+
+1.  [COVID 19 : FACTS & REALTY CHECK](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-factcheck/) - Where I learned about this pandemic - Published on 25th March 2020
+
+2.  [COVID 19: NETIZEN REACTIONS](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-netizenreactions/) - Where tried to show case few examples where netizens try to forward without a fact check. - Published on 29th March 2020
+
+3.  [COVID 19: LESSONS FROM "IN" LAND](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-lessonsfrom-inland/) - Our Learning from Kerala - Published on 5th April 2020.
+
+4.  [COVID 19 : MEDICAL SCIENCE TO OVERCOME PANDEMIC](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-medicalscience/) - My Learning on the Corona Virus on Scientific Terminology. - Published on 15th of April 2020
+
+5.  [COVID 19: DEATHS , LOCK DOWN & RECESSION](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-deaths-lockdowns-recission/) - My Opine along with little research on inter relation about the same - Published on 28th of April 2020.
+
+6.  [COVID 19: FEAR STRESS & SUICIDE](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-fear-stress-suicide/) - My Opine to high light on the stress and suicide in India SubContinent - Published on 10th of May 2020
+
+7.  [COVID 19 : TREND, FORECAST & WHEN IT ENDS!!!!](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-when-it-ends/) - My Small Research with the available data; On Daily basis the relevant charts will be available at <https://rpubs.com/arun0710/COVID19> - Published on 6th June 2020
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+
+While i have been writing the above blogs; One thing that became very clear i.e.; that there is a lot that science is as well not yet aware. Some proven today by the existing experimental design can be proved wrong tomorrow with a redesigned experimental design.
+
+Then I have arrived at this Figure-1 which we can term it as Knowledge Hierarchy. It looks like knowing the complete science or may be conquering it; is extremely impossible or foolish journey.
+
+![Fig1: Knowledge Hierarchy; The Pyramid indicates the Dynamic Real World.](conclusion-1.jpeg){fig-align="center" width="539"}
+
+Then how does one gain the depth of each subject and understand the reality. As we know science works by evidence. Gathering New Evidences may change the understanding the reality; i.e.; either we moves towards or moves away from reality.
+
+Capability of gathering new evidences becomes much more richer when there is right experience in that specific field. So, I inverted the pyramid to understand the depth of knowledge i.e.; ***Fig2***. 
+
+I have drawn two inferences from this 
+
+1.  To know more depth - I should have vertical experience rather than horizontal experience.
+
+2.  To know more depth - I should visualize what science doesn't know and draw inferences. 
+
+Which means to know more depth we should be capable of experiencing of what we are trying to visualize. Which can be termed as ***Experiential Learning*** as opposed to ***Evidence Based Learning***.
+
+![Fig2: Inverted Knowledge Hierarchy. To Understand the Depth of Knowledge.](conclusion-2.jpeg){fig-align="center" width="528"}
+
+Most interesting fact is that we think we are living alone and we feel to claim that we are in control of our well being. However, the real evidence now shows that out of 100 trillion human cells only 10% are real human cells and balance 90% belongs to microbes. In fact these 90 trillion microbes helps in regulating and maintaining our health. Thats a lot to take care about us involuntarily isn't it so? Next time we can always say that we are never living alone!!! :). Also, are we giving required food to the 90 trillion microbes who are helping us to stay live?
+
+This is as well a very interesting revelation for me as we don't know who is helping us as we live in. We should be thankful to the nature for creating such a right balance.
+
+Also, this reminded me of my earlier blog which was luckily in same lines about success { [*Can we claim Success?*](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/can-we-claim-sucess)}
+
+The reality is that complexity inside the human body is seldom studied as we only look for evidences outside us rather than looking inside/within us. 
+
+[***Final Conclusion or Personal Inferences for the 7-Blog Series of COVID 19 for Organic way of  Healthy Living***]{.underline}:
+
+When we start looking inward - we start respecting the nature and the people who has laid the foundation so far to live in the comforts that we are enjoying or using them.
+
+1.  Believe in experience even when there is lack of evidence as it comes out from their experiential learning for years or generations. There should be some good to carry forward to our generations. Certainly I feel we can learn few things from our grand fathers.
+
+2.  Albeit the evidence based science is improving around us when we start looking inwards we will understand that we need to help ourselves more.
+
+    -   ***Alarm***: When we look inwards the answers seems to be simple. May be our logical brain will not be satisfied with simplicity so we may complicate it.
+
+    -   To live a health life may be one need to have a balance ph food and water with good sleep{ Picking excerpts from my elders }
+
+        -   Drink water which is close to nature. And of-course drink it slowly .May the Municipal Tap Water TDS is sufficient. RO water is ideally designed for industrial purposes or for people who have inaccessible to pure & clean water.
+
+        {{< video https://www.youtube.com/embed/2I4U132IoIg?si=A96C8SRVu9fiIJQB width="450" height="300" >}}
+
+        -   Eat Slowly with **balanced** nutritious food. If possible cook in an unglazed clay pot such that 100% of the food nutrients are intact with the food when we are eating.
+
+        {{< video https://www.youtube.com/embed/ddBhGMBRo2o?si=noBmyBV2-SGtlhai width="450" height="300" >}}
+
+        -   Sleep during the night time with all lights shutdown. { Melatonin is a hormone that gets generated only during dark which will regulated our moods & immune system as well }
+
+        {{< video https://www.youtube.com/embed/iP78KxAcGeY?si=mGSPBSY3Zk4mkuOo width="450" height="300" >}}
+
+        -   Breathe Slowly for 5 minutes at least 5 times in a day. Especially in the morning when trees starts releasing its morning cycle of oxygen. { Oxygen is the key component of our healthy living }
+
+        {{< video https://www.youtube.com/embed/Fohnnc99eEU?si=qQ-KJN5JZvMrbvm_ width="450" height="300" >}}
+
+        -   36 hours fasting on every month of Ekadasi day is very helpful to reset our entire body system. { Also, called as Autophagy }
+
+        {{< video https://www.youtube.com/embed/Ws0mOmfC9EU?si=9Gq9UaZTANah3I3A width="450" height="300" >}}
+
+        -   SunLight is the Ultimate Nutrient.
+
+        {{< video https://www.youtube.com/embed/O6G0dQummog?si=WiEVKWqhKXMx5axa width="450" height="300" >}}
+
+        -   Living with Nature will not only help us but as well the nature. Thus, we will be contributing to a resilient environment instead of practicing sustainable practices.
+
+        -   Last but not the least maintain your thickest and closest families and friends and nurture the relationships. This will help in maintaining the body hormone level to optimum as well.
+
+I was so happy to write this conclusion as "***Experiential Learning***" is the roots of Indian Culture but lost its comprehension upon generations for last few hundred years. Hope, soon "Experiential Learning" become a part of our life as well.
+
+I took time to practice and experience some of these above mentioned practices for the last 15 days and results seems good for me.
+
+JAI HIND.
+
+***Appendix-1: On the Contrary, How Humans are making more Pandemics:***
+
+{{< video https://www.youtube.com/embed/qp5CEcIyk94?si=keHnf6EfBIN_GkHp width="450" height="300" >}}
