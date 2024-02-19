@@ -1,0 +1,42 @@
+---
+title: "Extended Learnings -102 | Indian Culture | Did Rishis created reproducible research?"
+author: "Arun Koundinya Parasa"
+date: "2021-01-09"
+categories: [spirituality]
+---
+
+After completing the Introductory Essay from S. RadhaKrishnan writings on "The Bhagavadgita"; felt like writing this blog piece.
+
+Continuing from my previous blogs -
+
+-   <https://arunkoundinya.github.io/CanvassAndAnalyze/posts/learnings-indian-culture/>
+
+-   <https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning101/>
+
+![](research.jpeg){fig-align="center" width="510"}
+
+The components of reproducible research are data documentation & discussion, methodology discussion and the output publication.  
+
+Upanishads are said to be composed based on the learnings from rishis; these writings spanned across centuries and few even mentioned that each-one added to the existing literature at that time. However, neither the composer names nor the Rishi names are mentioned in the texts. With this clause ideally the Upanishads are deemed not to be considered as a reproducible research.
+
+The most strangest thing that strike to me is that "if someone is thinking something esoteric and is doing for larger good and thinking a lot about longterm for the welfare of humanity; why did they go author-less"; "Now everyone is an author including me. ( *Being Sarcastic here for last 7 words*  )"
+
+Let us pick from where we left at the last blog. i.e.; Rishis got a place that is free from distractions such that they meet or understand about the showman. Upon deep introspection and internal inquiry the highest intelligent Rishi would gain few important revelations which in-turn would make him happy.
+
+![](AnandaVilli.png){fig-align="center" width="728"}
+
+**Fig**: [Ananda Valli](https://en.wikipedia.org/wiki/Taittiriya_Upanishad#Ananda_Valli) - From Taittriya Upanishad { Do not confuse with Maslow Hierarchy }
+
+As Happy person would attract more friends. A bliss-full soul attracts many disciples. So, '*that*' Rishi would have attracted disciples and he would have shared his knowledge and revelations i.e; primarily about the output discussions & methodology to gain bliss. 
+
+Among those disciples he would pick few disciples who are deemed fit and trained them on how to experience the bliss; thus creating more rishis for their Ananda. This is the selfless action performed by the Rishi for the benefit of the others. Which is termed as [Karma Yoga](https://en.wikipedia.org/wiki/Karma_yoga).  { This act is the highest form of reproducible research as you are not only ensuring the work is been shared but also ensuring that your work is being experienced by other person in front of us. }
+
+Thus Rishis not only ensured that their learnings are carried forward to the right person. But also ensured that he gets to the fullest of his learnings such that he can built on top of their learnings.
+
+Thus the Vedas and Upanishads has been composed after several sequential learnings by may rishis and maharishis.
+
+***Note***:
+
+-   Bhagavadgita or the Upanishads are usually conveyed as the subjects that you should read after retirement as its learnings would make us to cease action.
+
+    -   However, Bhagavadgita is all about convincing Arjuna to go to war. i.e.; to take action and not to cease the action.
