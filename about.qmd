@@ -1,19 +1,21 @@
 ---
 title: "About"
-image: profile.jpg
+image: profile.jpeg
 about:
   template: jolla
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/koundinyaarun/
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/arunkoundinya0710/
     - icon: github
       text: Github
       href: https://github.com/ArunKoundinya
-
+    - icon: instagram
+      text: Instagram
+      href: https://instagram.com/koundinyaarun/
 ---
 
-About this blog
+This blog is among my thought process on multitude areas but with a lens of psychology, management and analytics.

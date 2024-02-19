@@ -6,3 +6,8 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+page-footer:
+  right: "This page is built with 💛 and [Quarto](https://quarto.org/)."
+  left: "&copy; Copyright 2024, Arun Koundinya Parasa"
+  background: "#36494E" 

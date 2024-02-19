@@ -2,14 +2,26 @@ project:
   type: website
 
 website:
-  title: "Canvass And Analyze"
+  title: "<img src='/images/logo.png' style='width: 2.2em; height: 2.2em; border-radius: 30%;'> <b>Canvass And Analyze</b>"
+  site-url: https://arunkoundinya.github.io/CanvassAndAnalyze/
+  description: "My thought process on confluence of Psychology, Analytics and Management."
+  favicon: "/images/logo.jpeg"
+  margin-header: subscribe.html
   navbar:
     right:
       - about.qmd
+      - icon: rss
+        href: index.xml
       - icon: github
         href: https://github.com/ArunKoundinya
       - icon: linkedin
         href: https://www.linkedin.com/in/arunkoundinya0710/
+
+  page-footer:
+    right: "This page is built with 💛 and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2024, Arun Koundinya Parasa"
+    background: "#36494E" 
+
 format:
   html:
     theme: lumen
