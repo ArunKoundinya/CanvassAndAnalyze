@@ -1,0 +1,135 @@
+---
+title: "COVID 19: REVISITED WITH A NEW STRAIN"
+author: "Arun Koundinya Parasa, Mahesh Kolli"
+date: "2021-05-07"
+categories: [covid19]
+image: "image.png"
+---
+
+ [*Note*]{.underline}: After a long hiatus we are back with a new COVID 19 series blogs to create an awareness which is aimed to help the larger community for the current wave and future waves. It is based on Mahesh personal experience from handling covid patients and our combined desk research and consultation.
+
+[***Our Earlier Blogs***]{.underline}:
+
+1.  [COVID 19 : FACTS & REALTY CHECK](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-factcheck/) - Where I learned about this pandemic - Published on 25th March 2020
+
+2.  [COVID 19: NETIZEN REACTIONS](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-netizenreactions/) - Where tried to show case few examples where netizens try to forward without a fact check. - Published on 29th March 2020
+
+3.  [COVID 19: LESSONS FROM "IN" LAND](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-lessonsfrom-inland/) - Our Learning from Kerala - Published on 5th April 2020.
+
+4.  [COVID 19 : MEDICAL SCIENCE TO OVERCOME PANDEMIC](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-medicalscience/) - My Learning on the Corona Virus on Scientific Terminology. - Published on 15th of April 2020
+
+5.  [COVID 19: DEATHS , LOCK DOWN & RECESSION](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-deaths-lockdowns-recission/) - My Opine along with little research on inter relation about the same - Published on 28th of April 2020.
+
+6.  [COVID 19: FEAR STRESS & SUICIDE](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-fear-stress-suicide/) - My Opine to high light on the stress and suicide in India SubContinent - Published on 10th of May 2020
+
+7.  [COVID 19 : TREND, FORECAST & WHEN IT ENDS!!!!](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-when-it-ends/) - My Small Research with the available data; On Daily basis the relevant charts will be available at <https://rpubs.com/arun0710/COVID19> - Published on 6th June 2020
+
+8.  [COVID 19: THE CONCLUSION](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/covid19-theconclusion/)) - Closing Commentary on the learnings;  Published on 11th July 2020
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+We have left the previous blog series where we have learnt that a lot of research is still going on the Covid virus; but it is utmost importance for us to take care of our health and improve our immune system to tackle such future pandemics.
+
+Let us start this blog with a simple video of explaining the gist "[***why there are new strains of virus***]{.underline}" video by WHO.
+
+{{< video https://www.youtube.com/embed/qD8dAbov5JU?si=3fCg6om5ie99sAkD width="600" height="400" >}}
+
+### What are the prominent variants now being discussed ?
+
+From the above video of WHO, we can conclude that the likelihood of the virus mutation increases whenever it gets more opportunities to spread.
+
+Most viral mutations have little to no impact on the virus’s ability to cause infections and disease. But depending on where the changes are located in the virus’s genetic material, they may affect a virus’s properties, such as transmission (for example, it may spread more or less easily) or severity (for example, it may cause more or less severe disease).
+
+There are many virus mutations as per the studies; but that are prominent now in Indian SubContinent are the following:
+
+-   UK Strain - B.1.1.7
+-   Indian Strain - B.1.617 { Also, called as Double Mutant }
+-   South Indian Strain - N440K 
+
+UK Strain & Indian Strain luckily has been very good in transmission i.e.; being more contagious. Good thing is there no evidence on the severity of the infection been discovered by these virus mutations.
+
+What makes a big deal if it is Contagious? -\> It quickly spreads to more people and chance of more hospitalised patients and ICU patients would be increasing giving a stress to the healthcare system. Let us follow the same thumb rules of mask, washing hands, sanitizing, social distancing and keeping healthy. 
+
+### Any Additional Symptoms for New Strains?
+
+COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization.
+
+***Most common symptoms***:
+
+-   fever
+-   drycough
+-   tiredness
+
+***Less common symptoms***:
+
+-   aches and pains
+-   sorethroat
+-   diarrhoea
+-   [conjunctivitis]{style="color: #2b00fe;"}
+-   headache
+-   loss of taste or smell
+-   [a rash on skin or discolouration of fingers or toes]{style="color: #2b00fe;"}
+
+***Serious symptoms***:
+
+-   difficulty breathing or shortness of breath
+-   [chest pain or pressure]{style="color: #2b00fe;"}
+-   [loss of speech or movement]{style="color: #2b00fe;"}
+
+On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days.
+
+Highlighted in blue ones are new symptoms that has been evolved as virus gets mutating.
+
+### Are the Current Vaccinations Safe for these Virus Strains?
+
+Both COVISHIELD & COVAXIN are tested for varied virus strains and found to be very effective. Without thinking a second we can take this vaccine if it is available.
+
+Hardest reality in India is about the availability of vaccines and its management; the discussion is out of scope for this blog.
+
+### Why there is sudden exponential rise of cases ?
+
+As per recent [reuters](https://www.reuters.com/world/asia-pacific/exclusive-scientists-say-india-government-ignored-warnings-amid-coronavirus-2021-05-01/) report it seems the scientific community has highlighted and expressed huge concern about the covid-19 scenario if it is not addressed immediately.
+
+When the scientific community has found the Indian Virus Strain in the Community and learned about its transmission power; They assumed for exponential increase of cases for the below mentioned reasons.
+
+-   Increased People Movement without following normal COVID norms
+
+-   Population Density { Migrant Workers came back to Urban Cities }
+
+-   People Seeking Normality in Life
+
+-   Vaccination Drive Started ; Elderly people as well seeking normality in life.
+
+-   People worked for Elections and other support staff.
+
+There is always a higher chance of spreading and affecting the Elderly and people with comorb at a higher rate leading to load on healthcare and primarily increased devastating scenes on the ground reality.
+
+### Would there be a possible new strain of corona that is more stronger ?
+
+If left unaddressed, there is high chance the Virus Strain can get mutated to a stronger strain in terms of both severity and contagious; At times there is higher chance that this virus strain would be immune of the vaccines that has been so far developed.
+
+Which would be even catastrophic not only for our country but for the whole world.  
+
+{{< video https://www.youtube.com/embed/xLvY210yQkE?si=juEUC3e0qRq1yAx6 width="600" height="400" >}}
+
+### What is our current course of action?
+
+To avoid such scenarios the course of action has to be following the thumb rules and getting vaccinated as soon as possible.
+
+Stay Home and Take Care
+
+### CONCLUSION:
+
+1.  Government should have been acted with a swift response based on the scientific evidence. A Stitch in time saves nine.
+
+2.  Also, the vaccination drive should have been concentrated more on people getting vaccinated  rather depending only on Indigenous vaccine. The damage control could have been better.
+
+3.  It is hight time to realize that it not numbers it is people.
+
+4.  ***A Mandatory 15 day national lockdown is needed***. - A Plead from Scientific Community to Government.
+
+5.  Vaccines are a critical tool in the battle against COVID-19, and there are clear public health and lifesaving benefits to using the tools we already have. We must not put off getting vaccinated because of our concerns about new variants, and we must proceed with vaccination even if the vaccines may be somewhat less effective against some of the COVID-19 virus variants. We need to use the tools we have in hand even while we continue to improve those tools. 
+
+6.  We are all safe only if everyone is safe.
+
+7.  When there is possibility of open and crowd source data and research; It can be as well on Vaccination and Epidemic Analysis.
