@@ -5,7 +5,7 @@ date: "2022-08-05"
 categories: [spirituality]
 ---
 
- Continuing from the previous blog - <https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureGlossary101/>
+ Continuing from the previous blog - [Link](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureGlossary101/){.uri}
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
