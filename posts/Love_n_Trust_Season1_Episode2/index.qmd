@@ -3,11 +3,6 @@ title: "LOVE & TRUST - Season -1 | Episode - 2"
 author: "Arun Koundinya Parasa"
 date: "2023-02-11"
 categories: [love, story, trust]
-comments:
-    utterances: 
-      repo: quarto-dev/quarto-web
-      theme: body-light
-      issue-term: title
 ---
 
 Continued from previous blog - [Link](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode2){.uri}
