@@ -7,6 +7,11 @@ freeze: true
 # Enable banner style title blocks
 title-block-banner: true
 
+website:
+  comments: 
+    utterances:
+      repo: quarto-dev/quarto-web
+
 page-footer:
   right: "This page is built with 💛 and [Quarto](https://quarto.org/)."
   left: "&copy; Copyright 2024, Arun Koundinya Parasa"

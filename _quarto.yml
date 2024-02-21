@@ -1,12 +1,7 @@
 project:
   type: website
 
-website:
-  comments:
-    utterances:
-      repo: quarto-dev/quarto-docs
-      theme: boxy-light
-  
+website:  
   title: "<img src='/images/logo.png' style='width: 2.2em; height: 2.2em; border-radius: 30%;'> <b>Canvass And Analyze</b>"
   site-url: https://arunkoundinya.github.io/CanvassAndAnalyze/
   description: "My thought process on confluence of Psychology, Analytics and Management."
