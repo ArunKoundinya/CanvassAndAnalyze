@@ -1,0 +1,64 @@
+---
+title: "Cognitive Delusion under Information Deluge?"
+author: "Arun Koundinya Parasa"
+date: "2024-02-25"
+categories: [pyschology, reflection]
+---
+
+![](image.png){fig-align="center" width="400"}
+
+[Note: this blog is not about mental disorders.]{style="font-size: small;"}
+
+## Delusion vs Hallucation?
+
+Everyone would doubt the difference between delusion and Hallucination. I hope this section will bring the initial conceptual clarity.
+
+Delusion, in simple words, is having firm beliefs despite contrary evidence. Hallucination is something living in that belief or world, although it doesn't exist.
+
+In the psychiatric world and for mental disorder patients, they often overlap.
+
+But as of now, let us step in and see these two through two different lenses.
+
+*Example1*: Assume that `Subhash` loved playing cricket since his childhood. He has been to the best coaching centers in the city to get trained. But for practice, he used to play with his school friends instead of cricket ground friends. This made him believe that he was the best in his game. During `under 14` selections, he didn't fare well compared to his peers as per the selection committee. However, `Subhash` labeled this selection as grossly politically favored to certain sections of kids as he could not believe that his skill wasn't up to the mark. So, he still believes that he is best at his game, although there is clear evidence that he isn't. In this scenario `Subhash` is in a delusion that he has all the necessary skills to be part of the district team.
+
+*Example2*: Let's exaggerate the behaviour of `Subhash` for this example. `Subhash` has been continuously rejected for four consecutive years and got good feedback from coaches to improve his technique and skill. Despite this, he still believes that he is good at his game. Later, to overcome these several setbacks, he abandoned attending cricket coaching classes and instead formed a small team with his school friends and lived in that world. He was so invincible with his school friends that he derived a theory and started communicating that the selection committee and coaches were corrupted, and they stopped his growth intentionally and hid his talent to resurface to the world. At this stage, he is hallucinating unknown events, which can be termed a hallucination.
+
+Reference:
+
+-   [Link](https://www.healthline.com/health/mental-health/hallucinations-vs-delusions)
+
+## What is delusion in information era?
+
+In the information era, we have deluge access to information, which I would like to categorize into four ways:
+
+-   **Info A**: Information that we like and is relevant.
+-   **Info B**: Information that we don't like and is relevant.
+-   **Info C**: Information that we like and isn't relevant.
+-   **Info D**: Information that we don't care.
+
+There is no empirical information about the distribution of this information. But as per my personal experience, I can say that the majority of the information sits in `Info D`. But we all care about `Info A` and `Info C`.
+
+Since we delve into the information that we only care about, there is a 100% chance that we form many [biases](https://www.psychologytoday.com/us/basics/bias). These `biases` will create our self-full prophecy belief system and might push us into delusion.
+
+## Why do we have delusion and its probable reasons?
+
+The primary outcome of a delusion is a conclusion without caring for any further evidence to confirm or solidify that evidence. Rather than going through the variety of information in this era, we might get into the deluge of the information we believe. Also, Google answers what we ask and doesn't offer what we need for our holistic thought process.
+
+There are multiple reasons to have our delusions:
+
+-   Genetic factors
+-   Biological factors
+-   Psychological factors
+-   Environmental factors
+
+In pre-Google era, information deluge isn't available. Now, in the information era, this particular environment would contribute to the creation of delusions.
+
+Reference:
+
+-   [Link](https://my.clevelandclinic.org/health/diseases/9599-delusional-disorder)
+
+## Closing remarks
+
+There aren't any suggestions from my side, as this is still a learning process. Furthermore, I have genuinely believed in technology and its progress. So, the onus lies on the user to use it rather than to become dependent on the devices. Also, it is wise to turn to humans occasionally instead of a device, as humans design devices.
+
+[Note: I have used Grammarly to correct English for this blog. ChatGPT isn't used at all for this blog.]{style="font-size: xsmall;"}
