@@ -2,9 +2,9 @@ project:
   type: website
 
 website:
-  comments:
-    giscus:
-      repo: ArunKoundinya/CanvassAndAnalyze
+  #comments:
+    #giscus:
+      #repo: ArunKoundinya/CanvassAndAnalyze
   
   title: "<img src='/images/logo.png' style='width: 2.2em; height: 2.2em; border-radius: 30%;'> <b>Canvass And Analyze</b>"
   site-url: https://arunkoundinya.github.io/CanvassAndAnalyze/

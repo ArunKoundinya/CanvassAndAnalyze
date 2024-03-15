@@ -2,3 +2,6 @@
 _site/
 posts/.DS_Store
 .DS_Store
+
+posts/*/.Rhistory
+posts/.DS_Store
