@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Arun Koundinya Parasa, Mahesh Kolli">
 <meta name="dcterms.date" content="2020-04-05">
 
-<title> Canvass And Analyze - COVID 19: LESSONS FROM ‘IN’ LAND</title>
+<title>COVID 19: LESSONS FROM ‘IN’ LAND – &lt;img src='/images/logo.png' style='width: 2.2em; height: 2.2em; border-radius: 30%;'&gt; &lt;b&gt;Canvass And Analyze&lt;/b&gt;</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -1047,7 +1047,7 @@ ul.task-list li input[type="checkbox"] {
 <p>By the time India is in “Lock-down” phase. I {<em>Arun Koundinya</em>} have been hearing and reading a lot about the “South Korean” Model and their use of Advance Analytics in quick identification of Corona positive cases at an early stage level.</p>
 <p>However, I’m also a believer that “For Indian Problems we might need Indian/Indigenous Solutions to start with; rather a copy cat solutions as the larger Mass user base are still Indians.”</p>
 <p>So, I took the numbers as on 4th April 2020 Morning 9 AM and picked the states that has more than 200 Confirmed Cases. Then derived a metric ( Deaths upon Confirmed - Ideally it has to be ( Deaths + Critical ICU Cases ) / Confirmed )</p>
-<table class="table">
+<table class="caption-top table">
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">State/UnionTerritory</td>
@@ -1120,14 +1120,14 @@ ul.task-list li input[type="checkbox"] {
 <p>In Kerala the Index Patient has passed the virus to 16 persons at Medical College Hospital; later two more were infected, increasing the total count of infected to 18. There were 10 deaths in the first week, including a nurse named Lini Puthussery who treated the index patient before diagnosis. The outbreak began in Kozhikode district and later spread to the adjoining Malappuram district.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="inland-1.jpeg" class="quarto-figure quarto-figure-center figure-img" width="400" height="568"></p>
+<p><img src="inland-1.jpeg" width="400" height="568" class="figure-img"></p>
 <figcaption>An Short Article on Lini Puthussery</figcaption>
 </figure>
 </div>
 <p>Here is the first wave of patients from the index patient.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="inland-2.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></p>
+<p><img src="inland-2.jpeg" class="img-fluid figure-img" width="400"></p>
 <figcaption>Contact tracing of Nipah Virus Patients</figcaption>
 </figure>
 </div>
@@ -1240,18 +1240,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1283,7 +1272,47 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/arunkoundinya\.github\.io\/CanvassAndAnalyze\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -1318,7 +1347,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
