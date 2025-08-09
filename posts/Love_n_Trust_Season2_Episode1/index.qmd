@@ -146,3 +146,23 @@ Sanjay nodded, a sense of clarity in his voice. **"Yes, actually. No one broke m
 Raj paused, absorbing the confession. "Wow, that's soo deep. But, hey, I think Pravallika still has feelings for you. Did you see her latest viral video on Instagram?"
 
 The conversation lingered, holding a mirror to Sanjay's revelations and the tangled emotions still unfolding.
+
+*\<\<\< Lets Continue soon with Episode 02 \>\>\>*
+
+```{=html}
+<script src="https://giscus.app/client.js"
+        data-repo="ArunKoundinya/CanvassAndAnalyze"
+        data-repo-id="R_kgDOLTnAQQ"
+        data-category="General"
+        data-category-id="DIC_kwDOLTnAQc4CdYId"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="transparent_dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+```
