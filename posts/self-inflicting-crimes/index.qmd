@@ -1,0 +1,135 @@
+---
+title: "DEATHS BY SELF INFLICTION - Part 01"
+author: "Arun Koundinya Parasa"
+date: "2025-11-09"
+categories: [suicides, crime, mental-health, self-harm]
+toc: true
+---
+
+![](image.png){fig-align="center" width="639"}
+
+## 1. Self-Injury?
+
+Self Injury can be suicidal or non-suicidal, ideally in literature self-harm is by definition non-suicidal, but it may be life-threating. Usually, people who do self-harm are more likely commit suicide.
+
+However, for our simplicity sake lets assume that self-harm can be of two types, Non-Suicidal and Suicidal.
+
+```{mermaid}
+graph TD;
+    A[Self-Injury] -- No Clear Intention to Die --> B[Non-Suicidal];
+    A -- Prime Intention is to Die --> C[Suicidal];
+```
+
+### 1.1 N.S.S.I (Non-Suicidal Self Injury)
+
+Non-suicidal self-injury involves acts like cutting, burning, or hitting oneself **without the intent to die**. Though not a suicide attempt, it is a significant mental health issue associated with distress and emotional dysregulation. People may harm themselves as a way to:
+
+-   Relieve intense emotional pain
+-   Regain a sense of control
+-   Express feelings they can’t put into words
+-   Punish themselves for perceived faults
+-   Feel something when they are emotionally numb
+
+While NSSI doesn’t involve the intent to die, it can become a habitual coping mechanism, making it harder for individuals to seek healthier emotional outlets. Importantly, **NSSI can increase the risk of future suicidal behavior**, as the threshold for self-harm lowers over time.
+
+[*Facts*:]{.underline} NSSI is most common among adolescents and young adults, with lifetime prevalence rates between 15–20%, typically beginning around age 13–14.
+
+### 1.2 S.S.I (Suicidal Self Injury)
+
+**Suicidal self-injury (SSI)**, on the other hand, is done with the intention to end one’s life. It’s an act of despair not just physical harm but a cry for the end of suffering. Unlike NSSI, where survival is part of the intent, SSI reflects a perceived absence of hope, connection, or purpose.
+
+However, many who attempt suicide may not always want to die, but they want the pain to stop. This distinction is crucial for prevention and intervention efforts.
+
+Suicidal behaviors may result in either fatal or non-fatal outcomes:
+
+```{mermaid}
+graph TD;
+    A[Suicides] -- Person Survives --> B[Non-Fatal];
+    A -- Results in Death --> C[Fatal];
+```
+
+[*Not so,but important fact*:]{.underline} Suicides is among top 10 leading cause of deaths world-wide. There are an estimated 10 to 20 million non-fatal attempted suicides every year
+
+## 2. What is Suicide?
+
+Suicide is the act of intentionally ending one’s life. It’s rarely caused by a single factor rather, it’s an outcome of complex interactions between psychological, social, and biological elements.
+
+Commonly, suicide is viewed as an act of hopelessness, but in reality, it can stem from a web of causes: prolonged stress, trauma, loneliness, illness, financial or social failure, and lack of perceived support.
+
+Suicide rates vary across age groups, genders, regions, and cultures. **Men are statistically more likely to die by suicide**, whereas **women report more non-fatal attempts**. This suggests that intent and method also play roles in outcomes.
+
+## 3. Why People Commit Suicide?
+
+There’s no single reason, but several recurring themes appear across research:
+
+-   **Mental Health Disorders**
+    -   Depression, anxiety, bipolar disorder, and schizophrenia are leading risk factors. In many cases, the person experiences unbearable psychological pain.
+-   **Social Isolation and Loneliness**
+    -   Human beings are wired for connection. When those bonds break through loss, separation, or neglect suicidal thoughts can emerge.
+-   **Hopelessness and Loss of Purpose**
+    -   A sense that “things will never get better” is a strong predictor of suicidal ideation.
+-   **Substance Abuse**
+    -   Alcohol and drugs lower inhibitions and impair judgment, making impulsive suicide attempts more likely.
+-   **Trauma or Abuse**
+    -   Past trauma, physical, emotional, or sexual can create long-lasting wounds that manifest as self-destructive behavior.
+-   **Chronic Illness or Pain**
+    -   Long-term physical suffering, especially when accompanied by mental strain, can push individuals toward suicidal ideation.
+-   **Socioeconomic Pressures**
+    -   Debt, unemployment, or humiliation can amplify feelings of worthlessness and failure.
+
+## 4. Why It Matters — The Larger Impact
+
+Suicide is not merely an individual tragedy but a global public health crisis.
+
+1.  Every 40 seconds, someone dies by suicide (WHO, 2023).
+2.  For each suicide death, there are estimated to be 20 or more attempts.
+3.  Families, friends, and communities are left with long-lasting grief and guilt.
+
+Beyond the emotional toll, suicide affects workplaces, healthcare systems, and social structures. Every death ripples outward, often causing secondary trauma in others.
+
+Importantly, suicide is preventable with awareness, early detection, and support. Conversations like these matter because talking openly can save lives.
+
+## 6. What's in Part 02
+
+In Part 02, we’ll dive into real-world data:
+
+1.  Patterns and statistics across countries and age groups
+2.  Gender differences and cultural dimensions
+3.  Temporal trends and possible correlations (e.g., economy, social media)
+4.  Visualization of datasets using open data sources
+
+## 6. What's in Part 03
+
+In Part 03, we’ll go beyond data:
+
+-   Is there still a social stigma attached to suicide and self-harm?
+-   How can communities identify early indicators?
+-   Practical recommendations and policy-level insights
+
+## 7. References:
+
+-   [Nonsuicidal Self-Injury: What We Know, and What We Need to Know](https://pmc.ncbi.nlm.nih.gov/articles/PMC4244874/pdf/cjp-2014-vol59-november-565-568.pdf)
+-   [Suicide following deliberate self-harm: long-term follow-up of patients who presented to a general hospital](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/suicide-following-deliberate-selfharm-longterm-followup-of-patients-who-presented-to-a-general-hospital/2A40FE4860E86668306A98F07F21D6FC)
+-   [Wiki Page of Self-Harm](https://en.wikipedia.org/wiki/Self-harm)
+-   [Nonsuicidal Self-Harm Among Community Adolescents: Understanding the “Whats” and “Whys” of Self-Harm](https://d1wqtxts1xzle7.cloudfront.net/35003254/self_harm_0-libre.pdf?1412570227=&response-content-disposition=inline%3B+filename%3DNonsuicidal_Self_Harm_Among_Community_Ad.pdf&Expires=1762093861&Signature=MH5aoBuVVtCr~F8gZK6xQ8DCHW5bxTwMwPEa4PzYQso80UJ-Fuce-JagM9YzIKuC55uN9dG7XBngYeLcAeJVYnHl3ODb9fNxQtpla3pKWcRrLDkiNCDcbLMPuo7x7vALNojZNJhWeByi0QUVatj8WurPXfEiQtQOz~GbixhNGWFsa4QPalMc6Yw4qwaGlQxR9x5EDIHU7vHETvWEsHc4jR4zSDzbnNiEzPef6CQyLPUUFITsqTu6QYDj16ThVk-xIG4W0Jnaeh~Nvr~BRsghi20fmbf280FdWHJs5s40axDuHKirErS~Q1NO7WAMTXST2jgBwjIiABixOekyHHIovQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+-   [Non-fatal suicidal behaviour among adults aged 16 to 74 in Great Britain](https://webarchive.nationalarchives.gov.uk/ukgwa/20160105160709/http://www.ons.gov.uk/ons/rel/psychiatric-morbidity/non-fatal-suicidal-behaviour-among-adults/non-fatal-suicidal-behaviour-among-adults-aged-16-74-in-great-britain/non-fatal-suicidal-behaviour---among-adults-aged-16-74-in-great-britain.pdf)
+-   [Suicide and psychiatric diagnosis: a worldwide perspective](https://pmc.ncbi.nlm.nih.gov/articles/PMC1489848/pdf/wpa010181.pdf)
+-   [Wiki Page of Suicide](https://en.wikipedia.org/wiki/Suicide)
+
+```{=html}
+<script src="https://giscus.app/client.js"
+        data-repo="ArunKoundinya/CanvassAndAnalyze"
+        data-repo-id="R_kgDOLTnAQQ"
+        data-category="General"
+        data-category-id="DIC_kwDOLTnAQc4CdYId"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="transparent_dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+```
