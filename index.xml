@@ -10,7 +10,170 @@
 <atom:link href="https://arunkoundinya.github.io/CanvassAndAnalyze/index.xml" rel="self" type="application/rss+xml"/>
 <description>My thought process on confluence of Psychology, Analytics and Management.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Mon, 27 Oct 2025 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 09 Nov 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>DEATHS BY SELF INFLICTION - Part 01</title>
+  <dc:creator>Arun Koundinya Parasa</dc:creator>
+  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/self-inflicting-crimes/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/self-inflicting-crimes/image.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="639"></p>
+</figure>
+</div>
+<section id="self-injury" class="level2">
+<h2 class="anchored" data-anchor-id="self-injury">1. Self-Injury?</h2>
+<p>Self Injury can be suicidal or non-suicidal, ideally in literature self-harm is by definition non-suicidal, but it may be life-threating. Usually, people who do self-harm are more likely commit suicide.</p>
+<p>However, for our simplicity sake lets assume that self-harm can be of two types, Non-Suicidal and Suicidal.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph TD;
+    A[Self-Injury] -- No Clear Intention to Die --&gt; B[Non-Suicidal];
+    A -- Prime Intention is to Die --&gt; C[Suicidal];
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<section id="n.s.s.i-non-suicidal-self-injury" class="level3">
+<h3 class="anchored" data-anchor-id="n.s.s.i-non-suicidal-self-injury">1.1 N.S.S.I (Non-Suicidal Self Injury)</h3>
+<p>Non-suicidal self-injury involves acts like cutting, burning, or hitting oneself <strong>without the intent to die</strong>. Though not a suicide attempt, it is a significant mental health issue associated with distress and emotional dysregulation. People may harm themselves as a way to:</p>
+<ul>
+<li>Relieve intense emotional pain</li>
+<li>Regain a sense of control</li>
+<li>Express feelings they can’t put into words</li>
+<li>Punish themselves for perceived faults</li>
+<li>Feel something when they are emotionally numb</li>
+</ul>
+<p>While NSSI doesn’t involve the intent to die, it can become a habitual coping mechanism, making it harder for individuals to seek healthier emotional outlets. Importantly, <strong>NSSI can increase the risk of future suicidal behavior</strong>, as the threshold for self-harm lowers over time.</p>
+<p><u><em>Facts</em>:</u> NSSI is most common among adolescents and young adults, with lifetime prevalence rates between 15–20%, typically beginning around age 13–14.</p>
+</section>
+<section id="s.s.i-suicidal-self-injury" class="level3">
+<h3 class="anchored" data-anchor-id="s.s.i-suicidal-self-injury">1.2 S.S.I (Suicidal Self Injury)</h3>
+<p><strong>Suicidal self-injury (SSI)</strong>, on the other hand, is done with the intention to end one’s life. It’s an act of despair not just physical harm but a cry for the end of suffering. Unlike NSSI, where survival is part of the intent, SSI reflects a perceived absence of hope, connection, or purpose.</p>
+<p>However, many who attempt suicide may not always want to die, but they want the pain to stop. This distinction is crucial for prevention and intervention efforts.</p>
+<p>Suicidal behaviors may result in either fatal or non-fatal outcomes:</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph TD;
+    A[Suicides] -- Person Survives --&gt; B[Non-Fatal];
+    A -- Results in Death --&gt; C[Fatal];
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><u><em>Not so,but important fact</em>:</u> Suicides is among top 10 leading cause of deaths world-wide. There are an estimated 10 to 20 million non-fatal attempted suicides every year</p>
+</section>
+</section>
+<section id="what-is-suicide" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-suicide">2. What is Suicide?</h2>
+<p>Suicide is the act of intentionally ending one’s life. It’s rarely caused by a single factor rather, it’s an outcome of complex interactions between psychological, social, and biological elements.</p>
+<p>Commonly, suicide is viewed as an act of hopelessness, but in reality, it can stem from a web of causes: prolonged stress, trauma, loneliness, illness, financial or social failure, and lack of perceived support.</p>
+<p>Suicide rates vary across age groups, genders, regions, and cultures. <strong>Men are statistically more likely to die by suicide</strong>, whereas <strong>women report more non-fatal attempts</strong>. This suggests that intent and method also play roles in outcomes.</p>
+</section>
+<section id="why-people-commit-suicide" class="level2">
+<h2 class="anchored" data-anchor-id="why-people-commit-suicide">3. Why People Commit Suicide?</h2>
+<p>There’s no single reason, but several recurring themes appear across research:</p>
+<ul>
+<li><strong>Mental Health Disorders</strong>
+<ul>
+<li>Depression, anxiety, bipolar disorder, and schizophrenia are leading risk factors. In many cases, the person experiences unbearable psychological pain.</li>
+</ul></li>
+<li><strong>Social Isolation and Loneliness</strong>
+<ul>
+<li>Human beings are wired for connection. When those bonds break through loss, separation, or neglect suicidal thoughts can emerge.</li>
+</ul></li>
+<li><strong>Hopelessness and Loss of Purpose</strong>
+<ul>
+<li>A sense that “things will never get better” is a strong predictor of suicidal ideation.</li>
+</ul></li>
+<li><strong>Substance Abuse</strong>
+<ul>
+<li>Alcohol and drugs lower inhibitions and impair judgment, making impulsive suicide attempts more likely.</li>
+</ul></li>
+<li><strong>Trauma or Abuse</strong>
+<ul>
+<li>Past trauma, physical, emotional, or sexual can create long-lasting wounds that manifest as self-destructive behavior.</li>
+</ul></li>
+<li><strong>Chronic Illness or Pain</strong>
+<ul>
+<li>Long-term physical suffering, especially when accompanied by mental strain, can push individuals toward suicidal ideation.</li>
+</ul></li>
+<li><strong>Socioeconomic Pressures</strong>
+<ul>
+<li>Debt, unemployment, or humiliation can amplify feelings of worthlessness and failure.</li>
+</ul></li>
+</ul>
+</section>
+<section id="why-it-matters-the-larger-impact" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters-the-larger-impact">4. Why It Matters — The Larger Impact</h2>
+<p>Suicide is not merely an individual tragedy but a global public health crisis.</p>
+<ol type="1">
+<li>Every 40 seconds, someone dies by suicide (WHO, 2023).</li>
+<li>For each suicide death, there are estimated to be 20 or more attempts.</li>
+<li>Families, friends, and communities are left with long-lasting grief and guilt.</li>
+</ol>
+<p>Beyond the emotional toll, suicide affects workplaces, healthcare systems, and social structures. Every death ripples outward, often causing secondary trauma in others.</p>
+<p>Importantly, suicide is preventable with awareness, early detection, and support. Conversations like these matter because talking openly can save lives.</p>
+</section>
+<section id="whats-in-part-02" class="level2">
+<h2 class="anchored" data-anchor-id="whats-in-part-02">6. What’s in Part 02</h2>
+<p>In Part 02, we’ll dive into real-world data:</p>
+<ol type="1">
+<li>Patterns and statistics across countries and age groups</li>
+<li>Gender differences and cultural dimensions</li>
+<li>Temporal trends and possible correlations (e.g., economy, social media)</li>
+<li>Visualization of datasets using open data sources</li>
+</ol>
+</section>
+<section id="whats-in-part-03" class="level2">
+<h2 class="anchored" data-anchor-id="whats-in-part-03">6. What’s in Part 03</h2>
+<p>In Part 03, we’ll go beyond data:</p>
+<ul>
+<li>Is there still a social stigma attached to suicide and self-harm?</li>
+<li>How can communities identify early indicators?</li>
+<li>Practical recommendations and policy-level insights</li>
+</ul>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">7. References:</h2>
+<ul>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4244874/pdf/cjp-2014-vol59-november-565-568.pdf">Nonsuicidal Self-Injury: What We Know, and What We Need to Know</a></li>
+<li><a href="https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/suicide-following-deliberate-selfharm-longterm-followup-of-patients-who-presented-to-a-general-hospital/2A40FE4860E86668306A98F07F21D6FC">Suicide following deliberate self-harm: long-term follow-up of patients who presented to a general hospital</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Self-harm">Wiki Page of Self-Harm</a></li>
+<li><a href="https://d1wqtxts1xzle7.cloudfront.net/35003254/self_harm_0-libre.pdf?1412570227=&amp;response-content-disposition=inline%3B+filename%3DNonsuicidal_Self_Harm_Among_Community_Ad.pdf&amp;Expires=1762093861&amp;Signature=MH5aoBuVVtCr~F8gZK6xQ8DCHW5bxTwMwPEa4PzYQso80UJ-Fuce-JagM9YzIKuC55uN9dG7XBngYeLcAeJVYnHl3ODb9fNxQtpla3pKWcRrLDkiNCDcbLMPuo7x7vALNojZNJhWeByi0QUVatj8WurPXfEiQtQOz~GbixhNGWFsa4QPalMc6Yw4qwaGlQxR9x5EDIHU7vHETvWEsHc4jR4zSDzbnNiEzPef6CQyLPUUFITsqTu6QYDj16ThVk-xIG4W0Jnaeh~Nvr~BRsghi20fmbf280FdWHJs5s40axDuHKirErS~Q1NO7WAMTXST2jgBwjIiABixOekyHHIovQ__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA">Nonsuicidal Self-Harm Among Community Adolescents: Understanding the “Whats” and “Whys” of Self-Harm</a></li>
+<li><a href="https://webarchive.nationalarchives.gov.uk/ukgwa/20160105160709/http://www.ons.gov.uk/ons/rel/psychiatric-morbidity/non-fatal-suicidal-behaviour-among-adults/non-fatal-suicidal-behaviour-among-adults-aged-16-74-in-great-britain/non-fatal-suicidal-behaviour---among-adults-aged-16-74-in-great-britain.pdf">Non-fatal suicidal behaviour among adults aged 16 to 74 in Great Britain</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1489848/pdf/wpa010181.pdf">Suicide and psychiatric diagnosis: a worldwide perspective</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Suicide">Wiki Page of Suicide</a></li>
+</ul>
+<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
+</script>
+
+
+</section>
+
+ ]]></description>
+  <category>suicides</category>
+  <category>crime</category>
+  <category>mental-health</category>
+  <category>self-harm</category>
+  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/self-inflicting-crimes/</guid>
+  <pubDate>Sun, 09 Nov 2025 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>LOVE &amp; TRUST - Season -2 | Episode - 2</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
@@ -1485,79 +1648,6 @@ na chaiva na bhaviṣhyāmaḥ sarve vayamataḥ param</em></p>
   <category>spirituality</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/ExtendedLearnings-WhatNext/</guid>
   <pubDate>Sun, 19 Jun 2022 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Extended Learnings -123 | Indian Culture | Living in Truth !</title>
-  <dc:creator>Arun Koundinya Parasa</dc:creator>
-  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning123/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning123/image.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></p>
-</figure>
-</div>
-<p><u><em>Continuing from previous blogs</em></u>:</p>
-<p>We have observed where the Rishi who gets enlightened through self inquiry with a true inherent desire to meet the Showman; they would like to come forward to share the similar experience to his few selected disciples; and thus ‘the Rishi’ becomes ‘the Guru’.&nbsp; Who have created a way for each and everyone of us (In terms of Personal God) to get us liberated and realize the Showman within ourselves. And then we learnt that people who embark a travel to meet the showman are termed as ‘Brahmacharya’; To get motivated to meet the showman they start to pray the Sun who is more visible and tangible; and then continue their path for the ultimate showman.</p>
-<p>Rishis Disciple is now in a confusion mode asking about the inner light dualities among the people and again got into confusion when he envisaged that his realization to showman has to be Sacrificed to realize him. His question of “<em>why pooja</em>” made him to realize that it should not be a ritual but a method to concentrate to realize the god. Whatever work we do, if we perform as per direction of showman we will attain peace and not thinking about the reward and living out of vicious loop of Gunas.</p>
-<p>Now Shishya is trying to learn about the pains and its conflicts. And has learnt that the conflict is his past image with respect to the present. Also, the conflict will be no more only when one tries to understand the conflict. Finally, leading him to realize that it is his duty to come above his own conflict and understand the truth. Further, trying to learn the process of being with the truth for-ever.</p>
-<p>We left the previous blog with this question.</p>
-<p>After a while, for a change, Guruji asks, ” Since you understood the process of attaining Truth. Can you describe the process ?”</p>
-<p><span style="color: #6aa84f;"><u><strong><em>And then Rishi/Guru &amp; Shishya Dicusses in this way</em></strong></u>:</span></p>
-<p>” &nbsp;Guruji, you have mentioned that the methods have to be different to attain truth. So one has to discover their methods.”</p>
-<p>” Aren’t methods and process is same? ”</p>
-<p>” How can it be Guruji? You have mentioned earlier that (<a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning110/">link</a>) methods are tools to realize showman. But they became mere rituals “, answered Shishya with a calmer voice.</p>
-<p>” Methods got turned into rituals such that the process stays longer, but the process has lost its soul in due course”</p>
-<p>Shishya looks deeper into his thought process by closing his eyes and nods his head.</p>
-<p>” &nbsp;Guruji, these methods, of course, are created to realize the showman with-in, i.e., Atman. ”</p>
-<p>Guruji nodded his head happily and said, ” Elaborate.”</p>
-<p>” When you pray to a personal god, it means you are trying to speak to your showman. So also, when we do ‘<em>Abhishekam</em>’ with milk or water, we try to cleanse the soul and get closer to our showman. So to infer, every method is devised as a relentless effort to realize the showman with-in.”</p>
-<p>Guruji felt satisfied by his responses and said, ” Then what is the process? ”</p>
-<p>” Guruji, there is no process. We created the rules, but the actual process is to be with the showman in any activity we perform. ”</p>
-<p>Guruji hinted to Shishya, ” In any activity that we perform? Right now, we are talking. Can this be as well ? ”</p>
-<p>Shishya smiled and responded, ” Speaking to others and not to be confused with responding to others is an activity. In which we speak to a reflection of our showman with others. And whatever they speak is the real Naivedyam (&nbsp;<a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning109/">link</a>&nbsp;) to our showman itself.”</p>
-<p>And Shishya continued with an enlightenment aura, ” Actually, all living beings and this entire universe are the reflections of our supreme showman. We are just a tiny part of the supreme showman. Understanding this Oneness of showman among all of us is the actual process of staying with showman forever.”</p>
-<p>Guruji opened his eyes happily and said, ” Shabhash Shishya, now you are a truly enlightened person. You don’t need any other Guru. You are Guru by yourself”. Saying this, Guruji packed his bag and left the ashram on a happy note.&nbsp;</p>
-<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; — End of Guru Shishya Story —</p>
-<p>______________________________________________________________________________________________________________</p>
-<p>______________________________________________________________________________________________________________</p>
-<p>My previous blogs for reference -</p>
-<ul>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/learnings-indian-culture/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/learnings-indian-culture/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning101/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning101/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning102/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning102/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning103/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning103/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning104/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning104/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning105/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning105/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning106/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning106/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning107/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning107/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning108/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning108/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning109/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning109/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning110/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning110/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning111/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning111/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning112/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning112/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning113/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning113/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning114/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning114/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning115/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning115/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning116/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning116/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning117/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning117/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning118/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning118/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning119/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning119/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning120/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning120/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning121/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning121/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning122/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning122/</a></p></li>
-</ul>
-
-
-
- ]]></description>
-  <category>spirituality</category>
-  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning123/</guid>
-  <pubDate>Tue, 14 Jun 2022 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
