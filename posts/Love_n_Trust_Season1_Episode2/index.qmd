@@ -5,7 +5,7 @@ date: "2026-03-10"
 categories: [love, story, trust]
 ---
 
-Rewritten and update version of original story, published on 2023-11-02, link: [Old version](https://arunkoundinya.github.io/posts/Love_n_Trust_Season1_Episode2/old_index.html). Here I have added better character development to make the characters more unique and relatable.
+Rewritten and update version of original story, published on 2023-11-02, link: [Old version](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode2/old_index.html). Here I have added better character development to make the characters more unique and relatable.
 
 
 Continued from previous blog - [Link](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode1){.uri}
