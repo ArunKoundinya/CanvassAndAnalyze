@@ -10,7 +10,260 @@
 <atom:link href="https://arunkoundinya.github.io/CanvassAndAnalyze/index.xml" rel="self" type="application/rss+xml"/>
 <description>My thought process on confluence of Psychology, Analytics and Management.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sun, 19 Apr 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 22 Apr 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Career we chose, is it our identity or the community’s?</title>
+  <dc:creator>Arun Koundinya Parasa</dc:creator>
+  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A few weeks ago, someone asked me a pointed question. “Why do Telugu parents only measure their child in <code>CTC</code>?” I answered confidently. I said it was specific to the Telugu community and their <code>IT</code> pipeline to the United States. I was informed that there is a different question in every community. The Marwari parent asks “how much equity do you own?” The Gujarati parent asks “what is your turnover?” The Tamil Brahmin parent asks “which <code>IIT</code>?” The Keralite parent asks “where is your Gulf posting?” The Punjabi Jat Sikh parent asks “have you gone abroad?” Each community has its own instrument and its own question, but the underlying obsession is the same measuring the child’s success through a well worked metric that is visible and comparable to the community at large.</p>
+<p>Every major Indian community read the scarce resources available to it, identified the highest leverage pathway, and built an entire generational mythology around that one pathway. Some built it around trade. Some around migration. Some around credentials. Some around land converted to professional capital. The instruments are different. The underlying drive is identical.</p>
+<p>The <code>Bhagavad Gita</code> in <a href="https://www.holy-bhagavad-gita.org/chapter/3/verse/27/">Chapter 3, Verse 27</a> says</p>
+<blockquote class="blockquote">
+<p>prakṛiteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśhaḥ<br>
+ahankāra-vimūḍhātmā kartāham iti manyate</p>
+</blockquote>
+<p>Each community believes its particular pathway to success is the result of its unique culture or intelligence. Let us explore the article with that assumption in mind, in which I will explore two things. First, what each major Indian community actually optimized for, based on the research evidence. Second, what was won and what was quietly lost in this optimization, for the parents and for the people they raised.</p>
+<hr>
+<section id="part-one-the-mobility-map" class="level2">
+<h2 class="anchored" data-anchor-id="part-one-the-mobility-map">PART ONE: THE MOBILITY MAP</h2>
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/mobility_map.png" class="img-fluid"></p>
+<section id="the-marwaris-from-moneylenders-to-industrial-owners" class="level3">
+<h3 class="anchored" data-anchor-id="the-marwaris-from-moneylenders-to-industrial-owners">The Marwaris: From Moneylenders to Industrial Owners</h3>
+<p>If you want to understand how a community converts a single scarce resource into lasting structural power, study the Marwaris.</p>
+<p>A peer reviewed article published in <em>Sage Journals</em> (2025), titled <em>“The Marwaris: Tracing the Rise and Growth of the Trading Communities from Marwar”</em>, documents how merchants from the Marwar region of Rajasthan began as moneylenders and financiers in the Mughal era, built an informal banking system called <code>hundi</code> that connected Rajputana to Bengal and Bihar, and by the end of World War One had controlled much of India’s inland trade.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://journals.sagepub.com/doi/10.1177/03769836251334009">Sage Journals, 2025</a></p>
+</blockquote>
+<p>Post independence, the conversion of trading capital into industrial ownership was decisive. A working paper from <code>IIMB</code> found that <code>44%</code> of directors and owners in the top Indian firms belong to three communities together: Marwari, Gujarati and Parsi, communities that together represent less than <code>6%</code> of India’s population.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.iimb.ac.in/sites/default/files/inline-files/mani-forthcoming.pdf">IIMB Working Paper</a></p>
+</blockquote>
+<p>A peer reviewed paper in <code>Tactful Management Research Journal</code> documented the specific mechanism, the Marwari community maintained informal trust networks that allowed capital to move between community members faster and cheaper than any formal banking system could. The Birlas, Bajajs, Mittals, Goenkas, Piramals were not outliers. They were expressions of a community strategy that had been refined over three centuries.</p>
+<p>The instrument the Marwari parent held up for their child was never a salary slip. It was ownership. The question was never “what is your <code>CTC</code>?”. It was “where is your share in the business?”</p>
+<hr>
+</section>
+<section id="the-gujaratis-entrepreneurship-as-cultural-operating-system" class="level3">
+<h3 class="anchored" data-anchor-id="the-gujaratis-entrepreneurship-as-cultural-operating-system">The Gujaratis: Entrepreneurship as Cultural Operating System</h3>
+<p>The Gujarati case is different from the Marwari case in one important way. The Marwari mobility story was driven by a specific caste formation. The Gujarati story cut across caste lines more broadly.</p>
+<p>A peer reviewed paper published in the <em>Journal of Global Entrepreneurship Research</em> (Springer, 2018), titled <em>“Familial Legacies: A Study on Gujarati Women and Family Entrepreneurship”</em>, found that Gujaratis across all castes and religious backgrounds, including Hindus, Parsis, Jains and Marwaris domiciled in Gujarat, share a unified entrepreneurial orientation. The paper notes:</p>
+<blockquote class="blockquote">
+<p><em>“The major communities of Gujarat, other than the majority Hindu religion, include the Parsees, Marwaris and Jains. In the rest of India, these religious communities do not necessarily engage in business. Hence, the understanding is that Gujaratis, irrespective of their religious beliefs, become entrepreneurs.”</em></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Source: <a href="https://link.springer.com/article/10.1186/s40497-018-0090-x">Springer, Journal of Global Entrepreneurship Research, 2018</a></p>
+</blockquote>
+<p>A separate ScienceDirect paper titled <em>“Entrepreneurial Communities and Family Enterprises of India”</em> documented that Gujaratis of all castes started a host of firms in the post independence period, establishing the community as one of the most broadly entrepreneurially active in India.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.sciencedirect.com/org/science/article/abs/pii/S1750620418000249">ScienceDirect</a></p>
+</blockquote>
+<p>The instrument the Gujarati parent held up was: build something you own. The success metric was not salary. It was whether the child could run a venture and eventually hand it forward to the next generation. This is why the Gujarati diaspora in the <code>UK</code>, East Africa and the <code>US</code> built communities around trade and small business ownership, not around IT employment.</p>
+<hr>
+</section>
+<section id="the-tamil-brahmins-meritocracy-as-caste-capital" class="level3">
+<h3 class="anchored" data-anchor-id="the-tamil-brahmins-meritocracy-as-caste-capital">The Tamil Brahmins: Meritocracy as Caste Capital</h3>
+<p>The Tamil Brahmin community engineered perhaps the most sophisticated mobility strategy of any Indian group in the 20th century. They converted the credential, specifically the engineering degree and later the <code>IIT</code> brand, into a form of intergenerational caste capital.</p>
+<p>A peer reviewed paper published in <em>Comparative Studies in Society and History</em> (Cambridge University Press), titled <em>“Making Merit: The Indian Institutes of Technology and the Social Life of Caste”</em>, is the definitive academic work on this. The author argues:</p>
+<blockquote class="blockquote">
+<p><em>“The IIT graduate’s status depends on the transformation of privilege into merit, or the conversion of caste capital into modern capital.”</em></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/abs/making-merit-the-indian-institutes-of-technology-and-the-social-life-of-caste/C776AC2172B4FF45F87C130C45FA1C1A">Cambridge University Press, CSSH</a></p>
+</blockquote>
+<p>Open Magazine documented the historical root: by the 1920s, Tamil Brahmins had filled over <code>70%</code> of seats in regional engineering institutions in the Madras Presidency, despite being barely <code>3%</code> of the regional population. When regional reservations threatened this dominance, Tamil Brahmins were among the first to frame merit itself as a caste claim and the <code>IITs</code> as their natural institution.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://openthemagazine.com/essays/open-essay/an-anatomy-of-the-caste-culture-at-iit-madras">Open Magazine</a></p>
+</blockquote>
+<p>The instrument the Tamil Brahmin parent held up was not the salary but the entrance rank. Which <code>IIT</code>? Which branch? Which campus placement? The <code>CTC</code> mattered, but it was downstream of the credential. The credential was the identity.</p>
+<hr>
+</section>
+<section id="the-keralites-migration-as-a-family-strategy-for-social-mobility" class="level3">
+<h3 class="anchored" data-anchor-id="the-keralites-migration-as-a-family-strategy-for-social-mobility">The Keralites: Migration as a Family Strategy for Social Mobility</h3>
+<p>Kerala built a mobility strategy unlike any other state in India. It did not rely on business capital, engineering credentials or IT employment. It relied on care and skilled labour channeled through a Gulf pipeline that transformed one of India’s most densely populated states into one of its most remittance dependent economies.</p>
+<p>A peer reviewed paper published in <em>PMC (NCBI)</em>, titled <em>“Revisiting Kerala’s Gulf Connection: Half a Century of Emigration, Remittances and Their Macroeconomic Impact, 1972 to 2020”</em>, documents that the Gulf oil boom of 1973 became a watershed moment for Kerala. Almost half of the four million Indian emigrants to the Gulf are from Kerala alone.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7571534/">PMC, NCBI</a></p>
+</blockquote>
+<p>The nursing pipeline was specific and deliberate. Research published in the <em>Journal of Ethnic and Migration Studies</em> (Sage, 2006), titled <em>“Indian Nurses in the Gulf: Two Generations of Female Migration”</em>, found that one generation after the Gulf migration began, thousands of young women, predominantly Christians from Kerala, were filling nursing schools across India with the specific intention of migrating after graduation. The nursing diploma had become what the author described as “a passport opening the world not only to the nurse herself but also to her relatives.”</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://journals.sagepub.com/doi/10.1177/0262728006063198">Sage Journals, 2006</a></p>
+</blockquote>
+<p>Research cited in the same body of literature found that recorded annual nurse outflows from Kerala comprised between <code>85</code> and <code>95</code> percent of India’s total national nurse emigration between 2016 and 2019.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://bristoluniversitypressdigital.com/display/book/9781529221510/ch002.xml">Bristol University Press Digital</a></p>
+</blockquote>
+<p>The instrument the Keralite parent held up was a nursing or medicine degree and a foreign posting. The success metric was the Gulf remittance, the house built back home and the eventual sponsorship of the next family member.</p>
+<hr>
+</section>
+<section id="the-punjabi-jat-sikhs-land-izzat-and-the-western-migration" class="level3">
+<h3 class="anchored" data-anchor-id="the-punjabi-jat-sikhs-land-izzat-and-the-western-migration">The Punjabi Jat Sikhs: Land, Izzat and the Western Migration</h3>
+<p>The Punjabi Jat Sikh community built its mobility strategy on agricultural capital converted first into western migration and then into real estate, trucking and trade in the <code>UK</code> and Canada.</p>
+<p>A peer reviewed paper in <em>Global Networks</em> (Taylor and Francis), titled <em>“Migration, Development and Inequality: Eastern Punjabi Transnationalism”</em>, found that the relative wealth of the Jat Sikh caste group had partly enabled them to mobilise the resources necessary to dominate migration from Punjab to western societies including the <code>UK</code>. The paper introduced the concept of <code>izzat</code>, the community honour framework:</p>
+<blockquote class="blockquote">
+<p><em>“High izzat, formerly asserted by Jat Sikhs via the ownership and control of agricultural land, but now through western migration, partly enabling caste dominance and social mobility.”</em></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.researchgate.net/publication/250934154_Migration_development_and_inequality_Eastern_Punjabi_transnationalism">Global Networks, Taylor and Francis</a></p>
+</blockquote>
+<p>Research on Punjab to Canada migration found that as of 2022, <code>2,26,450</code> Canadian student visas were approved for Indian students and Punjab students constitute a dominant share. The study found among communities it was the Jat Sikhs who topped the chart of migrant households. According to the 2016 Canadian Census, after English and French, Punjabi is the third most spoken language in Canada with over <code>7,00,000</code> speakers.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.irjmets.com/uploadedfiles/paper//issue_6_june_2024/59237/final/fin_irjmets1718609160.pdf">IRJMETS, 2024</a></p>
+</blockquote>
+<p>The instrument the Punjabi Jat Sikh parent held up was the visa and the foreign posting. The success metric was whether the child had “gone abroad” and was sending money home.</p>
+<hr>
+</section>
+<section id="the-telugu-community-the-it-pipeline-and-the-h1b-dream" class="level3">
+<h3 class="anchored" data-anchor-id="the-telugu-community-the-it-pipeline-and-the-h1b-dream">The Telugu Community: The IT Pipeline and the H1B Dream</h3>
+<p>The Telugu community, specifically dominant caste groups from coastal Andhra like the Kammas and Kapus, built its generational mobility strategy around a very specific pipeline engineering degree, <code>Hyderabad</code> IT job, <code>H1B</code> visa, <code>US</code> settlement.</p>
+<p>A peer reviewed paper in <em>Contemporary South Asia</em> (Taylor and Francis, 2016) documented what researchers call a distinct regional social imaginary in coastal Andhra:</p>
+<blockquote class="blockquote">
+<p><em>“A pervasive social imaginary emerged in coastal Andhra that directly equates an engineering degree, a software job and migration to the US with economic success and social prestige.”</em></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.tandfonline.com/doi/abs/10.1080/09584935.2016.1203863">Contemporary South Asia, Taylor and Francis, 2016</a></p>
+</blockquote>
+<p>The scale of infrastructure built around this single channel was extraordinary. The same research documented over <code>700</code> engineering colleges in Andhra Pradesh with <code>3,00,000</code> seats. A second peer reviewed paper in the <em>Journal of Ethnic and Migration Studies</em> (Taylor and Francis, 2017), titled <em>“Caste, Kinship and the Realisation of the American Dream: High Skilled Telugu Migrants in the USA”</em>, showed that migration pathways from coastal Andhra to the <code>US</code> are sustained through networks of kinship, caste and endogamous transnational marriage alliances.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.tandfonline.com/doi/full/10.1080/1369183X.2017.1314598">Journal of Ethnic and Migration Studies, Taylor and Francis, 2017</a></p>
+</blockquote>
+<p>The instrument the Telugu parent held up was the <code>CTC</code> and the visa status. The question “Ela undi <code>CTC</code>?” was not cultural shallowness. It was the community’s most visible and comparable measure of whether the pipeline had delivered.</p>
+<hr>
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/mobility_map.png" class="img-fluid"></p>
+<p>When you look at this map, the first thing that should strike you is this that every community was playing the same game. Every parent in every state was doing the same thing. They were identifying the highest leverage, lowest barrier and most visible pathway available to their child and betting everything on that one instrument. The <code>CTC</code> question and the visa question and the “how much equity do you own” question are all the same question expressed through different community vocabularies.</p>
+<p>So where does the real difference lie?</p>
+<hr>
+</section>
+</section>
+<section id="part-two-what-was-won-and-what-was-lost" class="level2">
+<h2 class="anchored" data-anchor-id="part-two-what-was-won-and-what-was-lost">PART TWO: WHAT WAS WON AND WHAT WAS LOST</h2>
+<section id="what-was-won-genuine-social-mobility" class="level3">
+<h3 class="anchored" data-anchor-id="what-was-won-genuine-social-mobility">What Was Won: Genuine Social Mobility</h3>
+<p>It would be dishonest to write an article like this without first acknowledging what these community strategies actually delivered. They delivered something that previous generations of those same families could not have imagined.</p>
+<p>Research on caste and social mobility in contemporary India, published in the <em>International Journal of Social Impact</em> (2018), found that empirical analysis of social mobility trends reveals persistent disparities across caste lines, with individuals from historically marginalized groups facing significant structural barriers to upward mobility.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://ijsi.in/wp-content/uploads/2024/05/18.02.016.20180304.pdf">International Journal of Social Impact, 2018</a></p>
+</blockquote>
+<p>Against that backdrop, the pipelines each community built were not trivial achievements. The Jat Sikh farmer whose son now owns a trucking company in British Columbia, the Keralite Ezhava woman whose nursing degree took her from a village in Thrissur to a hospital in Riyadh, the Kamma family from Guntur whose son holds a green card in San Jose, and the Marwari trader whose family now controls a mid-sized conglomerate: each of these is a documented story of families escaping structural constraints that had held their communities down for generations. Research on Kerala specifically found that spatial mobility through the Gulf pipeline converted into lasting social mobility for multiple community groups, including the historically marginalised Ezhava community.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.researchgate.net/publication/247563586_Social_Mobility_in_Kerala_Modernity_and_Identity_in_Conflict">Social Mobility in Kerala, ResearchGate</a></p>
+</blockquote>
+<p>The community strategies worked. That is the starting point for an honest conversation about what they also cost.</p>
+<hr>
+</section>
+<section id="what-was-lost-the-suppression-of-the-outlier" class="level3">
+<h3 class="anchored" data-anchor-id="what-was-lost-the-suppression-of-the-outlier">What Was Lost: The Suppression of the Outlier</h3>
+<p>Every community strategy, by definition, optimises for one channel and devalues every other channel. This is where the cost begins.</p>
+<p>A peer reviewed paper published in <em>Harvard Business School</em> on caste and entrepreneurship in India found that the concentration of entrepreneurial capital in historically merchant communities, specifically Vaishya, Jain, Marwari and Gujarati castes, creates structural exclusion for those outside those networks. The ability of the merchant caste to create wealth was found to be “still overwhelming” and the rise of non-merchant castes as a new business elite was described as “extremely rare.”</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.koreascience.kr/article/JAKO202116656027830.page">Asia Pacific Journal of Business, Korea Science</a></p>
+</blockquote>
+<p>What this means in practice is the following. The child in a Marwari family who wants to be a musician, the son in a Telugu family who wants to start a company instead of taking an <code>MNC</code> job, the daughter in a Gujarati family who wants to pursue research science, the Jat Sikh boy who wants to stay in Punjab and farm differently rather than migrate: each of these people is not just making a personal choice. They are departing from the community’s generationally reinforced mobility script. And the community, not just the parents, enforces that script through comparison, marriage eligibility, social standing and the withdrawal of support.</p>
+<p>The instrument each community chose became the only instrument. The success metric each community chose became the only metric. And the people who did not fit were not failures. They were simply the ones the community had no vocabulary to celebrate.</p>
+<hr>
+</section>
+<section id="what-was-lost-the-mental-health-of-the-generation-being-optimized" class="level3">
+<h3 class="anchored" data-anchor-id="what-was-lost-the-mental-health-of-the-generation-being-optimized">What Was Lost: The Mental Health of the Generation Being Optimized</h3>
+<p>The second cost is now measurable and can no longer be described as anecdotal.</p>
+<p>A study published in the <code>Indian Journal of Psychiatry</code> found that over <code>30%</code> of Indian adolescents suffer from anxiety and depression linked to academic pressure. The <code>National Crime Records Bureau (NCRB)</code> reports more than <code>13,000</code> student suicides every year in India, with academic stress named as a significant contributing factor.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://careme.health/blog/parental-pressure-and-mental-health-the-unspoken-struggle-of-indian-youth">CareMe Health, citing Indian Journal of Psychiatry</a></p>
+</blockquote>
+<p>A peer reviewed study published in the <code>International Journal of Indian Psychology</code> (2024) found that when students perceive parental expectations as exceeding their own self expectations, the outcome is emotional vulnerability, academic burnout and alienation from the very parents who are meant to be their support system.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://ijip.in/wp-content/uploads/2024/02/18.01.068.20241201.pdf">IJIP, 2024</a></p>
+</blockquote>
+<p>A peer reviewed study in <code>IJMCER</code> (2023) found that <code>61%</code> of students in the study sample reported academic stress, with parental expectation identified as one of the primary contributing factors.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.ijmcer.com/wp-content/uploads/2023/07/IJMCER_G043072078.pdf">IJMCER, 2023</a></p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/plot2_mentalhealth.png" class="img-fluid figure-img" width="850"></p>
+<figcaption>Mental health cost of academic pressure on Indian students: 30 percent with anxiety, 61 percent with stress, 13,000 plus suicides annually</figcaption>
+</figure>
+</div>
+<p>Notice that these numbers cut across all communities. The Marwari child who does not want to enter the family business, the Tamil Brahmin child who cannot clear <code>JEE</code>, the Keralite child who does not want to become a nurse, the Punjabi Jat child who does not want to migrate: all of them are paying the same psychological cost of a community template that was designed for economic survival and not for individual flourishing.</p>
+<hr>
+</section>
+<section id="what-was-lost-the-communities-themselves-are-now-obsolete-instruments" class="level3">
+<h3 class="anchored" data-anchor-id="what-was-lost-the-communities-themselves-are-now-obsolete-instruments">What Was Lost: The Communities Themselves Are Now Obsolete Instruments</h3>
+<p>The third and perhaps most structurally serious cost is that the conditions that made each community strategy rational no longer exist in the same form.</p>
+<p>A 2014 essay published by <code>LSE South Asia</code> noted that the Marwari business community as historians understood it has become obsolete as a business resource. The maturity of capital and information markets made the informal trust network that powered Marwari commerce redundant. The Parsi community, which had been one of India’s most powerful business communities, started moving away from trade and industry as early as 1900 and became primarily a community engaged in the professions and creative fields.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://blogs.lse.ac.uk/southasia/2014/09/08/the-marwari-business-community-is-now-a-part-of-history/">LSE South Asia Blog, 2014</a></p>
+</blockquote>
+<p>For the Telugu <code>IT</code> pipeline specifically, the disruption is already visible. In early 2026, Prof.&nbsp;S.K. Shukla, Director of <code>IIIT Hyderabad</code>, the most prestigious technical institution in the Telugu speaking world, publicly stated:</p>
+<blockquote class="blockquote">
+<p><em>“Every year, headlines showcasing graduates from top engineering institutes landing high salary packages have caused remunerations to become the primary metric by which people measure success. This obsession on high salaries may distort the country’s long term prospects.”</em></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.iiit.ac.in/salary-obsession-distorts-engineering-education/">IIIT Hyderabad, 2026</a></p>
+</blockquote>
+<p><code>AI</code> is reshaping software employment. The <code>H1B</code> pathway faces increasing policy uncertainty. The 700 plus engineering colleges in Andhra Pradesh are not producing graduates for a market that increasingly does not need them in the volume it once did. The instrument is breaking while the community mythology around it remains entirely intact.</p>
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/timelines.png" class="img-fluid"></p>
+<p>The question each community now faces is identical even if the surface looks different. When the door that your entire generational strategy was built around starts to close, what do you teach the next child?</p>
+<hr>
+</section>
+</section>
+<section id="conclusion-the-instrument-was-never-the-identity" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-the-instrument-was-never-the-identity">Conclusion: The Instrument Was Never the Identity</h2>
+<p>The Bhagavad Gita in Chapter 2, Verse 47 says</p>
+<blockquote class="blockquote">
+<p>karmaṇy-evādhikāras te mā phaleṣhu kadāchana<br>
+mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi</p>
+</blockquote>
+<p>Every community built its strategy around a particular fruit. The <code>CTC</code>. The ownership stake. The <code>IIT</code> rank. The Gulf posting. The <code>UK</code> visa. The community then told its children that pursuing that fruit was their duty.</p>
+<p>But the fruit was never the duty. The duty was to find a path to dignity. The communities found one path and mistook it for the only path.</p>
+<p>What parents in every Indian community actually wanted was never the number. It was the security behind the number. The freedom from the fear their own parents lived with. The ability to look at their children and know that they would not have to borrow from a landlord, sell gold for school fees, or leave home because home could not sustain them.</p>
+<p>That fear is legitimate. That motivation is honourable. But a legitimate fear does not automatically produce a wise strategy. And a strategy that worked for one generation does not automatically work for the next.</p>
+<p>The communities that built these mobility pipelines did something extraordinary. They lifted millions of families out of structural poverty and exclusion through the sheer force of collective aspiration. The question for this generation of parents, in every state and in every community, is whether the same collective intelligence that built these pipelines can now be turned toward building a wider vocabulary.</p>
+<p>Instead sit with the child alongside with equal respect for the child’s aspirations and understanding that the world they are entering is not the same world their parents entered, can we build a community culture that celebrates multiple pathways to dignity instead of one? Can we build a community culture that celebrates the child who does not fit the template as much as the child who does? Can we build a community culture that understands that the instrument was never the identity?</p>
+<hr>
+</section>
+<section id="key-sources-and-further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="key-sources-and-further-reading">Key Sources and Further Reading</h2>
+<ol type="1">
+<li><p>Parashar, A. (2025). The Marwaris: Tracing the Rise and Growth of the Trading Communities from Marwar. <em>Sage Journals</em>. <a href="https://journals.sagepub.com/doi/10.1177/03769836251334009">Link</a></p></li>
+<li><p>IIMB Working Paper. Who Controls the Indian Economy: The Role of Families and Communities. <a href="https://www.iimb.ac.in/sites/default/files/inline-files/mani-forthcoming.pdf">Link</a></p></li>
+<li><p>Springer. (2018). Familial Legacies: A Study on Gujarati Women and Family Entrepreneurship. <em>Journal of Global Entrepreneurship Research</em>. <a href="https://link.springer.com/article/10.1186/s40497-018-0090-x">Link</a></p></li>
+<li><p>ScienceDirect. (2018). Entrepreneurial Communities and Family Enterprises of India. <a href="https://www.sciencedirect.com/org/science/article/abs/pii/S1750620418000249">Link</a></p></li>
+<li><p>Subramanian, A. (2015). Making Merit: The Indian Institutes of Technology and the Social Life of Caste. <em>Comparative Studies in Society and History</em>, Cambridge University Press. <a href="https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/abs/making-merit-the-indian-institutes-of-technology-and-the-social-life-of-caste/C776AC2172B4FF45F87C130C45FA1C1A">Link</a></p></li>
+<li><p>Open Magazine. (2015). An Anatomy of the Caste Culture at IIT Madras. <a href="https://openthemagazine.com/essays/open-essay/an-anatomy-of-the-caste-culture-at-iit-madras">Link</a></p></li>
+<li><p>PMC, NCBI. (2020). Revisiting Kerala’s Gulf Connection: Half a Century of Emigration, Remittances and Their Macroeconomic Impact, 1972 to 2020. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7571534/">Link</a></p></li>
+<li><p>Percot, M. (2006). Indian Nurses in the Gulf: Two Generations of Female Migration. <em>Journal of Ethnic and Migration Studies</em>, Sage. <a href="https://journals.sagepub.com/doi/10.1177/0262728006063198">Link</a></p></li>
+<li><p>Bristol University Press Digital. (2022). Gendered Mobility and Nurse Migration from India to the Gulf. <a href="https://bristoluniversitypressdigital.com/display/book/9781529221510/ch002.xml">Link</a></p></li>
+<li><p>Taylor, S., Singh, M. and Booth, D. (2007). Migration, Development and Inequality: Eastern Punjabi Transnationalism. <em>Global Networks</em>. <a href="https://www.researchgate.net/publication/250934154_Migration_development_and_inequality_Eastern_Punjabi_transnationalism">Link</a></p></li>
+<li><p>IRJMETS. (2024). The Great Punjab Migration to Canada. <a href="https://www.irjmets.com/uploadedfiles/paper//issue_6_june_2024/59237/final/fin_irjmets1718609160.pdf">Link</a></p></li>
+<li><p>Nambiar, S. (2016). Engineering Equality? Education and Im/mobility in Coastal Andhra Pradesh. <em>Contemporary South Asia</em>, 24(3). Taylor and Francis. <a href="https://www.tandfonline.com/doi/abs/10.1080/09584935.2016.1203863">Link</a></p></li>
+<li><p>Irudaya Rajan, S. and Varghese, V.J. (2017). Caste, Kinship and the Realisation of the American Dream: High Skilled Telugu Migrants in the USA. <em>Journal of Ethnic and Migration Studies</em>. Taylor and Francis. <a href="https://www.tandfonline.com/doi/full/10.1080/1369183X.2017.1314598">Link</a></p></li>
+<li><p>Korea Science. (2021). A Study on the Caste of Top 50 Indian Companies Founders. <em>Asia Pacific Journal of Business</em>. <a href="https://www.koreascience.kr/article/JAKO202116656027830.page">Link</a></p></li>
+<li><p>LSE South Asia Blog. (2014). The Marwari Business Community Is Now a Part of History. <a href="https://blogs.lse.ac.uk/southasia/2014/09/08/the-marwari-business-community-is-now-a-part-of-history/">Link</a></p></li>
+<li><p>Prof.&nbsp;S.K. Shukla, Director, IIIT Hyderabad. (2026). Salary Obsession Distorts Engineering Education. <a href="https://www.iiit.ac.in/salary-obsession-distorts-engineering-education/">Link</a></p></li>
+<li><p>Indian Journal of Psychiatry and NCRB data, cited in CareMe Health. (2025). <a href="https://careme.health/blog/parental-pressure-and-mental-health-the-unspoken-struggle-of-indian-youth">Link</a></p></li>
+<li><p>IJIP. (2024). Perceived Parental Expectations, Academic Self Concept and Academic Burnout. <a href="https://ijip.in/wp-content/uploads/2024/02/18.01.068.20241201.pdf">Link</a></p></li>
+<li><p>IJMCER. (2023). Parental Pressure and Academic Stress Among Adolescents. <a href="https://www.ijmcer.com/wp-content/uploads/2023/07/IJMCER_G043072078.pdf">Link</a></p></li>
+<li><p>International Journal of Social Impact. (2018). The Dynamics of Caste Identity and Social Mobility in Contemporary India. <a href="https://ijsi.in/wp-content/uploads/2024/05/18.02.016.20180304.pdf">Link</a></p></li>
+</ol>
+<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
+</script>
+
+
+</section>
+
+ ]]></description>
+  <category>culture</category>
+  <category>community</category>
+  <category>social mobility</category>
+  <category>India</category>
+  <category>parenting</category>
+  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/</guid>
+  <pubDate>Wed, 22 Apr 2026 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>LOVE &amp; TRUST - Season -1 | Episode - 4</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
@@ -1432,259 +1685,6 @@ na chaiva na bhaviṣhyāmaḥ sarve vayamataḥ param</em></p>
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode4/old_index.html</guid>
   <pubDate>Wed, 14 May 2025 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Career we chose, is it our identity or the community’s?</title>
-  <dc:creator>Arun Koundinya Parasa</dc:creator>
-  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>A few weeks ago, someone asked me a pointed question. “Why do Telugu parents only measure their child in <code>CTC</code>?” I answered confidently. I said it was specific to the Telugu community and their <code>IT</code> pipeline to the United States. I was informed that there is a different question in every community. The Marwari parent asks “how much equity do you own?” The Gujarati parent asks “what is your turnover?” The Tamil Brahmin parent asks “which <code>IIT</code>?” The Keralite parent asks “where is your Gulf posting?” The Punjabi Jat Sikh parent asks “have you gone abroad?” Each community has its own instrument and its own question, but the underlying obsession is the same measuring the child’s success through a well worked metric that is visible and comparable to the community at large.</p>
-<p>Every major Indian community read the scarce resources available to it, identified the highest leverage pathway, and built an entire generational mythology around that one pathway. Some built it around trade. Some around migration. Some around credentials. Some around land converted to professional capital. The instruments are different. The underlying drive is identical.</p>
-<p>The <code>Bhagavad Gita</code> in <a href="https://www.holy-bhagavad-gita.org/chapter/3/verse/27/">Chapter 3, Verse 27</a> says</p>
-<blockquote class="blockquote">
-<p>prakṛiteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśhaḥ<br>
-ahankāra-vimūḍhātmā kartāham iti manyate</p>
-</blockquote>
-<p>Each community believes its particular pathway to success is the result of its unique culture or intelligence. Let us explore the article with that assumption in mind, in which I will explore two things. First, what each major Indian community actually optimized for, based on the research evidence. Second, what was won and what was quietly lost in this optimization, for the parents and for the people they raised.</p>
-<hr>
-<section id="part-one-the-mobility-map" class="level2">
-<h2 class="anchored" data-anchor-id="part-one-the-mobility-map">PART ONE: THE MOBILITY MAP</h2>
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/mobility_map.png" class="img-fluid"></p>
-<section id="the-marwaris-from-moneylenders-to-industrial-owners" class="level3">
-<h3 class="anchored" data-anchor-id="the-marwaris-from-moneylenders-to-industrial-owners">The Marwaris: From Moneylenders to Industrial Owners</h3>
-<p>If you want to understand how a community converts a single scarce resource into lasting structural power, study the Marwaris.</p>
-<p>A peer reviewed article published in <em>Sage Journals</em> (2025), titled <em>“The Marwaris: Tracing the Rise and Growth of the Trading Communities from Marwar”</em>, documents how merchants from the Marwar region of Rajasthan began as moneylenders and financiers in the Mughal era, built an informal banking system called <code>hundi</code> that connected Rajputana to Bengal and Bihar, and by the end of World War One had controlled much of India’s inland trade.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://journals.sagepub.com/doi/10.1177/03769836251334009">Sage Journals, 2025</a></p>
-</blockquote>
-<p>Post independence, the conversion of trading capital into industrial ownership was decisive. A working paper from <code>IIMB</code> found that <code>44%</code> of directors and owners in the top Indian firms belong to three communities together: Marwari, Gujarati and Parsi, communities that together represent less than <code>6%</code> of India’s population.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://www.iimb.ac.in/sites/default/files/inline-files/mani-forthcoming.pdf">IIMB Working Paper</a></p>
-</blockquote>
-<p>A peer reviewed paper in <code>Tactful Management Research Journal</code> documented the specific mechanism, the Marwari community maintained informal trust networks that allowed capital to move between community members faster and cheaper than any formal banking system could. The Birlas, Bajajs, Mittals, Goenkas, Piramals were not outliers. They were expressions of a community strategy that had been refined over three centuries.</p>
-<p>The instrument the Marwari parent held up for their child was never a salary slip. It was ownership. The question was never “what is your <code>CTC</code>?”. It was “where is your share in the business?”</p>
-<hr>
-</section>
-<section id="the-gujaratis-entrepreneurship-as-cultural-operating-system" class="level3">
-<h3 class="anchored" data-anchor-id="the-gujaratis-entrepreneurship-as-cultural-operating-system">The Gujaratis: Entrepreneurship as Cultural Operating System</h3>
-<p>The Gujarati case is different from the Marwari case in one important way. The Marwari mobility story was driven by a specific caste formation. The Gujarati story cut across caste lines more broadly.</p>
-<p>A peer reviewed paper published in the <em>Journal of Global Entrepreneurship Research</em> (Springer, 2018), titled <em>“Familial Legacies: A Study on Gujarati Women and Family Entrepreneurship”</em>, found that Gujaratis across all castes and religious backgrounds, including Hindus, Parsis, Jains and Marwaris domiciled in Gujarat, share a unified entrepreneurial orientation. The paper notes:</p>
-<blockquote class="blockquote">
-<p><em>“The major communities of Gujarat, other than the majority Hindu religion, include the Parsees, Marwaris and Jains. In the rest of India, these religious communities do not necessarily engage in business. Hence, the understanding is that Gujaratis, irrespective of their religious beliefs, become entrepreneurs.”</em></p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Source: <a href="https://link.springer.com/article/10.1186/s40497-018-0090-x">Springer, Journal of Global Entrepreneurship Research, 2018</a></p>
-</blockquote>
-<p>A separate ScienceDirect paper titled <em>“Entrepreneurial Communities and Family Enterprises of India”</em> documented that Gujaratis of all castes started a host of firms in the post independence period, establishing the community as one of the most broadly entrepreneurially active in India.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://www.sciencedirect.com/org/science/article/abs/pii/S1750620418000249">ScienceDirect</a></p>
-</blockquote>
-<p>The instrument the Gujarati parent held up was: build something you own. The success metric was not salary. It was whether the child could run a venture and eventually hand it forward to the next generation. This is why the Gujarati diaspora in the <code>UK</code>, East Africa and the <code>US</code> built communities around trade and small business ownership, not around IT employment.</p>
-<hr>
-</section>
-<section id="the-tamil-brahmins-meritocracy-as-caste-capital" class="level3">
-<h3 class="anchored" data-anchor-id="the-tamil-brahmins-meritocracy-as-caste-capital">The Tamil Brahmins: Meritocracy as Caste Capital</h3>
-<p>The Tamil Brahmin community engineered perhaps the most sophisticated mobility strategy of any Indian group in the 20th century. They converted the credential, specifically the engineering degree and later the <code>IIT</code> brand, into a form of intergenerational caste capital.</p>
-<p>A peer reviewed paper published in <em>Comparative Studies in Society and History</em> (Cambridge University Press), titled <em>“Making Merit: The Indian Institutes of Technology and the Social Life of Caste”</em>, is the definitive academic work on this. The author argues:</p>
-<blockquote class="blockquote">
-<p><em>“The IIT graduate’s status depends on the transformation of privilege into merit, or the conversion of caste capital into modern capital.”</em></p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Source: <a href="https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/abs/making-merit-the-indian-institutes-of-technology-and-the-social-life-of-caste/C776AC2172B4FF45F87C130C45FA1C1A">Cambridge University Press, CSSH</a></p>
-</blockquote>
-<p>Open Magazine documented the historical root: by the 1920s, Tamil Brahmins had filled over <code>70%</code> of seats in regional engineering institutions in the Madras Presidency, despite being barely <code>3%</code> of the regional population. When regional reservations threatened this dominance, Tamil Brahmins were among the first to frame merit itself as a caste claim and the <code>IITs</code> as their natural institution.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://openthemagazine.com/essays/open-essay/an-anatomy-of-the-caste-culture-at-iit-madras">Open Magazine</a></p>
-</blockquote>
-<p>The instrument the Tamil Brahmin parent held up was not the salary but the entrance rank. Which <code>IIT</code>? Which branch? Which campus placement? The <code>CTC</code> mattered, but it was downstream of the credential. The credential was the identity.</p>
-<hr>
-</section>
-<section id="the-keralites-migration-as-a-family-strategy-for-social-mobility" class="level3">
-<h3 class="anchored" data-anchor-id="the-keralites-migration-as-a-family-strategy-for-social-mobility">The Keralites: Migration as a Family Strategy for Social Mobility</h3>
-<p>Kerala built a mobility strategy unlike any other state in India. It did not rely on business capital, engineering credentials or IT employment. It relied on care and skilled labour channeled through a Gulf pipeline that transformed one of India’s most densely populated states into one of its most remittance dependent economies.</p>
-<p>A peer reviewed paper published in <em>PMC (NCBI)</em>, titled <em>“Revisiting Kerala’s Gulf Connection: Half a Century of Emigration, Remittances and Their Macroeconomic Impact, 1972 to 2020”</em>, documents that the Gulf oil boom of 1973 became a watershed moment for Kerala. Almost half of the four million Indian emigrants to the Gulf are from Kerala alone.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7571534/">PMC, NCBI</a></p>
-</blockquote>
-<p>The nursing pipeline was specific and deliberate. Research published in the <em>Journal of Ethnic and Migration Studies</em> (Sage, 2006), titled <em>“Indian Nurses in the Gulf: Two Generations of Female Migration”</em>, found that one generation after the Gulf migration began, thousands of young women, predominantly Christians from Kerala, were filling nursing schools across India with the specific intention of migrating after graduation. The nursing diploma had become what the author described as “a passport opening the world not only to the nurse herself but also to her relatives.”</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://journals.sagepub.com/doi/10.1177/0262728006063198">Sage Journals, 2006</a></p>
-</blockquote>
-<p>Research cited in the same body of literature found that recorded annual nurse outflows from Kerala comprised between <code>85</code> and <code>95</code> percent of India’s total national nurse emigration between 2016 and 2019.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://bristoluniversitypressdigital.com/display/book/9781529221510/ch002.xml">Bristol University Press Digital</a></p>
-</blockquote>
-<p>The instrument the Keralite parent held up was a nursing or medicine degree and a foreign posting. The success metric was the Gulf remittance, the house built back home and the eventual sponsorship of the next family member.</p>
-<hr>
-</section>
-<section id="the-punjabi-jat-sikhs-land-izzat-and-the-western-migration" class="level3">
-<h3 class="anchored" data-anchor-id="the-punjabi-jat-sikhs-land-izzat-and-the-western-migration">The Punjabi Jat Sikhs: Land, Izzat and the Western Migration</h3>
-<p>The Punjabi Jat Sikh community built its mobility strategy on agricultural capital converted first into western migration and then into real estate, trucking and trade in the <code>UK</code> and Canada.</p>
-<p>A peer reviewed paper in <em>Global Networks</em> (Taylor and Francis), titled <em>“Migration, Development and Inequality: Eastern Punjabi Transnationalism”</em>, found that the relative wealth of the Jat Sikh caste group had partly enabled them to mobilise the resources necessary to dominate migration from Punjab to western societies including the <code>UK</code>. The paper introduced the concept of <code>izzat</code>, the community honour framework:</p>
-<blockquote class="blockquote">
-<p><em>“High izzat, formerly asserted by Jat Sikhs via the ownership and control of agricultural land, but now through western migration, partly enabling caste dominance and social mobility.”</em></p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Source: <a href="https://www.researchgate.net/publication/250934154_Migration_development_and_inequality_Eastern_Punjabi_transnationalism">Global Networks, Taylor and Francis</a></p>
-</blockquote>
-<p>Research on Punjab to Canada migration found that as of 2022, <code>2,26,450</code> Canadian student visas were approved for Indian students and Punjab students constitute a dominant share. The study found among communities it was the Jat Sikhs who topped the chart of migrant households. According to the 2016 Canadian Census, after English and French, Punjabi is the third most spoken language in Canada with over <code>7,00,000</code> speakers.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://www.irjmets.com/uploadedfiles/paper//issue_6_june_2024/59237/final/fin_irjmets1718609160.pdf">IRJMETS, 2024</a></p>
-</blockquote>
-<p>The instrument the Punjabi Jat Sikh parent held up was the visa and the foreign posting. The success metric was whether the child had “gone abroad” and was sending money home.</p>
-<hr>
-</section>
-<section id="the-telugu-community-the-it-pipeline-and-the-h1b-dream" class="level3">
-<h3 class="anchored" data-anchor-id="the-telugu-community-the-it-pipeline-and-the-h1b-dream">The Telugu Community: The IT Pipeline and the H1B Dream</h3>
-<p>The Telugu community, specifically dominant caste groups from coastal Andhra like the Kammas and Kapus, built its generational mobility strategy around a very specific pipeline engineering degree, <code>Hyderabad</code> IT job, <code>H1B</code> visa, <code>US</code> settlement.</p>
-<p>A peer reviewed paper in <em>Contemporary South Asia</em> (Taylor and Francis, 2016) documented what researchers call a distinct regional social imaginary in coastal Andhra:</p>
-<blockquote class="blockquote">
-<p><em>“A pervasive social imaginary emerged in coastal Andhra that directly equates an engineering degree, a software job and migration to the US with economic success and social prestige.”</em></p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Source: <a href="https://www.tandfonline.com/doi/abs/10.1080/09584935.2016.1203863">Contemporary South Asia, Taylor and Francis, 2016</a></p>
-</blockquote>
-<p>The scale of infrastructure built around this single channel was extraordinary. The same research documented over <code>700</code> engineering colleges in Andhra Pradesh with <code>3,00,000</code> seats. A second peer reviewed paper in the <em>Journal of Ethnic and Migration Studies</em> (Taylor and Francis, 2017), titled <em>“Caste, Kinship and the Realisation of the American Dream: High Skilled Telugu Migrants in the USA”</em>, showed that migration pathways from coastal Andhra to the <code>US</code> are sustained through networks of kinship, caste and endogamous transnational marriage alliances.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://www.tandfonline.com/doi/full/10.1080/1369183X.2017.1314598">Journal of Ethnic and Migration Studies, Taylor and Francis, 2017</a></p>
-</blockquote>
-<p>The instrument the Telugu parent held up was the <code>CTC</code> and the visa status. The question “Ela undi <code>CTC</code>?” was not cultural shallowness. It was the community’s most visible and comparable measure of whether the pipeline had delivered.</p>
-<hr>
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/mobility_map.png" class="img-fluid"></p>
-<p>When you look at this map, the first thing that should strike you is this that every community was playing the same game. Every parent in every state was doing the same thing. They were identifying the highest leverage, lowest barrier and most visible pathway available to their child and betting everything on that one instrument. The <code>CTC</code> question and the visa question and the “how much equity do you own” question are all the same question expressed through different community vocabularies.</p>
-<p>So where does the real difference lie?</p>
-<hr>
-</section>
-</section>
-<section id="part-two-what-was-won-and-what-was-lost" class="level2">
-<h2 class="anchored" data-anchor-id="part-two-what-was-won-and-what-was-lost">PART TWO: WHAT WAS WON AND WHAT WAS LOST</h2>
-<section id="what-was-won-genuine-social-mobility" class="level3">
-<h3 class="anchored" data-anchor-id="what-was-won-genuine-social-mobility">What Was Won: Genuine Social Mobility</h3>
-<p>It would be dishonest to write an article like this without first acknowledging what these community strategies actually delivered. They delivered something that previous generations of those same families could not have imagined.</p>
-<p>Research on caste and social mobility in contemporary India, published in the <em>International Journal of Social Impact</em> (2018), found that empirical analysis of social mobility trends reveals persistent disparities across caste lines, with individuals from historically marginalized groups facing significant structural barriers to upward mobility.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://ijsi.in/wp-content/uploads/2024/05/18.02.016.20180304.pdf">International Journal of Social Impact, 2018</a></p>
-</blockquote>
-<p>Against that backdrop, the pipelines each community built were not trivial achievements. The Jat Sikh farmer whose son now owns a trucking company in British Columbia, the Keralite Ezhava woman whose nursing degree took her from a village in Thrissur to a hospital in Riyadh, the Kamma family from Guntur whose son holds a green card in San Jose, and the Marwari trader whose family now controls a mid-sized conglomerate: each of these is a documented story of families escaping structural constraints that had held their communities down for generations. Research on Kerala specifically found that spatial mobility through the Gulf pipeline converted into lasting social mobility for multiple community groups, including the historically marginalised Ezhava community.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://www.researchgate.net/publication/247563586_Social_Mobility_in_Kerala_Modernity_and_Identity_in_Conflict">Social Mobility in Kerala, ResearchGate</a></p>
-</blockquote>
-<p>The community strategies worked. That is the starting point for an honest conversation about what they also cost.</p>
-<hr>
-</section>
-<section id="what-was-lost-the-suppression-of-the-outlier" class="level3">
-<h3 class="anchored" data-anchor-id="what-was-lost-the-suppression-of-the-outlier">What Was Lost: The Suppression of the Outlier</h3>
-<p>Every community strategy, by definition, optimises for one channel and devalues every other channel. This is where the cost begins.</p>
-<p>A peer reviewed paper published in <em>Harvard Business School</em> on caste and entrepreneurship in India found that the concentration of entrepreneurial capital in historically merchant communities, specifically Vaishya, Jain, Marwari and Gujarati castes, creates structural exclusion for those outside those networks. The ability of the merchant caste to create wealth was found to be “still overwhelming” and the rise of non-merchant castes as a new business elite was described as “extremely rare.”</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://www.koreascience.kr/article/JAKO202116656027830.page">Asia Pacific Journal of Business, Korea Science</a></p>
-</blockquote>
-<p>What this means in practice is the following. The child in a Marwari family who wants to be a musician, the son in a Telugu family who wants to start a company instead of taking an <code>MNC</code> job, the daughter in a Gujarati family who wants to pursue research science, the Jat Sikh boy who wants to stay in Punjab and farm differently rather than migrate: each of these people is not just making a personal choice. They are departing from the community’s generationally reinforced mobility script. And the community, not just the parents, enforces that script through comparison, marriage eligibility, social standing and the withdrawal of support.</p>
-<p>The instrument each community chose became the only instrument. The success metric each community chose became the only metric. And the people who did not fit were not failures. They were simply the ones the community had no vocabulary to celebrate.</p>
-<hr>
-</section>
-<section id="what-was-lost-the-mental-health-of-the-generation-being-optimized" class="level3">
-<h3 class="anchored" data-anchor-id="what-was-lost-the-mental-health-of-the-generation-being-optimized">What Was Lost: The Mental Health of the Generation Being Optimized</h3>
-<p>The second cost is now measurable and can no longer be described as anecdotal.</p>
-<p>A study published in the <code>Indian Journal of Psychiatry</code> found that over <code>30%</code> of Indian adolescents suffer from anxiety and depression linked to academic pressure. The <code>National Crime Records Bureau (NCRB)</code> reports more than <code>13,000</code> student suicides every year in India, with academic stress named as a significant contributing factor.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://careme.health/blog/parental-pressure-and-mental-health-the-unspoken-struggle-of-indian-youth">CareMe Health, citing Indian Journal of Psychiatry</a></p>
-</blockquote>
-<p>A peer reviewed study published in the <code>International Journal of Indian Psychology</code> (2024) found that when students perceive parental expectations as exceeding their own self expectations, the outcome is emotional vulnerability, academic burnout and alienation from the very parents who are meant to be their support system.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://ijip.in/wp-content/uploads/2024/02/18.01.068.20241201.pdf">IJIP, 2024</a></p>
-</blockquote>
-<p>A peer reviewed study in <code>IJMCER</code> (2023) found that <code>61%</code> of students in the study sample reported academic stress, with parental expectation identified as one of the primary contributing factors.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://www.ijmcer.com/wp-content/uploads/2023/07/IJMCER_G043072078.pdf">IJMCER, 2023</a></p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/plot2_mentalhealth.png" class="img-fluid figure-img" width="850"></p>
-<figcaption>Mental health cost of academic pressure on Indian students: 30 percent with anxiety, 61 percent with stress, 13,000 plus suicides annually</figcaption>
-</figure>
-</div>
-<p>Notice that these numbers cut across all communities. The Marwari child who does not want to enter the family business, the Tamil Brahmin child who cannot clear <code>JEE</code>, the Keralite child who does not want to become a nurse, the Punjabi Jat child who does not want to migrate: all of them are paying the same psychological cost of a community template that was designed for economic survival and not for individual flourishing.</p>
-<hr>
-</section>
-<section id="what-was-lost-the-communities-themselves-are-now-obsolete-instruments" class="level3">
-<h3 class="anchored" data-anchor-id="what-was-lost-the-communities-themselves-are-now-obsolete-instruments">What Was Lost: The Communities Themselves Are Now Obsolete Instruments</h3>
-<p>The third and perhaps most structurally serious cost is that the conditions that made each community strategy rational no longer exist in the same form.</p>
-<p>A 2014 essay published by <code>LSE South Asia</code> noted that the Marwari business community as historians understood it has become obsolete as a business resource. The maturity of capital and information markets made the informal trust network that powered Marwari commerce redundant. The Parsi community, which had been one of India’s most powerful business communities, started moving away from trade and industry as early as 1900 and became primarily a community engaged in the professions and creative fields.</p>
-<blockquote class="blockquote">
-<p>Source: <a href="https://blogs.lse.ac.uk/southasia/2014/09/08/the-marwari-business-community-is-now-a-part-of-history/">LSE South Asia Blog, 2014</a></p>
-</blockquote>
-<p>For the Telugu <code>IT</code> pipeline specifically, the disruption is already visible. In early 2026, Prof.&nbsp;S.K. Shukla, Director of <code>IIIT Hyderabad</code>, the most prestigious technical institution in the Telugu speaking world, publicly stated:</p>
-<blockquote class="blockquote">
-<p><em>“Every year, headlines showcasing graduates from top engineering institutes landing high salary packages have caused remunerations to become the primary metric by which people measure success. This obsession on high salaries may distort the country’s long term prospects.”</em></p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Source: <a href="https://www.iiit.ac.in/salary-obsession-distorts-engineering-education/">IIIT Hyderabad, 2026</a></p>
-</blockquote>
-<p><code>AI</code> is reshaping software employment. The <code>H1B</code> pathway faces increasing policy uncertainty. The 700 plus engineering colleges in Andhra Pradesh are not producing graduates for a market that increasingly does not need them in the volume it once did. The instrument is breaking while the community mythology around it remains entirely intact.</p>
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/timelines.png" class="img-fluid"></p>
-<p>The question each community now faces is identical even if the surface looks different. When the door that your entire generational strategy was built around starts to close, what do you teach the next child?</p>
-<hr>
-</section>
-</section>
-<section id="conclusion-the-instrument-was-never-the-identity" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion-the-instrument-was-never-the-identity">Conclusion: The Instrument Was Never the Identity</h2>
-<p>The Bhagavad Gita in Chapter 2, Verse 47 says</p>
-<blockquote class="blockquote">
-<p>karmaṇy-evādhikāras te mā phaleṣhu kadāchana<br>
-mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi</p>
-</blockquote>
-<p>Every community built its strategy around a particular fruit. The <code>CTC</code>. The ownership stake. The <code>IIT</code> rank. The Gulf posting. The <code>UK</code> visa. The community then told its children that pursuing that fruit was their duty.</p>
-<p>But the fruit was never the duty. The duty was to find a path to dignity. The communities found one path and mistook it for the only path.</p>
-<p>What parents in every Indian community actually wanted was never the number. It was the security behind the number. The freedom from the fear their own parents lived with. The ability to look at their children and know that they would not have to borrow from a landlord, sell gold for school fees, or leave home because home could not sustain them.</p>
-<p>That fear is legitimate. That motivation is honourable. But a legitimate fear does not automatically produce a wise strategy. And a strategy that worked for one generation does not automatically work for the next.</p>
-<p>The communities that built these mobility pipelines did something extraordinary. They lifted millions of families out of structural poverty and exclusion through the sheer force of collective aspiration. The question for this generation of parents, in every state and in every community, is whether the same collective intelligence that built these pipelines can now be turned toward building a wider vocabulary.</p>
-<p>Instead sit with the child alongside with equal respect for the child’s aspirations and understanding that the world they are entering is not the same world their parents entered, can we build a community culture that celebrates multiple pathways to dignity instead of one? Can we build a community culture that celebrates the child who does not fit the template as much as the child who does? Can we build a community culture that understands that the instrument was never the identity?</p>
-<hr>
-</section>
-<section id="key-sources-and-further-reading" class="level2">
-<h2 class="anchored" data-anchor-id="key-sources-and-further-reading">Key Sources and Further Reading</h2>
-<ol type="1">
-<li><p>Parashar, A. (2025). The Marwaris: Tracing the Rise and Growth of the Trading Communities from Marwar. <em>Sage Journals</em>. <a href="https://journals.sagepub.com/doi/10.1177/03769836251334009">Link</a></p></li>
-<li><p>IIMB Working Paper. Who Controls the Indian Economy: The Role of Families and Communities. <a href="https://www.iimb.ac.in/sites/default/files/inline-files/mani-forthcoming.pdf">Link</a></p></li>
-<li><p>Springer. (2018). Familial Legacies: A Study on Gujarati Women and Family Entrepreneurship. <em>Journal of Global Entrepreneurship Research</em>. <a href="https://link.springer.com/article/10.1186/s40497-018-0090-x">Link</a></p></li>
-<li><p>ScienceDirect. (2018). Entrepreneurial Communities and Family Enterprises of India. <a href="https://www.sciencedirect.com/org/science/article/abs/pii/S1750620418000249">Link</a></p></li>
-<li><p>Subramanian, A. (2015). Making Merit: The Indian Institutes of Technology and the Social Life of Caste. <em>Comparative Studies in Society and History</em>, Cambridge University Press. <a href="https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/abs/making-merit-the-indian-institutes-of-technology-and-the-social-life-of-caste/C776AC2172B4FF45F87C130C45FA1C1A">Link</a></p></li>
-<li><p>Open Magazine. (2015). An Anatomy of the Caste Culture at IIT Madras. <a href="https://openthemagazine.com/essays/open-essay/an-anatomy-of-the-caste-culture-at-iit-madras">Link</a></p></li>
-<li><p>PMC, NCBI. (2020). Revisiting Kerala’s Gulf Connection: Half a Century of Emigration, Remittances and Their Macroeconomic Impact, 1972 to 2020. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7571534/">Link</a></p></li>
-<li><p>Percot, M. (2006). Indian Nurses in the Gulf: Two Generations of Female Migration. <em>Journal of Ethnic and Migration Studies</em>, Sage. <a href="https://journals.sagepub.com/doi/10.1177/0262728006063198">Link</a></p></li>
-<li><p>Bristol University Press Digital. (2022). Gendered Mobility and Nurse Migration from India to the Gulf. <a href="https://bristoluniversitypressdigital.com/display/book/9781529221510/ch002.xml">Link</a></p></li>
-<li><p>Taylor, S., Singh, M. and Booth, D. (2007). Migration, Development and Inequality: Eastern Punjabi Transnationalism. <em>Global Networks</em>. <a href="https://www.researchgate.net/publication/250934154_Migration_development_and_inequality_Eastern_Punjabi_transnationalism">Link</a></p></li>
-<li><p>IRJMETS. (2024). The Great Punjab Migration to Canada. <a href="https://www.irjmets.com/uploadedfiles/paper//issue_6_june_2024/59237/final/fin_irjmets1718609160.pdf">Link</a></p></li>
-<li><p>Nambiar, S. (2016). Engineering Equality? Education and Im/mobility in Coastal Andhra Pradesh. <em>Contemporary South Asia</em>, 24(3). Taylor and Francis. <a href="https://www.tandfonline.com/doi/abs/10.1080/09584935.2016.1203863">Link</a></p></li>
-<li><p>Irudaya Rajan, S. and Varghese, V.J. (2017). Caste, Kinship and the Realisation of the American Dream: High Skilled Telugu Migrants in the USA. <em>Journal of Ethnic and Migration Studies</em>. Taylor and Francis. <a href="https://www.tandfonline.com/doi/full/10.1080/1369183X.2017.1314598">Link</a></p></li>
-<li><p>Korea Science. (2021). A Study on the Caste of Top 50 Indian Companies Founders. <em>Asia Pacific Journal of Business</em>. <a href="https://www.koreascience.kr/article/JAKO202116656027830.page">Link</a></p></li>
-<li><p>LSE South Asia Blog. (2014). The Marwari Business Community Is Now a Part of History. <a href="https://blogs.lse.ac.uk/southasia/2014/09/08/the-marwari-business-community-is-now-a-part-of-history/">Link</a></p></li>
-<li><p>Prof.&nbsp;S.K. Shukla, Director, IIIT Hyderabad. (2026). Salary Obsession Distorts Engineering Education. <a href="https://www.iiit.ac.in/salary-obsession-distorts-engineering-education/">Link</a></p></li>
-<li><p>Indian Journal of Psychiatry and NCRB data, cited in CareMe Health. (2025). <a href="https://careme.health/blog/parental-pressure-and-mental-health-the-unspoken-struggle-of-indian-youth">Link</a></p></li>
-<li><p>IJIP. (2024). Perceived Parental Expectations, Academic Self Concept and Academic Burnout. <a href="https://ijip.in/wp-content/uploads/2024/02/18.01.068.20241201.pdf">Link</a></p></li>
-<li><p>IJMCER. (2023). Parental Pressure and Academic Stress Among Adolescents. <a href="https://www.ijmcer.com/wp-content/uploads/2023/07/IJMCER_G043072078.pdf">Link</a></p></li>
-<li><p>International Journal of Social Impact. (2018). The Dynamics of Caste Identity and Social Mobility in Contemporary India. <a href="https://ijsi.in/wp-content/uploads/2024/05/18.02.016.20180304.pdf">Link</a></p></li>
-</ol>
-<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
-</script>
-
-
-</section>
-
- ]]></description>
-  <category>culture</category>
-  <category>community</category>
-  <category>social mobility</category>
-  <category>India</category>
-  <category>parenting</category>
-  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/</guid>
-  <pubDate>Tue, 22 Apr 2025 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>LOVE &amp; TRUST - Season -1 | Episode - 3</title>
