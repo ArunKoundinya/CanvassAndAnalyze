@@ -10,7 +10,179 @@
 <atom:link href="https://arunkoundinya.github.io/CanvassAndAnalyze/index.xml" rel="self" type="application/rss+xml"/>
 <description>My thought process on confluence of Psychology, Analytics and Management.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sun, 26 Apr 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 02 May 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Strategic Lever Nobody Pulls</title>
+  <dc:creator>Arun Koundinya Parasa</dc:creator>
+  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/analytics-strategic-lever/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><code>MIT Sloan</code> surveyed 2,719 business executives, managers and analytics professionals. The number one barrier to getting value from analytics was not data quality. It was not model accuracy. It was not cloud infrastructure. It was translating analytics into business decisions. One respondent described the challenge as <em>“developing middle management skills at interpretation.”</em></p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://sloanreview.mit.edu/article/minding-the-analytics-gap/">MIT Sloan Management Review, Minding the Analytics Gap, 2015</a></p>
+</blockquote>
+<p>Wavestone (formerly NewVantage Partners) has surveyed Fortune 1000 Chief Data Officers every year since 2012. In 2022, their finding was stark. Between 2019 and 2022, nearly <strong>10%</strong> of organizations gave up on becoming data-driven entirely. Over <strong>90%</strong> cited people and process challenges as the greatest barrier. Not technology.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.businesswire.com/news/home/20220103005036/en/NewVantage-Partners-Releases-2022-Data-And-AI-Executive-Survey">Wavestone / NewVantage Partners, Data and AI Leadership Executive Survey, 2022</a></p>
+</blockquote>
+<p>These are not companies that did not invest. They are companies that did invest, heavily, and still could not move the needle. That is the question this article tries to answer. Not why companies are failing to adopt analytics. They have adopted it. The question is why adoption and impact keep arriving separately.</p>
+<hr>
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/analytics-strategic-lever/fig-the-paradox.png" class="img-fluid"></p>
+<p>These four numbers come from four independent sources across six years. They are not measuring the same thing. They are measuring the same failure from four different angles. The failure is not technical. It is organizational.</p>
+<hr>
+<section id="part-one-what-are-analytics-functions-actually-being-asked-to-solve" class="level2">
+<h2 class="anchored" data-anchor-id="part-one-what-are-analytics-functions-actually-being-asked-to-solve">Part One: What Are Analytics Functions Actually Being Asked to Solve?</h2>
+<p>The <code>McKinsey Global Institute</code> published its <em>Age of Analytics</em> report in December 2016, based on surveys of more than 600 industry experts. It classified high-value analytics use cases into four categories, ranked by business impact and data readiness.</p>
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/analytics-strategic-lever/mckinsey_use_cases_framework.png" class="img-fluid"></p>
+<p>The <code>McKinsey</code> report’s own finding in 2016 about Category 1 was: <em>“most companies have yet to fully exploit”</em> this opportunity. That was nine years ago. The Wavestone surveys show that as of 2022, the situation had not materially changed for most Fortune 1000 companies.</p>
+<hr>
+</section>
+<section id="part-two-who-started-it-and-for-what-problem" class="level2">
+<h2 class="anchored" data-anchor-id="part-two-who-started-it-and-for-what-problem">Part Two: Who Started It, and for What Problem?</h2>
+<p>The <code>McKinsey</code> report named its biggest talent challenge in 2016 as <em>“attracting and retaining the right talent not only data scientists but business translators who combine data savvy with industry and functional expertise.”</em> Two years later, in 2018, <code>McKinsey</code> formally named this person in the <code>Harvard Business Review</code>.</p>
+<blockquote class="blockquote">
+<p><em>“Translators play a critical role in bridging the technical expertise of data engineers and data scientists with the operational expertise of marketing, supply chain, manufacturing, risk, and other frontline managers.”</em></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/analytics-translator">McKinsey, Analytics Translator: The New Must-Have Role, HBR 2018</a></p>
+</blockquote>
+<p><code>McKinsey</code> estimated demand for translators in the <code>US</code> alone would reach <strong>two to four million</strong> by 2026. The question is why this person was missing in the first place. The answer is in how the function was started.</p>
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/analytics-strategic-lever/analytics_foundation.png" class="img-fluid"></p>
+<p>A peer-reviewed paper in <em>Review of Managerial Science</em> (Springer, 2023), based on a survey of 305 medium and large companies, found something important. Top management support for business analytics was a strong predictor of an analytical culture. An analytical culture predicted data-driven decision making. But here is the part that matters most, centralization of data use increased with analytics investment but was NOT associated with data-driven decision making.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://link.springer.com/article/10.1007/s11846-023-00694-1">Towards data-driven decision making: the role of analytical culture and centralization efforts, Springer / Review of Managerial Science, 2023</a></p>
+</blockquote>
+<p>You can centralize analytics perfectly and still not embed it in decisions. The founding condition is what separates the two paths.</p>
+<hr>
+</section>
+<section id="part-three-what-motivates-the-person-doing-the-work" class="level2">
+<h2 class="anchored" data-anchor-id="part-three-what-motivates-the-person-doing-the-work">Part Three: What Motivates the Person Doing the Work?</h2>
+<p><code>Burtch Works</code> surveyed more than 450 analytics and data science professionals on what motivates them to change jobs.</p>
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/analytics-strategic-lever/fig-motivation.png" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://burtchworks.com/2018/06/18/survey-results-what-motivates-analytics-pros-data-scientists-to-change-jobs">Burtch Works, What Motivates Analytics Pros and Data Scientists to Change Jobs, 2018</a></p>
+</blockquote>
+<p><strong>59%</strong> of analytics professionals say salary is the top reason they change jobs. Interesting or challenging work comes third, tied with management quality and flexibility, at <strong>41%</strong>. This does not mean analytics professionals do not care about their work. It means the primary reason most people entered this field was compensation, and the primary reason they stay or leave is compensation.</p>
+<p><code>McKinsey</code>’s translator is the opposite of this profile. The translator’s defining characteristic is domain knowledge, not technical skill. McKinsey’s documented guidance. <em>“Business operations are the typical translator’s mother tongue. Existing business staff often make better translators than new hires because they have an important quality that is hard to teach the knowledge of a business domain.”</em></p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/how-to-train-your-analytics-translators">McKinsey, How to Train Your Analytics Translators, 2019</a></p>
+</blockquote>
+<p>A person who entered data science because of compensation will solve the problem they are given. A person who entered from the business side and learned data will identify the problem that nobody thought to give them. The distinction is not about intelligence. It is about which direction the curiosity runs.</p>
+<hr>
+</section>
+<section id="part-four-the-spoke-that-doesnt-talk-back" class="level2">
+<h2 class="anchored" data-anchor-id="part-four-the-spoke-that-doesnt-talk-back">Part Four: The Spoke That Doesn’t Talk Back</h2>
+<p>Most analytics functions are structured around a hub delivering outputs to business units. The IIA (International Institute for Analytics) named the US version of this oscillation the <code>oscillation trap</code> in 2025, defined as <em>“the cycle of flipping between centralized and distributed structures, without ever addressing the deeper issue: the lack of an intentional operating model.”</em></p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://iianalytics.com/federated-analytics">IIA, Federated Analytics Resource Hub, 2025</a></p>
+</blockquote>
+<p>The organizational model is not the real problem. What matters is whether the spoke is active or passive.</p>
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/analytics-strategic-lever/fig-spoke-types.png" class="img-fluid"></p>
+<p><code>McKinsey</code> (2019) documented what the active spoke looks like in practice <em>“The process concludes with implementation of the analytics solution, which the translator facilitates by helping users incorporate it into their routines. This often includes explaining to end users what takes place inside the ‘black box’ of a model, so they can be comfortable leveraging the insights it delivers.”</em></p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/how-to-train-your-analytics-translators">McKinsey, How to Train Your Analytics Translators, 2019</a></p>
+</blockquote>
+<p><code>HUL</code>’s Shikhar <code>eB2B</code> app is an active spoke. The field sales representative’s behavior at the kirana store which product recommendations they follow, which they skip is implicit feedback that refines what the model recommends next time. The model learns from the field. The <code>VentureBeat</code> number (87% of data science projects never reach production) and the Gartner number (20% of insights deliver business outcomes) are both describing passive spokes at scale.</p>
+<hr>
+</section>
+<section id="part-five-the-india-question-what-the-evidence-supports-and-what-it-does-not" class="level2">
+<h2 class="anchored" data-anchor-id="part-five-the-india-question-what-the-evidence-supports-and-what-it-does-not">Part Five: The India Question — What the Evidence Supports and What It Does Not</h2>
+<p>The pattern in the use case table is visible. India’s documented analytics use cases show a higher incidence of <code>McKinsey</code> Category 3. The founding condition evidence supports a structural reason for this. <code>India</code>’s <code>R&amp;D</code> spend is <strong>0.6%</strong> of <code>GDP</code> versus <strong>2.74%</strong> for the <code>US</code>.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.brookings.edu/articles/artificial-intelligence-and-data-analytics-in-india/">Brookings Institution, Artificial Intelligence and Data Analytics in India, 2022</a></p>
+</blockquote>
+<p>At those investment levels, every analytics project has to justify its existence with a named business problem before resources are released. That financial constraint forces the business-problem-first founding condition. Capital scarcity produced the right starting question by accident, not by design.</p>
+<p><code>IIM</code> Bangalore introduced a Business Analytics elective in <strong>2008</strong>, the year after Davenport’s <em>Competing on Analytics</em> was published. <code>IIM</code> Ahmedabad’s Professor Arindam Banerjee spent 2006–07 building a global risk analytics team at <code>HSBC</code> in the <code>US</code>, returned to teach at <code>IIMA</code>, and then delivered executive education to <code>LIC</code>, Indian Oil, Larsen and Toubro and Aviva.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://online.iima.ac.in/course/course-v1:IIMA+ODSFC101x+2024_06/">IIM Ahmedabad, faculty profile</a></p>
+</blockquote>
+<p>That is a direct knowledge-transfer vector. India’s management education absorbed what US analytics failures looked like before India repeated them. The <code>IIA</code>’s oscillation trap (centralized to decentralized to hub-and-spoke) consumed years of US organizational budget. India’s capital-constrained non-tech companies did not have the budget to centralize in the first place, so they arrived at a hub-and-spoke equivalent without paying the oscillation cost.</p>
+<p><strong>What the evidence does NOT support:</strong> No peer-reviewed comparative study has systematically measured whether India’s non-tech analytics functions are more embedded in business decisions than US equivalents. The structural argument above is supported by pattern from documented cases and indirect evidence from capital constraint and education transfer data. It is a hypothesis with evidence, not a proved finding. This article will not dress it as more than that.</p>
+<hr>
+</section>
+<section id="part-six-what-the-strategic-lever-actually-requires" class="level2">
+<h2 class="anchored" data-anchor-id="part-six-what-the-strategic-lever-actually-requires">Part Six: What the Strategic Lever Actually Requires</h2>
+<p>The <code>Springer</code> peer-reviewed paper (305 companies, <em>Review of Managerial Science</em>, 2023) found two predictors of an analytical culture, and one non-predictor.</p>
+<p><strong>Predictors:</strong> Top management support for business analytics. Perceived data quality.</p>
+<p><strong>Non-predictor:</strong> Centralization of analytics. Centralizing analytics increased data use but was NOT associated with data-driven decision making.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://link.springer.com/article/10.1007/s11846-023-00694-1">Towards data-driven decision making, Springer / Review of Managerial Science, 2023</a></p>
+</blockquote>
+<p>This is a peer-reviewed finding that maps directly to what <code>MIT Sloan</code> named as the barrier, what <code>Wavestone</code> found in 12 years of CDO surveys, and what <code>McKinsey</code> named in 2016 before they formalized the translator in 2018. The pattern is consistent across independent sources spanning a decade.</p>
+<p>The strategic lever has four ingredients, each backed by independent evidence:</p>
+<p><strong>Ingredient 1:</strong> A business problem as the founding question, not a technology capability as the founding asset. Evidence of the founding condition paths and their documented outcomes.</p>
+<p><strong>Ingredient 2:</strong> Top management as sponsor not spectator. Evidence of <code>Springer</code> (2023), which found top management support predicts analytical culture, which predicts data-driven decisions.</p>
+<p><strong>Ingredient 3:</strong> A translator embedded at the spoke, not only at the hub. Evidence of <code>McKinsey</code> (2018, 2019), which named this person as the critical missing role and estimated 2 to 4 million were needed in the <code>US</code> by 2026.</p>
+<p><strong>Ingredient 4:</strong> Use cases defined by Category 3 and Category 4 problems, not by what data is available. Evidence of <code>McKinsey MGI</code> (2016), which identified strategic optimization and real-time operations as the highest-value categories and noted they were the most under-exploited.</p>
+<p>None of these ingredients are about model sophistication. None require a larger analytics team. None require more cloud infrastructure. The <code>Wavestone</code> 2023 survey found the number one obstacle to analytics value in Fortune 1000 companies was <strong>cultural</strong> and <em>“difficulty in changing organizational behaviors or attitudes.”</em></p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://www.prnewswire.com/news-releases/newvantage-partners-a-wavestone-company-releases-2023-data-and-analytics-leadership-executive-survey-301711081.html">Wavestone / NewVantage Partners, Data and AI Leadership Executive Survey, 2023</a></p>
+</blockquote>
+<p>Cultural is not a soft word here. It means the organization has not decided that analytics is central to how decisions get made. It has decided that analytics is a useful support to decisions that get made by other means. Those are two completely different organizations, with the same models, the same tools and the same headcount.</p>
+<hr>
+</section>
+<section id="the-one-question-that-reveals-everything" class="level2">
+<h2 class="anchored" data-anchor-id="the-one-question-that-reveals-everything">The One Question That Reveals Everything</h2>
+<p><code>MIT Sloan</code> (2016) wrote that analytics had become <em>“a mainstream idea but not a mainstream practice.”</em> That was nine years ago.</p>
+<blockquote class="blockquote">
+<p>Source: <a href="https://sloanreview.mit.edu/big-ideas/data-analytics/">MIT Sloan Management Review, Competing with Data and Analytics, 2016</a></p>
+</blockquote>
+<p>The gap between idea and practice is not a technology problem. Every piece of evidence reviewed for this article points to the same place. The problem is organizational. And the organizational problem traces back to one question that most companies never asked when they built their analytics function.</p>
+<p>Not: what data do we have?</p>
+<p>Not: what tools should we buy?</p>
+<p>Not: how many data scientists do we need?</p>
+<p>The question is <strong>what decision does the business need to make, and who is going to sit in the room when that decision is made?</strong></p>
+<p>The analytics function that cannot answer that question is a reporting function with a good <code>LinkedIn</code> presence. The analytics function that was built around that question is a strategic lever. The evidence shows which one is more common. It also shows what makes the difference.</p>
+<hr>
+</section>
+<section id="key-sources" class="level2">
+<h2 class="anchored" data-anchor-id="key-sources">Key Sources</h2>
+<ol type="1">
+<li><p>MIT Sloan Management Review. (2015). Minding the Analytics Gap. <a href="https://sloanreview.mit.edu/article/minding-the-analytics-gap/">Link</a></p></li>
+<li><p>MIT Sloan Management Review / SAS. (2016). Competing with Data and Analytics (analytics is a mainstream idea, not mainstream practice). <a href="https://sloanreview.mit.edu/big-ideas/data-analytics/">Link</a></p></li>
+<li><p>Wavestone / NewVantage Partners. (2022). Data and AI Leadership Executive Survey (90%+ cite people/process; 10% gave up). <a href="https://www.businesswire.com/news/home/20220103005036/en/NewVantage-Partners-Releases-2022-Data-And-AI-Executive-Survey">Link</a></p></li>
+<li><p>Wavestone / NewVantage Partners. (2023). Data and AI Leadership Executive Survey (cultural factors remain greatest obstacle). <a href="https://www.prnewswire.com/news-releases/newvantage-partners-a-wavestone-company-releases-2023-data-and-analytics-leadership-executive-survey-301711081.html">Link</a></p></li>
+<li><p>McKinsey Global Institute. (December 2016). The Age of Analytics: Competing in a Data-Driven World (four-category framework; business translator gap named). <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-age-of-analytics-competing-in-a-data-driven-world">Link</a></p></li>
+<li><p>McKinsey. (2018). Analytics Translator: The New Must-Have Role (2 to 4 million translators needed in US by 2026). <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/analytics-translator">Link</a></p></li>
+<li><p>McKinsey. (2019). How to Train Your Analytics Translators. <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/how-to-train-your-analytics-translators">Link</a></p></li>
+<li><p>McKinsey. (2018). Ten Red Flags Signaling Your Analytics Program Will Fail (data lake without business case case study). <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/ten-red-flags-signaling-your-analytics-program-will-fail">Link</a></p></li>
+<li><p>Springer / Review of Managerial Science. (2023). Towards data-driven decision making: the role of analytical culture and centralization efforts (305 companies; centralization ≠ data-driven decisions). <a href="https://link.springer.com/article/10.1007/s11846-023-00694-1">Link</a></p></li>
+<li><p>IIA — International Institute for Analytics. (2025). Federated Analytics / Oscillation Trap. <a href="https://iianalytics.com/federated-analytics">Link</a></p></li>
+<li><p>Burtch Works. (2018). What Motivates Analytics Pros and Data Scientists to Change Jobs (salary 59% top motivator). <a href="https://burtchworks.com/2018/06/18/survey-results-what-motivates-analytics-pros-data-scientists-to-change-jobs">Link</a></p></li>
+<li><p>Gartner. (2019). Only 20% of analytics insights will deliver business outcomes. Cited in: Roberts, L. Beyond Data to Value, LinkedIn Pulse, 2023.</p></li>
+<li><p>VentureBeat. (2019). 87% of data science projects never make it to production. Cited in: Info-Tech Research Group. <a href="https://www.infotech.com/research/ss/build-a-reporting-and-analytical-insights-strategy">Link</a></p></li>
+<li><p>Xebia. (2022). Analytics Translator in Practice (85% failure rate, citing Gartner). <a href="https://xebia.com/blog/analytics-translator-in-practice-google-translate-analogy/">Link</a></p></li>
+<li><p>Brookings Institution. (2022). AI and Data Analytics in India (India R&amp;D 0.6% of GDP vs US 2.74%). <a href="https://www.brookings.edu/articles/artificial-intelligence-and-data-analytics-in-india/">Link</a></p></li>
+<li><p>IIM Bangalore. Business Analytics: Science of Data Driven Decision Making (Business Analytics elective introduced 2008). <a href="https://eep.iimb.ac.in/course/business-analytics-science-of-data-driven-decision-making/">Link</a></p></li>
+<li><p>IIM Ahmedabad. Faculty Profile — Prof.&nbsp;Arindam Banerjee (HSBC risk analytics 2006–07; executive education to LIC, IOC, L&amp;T, Aviva). <a href="https://online.iima.ac.in/course/course-v1:IIMA+ODSFC101x+2024_06/">Link</a></p></li>
+<li><p>Elets News Network. (2019). RBL Bank — Evolving with Technologies for Mitigating Risk. <a href="https://bfsi.eletsonline.com/rbl-bank-evolving-with-technologies-for-mitigating-risk/">Link</a></p></li>
+<li><p>Klover.ai. (2025). Hindustan Unilever AI Strategy — Shikhar, field-level analytics. <a href="https://www.klover.ai/hindustan-unilever-ai-strategy-analysis-of-dominance-in-fast-moving-consumer-goods-ai/">Link</a></p></li>
+<li><p>Ascent Group India. (2024). Marketing Strategies of NBFCs in Rural India — Bajaj Finserv AI credit scoring. <a href="https://ascentgroupindia.com/blog/strategic-rural-marketing/marketing-strategies-of-nbfcs-in-rural-india/">Link</a></p></li>
+<li><p>Analytics India Magazine. Analytics in Indian Banking Sector (ICICI debt collection model). <a href="https://analyticsindiamag.com/analytics-in-indian-banking-sector-on-a-right-track">Link</a></p></li>
+<li><p>Databricks. (2024). HDFC Bank: Accelerating Bank Business Processes with Data Efficiency. <a href="https://www.databricks.com/customers/hdfc-bank">Link</a></p></li>
+<li><p>Davenport, T. H., and Harris, J. G. (2007). <em>Competing on Analytics: The New Science of Winning</em>. Harvard Business School Press.</p></li>
+<li><p>NCSU Institute for Advanced Analytics. About the Institute (founded 2007 with SAS gift; first MSA program). <a href="https://analytics.ncsu.edu/?page_id=2">Link</a></p></li>
+</ol>
+<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
+</script>
+
+
+</section>
+
+ ]]></description>
+  <category>analytics</category>
+  <category>data science</category>
+  <category>strategy</category>
+  <category>non-tech</category>
+  <category>India</category>
+  <category>US</category>
+  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/analytics-strategic-lever/</guid>
+  <pubDate>Sat, 02 May 2026 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>LOVE &amp; TRUST - Season -1 | Episode - 5</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
@@ -2035,73 +2207,6 @@ na chaiva na bhaviṣhyāmaḥ sarve vayamataḥ param</em></p>
   <category>reflection</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/cognitive_delusion/</guid>
   <pubDate>Sun, 25 Feb 2024 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Extended Learnings -124 | Indian Culture | Perennial Cycle of Ānanda ( Bliss )</title>
-  <dc:creator>Arun Koundinya Parasa</dc:creator>
-  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning124/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This blog piece comes almost after a year but at the right time, albeit there is a long hiatus. Lately, I have started a Spiritual YouTube Channel (in line with this blog series), wherein I’m sharing personal-level comprehension instead of metaphysical levels.</p>
-<p>Here is the link to my YouTube Channel { <a href="https://www.youtube.com/watch?v=W6DqGmzeoM8&amp;list=PL1pdvanb8-ka0_MlE_AQjP2aRm1vFSnjX">Link</a> } ; kindly subscribe if you enjoyed this series.</p>
-<p>While I have completed the explanation of the Gnana, Karma &amp; Bhakti Yoga videos, I have realized that there is an underlying concept of perennial happiness by combining these three Yogas.</p>
-<p>Before delving directly into the blog, let me summarize the prime pointers mentioned in the Video Series.</p>
-<p>Re-cap of YouTube Channel First 4 Videos:</p>
-<p>The root cause of unhappiness is our own thinking or thought process. Since our thought process hinders us from seeing the “world as-is” and instead, we see “the world as we want to see.”</p>
-<p>Gnana Yoga: If we need to see the “world as-is,” the prime thing is not to get involved but to just observe. Such that our thought process changes from reacting to comprehending the situation.</p>
-<p>Karma Yoga: After we comprehend the situation, we need to act based on the revised thought process which, in turn, is based on our comprehension.</p>
-<p>Bhakti Yoga: Once we start to act on the thoughts based on comprehension rather than reaction, we tend to observe that the results of the actions we take are going in a positive direction. This, in turn, helps us to love our own thought process.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning124/version_arun_image.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="693"></p>
-</figure>
-</div>
-<p><u><strong>Blog</strong></u>:</p>
-<p>Let us consider an acting profession.</p>
-<p>Acting: Assume that one wants to become a good and better actor. Let us assume that he/she thinks about his/her career impartially, leading to the selection of roles with clarity in their thought process. Once he/she selects the roles, he/she gives his/her 100% in acting. However, the results are in the hands of critics and audiences, which can go either way.</p>
-<p>Since he/she is clear in his/her thought process to become a better actor, he/she takes cues from past roles and learns from critics and audiences, and further implementing them in their next movie. His/Her learnings and comprehensions about being an actor improve movie after movie. He/She tries to become a better version of thyself compared to their previous movie, as their impartial thought process focuses on being a good and better actor. This makes them happier, knowing that he/she is progressing to become a better actor. Since, there is no limit for betterment; His/Her experimentation and exploration to become a better continuous till he/she strives for it. At a distance it looks like a diligent and hardworking model. However, upon closer inspection, one can discern a continuous journey of self improvement. The Ultimate happiness is about progressing thyself without future regrets. If one can take actions “now” resulting from clear thought process, that action is the first step towards happiness. Moreover, when one’s purpose is beyond their existence, their continuous action is bounded by love towards upon their “clear” thought process. This iterative process of taking incremental steps in our own life leads to various degrees of “delta happiness”, ultimately guiding us into a perpetual state of bliss.</p>
-<p>I will be creating a YouTube Video as well on the similar lines in next couple of days. ______________________________________________________________________________________________________________</p>
-<p>My previous blogs for reference -</p>
-<ul>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/learnings-indian-culture/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/learnings-indian-culture/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning101/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning101/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning102/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning102/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning103/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning103/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning104/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning104/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning105/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning105/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning106/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning106/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning107/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning107/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning108/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning108/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning109/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning109/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning110/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning110/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning111/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning111/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning112/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning112/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning113/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning113/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning114/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning114/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning115/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning115/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning116/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning116/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning117/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning117/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning118/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning118/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning119/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning119/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning120/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning120/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning121/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning121/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning122/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning122/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning123/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning123/</a></p></li>
-</ul>
-<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
-</script>
-
-
-
-
- ]]></description>
-  <category>spirituality</category>
-  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning124/</guid>
-  <pubDate>Mon, 08 Jan 2024 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
