@@ -1,0 +1,60 @@
+---
+title: "THINKING IN SYSTEMS WITH AI"
+subtitle: "Why Data Science and AI have not delivered the value businesses expected, and why it is not an IT problem"
+author: "Arun Koundinya Parasa"
+date: "2026-10-07"
+toc: true
+format:
+  typst:
+    fig-width: 6
+    include-in-header:
+      text: |
+        #set image(width: 100%)
+---
+
+# Who Owns Your AI?
+
+*For CXOs and business heads who decide where Data Science sits, and the Heads of Data Science who make it worth it.*
+
+We usually assume anything technical belongs under IT, the same way we assume anything administrative belongs under HR. So when Data Science and AI arrived, most organizations placed them under IT. But AI is not defined by the technology it uses. It is defined by the decisions it changes. That one assumption is why so many AI investments never deliver.
+
+IT and AI behave very differently once they go live. An IT system is built to a specification, and when it works, the project is done. It **protects value**: when it fails, customers notice; when it works, they simply get what they expected. An AI system makes a best guess, and the world it learned from keeps changing. Its only real test is the business outcome. Run it like an IT project, closing at deployment with no one owning the outcome, and its value quietly decays. It is one reason most models, by most industry estimates, never make it to production.
+
+Consider a bank trying to move customers online. Campaigns lift usage, then it fades. The bank brings in Data Science. In one version, Data Science sits inside IT as a **functional tool**: it builds a model on request, and the results go to the online banking team, never back to the model. In the other, Data Science is the **steering wheel**: it co-owns the outcome, asks why customers drift back to the branch, and every cycle makes the next one better. Same technology. Very different value.
+
+The difference is a **feedback loop**, and a **knowledge corridor** between business and Data Science. Data Scientists must understand the business's priorities and explain the "so what?" Business leaders must understand enough about Data Science to participate, not just delegate. As Donella Meadows shows in *Thinking in Systems*, a system's behavior comes from its structure, not the people inside it. The Data Scientist who never asks about the business is not the problem. The missing loop is.
+
+This matters more now than ever. Agentic AI does not just advise; it acts. An agent with the wrong goal, and no one checking the loop, keeps acting every day at machine speed. As the authors of *AI Oversight* argue, ownership of AI must start at the board and C-suite, and oversight without data fluency is theatre.
+
+**My Recommendations:**
+
+1. **Place Data Science with the outcome.** If you want a steering wheel, it cannot sit as a ticket queue inside IT.
+2. **Name an owner and close the loop.** Every model and agent needs an owner accountable for results, and outcomes must flow back to the team/person that built it.
+3. **Walk the corridor.** Sit in on one Data Science use case this quarter, and ask your team for the "so what?"
+
+**And if you lead Data Science:** walk the corridor from your side. Learn the metrics the business is judged on, co-own the outcome, and lead every result with the "so what?"
+
+AI is not an IT project. It is a business loop, and loops need owners. **Who owns yours?**
+
+This builds on Donella Meadows' *Thinking in Systems* and *AI Oversight* by Dr. Elena Alikachkina, Dr. Shama Patel and Bernhard Brouwer, both worth reading in full. The longer version, on why Data Science and AI have not delivered the value businesses expected, is on my blog. A follow-up on *how* to close the loop is coming next.
+
+
+Link to article: [**Substack Link**](https://arunkoundinyaparasa.substack.com/p/thinking-in-systems-with-ai) / [**Personal Blog Link**](https://arunkoundinya.com/posts/systems-thinking-with-ai/)
+
+```{=html}
+<script src="https://giscus.app/client.js"
+        data-repo="ArunKoundinya/CanvassAndAnalyze"
+        data-repo-id="R_kgDOLTnAQQ"
+        data-category="General"
+        data-category-id="DIC_kwDOLTnAQc4CdYId"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="transparent_dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+```

@@ -10,7 +10,6 @@ website:
   site-url: https://arunkoundinya.github.io/CanvassAndAnalyze/
   description: "My thought process on confluence of Psychology, Analytics and Management."
   favicon: "/images/logo.jpeg"
-  margin-header: subscribe.html
   navbar:
     right:
       - about.qmd
