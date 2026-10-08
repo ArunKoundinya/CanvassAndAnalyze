@@ -10,7 +10,523 @@
 <atom:link href="https://arunkoundinya.github.io/CanvassAndAnalyze/index.xml" rel="self" type="application/rss+xml"/>
 <description>My thought process on confluence of Psychology, Analytics and Management.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sat, 02 May 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 07 Oct 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>THINKING IN SYSTEMS WITH AI</title>
+  <dc:creator>Arun Koundinya Parasa</dc:creator>
+  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/systems-thinking-with-ai/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This article is written for the CXOs and business heads who decide where Data Science sits in their organization and who owns what it delivers. It is also for the Heads of Data Science who make it worth it. My argument is simple <strong>AI is not an IT project. It is a business loop, and it works only when business and Data Science learn from each other.</strong></p>
+<p>I have divided this article into three parts, followed by my learnings. The first part looks at the gap between Data Science and business, from both sides. The second part asks whether Data Science is used as a functional tool or as a steering wheel, using a simple banking example. The third part looks at AI through the lens of systems thinking, and how the right roles, oversight and governance keep this loop healthy as AI becomes more autonomous.</p>
+<p>I want to thank the many people who helped me think through these ideas, including the early leaders who shaped my thinking and perspectives. I am inspired by the work of Donella Meadows and her book <em>Thinking in Systems</em>, and by the recent book <em>AI Oversight</em> by Dr.&nbsp;Elena Alikachkina, Dr.&nbsp;Shama Patel and Bernhard Brouwer, which helped me think about the role of AI in systems thinking. I would also like to thank Ashok Vasudevan and Ireena Vittal for their thoughtful comments and feedback on this article.</p>
+<section id="data-scienceai-process-flow" class="level2">
+<h2 class="anchored" data-anchor-id="data-scienceai-process-flow">1. Data Science/AI Process Flow</h2>
+<p>When I started my career in Data Science in 2013, all I knew was linear regression and logistic regression. However, I was excited to learn about the power of data and how it can help organizations make better decisions. Over the years, I have seen Data Science and AI evolve and become an integral part of the business decision-making process.</p>
+<p>In the early days, most leaders recruited Data Scientists from the perspective of value creation and business impact. However, as I changed jobs and moved across different organizations and countries, I was always flabbergasted to see how Data Science became more of a technical function, mostly part of IT, with little interest in learning about the business and how its work fits into the value chain of the organization.</p>
+<p>Many organizations followed this trend. They set up Data Science as a vertical within the IT department and started recruiting Data Scientists for their technical skills rather than for business impact. Over time, this reinforced itself: technical hires built technical teams, and the business side drifted further away.</p>
+<section id="how-data-science-thinks-about-its-role" class="level3">
+<h3 class="anchored" data-anchor-id="how-data-science-thinks-about-its-role">1.1. How Data Science thinks about its role</h3>
+<p>Data Scientists come with a perspective of solving a problem using data and algorithms. They love the latest and greatest algorithms, and they rub their hands with excitement when they get to use them.</p>
+<p>The linear flow of Data Science is: understand the problem, collect the data, clean the data, explore the data, build models, evaluate models and deploy models. In practice, the very first step, <em>understand the problem</em>, is the one that gets compressed or skipped. It is the least technical step, and so it gets the least attention.</p>
+<p>As the years progressed, this flow got divided into more roles: Data Engineers, Data Analysts, Machine Learning Engineers and AI Engineers. However, the focus is still on the technical aspects of the work and not on the business impact.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-data-science-flow" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-data-science-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-data-science-flow">flowchart LR
+  A[Business Requirements] --&gt; B[Business Problem]
+  B --&gt; C[Collect &amp; Clean Data]
+  C --&gt; D[Explore Data]
+  D --&gt; E[Build &amp; Evaluate Models]
+  E --&gt; F[Deploy]
+  F --&gt; G{Used by Business?}
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-data-science-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Data Science Process Flow
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="how-business-thinks-about-data-science" class="level3">
+<h3 class="anchored" data-anchor-id="how-business-thinks-about-data-science">1.2. How Business thinks about Data Science</h3>
+<p>Business leaders think about Data Science as a function that can help them make better decisions. But in practice, most businesses <em>delegate</em> to Data Science rather than <em>participate</em> with it. A request goes in, a model comes out, and the business judges the result without ever being part of how it was shaped. Expectations swing between two extremes: either Data Science is expected to work magic, or it is not trusted at all.</p>
+<p>What is needed is a <strong>knowledge corridor</strong> between Data Science and business, a two-way path where each side learns enough about the other. Data Scientists need orientation towards its priorities, its processes and the metrics it is judged on. Management, in turn, needs enough understanding of Data Science, data visualization and the capabilities and limitations of the tools to frame expectations intelligently. The goal is for business leaders to participate in the use case, not simply hand it over.</p>
+<p>Walking this corridor also means Data Scientists must learn to communicate the <strong>“so what?”</strong> Business leaders may not want to follow the quantitative complexity behind an analysis, but they do need to understand the implication, the decision and the value. Technical sophistication should enable the insight, not become a barrier to it. This is also a recruitment gap, because most Data Scientists are hired for their technical skills, and very few are hired, or trained, to walk this corridor.</p>
+<p>For a few use cases, teams were able to demonstrate business impact and deploy models into production. But the reality is that the majority of models never make it to production, by most industry estimates. This is not only a technical problem to fix with MLOps or DevOps. It is equally a business problem, to be fixed with the right recruitment, the right oversight and the right governance.</p>
+<p>Slowly, over the years, business leaders absorbed the idea that Data Science is a technical function. They built processes around it to validate the outcome of Data Science work and to assess how well it fits into the larger process of the organization. This is a wonderful step, but…</p>
+</section>
+<section id="what-are-we-missing-in-the-process-flow" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-we-missing-in-the-process-flow">1.3. What are we missing in the process flow</h3>
+<p>…the missing piece is the feedback from the business back to Data Science. The feedback loop is missing in the process flow. Without it, there is no way to understand the business impact of the work or to assess how well it fits into the larger process of the organization.</p>
+<p>Where there was understanding on both sides, business and Data Science, the feedback loop worked. Models were deployed in production and kept improving, even without a mature MLOps or DevOps process, because the feedback loop itself demanded refined models. The business demands from Data Science, and in turn Data Science demands feedback from the business, to improve the models and ultimately add value.</p>
+<p>In Donella Meadows’ language, this is a <strong>reinforcing loop</strong>: feedback leads to better models, better models build trust, trust brings more use cases, and more use cases bring more feedback. When the loop is missing, the system does not just stay still. It stalls, and models quietly sit on the shelf.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-value-chain" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-value-chain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-value-chain">flowchart LR
+  A[Business Need] --&gt; B[Data Science Builds Model]
+  B --&gt; C[Embedded in Business Process]
+  C --&gt; D[Business Outcome]
+  D -. "feedback (often missing)" .-&gt; B
+  D -- "trust &amp; new use cases" --&gt; A
+  C -. "no feedback" .-&gt; X((Model Stalls))
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-value-chain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: The reinforcing loop, and where it usually breaks
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="data-science-in-the-value-chain" class="level2">
+<h2 class="anchored" data-anchor-id="data-science-in-the-value-chain">2. Data Science in the Value Chain</h2>
+<p>My hypothesis is that an organization can use Data Science in two very different ways. It can use it as a <strong>functional tool</strong>, which delivers a model when asked and steps away. Or it can use it as a <strong>steering wheel</strong>, which helps the business decide where to go, and keeps correcting the direction as the road changes. The technology is the same in both cases. The value is not.</p>
+<p>Let us test this with a simple example. Assume there is a brick-and-mortar bank. The bank sees that its staff is working overtime, and it feels that it needs either to open more branches or to create an online banking platform. Decision making is the responsibility of the management, and assume they decide to build an online banking platform.</p>
+<p>Since the management does not have the technical expertise to build the platform, they hire a Head of IT. The Head of IT hires a team of software engineers, who build the platform and deploy it to production. From here on, the management monitors the usage of the platform and makes decisions based on the usage data. The responsibility of IT is to build and run the platform. The responsibility of the management is to decide.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-bank-it" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bank-it-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-bank-it">flowchart LR
+  A[Staff Overtime] --&gt; B[Management Decision:&lt;br/&gt;Online Banking]
+  B --&gt; C[IT Builds Platform]
+  C --&gt; D[Platform Live]
+  D --&gt; E[Usage Data]
+  E --&gt; B
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bank-it-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Management decides, IT builds
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Now, assume the management wants to move more customers to the online platform. The question for the management is: is this a technical problem or a business problem? Since this is a straightforward business problem, they usually hire a Head of Online Banking. The Head of Online Banking realizes that customers first need to be aware of the platform. So, with a limited budget, the team runs a marketing campaign, and soon customers start using the online platform.</p>
+<p>Later, the management notices that the percentage of customers using the online platform has become stagnant, and they are unable to understand why. The marketing campaigns show a positive uplift during the campaign period, but once the campaign ends, usage goes down again. Now the management learns that Data Science can help them understand customer behavior and create personalized marketing campaigns to increase usage.</p>
+<p>Let us consider two scenarios: a Data Science team within IT, and a separate Head of Data Science reporting to the management.</p>
+<p>In the first scenario, Data Science is a functional tool. The Data Science team within IT builds models to understand customer behavior and create personalized campaigns. The Online Banking team is responsible for the outcome of the campaigns and for explaining the results to the management. Depending on the outcome, the Online Banking team continues or stops the campaigns. The Data Science team’s job ends when the model is delivered. The feedback exists, but it stops at the Online Banking team and never reaches the model.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-bank-scenario1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bank-scenario1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-bank-scenario1">flowchart LR
+  subgraph BIZ["Business"]
+    M[Management] --&gt; PT[Online Banking Team]
+  end
+  subgraph ITD["IT Department"]
+    DS[Data Science]
+  end
+  PT -- "request" --&gt; DS
+  DS -- "model" --&gt; C[Campaign]
+  C --&gt; O[(Outcome)]
+  O --&gt; PT
+  O -. "feedback never reaches DS" .-x DS
+  style ITD fill:#fdecea,stroke:#c0392b
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bank-scenario1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Scenario 1: Data Science as a functional tool
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>In the second scenario, Data Science becomes the steering wheel. The Data Science team is responsible not only for building the models, but is also co-responsible for the outcome of the campaigns and for explaining the results to the management. They <strong>collaborate</strong> with the Online Banking team to make sure the campaigns are effective and that usage keeps increasing. This creates a <strong>feedback loop</strong> between the Data Science team, the Online Banking team and the management, which keeps improving the campaigns and the usage of the platform.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-bank-scenario2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bank-scenario2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-bank-scenario2">flowchart LR
+  subgraph BIZ["Business"]
+    M[Management] --&gt; PT[Online Banking Team]
+    M --&gt; DS[Data Science]
+    PT &lt;-- "co-own outcome" --&gt; DS
+  end
+  DS -- "model" --&gt; C[Campaign]
+  C --&gt; O[(Outcome)]
+  O --&gt; PT
+  O -- "feedback" --&gt; DS
+  DS -- "so what?" --&gt; M
+  style BIZ fill:#e8f5e9,stroke:#27ae60
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bank-scenario2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Scenario 2: Data Science as the steering wheel
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>This collaboration will further increase the business understanding of the Data Science team, and they no longer see the problem as just predictive modelling but as a business problem of changing customer behavior. They start asking different questions. Why do customers go back to the branch once the campaign ends? Is it trust, habit, or something missing in the platform itself? These questions go beyond marketing. They feed back into how the platform is designed and even how the branches serve customers. This is the point where Data Science stops being a support function and starts becoming part of the value chain.</p>
+<p><strong>Clarification</strong>: A Head of IT would rightly say that their systems also add business value. If a customer is not able to complete a transaction, the bank loses the customer’s trust. If an insurance company’s systems delay a submission, it loses the opportunity. Both are true. But in both cases, the technology is meeting an expectation. It is not extracting a new opportunity. When these systems fail, it is a failure of service. When they work, the customer simply gets what they expected. This is <strong>protecting value</strong>, not <strong>creating value</strong>.</p>
+<p>This does not mean IT never creates value. Launching the online banking platform itself relieved the branches and opened a new channel. And Data Science can also protect value, for example by detecting fraud. So the real difference is two questions: does the work <em>protect</em> value or <em>create</em> it, and does it <em>execute</em> once or <em>learn</em> over time?</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-value-quadrant" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-value-quadrant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-value-quadrant">quadrantChart
+  x-axis Protects Value --&gt; Creates Value
+  y-axis Executes --&gt; Learns
+  quadrant-1 Compounding Value
+  quadrant-2 Smarter Protection
+  quadrant-3 Keep the Lights On
+  quadrant-4 New Capability
+  Transaction Uptime: [0.2, 0.2]
+  Policy Submission: [0.3, 0.3]
+  Online Platform Launch: [0.75, 0.25]
+  Fraud Detection: [0.25, 0.75]
+  Personalized Campaigns: [0.8, 0.8]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-value-quadrant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Protecting vs Creating Value, Executing vs Learning
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Most of IT lives in the bottom half, and it should, because stability is its job. Data Science earns its place in the top right only when the feedback loop closes, like our second scenario. That is where value does not just arrive once. It compounds.</p>
+<section id="seeing-adoption-as-a-stock-and-flow" class="level3">
+<h3 class="anchored" data-anchor-id="seeing-adoption-as-a-stock-and-flow">2.1. Seeing Adoption as a Stock and Flow</h3>
+<p>Let us come back to our online banking adoption, and look at it through the simple stock and flow lens of Donella Meadows. The <strong>stock</strong> here is the number of active online banking customers. The bank wants this stock to grow, because every customer who moves online reduces branch load, reduces staff overtime and ultimately reduces opex. The stock fills through an <strong>inflow</strong>, branch customers adopting online banking, and drains through an <strong>outflow</strong>, customers drifting back to the branch.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-stock-flow" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-stock-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-stock-flow">flowchart LR
+  B[Branch Customers] --&gt; IN{{Adoption}}
+  IN --&gt; ST[("Active Online&lt;br/&gt;Customers")]
+  ST --&gt; OUT{{Drop-off}}
+  OUT --&gt; R[Back to Branch]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-stock-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: Online banking adoption as a stock and flow
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Now, the Data Science team builds a customer segmentation model to target the right customers and improve the inflow. Similarly, there is a retention model that tries to reduce the outflow. Both models have the same intention, which is to grow the stock. But each model optimizes its own flow in isolation. The segmentation model does not know who is leaving, and the retention model does not know who was brought in and why.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-stock-flow-models" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-stock-flow-models-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-stock-flow-models">flowchart LR
+  subgraph INF["Inflow team"]
+    direction TB
+    SEG[Segmentation Model] -.-&gt; IN{{Adoption}}
+  end
+  ST[("Active Online&lt;br/&gt;Customers")]
+  subgraph OUTF["Outflow team"]
+    direction TB
+    RET[Retention Model] -.-&gt; OUT{{Drop-off}}
+  end
+  B[Branch Customers] --&gt; IN --&gt; ST --&gt; OUT --&gt; R[Back to Branch]
+  style INF fill:#eef6f5,stroke:#0b6e6e,color:#0f1b2d
+  style OUTF fill:#fbede5,stroke:#b4410b,color:#0f1b2d
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-stock-flow-models-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: Two models, two flows, working in silos
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Now, assume the stock is still improving, but more slowly than expected. Meadows reminds us that stocks change slowly by nature, because they only move through flows and with delays. So slow growth is not failure by itself; it is a signal to look at the structure. This is where the outflow needs to talk back to the inflow. Which type of customers are moving away? Is the segmentation model bringing in the wrong customers? Is the UI confusing a particular group? The answers bring in other teams, such as UI experience, and they also improve the existing models that were not capturing the right segments.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-stock-flow-feedback" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-stock-flow-feedback-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-stock-flow-feedback">flowchart LR
+  B[Branch Customers] --&gt; IN{{Adoption}}
+  IN --&gt; ST[("Active Online&lt;br/&gt;Customers")]
+  ST --&gt; OUT{{Drop-off}}
+  OUT --&gt; R[Back to Branch]
+  SEG[Segmentation Model] -. "increases" .-&gt; IN
+  RET[Retention Model] -. "reduces" .-&gt; OUT
+  OUT -- "who leaves &amp; why" --&gt; SEG
+  OUT -- "who leaves &amp; why" --&gt; RET
+  OUT -- "pain points" --&gt; UX[UI Experience Team]
+  UX -. "improves" .-&gt; IN
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-stock-flow-feedback-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9: The outflow feeds back into the inflow
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>This feedback unlocks value in three places at once: better models, a better UI experience, and ultimately a deeper understanding of the customer. None of this value came from a new algorithm. It came from connecting the flows.</p>
+<p>When the Data Science team is embedded in this feedback loop by design, value is not created just once. It compounds. Every cycle teaches the bank something new about its customers, and that learning goes into the next cycle. In Meadows’ language, this is a <strong>reinforcing loop</strong>. It works like a simple cycle of Design, Deploy, Measure and Learn, running continuously around the inflow and the outflow.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-learning-loop" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-learning-loop-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-learning-loop">flowchart LR
+  subgraph Loop["Learning Loop (Reinforcing)"]
+    D1[Design] --&gt; D2[Deploy] --&gt; D3[Measure] --&gt; D4[Learn] --&gt; D1
+  end
+  B[Branch Customers] --&gt; IN{{Adoption}}
+  IN --&gt; ST[("Active Online&lt;br/&gt;Customers")]
+  ST --&gt; OUT{{Drop-off}}
+  OUT --&gt; R[Back to Branch]
+  D2 -- "models &amp; UI changes" --&gt; IN
+  D2 -- "retention actions" --&gt; OUT
+  ST -- outcomes --&gt; D3
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-learning-loop-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10: The learning loop embedded around the flows
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>This is the difference between Data Science as a support function and Data Science as part of the value chain. In the first, a model is delivered and the job is done. In the second, the model is only the first turn of the loop.</p>
+</section>
+</section>
+<section id="ai-through-the-lens-of-systems-thinking" class="level2">
+<h2 class="anchored" data-anchor-id="ai-through-the-lens-of-systems-thinking">3. AI Through the Lens of Systems Thinking</h2>
+<p>We have seen an introduction to feedback loops in the previous section. Now let us understand a few more concepts of systems thinking, and how value gets generated, or lost, inside these loops.</p>
+<p>Let me give a broad understanding of how systems work, inspired by Donella Meadows’ book <em>Thinking in Systems</em>. Assume our body is a large system. It has multiple organs, and each organ is a system by itself, made of cells that are systems by themselves. No single organ is “the body,” yet together they keep us alive. Meadows points to a few properties that make such systems work well.</p>
+<p><strong>Resilience.</strong> When we feel hot, we sweat. When we feel cold, we shiver. These are balancing loops that keep the body stable despite changes outside. A resilient system is not one that never gets disturbed. It is one that has enough loops to recover.</p>
+<p><strong>Self-organization.</strong> The body does not just maintain itself. It learns and adapts. Muscles grow stronger with exercise, and the immune system remembers an infection it has seen before. The system builds new structure from its own experience.</p>
+<p><strong>Hierarchy.</strong> Cells serve organs, and organs serve the body. Each level has its own job, but every level exists to serve the level above it. Hierarchy works when the subsystems serve the whole.</p>
+<p><strong>Suboptimization.</strong> This is what happens when a subsystem’s goal dominates the goal of the whole. A cell that grows only for itself, ignoring the body, is a cancer. The cell is “succeeding” at its own goal while the body fails.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-body-system" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-body-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-body-system">flowchart TB
+  BODY["Body&lt;br/&gt;Goal: Stay Alive &amp; Healthy"]
+  BODY --- H[Heart] &amp; L[Lungs] &amp; B[Brain] &amp; I[Immune System]
+  H --- C1((Cells))
+  L --- C2((Cells))
+  I --- C3((Cells))
+  T["Temperature Change"] --&gt;|sense| B
+  B --&gt;|sweat / shiver| BODY
+  BODY -. "balancing loop" .-&gt; T
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-body-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11: The body as a system: hierarchy with loops at every level
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Now replace the body with an organization. Functions are the organs and teams are the cells. The organization’s goal, in our bank example, is growing active online customers and reducing opex.</p>
+<p>But not every organ plays the same role. Some give the body <strong>structure and stability</strong>: the skeleton holds it up, and the blood vessels carry what is needed to every organ. They are built once, they must not fail, and when they work well we never notice them. This is IT. It gives the organization <strong>resilience</strong>.</p>
+<p>Other organs give the body the <strong>ability to learn</strong>. The nervous system senses, decides and adapts, and it gets better with every experience. This is AI. When it is in the loop, it gives the organization <strong>self-organization</strong>.</p>
+<p>Both are essential. But nobody would build a nervous system the way they build a skeleton.</p>
+<p>And <strong>suboptimization</strong> is exactly what we saw in our silos: the segmentation model optimizing the inflow, the retention model optimizing the outflow, marketing optimizing campaign clicks, IT optimizing uptime. Each team succeeds at its own goal, while the stock grows slower than it should.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-org-system" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-org-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-org-system">flowchart TB
+  ORG["Bank&lt;br/&gt;Goal: Grow Active&lt;br/&gt;Online Customers"]
+  ORG --- MK["Marketing&lt;br/&gt;Goal: Campaign Clicks"]
+  ORG --- IT["IT&lt;br/&gt;Goal: Uptime"]
+  ORG --- DS["Data Science&lt;br/&gt;Goal: Model Accuracy"]
+  ORG --- OP["Branch Operations&lt;br/&gt;Goal: Footfall"]
+  MK -. "suboptimization" .-x ORG
+  DS -. "suboptimization" .-x ORG
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-org-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12: The organization as a system: when subsystem goals drift from the whole
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="how-ai-feeds-the-value-chain-and-helps-in-systems-thinking" class="level3">
+<h3 class="anchored" data-anchor-id="how-ai-feeds-the-value-chain-and-helps-in-systems-thinking">3.1. How AI feeds the value chain and helps in systems thinking</h3>
+<p>The first step is a realization: AI is part of the business process, not a technical function sitting beside it. Once we see that, the role of AI in the organization looks very much like the nervous system in the body.</p>
+<p>The nervous system senses what is happening, interprets it, decides and acts, and then senses again to see what changed. It connects organs that would otherwise work in isolation. AI can play the same role in an organization. Data is the senses. Models interpret and decide. Business processes act. Outcomes are sensed again as new data.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-ai-nervous-system" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ai-nervous-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-ai-nervous-system">flowchart LR
+  S["Sense&lt;br/&gt;Data from every flow"] --&gt; I["Interpret&lt;br/&gt;Models &amp; AI"]
+  I --&gt; D["Decide&lt;br/&gt;Recommendation&lt;br/&gt;or Action"]
+  D --&gt; A["Act&lt;br/&gt;Inside the&lt;br/&gt;Business Process"]
+  A --&gt; O[(Business Outcome)]
+  O -- "feedback" --&gt; S
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ai-nervous-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13: AI as the nervous system of the organization
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>This is where AI helps systems thinking itself. A human in one team sees one flow. AI can see across all the flows at once. It can show that customers who drop off were brought in by a particular campaign, that a UI change slowed adoption for one segment, or that a delay in one team is draining value in another. Meadows says one of the most powerful leverage points in any system is <strong>the structure of information flows</strong>: who knows what, and when. AI, when embedded in the loop, changes exactly that. It carries the outflow’s story back to the inflow.</p>
+</section>
+<section id="why-ai-is-different-from-traditional-it" class="level3">
+<h3 class="anchored" data-anchor-id="why-ai-is-different-from-traditional-it">3.2. Why AI is different from Traditional IT</h3>
+<p>This is where most organizations go wrong. They see code, servers and deployments, and conclude that AI is an IT project. It looks like one from the outside. But it behaves completely differently once it goes live.</p>
+<p>An IT system is <strong>deterministic</strong>. Give it the same input and it gives the same output, today and five years from now. It is built to a specification, tested against it, and when it works, the project is done. Success means “delivered on time and it does not break.”</p>
+<p>An AI system is <strong>probabilistic</strong>. It gives its best guess, and that guess is only as good as the world it learned from. And the world keeps changing: customers change, markets change, operations change, and the model quietly drifts. There is no specification to test against. The only test is the business outcome. So an AI system is never “done.” Deployment is not the finish line. It is the first turn of the loop.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-it-vs-ai-lifecycle" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-it-vs-ai-lifecycle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-it-vs-ai-lifecycle">flowchart LR
+  subgraph IT["Traditional IT Project"]
+    direction LR
+    R[Requirements] --&gt; B[Build] --&gt; T[Test] --&gt; D[Deploy] --&gt; M[Maintain]
+    M --&gt; E((Project Closed))
+  end
+  subgraph AI["AI System"]
+    direction LR
+    P[Business Problem] --&gt; MD[Model] --&gt; DP[Deploy] --&gt; OC[Outcome]
+    OC -- "feedback" --&gt; MD
+    OC -- "new questions" --&gt; P
+    W[Changing World] -. "drift" .-&gt; MD
+  end
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-it-vs-ai-lifecycle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;14: An IT project ends; an AI system loops
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>When AI is run as an IT project, it gets IT’s success measures. The project closes at deployment, the team moves to the next request, and no one owns the outcome. Nobody is watching whether the model is still right. This is exactly our first scenario from Part 2, where the feedback stopped at the Online Banking team and never reached the model. It is not about employing MLOps, but about employing the right engagement model and governance.</p>
+<p>So the problem is not where AI sits on the org chart. It is the <strong>mindset</strong> it is managed with. Run it like a skeleton, built once and maintained, and its value decays. Run it like a nervous system, always sensing and always learning, and its value compounds.</p>
+</section>
+<section id="why-it-is-more-important-now" class="level3">
+<h3 class="anchored" data-anchor-id="why-it-is-more-important-now">3.3. Why it is more important now</h3>
+<p>Now, a few of these loops can be increasingly automated using Agentic AI, which can act directly on behalf of a person. Until now, AI mostly <em>advised</em>. A model gave a score, and a human read it and decided. The human was a natural pause in the loop. They were slow, but they were also a check. Agents <em>act</em>. In our bank, an agent can nudge each customer at the right moment, answer queries inside the app, offer a retention incentive and learn from every response, all without waiting for a human.</p>
+<p>In systems terms, this removes the delays, and the loops spin much faster. When the loop is designed well, value compounds faster than ever. But Meadows reminds us that a reinforcing loop amplifies whatever it is fed. And an agent pursues its goal literally. Give a nudge agent the goal of “more logins,” and it may message customers so often that they get annoyed and go back to the branch. The agent succeeds at its goal while the outflow increases. That is suboptimization, now at machine speed.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-advise-vs-act" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-advise-vs-act-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-advise-vs-act">flowchart LR
+  subgraph Before["AI Advises"]
+    direction LR
+    M1[Model] --&gt; H1[Human Decides] --&gt; A1[Action] --&gt; O1[Outcome]
+    O1 -. "slow feedback" .-&gt; M1
+  end
+  subgraph Now["AI Acts (Agentic)"]
+    direction LR
+    AG[Agent] --&gt; A2[Action] --&gt; O2[Outcome]
+    O2 -- "fast feedback" --&gt; AG
+  end
+  Before ==&gt; Now
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-advise-vs-act-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;15: From AI that advises to AI that acts
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>So the question is no longer whether AI adds value. It does. The question is: when the human pause is removed, what replaces it? The body has balancing loops for everything that can grow out of control. An organization running agents needs them too, and they have to be designed on purpose.</p>
+<p>And this is why the IT-project mindset becomes dangerous with agents. An IT project that goes live and is never revisited is just a stale system. An agent that goes live and is never revisited keeps acting, every day, on a goal that nobody is checking anymore.</p>
+</section>
+<section id="ai-oversight-and-governance" class="level3">
+<h3 class="anchored" data-anchor-id="ai-oversight-and-governance">3.4. AI Oversight and Governance</h3>
+<p>When the natural human check is removed from the loop, oversight becomes the new balancing loop. It does not slow the system down for its own sake. It keeps the agent’s goal aligned with the organization’s goal, so that the subsystem serves the whole. But who designs this balancing loop, and who owns it?</p>
+<p>The book <em>AI Oversight</em> by Dr.&nbsp;Elena Alikachkina, Dr.&nbsp;Shama Patel and Bernhard Brouwer answers this clearly. Its starting point is the same as this article’s: <strong>AI is not an IT project.</strong> It makes the case that AI has to be understood at the board and corporate level, and it emphasizes that this does not require becoming a Data Scientist. A general working knowledge is sufficient, and the book walks through just the concepts that matter at that level. Its conclusion is that AI is a process that must be monitored, governed and audited, especially from the board and C-suite.</p>
+<p>The book also describes how to shape the AI agenda with the C-suite, and how roles are evolving: new ones like the CAIO, changing ones like the CIO and CDO, and the shifting responsibilities of other CXOs. It walks through past AI failures to show that we are entering a <strong>new era of accountability</strong>. In systems terms, this is the answer to the gap we saw in Part 1: someone has to own the loop, and that ownership has to start at the top.</p>
+<p>One idea from the book I found especially useful is the <strong>DRS AI Readiness Score</strong>. It suggests that an organization should pick the type of AI it adopts based on its readiness, rather than jumping straight to the most advanced option. The types range from Descriptive, Basic Predictive and Real-Time Predictive, through Assistive AI, Continuous Learning Loops and Operational AI Platforms, all the way to Agentic AI with goal-driven agents and Multi-Agent Ecosystems.</p>
+<p>Seen through the lens of this article, each step up this ladder makes the loop faster and more autonomous, and so it demands stronger oversight and deeper data fluency. This is why the book’s point lands so strongly: oversight without data fluency is theatre. A board that cannot ask the right questions about its AI loops cannot act as their balancing loop.</p>
+<p>I have deliberately not disclosed the details of the book here, but I strongly recommend reading it. It is extremely important at this stage, before we scale up AI. Otherwise, AI will stay in pilot mode for a long time, which is the same story we started with in Part 1, where most models never make it to production.</p>
+</section>
+</section>
+<section id="my-learnings" class="level2">
+<h2 class="anchored" data-anchor-id="my-learnings">4. My Learnings</h2>
+<p>When I look back at my career, I always wondered why Data Scientists were not more interested in learning about the business and helping with its continuous improvement. I tried to motivate a few of them to learn. I always thought this was the fundamental problem: Data Scientists were simply not adding value to the business. These books helped me flip that perspective.</p>
+<p>Early in my career, an operations manager told me something I never forgot. On the shop floor, if the pay is the same, workers will naturally choose the job that takes the least effort. When I extend this from blue-collar to white-collar work, I realize we are all fundamentally the same. This is not laziness. It is a rational response to how the system is designed. Passion, motivation and purpose matter, and for some people they are enough. But for most of us, who work primarily for a paycheck and stability, we need clarity and direction. Without them, and without a feedback loop that connects our work to its outcome, the system quietly settles into minimal effort.</p>
+<p>This is exactly what Donella Meadows teaches: a system’s behavior comes largely from its own structure, not from the individuals inside it. Change the people and keep the structure, and you will get the same behavior. So the Data Scientist who never asks about the business is not the problem. The missing feedback loop is. They were never shown what happened after their model went live.</p>
+<p>The fix has to come from both directions: <strong>awareness from the bottom up, and education from the top down.</strong> Along with this, organizations need the right structure, governance and team composition. One idea is to include process improvement experts, such as Six Sigma practitioners, within the AI team. Their entire discipline is built around understanding the business problem, measuring the outcome and closing the loop. They can help the AI team communicate with the business and comprehend its problems, and they can help design the right feedback loops and governance going forward. Not every loop needs to be, or should be, Agentic AI.</p>
+<p>Finally, systems evolve and change over time. Feedback loops are not built once and forgotten. Like our muscles, they grow stronger with use and weaken without it. They need continuous maintenance and monitoring.</p>
+<p>That, for me, is the real difference between IT and AI. One is built and maintained. The other has to be exercised.</p>
+<p>This article has focused on the <em>why</em>: why Data Science and AI have not delivered the value businesses expected over the last decade. I have outlined a few suggestions along the way, but the next article will focus on the <em>how</em>: where Data Science could sit, how to design the feedback loop, and how to build the knowledge corridor, so that every model can finally answer the business’s question, “so what?” I will draw on books like <em>Thinking in Systems</em> and <em>AI Oversight</em>, and on what I have seen work, and fail, over my career.</p>
+<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
+</script>
+
+
+</section>
+
+ ]]></description>
+  <category>AI</category>
+  <category>Data Science</category>
+  <category>Systems Thinking</category>
+  <category>Business</category>
+  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/systems-thinking-with-ai/</guid>
+  <pubDate>Wed, 07 Oct 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/systems-thinking-with-ai/image.png" medium="image" type="image/png" height="84" width="144"/>
+</item>
 <item>
   <title>The Strategic Lever Nobody Pulls</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
@@ -2133,80 +2649,6 @@ na chaiva na bhaviṣhyāmaḥ sarve vayamataḥ param</em></p>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/</guid>
   <pubDate>Thu, 25 Jul 2024 04:00:00 GMT</pubDate>
   <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/image.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Cognitive Delusion under Information Deluge?</title>
-  <dc:creator>Arun Koundinya Parasa</dc:creator>
-  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/cognitive_delusion/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/cognitive_delusion/image.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></p>
-</figure>
-</div>
-<p><span style="font-size: small;">Note: this blog is not about mental disorders.</span></p>
-<section id="delusion-vs-hallucation" class="level2">
-<h2 class="anchored" data-anchor-id="delusion-vs-hallucation">Delusion vs Hallucation?</h2>
-<p>Everyone would doubt the difference between delusion and Hallucination. I hope this section will bring the initial conceptual clarity.</p>
-<p>Delusion, in simple words, is having firm beliefs despite contrary evidence. Hallucination is something living in that belief or world, although it doesn’t exist.</p>
-<p>In the psychiatric world and for mental disorder patients, they often overlap.</p>
-<p>But as of now, let us step in and see these two through two different lenses.</p>
-<p><em>Example1</em>: Assume that <code>Subhash</code> loved playing cricket since his childhood. He has been to the best coaching centers in the city to get trained. But for practice, he used to play with his school friends instead of cricket ground friends. This made him believe that he was the best in his game. During <code>under 14</code> selections, he didn’t fare well compared to his peers as per the selection committee. However, <code>Subhash</code> labeled this selection as grossly politically favored to certain sections of kids as he could not believe that his skill wasn’t up to the mark. So, he still believes that he is best at his game, although there is clear evidence that he isn’t. In this scenario <code>Subhash</code> is in a delusion that he has all the necessary skills to be part of the district team.</p>
-<p><em>Example2</em>: Let’s exaggerate the behaviour of <code>Subhash</code> for this example. <code>Subhash</code> has been continuously rejected for four consecutive years and got good feedback from coaches to improve his technique and skill. Despite this, he still believes that he is good at his game. Later, to overcome these several setbacks, he abandoned attending cricket coaching classes and instead formed a small team with his school friends and lived in that world. He was so invincible with his school friends that he derived a theory and started communicating that the selection committee and coaches were corrupted, and they stopped his growth intentionally and hid his talent to resurface to the world. At this stage, he is hallucinating unknown events, which can be termed a hallucination.</p>
-<p>Reference:</p>
-<ul>
-<li><a href="https://www.healthline.com/health/mental-health/hallucinations-vs-delusions">Link</a></li>
-</ul>
-</section>
-<section id="what-is-delusion-in-information-era" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-delusion-in-information-era">What is delusion in information era?</h2>
-<p>In the information era, we have deluge access to information, which I would like to categorize into four ways:</p>
-<ul>
-<li><strong>Info A</strong>: Information that we like and is relevant.</li>
-<li><strong>Info B</strong>: Information that we don’t like and is relevant.</li>
-<li><strong>Info C</strong>: Information that we like and isn’t relevant.</li>
-<li><strong>Info D</strong>: Information that we don’t care.</li>
-</ul>
-<p>There is no empirical information about the distribution of this information. But as per my personal experience, I can say that the majority of the information sits in <code>Info D</code>. But we all care about <code>Info A</code> and <code>Info C</code>.</p>
-<p>Since we delve into the information that we only care about, there is a 100% chance that we form many <a href="https://www.psychologytoday.com/us/basics/bias">biases</a>. These <code>biases</code> will create our self-full prophecy belief system and might push us into delusion.</p>
-</section>
-<section id="why-do-we-have-delusion-and-its-probable-reasons" class="level2">
-<h2 class="anchored" data-anchor-id="why-do-we-have-delusion-and-its-probable-reasons">Why do we have delusion and its probable reasons?</h2>
-<p>The primary outcome of a delusion is a conclusion without caring for any further evidence to confirm or solidify that evidence. Rather than going through the variety of information in this era, we might get into the deluge of the information we believe. Also, Google answers what we ask and doesn’t offer what we need for our holistic thought process.</p>
-<p>There are multiple reasons to have our delusions:</p>
-<ul>
-<li>Genetic factors</li>
-<li>Biological factors</li>
-<li>Psychological factors</li>
-<li>Environmental factors</li>
-</ul>
-<p>In pre-Google era, information deluge isn’t available. Now, in the information era, this particular environment would contribute to the creation of delusions.</p>
-<p>Reference:</p>
-<ul>
-<li><a href="https://my.clevelandclinic.org/health/diseases/9599-delusional-disorder">Link</a></li>
-</ul>
-</section>
-<section id="closing-remarks" class="level2">
-<h2 class="anchored" data-anchor-id="closing-remarks">Closing remarks</h2>
-<p>There aren’t any suggestions from my side, as this is still a learning process. Furthermore, I have genuinely believed in technology and its progress. So, the onus lies on the user to use it rather than to become dependent on the devices. Also, it is wise to turn to humans occasionally instead of a device, as humans design devices.</p>
-<p><span style="font-size: xsmall;">Note: I have used Grammarly to correct English for this blog. ChatGPT isn’t used at all for this blog.</span></p>
-<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
-</script>
-
-
-
-</section>
-
- ]]></description>
-  <category>pyschology</category>
-  <category>reflection</category>
-  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/cognitive_delusion/</guid>
-  <pubDate>Sun, 25 Feb 2024 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
