@@ -10,7 +10,208 @@
 <atom:link href="https://arunkoundinya.github.io/CanvassAndAnalyze/index.xml" rel="self" type="application/rss+xml"/>
 <description>My thought process on confluence of Psychology, Analytics and Management.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Wed, 07 Oct 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 15 Oct 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>THE IMAGE AND THE PERSON</title>
+  <dc:creator>Arun Koundinya Parasa</dc:creator>
+  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/image-and-person/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This article is written for managers and leaders who build teams, assign work and decide who grows. My argument is <strong>as leaders, we often arrive at a person based on where they are from, rather than learning from who they are. The fix is not feedback from them. It is feedback to ourselves.</strong></p>
+<p>In my previous article, <em>Thinking in Systems with AI</em>, I argued that a system’s behavior comes largely from its own structure, not from the individuals inside it. While writing it, I kept coming back to one uncomfortable thought. Some of the most powerful structures in an organization are not on the org chart. They sit inside the manager’s head.</p>
+<p>I have divided this article into four parts, followed by my learnings. The first part looks at what Jiddu Krishnamurti called the <em>image</em>. The second part tells a simple story of a manager and a new team member, in two scenarios. The third part looks at the image through the stock and flow lens of Donella Meadows. The fourth part asks whether we can really give someone our full attention, and what a self-feedback loop might look like.</p>
+<section id="the-image" class="level2">
+<h2 class="anchored" data-anchor-id="the-image">1. The Image</h2>
+<p>Every one of us keeps a stock of assumptions about strangers. Their race, their country, their accent, their college, the company they came from, what a previous manager said about them. Most of the time we do not even notice we are doing it. It feels like experience, or even like wisdom.</p>
+<p>Krishnamurti spoke about this again and again. He said that when we meet someone, we rarely meet the person. We meet the <em>image</em> we have built of them. And they, in turn, meet the image they have built of us. Over time, two people in a relationship are only relating through their images, and the living person quietly disappears behind the picture.</p>
+<p>For an individual, this is a personal limitation. For a leader, it is something more. A manager’s image of a person decides what work they get, which meetings they are invited to, whose ideas are heard, and who is considered for the next role. The image does not stay in the head. It becomes structure.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-image" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-image-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-image">flowchart LR
+  P1[Manager] --&gt; I1["Image of the person&lt;br/&gt;(origin, accent, college,&lt;br/&gt;what others said)"]
+  I1 --&gt; D[Decisions:&lt;br/&gt;work, voice, growth]
+  P2[The actual person] -. "rarely reaches" .-&gt; P1
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-image-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: We meet the image, not the person
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="a-story-of-two-scenarios" class="level2">
+<h2 class="anchored" data-anchor-id="a-story-of-two-scenarios">2. A Story of Two Scenarios</h2>
+<p>Let us test this with a simple example. Assume there is an analytics team in a large company. The team is led by a manager, Meera. She is good at her job, she cares about her team, and she is under the usual pressure to deliver.</p>
+<p>A new analyst, Daniel, joins the team. He has moved from a different country and from a much smaller company. Before he even joins, a peer tells Meera, in passing: “People from that background are good with code, but don’t expect them to handle business conversations.” Meera does not think of herself as biased. She simply files the comment away.</p>
+<p>In his first week, Daniel is quiet in meetings. His accent is different, and he takes a moment before answering. Meera notices.</p>
+<p>Let us consider two scenarios.</p>
+<section id="scenario-1-the-image-decides" class="level3">
+<h3 class="anchored" data-anchor-id="scenario-1-the-image-decides">2.1. Scenario 1: The image decides</h3>
+<p>In the first scenario, the image does the work. Meera thinks Daniel needs time to settle, so she gives him the safe tasks: report refreshes, data pulls, ticket fixes. She keeps him out of the stakeholder meetings so he is not “put on the spot.” All of this feels kind, even protective.</p>
+<p>Daniel, meanwhile, gets the work that teaches him the least and shows him the least. He has no context on why any of it matters. He becomes quieter, because there is little to say about a report refresh. In the quarterly review, Meera notes that Daniel is “reliable, but not yet ready for business-facing work.”</p>
+<p>Her image has been confirmed. But notice what happened. The image created the very evidence that confirmed it.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-scenario1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-scenario1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-scenario1">flowchart LR
+  A["Image:&lt;br/&gt;not business-facing"] --&gt; B[Given safe,&lt;br/&gt;low-context work]
+  B --&gt; C[Little visibility,&lt;br/&gt;little to say]
+  C --&gt; D[Stays quiet]
+  D --&gt; E["'See, I was right'"]
+  E --&gt; A
+  style A fill:#fdecea,stroke:#c0392b
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenario1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Scenario 1: The image confirms itself
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Psychologists have a name for this. Robert Rosenthal’s work on expectations showed that what a teacher expects from a student can shape how the student actually performs. In systems language, this is a <strong>reinforcing loop</strong>, and it works just as well in the wrong direction.</p>
+</section>
+<section id="scenario-2-the-manager-catches-the-image" class="level3">
+<h3 class="anchored" data-anchor-id="scenario-2-the-manager-catches-the-image">2.2. Scenario 2: The manager catches the image</h3>
+<p>In the second scenario, everything is the same until one small moment. In Daniel’s first week, Meera catches herself thinking, “He’s quiet, he’s probably not comfortable with business conversations.” And she notices that she has not actually seen him in a single business conversation. The conclusion came from a comment and an accent, not from Daniel.</p>
+<p>So she does something very simple. In a one-on-one, she asks him how he would approach a problem the team is stuck on: why a set of customers stopped responding to a campaign.</p>
+<p>Daniel pauses, as he always does, and then talks for ten minutes. In his previous company, there was no separate business team. He sat with the sales head every week and built the analysis with him, not for him. He has more stakeholder experience than half the team. He was quiet in meetings because he was still learning the names, the acronyms and the politics, not because he had nothing to say.</p>
+<p>Meera puts him on the campaign problem with a business partner. Within a quarter, he is one of the people stakeholders ask for by name.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-scenario2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-scenario2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-scenario2">flowchart LR
+  A[Impression&lt;br/&gt;forms] --&gt; N{"Do I know this,&lt;br/&gt;or assume it?"}
+  N -- "assume" --&gt; Q[Ask, observe,&lt;br/&gt;learn]
+  Q --&gt; R[The real person&lt;br/&gt;shows up]
+  R --&gt; W[Work matched&lt;br/&gt;to the person]
+  W --&gt; G[Growth &amp; trust]
+  G --&gt; A
+  style N fill:#e8f5e9,stroke:#27ae60
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenario2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Scenario 2: Self-feedback breaks the loop
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Clarification</strong>: Meera did not need Daniel to give her feedback. Daniel would never have walked up to his new manager and said, “I think you have underestimated me.” Most people in his position would not. The correction had to come from Meera herself. This is the central point of this article. The feedback that matters here is not <em>from</em> the other person. It is <em>to</em> ourselves.</p>
+<p>The difference between the two scenarios is not intelligence, kindness or even good intentions. Meera had all three in both scenarios. The difference was one moment of noticing.</p>
+</section>
+</section>
+<section id="the-image-as-a-stock-and-flow" class="level2">
+<h2 class="anchored" data-anchor-id="the-image-as-a-stock-and-flow">3. The Image as a Stock and Flow</h2>
+<p>Let us look at Meera’s image of Daniel through the simple stock and flow lens of Donella Meadows. The <strong>stock</strong> here is the image, the accumulated belief about who a person is and what they can do. Like any stock, it fills through <strong>inflows</strong> and drains through <strong>outflows</strong>.</p>
+<p>The inflows are easy to find. A peer’s comment. A first impression. A few observations that seem to fit. Generalizations about where someone is from, absorbed over a lifetime. These flow in quickly and almost without effort.</p>
+<p>The outflow is genuine experience that contradicts the image. But here is the problem. When something does not fit, we tend to treat it as an exception. “He did well in that meeting, but that was a simple topic.” So the outflow is narrow, and the stock barely drains.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-image-stock" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-image-stock-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-image-stock">flowchart LR
+  B["Borrowed opinions"] --&gt; IN{{Inflow}}
+  F["First impressions"] --&gt; IN
+  S["Assumptions about&lt;br/&gt;where someone is from"] --&gt; IN
+  IN --&gt; ST[("The Image")]
+  ST --&gt; OUT{{Outflow}}
+  OUT --&gt; X["Contradicting experience&lt;br/&gt;(often discounted as&lt;br/&gt;'an exception')"]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-image-stock-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: The image as a stock: wide inflows, a narrow outflow
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Meadows also reminds us about <strong>delays</strong>. A first impression forms in minutes. A person’s real capability often shows up only after weeks or months, once they understand the context, the people and the unwritten rules. If the image sets before the delay is over, the decision has already been made with the wrong information. In Daniel’s case, the image was ready on day one. The real Daniel needed a few weeks to show up.</p>
+<p>And this is why the image feels so solid. It is not a single thought. It is years of accumulation. Stocks change slowly by nature, and so it feels like knowledge rather than assumption.</p>
+</section>
+<section id="can-we-give-someone-100-of-our-attention" class="level2">
+<h2 class="anchored" data-anchor-id="can-we-give-someone-100-of-our-attention">4. Can We Give Someone 100% of Our Attention?</h2>
+<p>Honestly, no. We are human. We will form impressions, and some of them will come from places we are not proud of. Asking a manager to never have an image is like asking the body to never feel a change in temperature.</p>
+<p>But the body does not stop at feeling. When we feel hot, we sweat. When we feel cold, we shiver. These are <strong>balancing loops</strong>, and they keep the system healthy despite disturbances. A resilient manager, like a resilient body, is not one who is never disturbed by an image. It is one who has a loop to recover from it.</p>
+<p>Here, Krishnamurti would push back on the word “try.” For him, the effort to be unbiased can become just another image: “I am the fair and open-minded leader.” That image is as much a wall as the first one. His point was that the seeing itself is the action. When you actually notice, in the moment, “I have just decided something about this person before they finished speaking,” that noticing already loosens the image. He often described observing without evaluating as one of the highest forms of intelligence.</p>
+<p>So the goal is not to reach 100% attention. The goal is to catch the image as it forms.</p>
+<div class="cell" data-fig-width="5" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-self-feedback" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-self-feedback-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-self-feedback">flowchart LR
+  ST[("The Image")] --&gt; N[Notice the&lt;br/&gt;conclusion forming]
+  N --&gt; O["Separate what I saw&lt;br/&gt;from what I concluded"]
+  O --&gt; Q[Ask before deciding]
+  Q --&gt; L[Learn the&lt;br/&gt;actual person]
+  L -. "drains" .-&gt; ST
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-self-feedback-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Self-feedback as a balancing loop
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>In practice, for a manager, this self-feedback loop can be quite simple:</p>
+<ul>
+<li><strong>Notice the label as it forms.</strong> “He’s from there, so he’ll probably…” Catch the sentence halfway. There is no need to judge yourself. Just see it.</li>
+<li><strong>Separate observation from conclusion.</strong> “She was quiet in the meeting” is an observation. “She is not confident” is a conclusion. Chris Argyris called this the <em>ladder of inference</em>. Most of the image lives in the jump between those two steps.</li>
+<li><strong>Ask before concluding.</strong> One genuine question, “How would you approach this?”, gives the real person a chance to show up instead of the image.</li>
+<li><strong>Treat borrowed images as hearsay.</strong> “I heard he is difficult” is someone else’s stock flowing into yours. Hold it lightly until you have seen it yourself.</li>
+<li><strong>Respect the delay.</strong> Do not let an impression from week one decide the work in month three.</li>
+</ul>
+<p>Meadows says that one of the highest leverage points in any system is the <strong>paradigm</strong>, the mindset out of which the whole system arises. Processes, rules and policies matter, but they sit lower. A diversity policy can change who gets hired. Only the manager’s way of seeing can change who gets <em>heard</em>.</p>
+</section>
+<section id="my-learnings" class="level2">
+<h2 class="anchored" data-anchor-id="my-learnings">5. My Learnings</h2>
+<p>As a Data Scientist, I find one irony hard to ignore. We would never build a model on a single feature. We would never predict a customer’s behavior only from their pin code, and if a junior analyst did that, we would send the model back. We segment, we test, we look for interactions, we validate on new data. And yet, in our own heads, we do exactly that with people. One variable, where someone is from, and the prediction is already made.</p>
+<p>Having moved across organizations and countries over my career, I have been the new person in the room many times. I know how long it takes to learn the names, the acronyms and the way things are done, and how easily that period can be read as something it is not. I have also been the manager in the room, and I am sure I have held images of people that they never got the chance to correct.</p>
+<p>What Krishnamurti and Meadows together taught me is that this is not mainly a question of being a good person. It is a question of seeing accurately. A leader who manages images instead of people makes worse decisions, not only unkind ones, because the information going into those decisions is wrong. In the language of my previous article, the manager’s mind is part of the team’s information flow, and if that flow is distorted, the whole system learns the wrong lesson.</p>
+<p>So, as a manager, the question I am trying to ask myself is not “What do I know about this person?” It is “What have I actually seen, and what have I only assumed?” It is not about arriving at someone based on what others assume, or what I assume. It is about genuinely learning from them.</p>
+<p>I will not always get this right. But like every feedback loop, this one grows stronger with use and weakens without it.</p>
+<p>The image is built once, without effort. Seeing has to be exercised.</p>
+<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
+</script>
+
+
+</section>
+
+ ]]></description>
+  <category>Leadership</category>
+  <category>Systems Thinking</category>
+  <category>Philosophy</category>
+  <category>Management</category>
+  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/image-and-person/</guid>
+  <pubDate>Thu, 15 Oct 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/image-and-person/image.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>THINKING IN SYSTEMS WITH AI</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
@@ -2552,103 +2753,6 @@ na chaiva na bhaviṣhyāmaḥ sarve vayamataḥ param</em></p>
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode3/old_index.html</guid>
   <pubDate>Tue, 05 Nov 2024 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>CRIMES AGAINST WOMEN</title>
-  <dc:creator>Arun Koundinya Parasa</dc:creator>
-  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>These days, every brat on <code>YouTube</code> speaks about their fundamental right to <code>freedom of expression</code>. However, I would love to keep <code>Human Rights</code> on a higher plane compared to <code>Fundamental Rights</code> as <code>Violence against Women and Girls</code> is one of the world’s most prevalent human rights violations and a global pandemic. Violence in any form creates physical, economic and psychological consequences not only for women but also for the entire society. For this reason, <code>Ved Vyas</code> himself penned <code>Devi Bhagavata Purana</code> to uphold the dignity of women in our society.</p>
-<p>In the first place, let us explore the types of violence against women. As per my comprehension, I have categorized them into six categories: Domestic Violence, Sexual Harassment, Harassment, POCSO, Sexual Violence and Cyber Crime. The below graph depicts the trend of violence against women between 2019 and 2021 in India.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/images/Plot1_ViolenceCategory_Trend.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="893"></p>
-</figure>
-</div>
-<section id="types-of-violence-against-women" class="level2">
-<h2 class="anchored" data-anchor-id="types-of-violence-against-women">Types of Violence against women</h2>
-<section id="domestic-violence" class="level3">
-<h3 class="anchored" data-anchor-id="domestic-violence">Domestic Violence</h3>
-<p>According to United Nations, domestic Violence includes acts of <code>physical violence</code> such as slapping, chocking or burning, <code>sexual violence</code> including spousal rape, <code>psychological violence</code> such as fear by intimidation or forced isolation, and <code>economic violence</code> by maintaining total control over financial resources, withholding access to money or forbidding attendance to employment. In the Indian Context, there are four major crime headings under which we can register a case:</p>
-<ul>
-<li>Cruelty by husband or relatives</li>
-<li>Dowry Death</li>
-<li>Abetment of Suicide of Women</li>
-<li>PWDVA - Protection of Women from Domestic Violence Act</li>
-</ul>
-<p>The total number of cases registered under domestic Violence in 2021 is 1,62,354, which translates to <code>11</code> domestic cases in one year for every 1 Lac (1,00,000) population (25,000 households). We can only infer on this metric if we have a comparison. Let’s do some fact check: the number of domestic cases registered for every 1 Lac (1,00,000) population in the USA and Norway is <code>300</code> and <code>106</code> respectively. Wow!!! India scored a bingo on this metric, and yet we have less <code>women</code> representation in the workforce. Where is the leak?</p>
-<p>The leak is in reporting. People who understand the geo-socio-economical dynamics would love to argue that this is a gross under-reported number. Reporting of such crimes depends upon the community, and for various reasons, including lack of social support, shame, and stigma, women selectively report cases. Although systematic gaps exist in registering the cases, most of us are merely mute spectators. Adding to this, domestic Violence is one of the most common forms of Violence experienced by women globally. As per the NFHS report, on average, Indian women are 17 times more likely to face sexual Violence from their husbands than others and we see almost negligble cases under this crime. So, under this context, have we normalized domestic Violence as a society?</p>
-</section>
-<section id="sexual-harassment-and-harassment" class="level3">
-<h3 class="anchored" data-anchor-id="sexual-harassment-and-harassment">Sexual Harassment and Harassment</h3>
-<p>Sexual Harassment and Harassment include verbal, non-verbal, or physical conduct, as well as written and electronic communications. It includes acts of verbal threat, acid attack, kidnap/abduction, abuse, unwanted touching, rubbing/brushing, repeatedly asking for dates/sex, comments on appearance, bodyparts, clothing and others. Coming to the Indian Context, the following are the major crime headings we can register a case:</p>
-<ul>
-<li>Acid attack</li>
-<li>Attempt to acid attack</li>
-<li>Kidnapping and abduction of women</li>
-<li>Insult to the modesty of women</li>
-<li>Assault on women with intent to outrage her modesty</li>
-<li>Indecent representation of women</li>
-</ul>
-<p>The total number of cases registered under this category in 2021 is 1,73,015, which translates to <code>12</code> cases in one year for every 1 Lac (1,00,000) population (25,000 households). The USA and Norway have similar numbers of around <code>11</code> cases per year for every 1 Lac population. It is obvious from the crime descriptions that these cases are copious enough to be registered, and they do not come up with any stigma attached, so the cases registered are on par with those of developed economies.</p>
-</section>
-<section id="pocso" class="level3">
-<h3 class="anchored" data-anchor-id="pocso">POCSO</h3>
-<p>POCSO is referred to as <code>Protection of children from sexual offences</code>. Often, these include acts of sexual assault, harassment, child pornography and others. So, to make this more holistic category, I have added selling and buying minor girls under this heading:</p>
-<ul>
-<li>Selling of minor girls</li>
-<li>Buying of minor girls</li>
-<li>POCSO Act</li>
-</ul>
-<p>The total number of cases registered under this crime heading is 52,850 in 2021, which translates to approximately <code>4</code> cases per year for every 1 Lac. If we include child abuse cases, the majority would be of child marriage and forced labour. The numbers would shoot up to <code>129</code> cases per year for every 1 Lac. Of course, it is a bothersome problem in India, with millions of children being subjected to physical, emotional, and sexual abuse every year. The USA has similar numbers of around <code>130</code> cases per year for every 1 Lac.</p>
-<p>Although the cases registered are on par with developed economies, are they still underreported?</p>
-</section>
-<section id="sexual-violence" class="level3">
-<h3 class="anchored" data-anchor-id="sexual-violence">Sexual Violence</h3>
-<p>Sexual Violence is any harmful or unwanted sexual behaviour that is imposed on women. It includes abusive sexual contact, forced engagement in sexual acts, attempted or completed sexual acts with a woman without her consent, unwanted touching, incest, and others. In India, we can register cases of Sexual Violence under the following five headings as per my comprehension.</p>
-<ul>
-<li>Human Trafficking</li>
-<li>Rape</li>
-<li>Attempt to commit rape</li>
-<li>Immoral traffic prevention act</li>
-<li>Murder with rape or gang rape</li>
-</ul>
-<p>The total cases registered under this crime heading is 37,462 in 2021, which translates to approximately <code>3</code> cases per year for every 1 Lac While in the USA, it is approximately <code>20</code> cases per year for every 1 Lac. Based on these statistics, are developed countries more dangerous for women to stay and live in compared to India?</p>
-<p>As per the NFHS ( National Family Health Survey ) conducted in the year 2015-16, approximately <code>86%</code> of the Sexual Violence Crimes in India don’t get reported. This learning would equate to that of the USA, which has 21 cases per year for every 1 Lac of population. So, is there any social stigma attached to a rape victim?</p>
-</section>
-<section id="cyber-crime" class="level3">
-<h3 class="anchored" data-anchor-id="cyber-crime">Cyber Crime</h3>
-<p>Cybercrime affects women the most. It subjects them to mental and emotional harassment. The most common cyber crimes against women include blackmail, threats, cyberpornography, and publishing of obscene sexual content. It also includes stalking, bullying, defamation, morphing, and the establishment of fake profiles.</p>
-<p>Although we see numerous fake profiles and online abuse of women, only 2,597 cases were registered in 2021. In the USA, the number of reported cases is approximately 10,000. This type of crime looks to be malignant. So, women block the online perpetrator’s profile or go offline from social media for a few days instead of reporting. Under this context, are women fostering any societal habit?</p>
-</section>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>Earlier, I planned to provide my opinion on the questions in the previous sections. However, questions are sufficient for the reader to introspect and comprehend. Of course, every reader can understand in many ways, but if we realize that everything starts at home, then I’m happy.</p>
-<p>Finally, I would like to present the correlation plot among these categories. The notable fact in this correlation plot is that <code>Domestic Violence</code> is highly correlated with <code>Harassment</code> and <code>Sexual Violence</code>. Does it communicate how we treat women at home, and does the same behaviour percolate in society?</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/images/Plot4_ViolenceCategory_Correlation.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="846"></p>
-</figure>
-</div>
-<p>Finally I would like to end the essay with a famour quote from Swami Vivekananda - “All Nations have attained greatness by praying proper respect to women. That Country and nation which do not respect women has never become great, nor will ever be in future”.</p>
-<p>Note: Readers can go through the detailed visualization in my <a href="https://arunkoundinya.github.io/TidyTuesday/tidy-analysis/22072024/">TidyTuesday</a> Blog.</p>
-<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
-</script>
-
-
-</section>
-
- ]]></description>
-  <category>crimes against women</category>
-  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/</guid>
-  <pubDate>Thu, 25 Jul 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/image.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
