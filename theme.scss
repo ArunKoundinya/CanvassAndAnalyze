@@ -624,3 +624,11 @@ a.thread.active {
 }
 a.thread.active .thread-cta::after { content: " ✓"; }
 div.thread[aria-disabled] { cursor: default; opacity: .8; }
+.threads-hint {
+  text-align: center;
+  font-family: $font-family-sans-serif;
+  font-size: .82rem !important;
+  color: $muted;
+  margin: 1.2rem 0 0;
+  &::before { content: "↑ "; color: $terracotta; }
+}

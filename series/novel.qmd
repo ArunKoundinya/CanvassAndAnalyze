@@ -73,28 +73,29 @@ A novel in the making, published chapter by chapter. Eight lives, each carrying 
 
 ```{=html}
 <script>
-// Show only the chapters of the selected thread (Sanjay by default, or the one in the URL hash).
+// Chapters stay hidden until a thread is chosen; clicking the open thread again closes it.
 (function () {
   document.documentElement.classList.add("threads-js");
   const cards = document.querySelectorAll(".thread[data-panel]");
   const panels = document.querySelectorAll(".thread-panel");
   function show(name, scroll) {
-    if (!document.getElementById("thread-" + name)) return;
     panels.forEach(p => p.classList.toggle("active", p.id === "thread-" + name));
     cards.forEach(c => {
       const on = c.dataset.panel === name;
       c.classList.toggle("active", on);
-      c.setAttribute("aria-selected", on);
+      c.setAttribute("aria-expanded", on);
     });
-    if (scroll) document.getElementById("thread-" + name).scrollIntoView({ behavior: "smooth", block: "start" });
+    const panel = name && document.getElementById("thread-" + name);
+    if (panel && scroll) panel.scrollIntoView({ behavior: "smooth", block: "start" });
   }
   cards.forEach(c => c.addEventListener("click", e => {
     e.preventDefault();
-    history.replaceState(null, "", "#thread-" + c.dataset.panel);
-    show(c.dataset.panel, true);
+    const name = c.classList.contains("active") ? null : c.dataset.panel;
+    history.replaceState(null, "", name ? "#thread-" + name : location.pathname);
+    show(name, !!name);
   }));
   const fromHash = (location.hash.match(/^#thread-(\w+)/) || [])[1];
-  show(fromHash || "sanjay", !!fromHash);
+  show(fromHash || null, !!fromHash);
 })();
 </script>
 ```
