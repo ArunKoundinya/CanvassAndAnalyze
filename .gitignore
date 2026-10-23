@@ -5,3 +5,4 @@ posts/.DS_Store
 
 posts/*/.Rhistory
 posts/.DS_Store
+.claude/launch.json
