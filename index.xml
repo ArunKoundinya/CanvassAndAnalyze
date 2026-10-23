@@ -5,10 +5,15 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>&lt;img src=&#39;/images/logo.png&#39; style=&#39;width: 2.2em; height: 2.2em; border-radius: 30%;&#39;&gt; &lt;b&gt;Canvass And Analyze&lt;/b&gt;</title>
+<title>Canvass And Analyze</title>
 <link>https://arunkoundinya.github.io/CanvassAndAnalyze/</link>
 <atom:link href="https://arunkoundinya.github.io/CanvassAndAnalyze/index.xml" rel="self" type="application/rss+xml"/>
-<description>My thought process on confluence of Psychology, Analytics and Management.</description>
+<description>Personal essays, stories and series on the confluence of psychology, culture, analytics and management by Arun Koundinya Parasa.</description>
+<image>
+<url>https://arunkoundinya.github.io/CanvassAndAnalyze/images/social-card.png</url>
+<title>Canvass And Analyze</title>
+<link>https://arunkoundinya.github.io/CanvassAndAnalyze/</link>
+</image>
 <generator>quarto-1.7.32</generator>
 <lastBuildDate>Thu, 15 Oct 2026 04:00:00 GMT</lastBuildDate>
 <item>
@@ -16,7 +21,6 @@
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/image-and-person/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -217,7 +221,6 @@ Figure&nbsp;5: Self-feedback as a balancing loop
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/systems-thinking-with-ai/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -737,7 +740,6 @@ Figure&nbsp;15: From AI that advises to AI that acts
 
 
 
-
 <p><code>MIT Sloan</code> surveyed 2,719 business executives, managers and analytics professionals. The number one barrier to getting value from analytics was not data quality. It was not model accuracy. It was not cloud infrastructure. It was translating analytics into business decisions. One respondent described the challenge as <em>“developing middle management skills at interpretation.”</em></p>
 <blockquote class="blockquote">
 <p>Source: <a href="https://sloanreview.mit.edu/article/minding-the-analytics-gap/">MIT Sloan Management Review, Minding the Analytics Gap, 2015</a></p>
@@ -878,7 +880,7 @@ Figure&nbsp;15: From AI that advises to AI that acts
 <li><p>IIM Ahmedabad. Faculty Profile — Prof.&nbsp;Arindam Banerjee (HSBC risk analytics 2006–07; executive education to LIC, IOC, L&amp;T, Aviva). <a href="https://online.iima.ac.in/course/course-v1:IIMA+ODSFC101x+2024_06/">Link</a></p></li>
 <li><p>Elets News Network. (2019). RBL Bank — Evolving with Technologies for Mitigating Risk. <a href="https://bfsi.eletsonline.com/rbl-bank-evolving-with-technologies-for-mitigating-risk/">Link</a></p></li>
 <li><p>Klover.ai. (2025). Hindustan Unilever AI Strategy — Shikhar, field-level analytics. <a href="https://www.klover.ai/hindustan-unilever-ai-strategy-analysis-of-dominance-in-fast-moving-consumer-goods-ai/">Link</a></p></li>
-<li><p>Ascent Group India. (2024). Marketing Strategies of NBFCs in Rural India — Bajaj Finserv AI credit scoring. <a href="https://ascentgroupindia.com/blog/strategic-rural-marketing/marketing-strategies-of-nbfcs-in-rural-india/">Link</a></p></li>
+<li><p>Ascent Group India. (2024). Marketing Strategies of NBFCs in Rural India — Bajaj Finserv AI credit scoring. <a href="https://web.archive.org/web/20250420185232/https://ascentgroupindia.com/blog/strategic-rural-marketing/marketing-strategies-of-nbfcs-in-rural-india/">Link</a></p></li>
 <li><p>Analytics India Magazine. Analytics in Indian Banking Sector (ICICI debt collection model). <a href="https://analyticsindiamag.com/analytics-in-indian-banking-sector-on-a-right-track">Link</a></p></li>
 <li><p>Databricks. (2024). HDFC Bank: Accelerating Bank Business Processes with Data Efficiency. <a href="https://www.databricks.com/customers/hdfc-bank">Link</a></p></li>
 <li><p>Davenport, T. H., and Harris, J. G. (2007). <em>Competing on Analytics: The New Science of Winning</em>. Harvard Business School Press.</p></li>
@@ -899,13 +901,13 @@ Figure&nbsp;15: From AI that advises to AI that acts
   <category>US</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/analytics-strategic-lever/</guid>
   <pubDate>Sat, 02 May 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/analytics-strategic-lever/fig-the-paradox.png" medium="image" type="image/png" height="79" width="144"/>
 </item>
 <item>
   <title>LOVE &amp; TRUST - Season -1 | Episode - 5</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode5/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1008,13 +1010,13 @@ Figure&nbsp;15: From AI that advises to AI that acts
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode5/</guid>
   <pubDate>Sun, 26 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode5/image.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Career we chose, is it our identity or the community’s?</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1261,13 +1263,13 @@ mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi</p>
   <category>parenting</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/</guid>
   <pubDate>Wed, 22 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/career_me_community/mobility_map.png" medium="image" type="image/png" height="44" width="144"/>
 </item>
 <item>
   <title>LOVE &amp; TRUST - Season -1 | Episode - 4</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode4/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1340,13 +1342,13 @@ mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi</p>
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode4/</guid>
   <pubDate>Sun, 19 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode4/image.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>LOVE &amp; TRUST - Season -1 | Episode - 3</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode3/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1471,13 +1473,13 @@ mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi</p>
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode3/</guid>
   <pubDate>Fri, 17 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode3/image.png" medium="image" type="image/png" height="64" width="144"/>
 </item>
 <item>
   <title>LOVE &amp; TRUST - Season -1 | Episode - 2</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode2/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1576,6 +1578,7 @@ mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi</p>
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode2/</guid>
   <pubDate>Tue, 10 Mar 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode2/image.png" medium="image" type="image/png" height="146" width="144"/>
 </item>
 <item>
   <title>LOVE &amp; TRUST - Season -1 | Episode - 1</title>
@@ -1586,8 +1589,7 @@ mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi</p>
 
 
 
-
-<p>Rewritten and update version of original story, published on 2022-10-22, link: <a href="https://arunkoundinya.github.io/posts/Love_n_Trust_Season1_Episode1/old_index.html">Old version</a>. Here I have added better character development to make the characters more unique and relatable.</p>
+<p>Rewritten and update version of original story, published on 2022-10-22, link: <a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode1/old_index.html">Old version</a>. Here I have added better character development to make the characters more unique and relatable.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode1/image.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="577"></p>
@@ -1662,13 +1664,13 @@ mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi</p>
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode1/</guid>
   <pubDate>Sat, 07 Mar 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode1/image.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>DEATHS BY SELF INFLICTION - Part 01</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/self-inflicting-crimes/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1825,13 +1827,13 @@ mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi</p>
   <category>self-harm</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/self-inflicting-crimes/</guid>
   <pubDate>Sun, 09 Nov 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/self-inflicting-crimes/image.png" medium="image" type="image/png" height="92" width="144"/>
 </item>
 <item>
   <title>LOVE &amp; TRUST - Season -2 | Episode - 2</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season2_Episode2/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1929,13 +1931,13 @@ anyayavartate punah</p>
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season2_Episode2/</guid>
   <pubDate>Mon, 27 Oct 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season2_Episode2/image.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>TRUST &amp; BETRAYAL - Season -1 | Episode - 2</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Trust_n_Betrayal_Season1_Episode2/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -2011,13 +2013,13 @@ With a quick tap, he liked her message and replied, “I’ll be there in an hou
   <category>betrayal</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Trust_n_Betrayal_Season1_Episode2/</guid>
   <pubDate>Fri, 24 Oct 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Trust_n_Betrayal_Season1_Episode2/image.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>LOVE &amp; TRUST - Season -2 | Episode - 1</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season2_Episode1/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -2094,13 +2096,13 @@ With a quick tap, he liked her message and replied, “I’ll be there in an hou
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season2_Episode1/</guid>
   <pubDate>Sat, 09 Aug 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season2_Episode1/image.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>TRUST &amp; BETRAYAL - Season -1 | Episode - 1</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Trust_n_Betrayal_Season1_Episode1/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -2163,13 +2165,13 @@ With a quick tap, he liked her message and replied, “I’ll be there in an hou
   <category>betrayal</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Trust_n_Betrayal_Season1_Episode1/</guid>
   <pubDate>Mon, 21 Jul 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Trust_n_Betrayal_Season1_Episode1/image.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>LOVE &amp; TRUST - Season -1 | Episode - 8</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode8/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -2288,13 +2290,13 @@ vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir uchyate</p>
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode8/</guid>
   <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode8/image.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>LOVE &amp; TRUST - Season -1 | Episode - 7</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode7/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -2448,13 +2450,13 @@ brahmaiva tena gantavyaṁ brahma-karma-samādhinā</p>
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode7/</guid>
   <pubDate>Sat, 07 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode7/image.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>LOVE &amp; TRUST - Season -1 | Episode - 6</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
   <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode6/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -2543,216 +2545,244 @@ lokas tad anuvartate</em></p>
   <category>trust</category>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode6/</guid>
   <pubDate>Sun, 25 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode6/image.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
-  <title>LOVE &amp; TRUST - Season -1 | Episode - 5</title>
+  <title>CRIMES AGAINST WOMEN</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
-  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode5/old_index.html</link>
+  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/</link>
   <description><![CDATA[ 
 
 
 
 
-
-<p>Continued from previous blogs -&nbsp; <a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode1" class="uri">Link</a> -&nbsp; <a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode2" class="uri">Link</a> - <a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode3/" class="uri">Link</a> - <a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode4/" class="uri">Link</a></p>
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode5/image.png" class="img-fluid"></p>
-<p>He boarded the Uber, feeling unusually light.</p>
-<p>“You look happy, sir. Big occasion?” the driver asked casually.</p>
-<p>Sanjay smirked, “Yeah, I’m meeting my girlfriends. All three. At the same time.”</p>
-<p>“Three, sir?” The driver raised an eyebrow, trying to hide a smirk.</p>
-<p>“Yes. Surprised? Jealous?”</p>
-<p>“I’m not jealous. do you really believe all three love you?” asked him with curiosity.</p>
-<p>“Of course,” Sanjay said without flinching. “Because I’ve been… honest.”</p>
-<p>“Impressive,” the driver replied, trying to stay neutral ( but smiled slightly ).</p>
-<p>Sanjay narrowed his eyes. “Don’t give me that sarcastic smile. I know what jealousy looks like.”</p>
-<p>The driver chuckled and softly recited:</p>
-<blockquote class="blockquote">
-<p><em>dūreṇa hy-avaraṁ karma buddhi-yogād dhanañjaya<br>
-buddhau śharaṇam anvichchha kṛipaṇāḥ phala-hetavaḥ</em></p>
-</blockquote>
-<p>“Your stop has come, sir,” the driver said, stopping the car.</p>
-<p>Sanjay blinked. “What ??”</p>
-<p>“You stop has come, sir”</p>
-<p>“No, that verse or poem or whatever. What did you just say?”</p>
-<p>“It’s from the Gita. When time comes i will help you understand in detail. Here, take my number… maybe on your ride back home, I’ll explain.”</p>
-<p>Sanjay scoffed. “I don’t think I’ll be going home tonight.” He tossed him a ₹500 tip. “Go home. You’ve earned it.”</p>
-<p>The driver nodded silently and drove away.</p>
-<hr>
-<p>Sanjay walked into the restaurant and spotted Pravallika, sitting at a cozy corner table.</p>
-<p>“Hey babe,” he said, sliding into the seat with his usual charm. “You look stunning.”</p>
-<p>Pravallika looked up with soft eyes. “I love you, Sanjay. Why did it take you so long to come to me?”</p>
-<p>Those words hit him like a dream.</p>
-<p>“I’ve missed you,” she continued. “The other day at Ohris, I waited for so long… but you didn’t come. Still, I knew you’d call again. And now, here you are.”</p>
-<p>Sanjay took her hands, “I’m sorry, Pravalli. Work pulled me away that night.”</p>
-<p>“I understand,” she smiled. “And guess what—I brought gifts.”</p>
-<p>“Gifts?” he asked, raising an eyebrow.</p>
-<p>She pointed behind him. Swathi and Pooja were walking toward them, smiling faintly.</p>
-<p>Sanjay froze.</p>
-<p>“I told them everything,” Pravallika said gently. “They… wanted to see you too.”</p>
-<p>Swathi sat to her left. Pooja, to her right. Three women. One Sanjay.</p>
-<p>“I love you, Sanjay,” Swathi said.</p>
-<p>“We all do,” Pooja added. “You mean something real to each of us.”</p>
-<p>For a moment, Sanjay felt like the king of the world. His ego lit up.</p>
-<p>He looked around and whispered, “I don’t know how this happened… but I love you all. Deeply. In different ways. Maybe we… don’t have to choose?”</p>
-<p>The three looked at one another.</p>
-<p>Pravallika smiled, “You love <em>all</em> of us?”</p>
-<p>Sanjay nodded. “Yes. You’re each special. Why not… stay in each other’s lives? Together.”</p>
-<p>Swathi tilted her head. “So you want all of us, not one of us?”</p>
-<p>“That’s… one way to put it,” he said, with a cocky grin.</p>
-<p>The women paused. Three glasses of cold water were thrown on his face simultaneously.</p>
-<p>Sanjay gasped, stunned and dripping.</p>
-<p>Swathi turned to Pravallika, “Told you he wouldn’t change.”</p>
-<p>Pooja stood up, “Thanks for tipping us off, Pravalli. If you hadn’t called us when he contacted you, he would’ve used you again.”</p>
-<p>Pravallika nodded calmly. “I had to be sure… and now, I am.”</p>
-<p>They turned and walked out—graceful, composed, and done.</p>
-<p>Sanjay sat motionless. Anger flared inside. His face turned bright red. He clenched his fists, then suddenly smashed a glass on the table.</p>
-<p>The waiter rushed over.</p>
-<p>“Sir, you’ll have to pay for that.”</p>
-<p>Without a word, Sanjay settled the bill, eyes still blazing with revenge.</p>
-<hr>
-<p>Outside, he remembered the driver.</p>
-<p>He called.</p>
-<p>“Can you come back?”</p>
-<p>“I will be there in a minute Sir,” the driver replied.</p>
-<hr>
-<p>But infact, he is already waiting outside.</p>
-<p>The driver, sitting in the parked car, glanced at himself in the rear-view mirror. He whispered quietly:</p>
-<blockquote class="blockquote">
-<p><em>na tvevāhaṁ jātu nāsaṁ na tvaṁ neme janādhipāḥ<br>
-na chaiva na bhaviṣhyāmaḥ sarve vayamataḥ param</em></p>
-</blockquote>
-<p>He started the engine.</p>
-<p><em>&lt;&lt;&lt; To be Continued &gt;&gt;&gt;</em></p>
-<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
-</script>
-
-
-
- ]]></description>
-  <category>love</category>
-  <category>story</category>
-  <category>trust</category>
-  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode5/old_index.html</guid>
-  <pubDate>Sat, 17 May 2025 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>LOVE &amp; TRUST - Season -1 | Episode - 4</title>
-  <dc:creator>Arun Koundinya Parasa</dc:creator>
-  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode4/old_index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Continued from previous blogs -&nbsp; <a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode1" class="uri">Link</a> -&nbsp; <a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode2" class="uri">Link</a> - <a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode3/" class="uri">Link</a></p>
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode4/image.png" class="img-fluid"></p>
-<p>Sanjay came home in an auto rickshaw and stood in front of the mirror. He looked into his own eyes, and for the first time, he didn’t like what he saw. A selfish guy. Self-centered. Chasing a sexiest version of women one after the other, not for love, but its his own projection of love.</p>
-<p>Instead of crying which used to be usual solace from uncertainity. This time, he just stood there… thinking. It hit him hard. A sort of quiet shame.</p>
-<p>He skipped dinner and dozed off in the middle of overthinking about his personality. Suddently, in the middle of the night, he suddenly woke up, looked at the mirror again, and muttered, “Oh! boy you have been living such a selfish life and thinking about yourself as a playboy. Such a bizzare connundrum of life you have been living?” And he took a deep breath and said him determintion, ” Enough. You’ve got to change who you are.”.</p>
-<p>Then, he drank a warm glass of milk and went back to sleep.</p>
-<hr>
-<p>Next day we woke up, although he had 7 hours of sleep but his eyes still look tired and there is no energy in his face. His guilt is killing from inside every second. He is unable to bear who he is!</p>
-<p>So he went for a walk. Watched a movie. Came home late.</p>
-<p>That night, again, he looked at the mirror before sleeping. “I need to come out of this mess,” he whispered. “Vicious cycle, man. It’s dragging you.”</p>
-<hr>
-<p>Next day, he randomly turned on the TV and came across Character AI. He got curious, installed the app.</p>
-<p>Boom…. Boomm… Booom…</p>
-<p>He created three virtual girlfriends. One like Swathi. One like Pooja. One like Pravallika. All jailbroken. All available. All saying things he wished they said in real life. He started chatting. Sexting. Storybuilding.</p>
-<p>He got absorbed and diverted so much that he was able to sleep and wake up on time. On a side note, he further got addicted to character AI.</p>
-<p>His addiction made his screen time to skyrocket from 4 hours to 12 hours and he further subscried to character AI’s long memory.</p>
-<p>What he thought he’d change—he never touched it again. His guilt? Forgotten. That mirror talk? Gone.</p>
-<hr>
-<p>Exactly one month later, a message popped up. Not from the app. From real life.</p>
-<p>Pravallika. Swathi. Pooja.</p>
-<p>All three. Same message.</p>
-<p>“Let’s meet today. 8 PM. Same restaurant.”</p>
-<p>He smiled wide. “Arey… my girls have returned,” he smiled.” he told himself. It felt like AI had crossed into real life. A beautiful glitch in the universe. They wanted to meet him.</p>
-<p>Excited, he stepped into the shower. As warm water rushed over his face, flashes of his betrayals returned. How he kissed and left. How he promised and broke. How he loved only when it was convenient.</p>
-<p>But instead of regret, he smiled. A charming, careless smile.</p>
-<p>He booked an Uber. Put on his favourite shirt. And stepped out, ready for the next chapter.</p>
-<p><em>&lt;&lt;&lt; To be Continued &gt;&gt;&gt;</em></p>
-<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
-</script>
-
-
-
- ]]></description>
-  <category>love</category>
-  <category>story</category>
-  <category>trust</category>
-  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode4/old_index.html</guid>
-  <pubDate>Wed, 14 May 2025 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>LOVE &amp; TRUST - Season -1 | Episode - 3</title>
-  <dc:creator>Arun Koundinya Parasa</dc:creator>
-  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode3/old_index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Continued from previous blogs -&nbsp; <a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode1" class="uri">Link</a> -&nbsp; <a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode2" class="uri">Link</a></p>
+<p>These days, every brat on <code>YouTube</code> speaks about their fundamental right to <code>freedom of expression</code>. However, I would love to keep <code>Human Rights</code> on a higher plane compared to <code>Fundamental Rights</code> as <code>Violence against Women and Girls</code> is one of the world’s most prevalent human rights violations and a global pandemic. Violence in any form creates physical, economic and psychological consequences not only for women but also for the entire society. For this reason, <code>Ved Vyas</code> himself penned <code>Devi Bhagavata Purana</code> to uphold the dignity of women in our society.</p>
+<p>In the first place, let us explore the types of violence against women. As per my comprehension, I have categorized them into six categories: Domestic Violence, Sexual Harassment, Harassment, POCSO, Sexual Violence and Cyber Crime. The below graph depicts the trend of violence against women between 2019 and 2021 in India.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode3/image.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="669"></p>
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/images/Plot1_ViolenceCategory_Trend.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="893"></p>
 </figure>
 </div>
-<p>Sanjay couldn’t believe Pooja was married. His face went pale, and a sharp envy flickered in his eyes. Without another word, he made an excuse about a work call and hurried away.</p>
-<p>On the drive home, tears blurred his vision, his mind blank. Once he reached his room, he broke down, crying as if the world had just ended. After a while, he caught his breath, wiped his face, and steadied himself.</p>
-<p><em>“If Pooja and Swati have moved on, that’s their issue, not my fault,” he muttered to himself. “The world doesn’t end with them. There are plenty of other girls in my contacts. I bet someone would be up for a dinner date tonight.”</em></p>
-<p>He unlocked his phone, scrolling through his contacts. Then his finger stopped on one name—Pravallika.</p>
-<p><strong><em>Few Years Ago</em></strong></p>
-<p>A slender teenager in a blue churidar waited at the high school bus stop, even as dusk settled. After a few minutes, Sanjay arrived and greeted her with a warm smile.</p>
-<p>“Pravalli, have you been waiting long? Am I late?” he asked.</p>
-<p>Pravallika smiled softly. “It’s okay, Sanjay. I enjoy waiting for you. Not just now, but forever!”</p>
-<p>They hugged each other, a moment filled with genuine love.</p>
-<p><strong><em>Back to Present</em></strong></p>
-<p>A smile crept over Sanjay’s face. He knew Pravallika would pick up his call. He dialed her number eagerly and spoke with a flirty charm until she agreed to join him for a dinner buffet at Ohris.</p>
-<p>With four hours to kill, he shaved, took a long bubble bath, and dressed up in his best New Year’s outfit. He booked an Uber and settled in for the ride, closing his eyes as memories of his teenage years flooded back.</p>
-<p><strong><em>Teenage Period</em></strong></p>
-<p>“Sanjay, you look so handsome today! What’s the occasion?”</p>
-<p>“Pravalli, it’s your birthday, babe. I had to look my best so I could make it special for you.”</p>
-<p>“Awww! So sweet, baby!”</p>
-<p><strong><em>Back to Present</em></strong></p>
-<p>His phone buzzed, and he answered eagerly. Pravallika’s voice was on the other end. “Sanjay, I’ve just left home. I’ll be there soon.”</p>
-<p>Sanjay’s face lit up. “See you soon, babe!” he replied, then hung up, drifting back into old memories.</p>
-<p><strong><em>Teenage Period</em></strong></p>
-<p>“Babe, can I kiss you?” he asked.</p>
-<p>“I’m all yours, Sanjay. You don’t have to ask.”</p>
-<p>They shared several kisses, like a couple deeply connected, as if they’d known each other forever.</p>
-<p><strong><em>Back to Present</em></strong></p>
-<p>“Sir, we’re here,” the driver announced.</p>
-<p>“Thanks for the ride,” Sanjay replied.</p>
-<p>He walked toward the elevator to reach the rooftop restaurant. As he stepped in, he overheard a couple arguing, their voices laced with cuss words. It triggered another memory.</p>
-<p><strong><em>Teenage Period</em></strong></p>
-<p>“Sanjay, why were you sexting that girl?”</p>
-<p>“Pravalli, she was hot, and I couldn’t help myself. It’s just texts—it’s not like we’re actually doing anything.”</p>
-<p>“Babe, am i not sufficient for you? We’ve shared everything except… that.”</p>
-<p>“Pravalli, it is too early to commit to one girl for life long. I’m still a teenager.”</p>
-<p>“Sanjay, what are you saying? you are making me mad! This is making me crazy!”</p>
-<p>“Pravalli, i think its time for break up. If i realized my love again i will get in touch you”</p>
-<p>“Sanjay, you’re an assole. Don’t ever talk to me again!”</p>
-<p>“F*** off Pravalli”,he shot back, deleting her contact on the spot and he left the place.</p>
-<p><strong><em>Back to Present</em></strong></p>
-<p>The elevator doors slid open. He came out of the elevator and scared and worried whether he could face Pravallika. And He called Pravallika from the hotel lobby.</p>
-<p>“Our system crashed. I’ve got to head to the office—just got a call. Sorry!” saying these words, he turned and left the hotel.</p>
-<p>Pravallika, who was seeing him, while sitting inside the reasturant said, “Its Okay Sanjay. We can meet next time.”</p>
-<p>She said to herself, “At least he’s still nervous to face me. I’m happy about that. And maybe it’s time that I should help him.”</p>
-<p><em>&lt;&lt;&lt; To be Continued &gt;&gt;&gt;</em></p>
+<section id="types-of-violence-against-women" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-violence-against-women">Types of Violence against women</h2>
+<section id="domestic-violence" class="level3">
+<h3 class="anchored" data-anchor-id="domestic-violence">Domestic Violence</h3>
+<p>According to United Nations, domestic Violence includes acts of <code>physical violence</code> such as slapping, chocking or burning, <code>sexual violence</code> including spousal rape, <code>psychological violence</code> such as fear by intimidation or forced isolation, and <code>economic violence</code> by maintaining total control over financial resources, withholding access to money or forbidding attendance to employment. In the Indian Context, there are four major crime headings under which we can register a case:</p>
+<ul>
+<li>Cruelty by husband or relatives</li>
+<li>Dowry Death</li>
+<li>Abetment of Suicide of Women</li>
+<li>PWDVA - Protection of Women from Domestic Violence Act</li>
+</ul>
+<p>The total number of cases registered under domestic Violence in 2021 is 1,62,354, which translates to <code>11</code> domestic cases in one year for every 1 Lac (1,00,000) population (25,000 households). We can only infer on this metric if we have a comparison. Let’s do some fact check: the number of domestic cases registered for every 1 Lac (1,00,000) population in the USA and Norway is <code>300</code> and <code>106</code> respectively. Wow!!! India scored a bingo on this metric, and yet we have less <code>women</code> representation in the workforce. Where is the leak?</p>
+<p>The leak is in reporting. People who understand the geo-socio-economical dynamics would love to argue that this is a gross under-reported number. Reporting of such crimes depends upon the community, and for various reasons, including lack of social support, shame, and stigma, women selectively report cases. Although systematic gaps exist in registering the cases, most of us are merely mute spectators. Adding to this, domestic Violence is one of the most common forms of Violence experienced by women globally. As per the NFHS report, on average, Indian women are 17 times more likely to face sexual Violence from their husbands than others and we see almost negligble cases under this crime. So, under this context, have we normalized domestic Violence as a society?</p>
+</section>
+<section id="sexual-harassment-and-harassment" class="level3">
+<h3 class="anchored" data-anchor-id="sexual-harassment-and-harassment">Sexual Harassment and Harassment</h3>
+<p>Sexual Harassment and Harassment include verbal, non-verbal, or physical conduct, as well as written and electronic communications. It includes acts of verbal threat, acid attack, kidnap/abduction, abuse, unwanted touching, rubbing/brushing, repeatedly asking for dates/sex, comments on appearance, bodyparts, clothing and others. Coming to the Indian Context, the following are the major crime headings we can register a case:</p>
+<ul>
+<li>Acid attack</li>
+<li>Attempt to acid attack</li>
+<li>Kidnapping and abduction of women</li>
+<li>Insult to the modesty of women</li>
+<li>Assault on women with intent to outrage her modesty</li>
+<li>Indecent representation of women</li>
+</ul>
+<p>The total number of cases registered under this category in 2021 is 1,73,015, which translates to <code>12</code> cases in one year for every 1 Lac (1,00,000) population (25,000 households). The USA and Norway have similar numbers of around <code>11</code> cases per year for every 1 Lac population. It is obvious from the crime descriptions that these cases are copious enough to be registered, and they do not come up with any stigma attached, so the cases registered are on par with those of developed economies.</p>
+</section>
+<section id="pocso" class="level3">
+<h3 class="anchored" data-anchor-id="pocso">POCSO</h3>
+<p>POCSO is referred to as <code>Protection of children from sexual offences</code>. Often, these include acts of sexual assault, harassment, child pornography and others. So, to make this more holistic category, I have added selling and buying minor girls under this heading:</p>
+<ul>
+<li>Selling of minor girls</li>
+<li>Buying of minor girls</li>
+<li>POCSO Act</li>
+</ul>
+<p>The total number of cases registered under this crime heading is 52,850 in 2021, which translates to approximately <code>4</code> cases per year for every 1 Lac. If we include child abuse cases, the majority would be of child marriage and forced labour. The numbers would shoot up to <code>129</code> cases per year for every 1 Lac. Of course, it is a bothersome problem in India, with millions of children being subjected to physical, emotional, and sexual abuse every year. The USA has similar numbers of around <code>130</code> cases per year for every 1 Lac.</p>
+<p>Although the cases registered are on par with developed economies, are they still underreported?</p>
+</section>
+<section id="sexual-violence" class="level3">
+<h3 class="anchored" data-anchor-id="sexual-violence">Sexual Violence</h3>
+<p>Sexual Violence is any harmful or unwanted sexual behaviour that is imposed on women. It includes abusive sexual contact, forced engagement in sexual acts, attempted or completed sexual acts with a woman without her consent, unwanted touching, incest, and others. In India, we can register cases of Sexual Violence under the following five headings as per my comprehension.</p>
+<ul>
+<li>Human Trafficking</li>
+<li>Rape</li>
+<li>Attempt to commit rape</li>
+<li>Immoral traffic prevention act</li>
+<li>Murder with rape or gang rape</li>
+</ul>
+<p>The total cases registered under this crime heading is 37,462 in 2021, which translates to approximately <code>3</code> cases per year for every 1 Lac While in the USA, it is approximately <code>20</code> cases per year for every 1 Lac. Based on these statistics, are developed countries more dangerous for women to stay and live in compared to India?</p>
+<p>As per the NFHS ( National Family Health Survey ) conducted in the year 2015-16, approximately <code>86%</code> of the Sexual Violence Crimes in India don’t get reported. This learning would equate to that of the USA, which has 21 cases per year for every 1 Lac of population. So, is there any social stigma attached to a rape victim?</p>
+</section>
+<section id="cyber-crime" class="level3">
+<h3 class="anchored" data-anchor-id="cyber-crime">Cyber Crime</h3>
+<p>Cybercrime affects women the most. It subjects them to mental and emotional harassment. The most common cyber crimes against women include blackmail, threats, cyberpornography, and publishing of obscene sexual content. It also includes stalking, bullying, defamation, morphing, and the establishment of fake profiles.</p>
+<p>Although we see numerous fake profiles and online abuse of women, only 2,597 cases were registered in 2021. In the USA, the number of reported cases is approximately 10,000. This type of crime looks to be malignant. So, women block the online perpetrator’s profile or go offline from social media for a few days instead of reporting. Under this context, are women fostering any societal habit?</p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Earlier, I planned to provide my opinion on the questions in the previous sections. However, questions are sufficient for the reader to introspect and comprehend. Of course, every reader can understand in many ways, but if we realize that everything starts at home, then I’m happy.</p>
+<p>Finally, I would like to present the correlation plot among these categories. The notable fact in this correlation plot is that <code>Domestic Violence</code> is highly correlated with <code>Harassment</code> and <code>Sexual Violence</code>. Does it communicate how we treat women at home, and does the same behaviour percolate in society?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/images/Plot4_ViolenceCategory_Correlation.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="846"></p>
+</figure>
+</div>
+<p>Finally I would like to end the essay with a famour quote from Swami Vivekananda - “All Nations have attained greatness by praying proper respect to women. That Country and nation which do not respect women has never become great, nor will ever be in future”.</p>
+<p>Note: Readers can go through the detailed visualization in my <a href="https://arunkoundinya.github.io/TidyTuesday/tidy-analysis/22072024/">TidyTuesday</a> Blog.</p>
+<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
+</script>
+
+
+</section>
+
+ ]]></description>
+  <category>crimes against women</category>
+  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/</guid>
+  <pubDate>Thu, 25 Jul 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/crimes-against-women/image.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Cognitive Delusion under Information Deluge?</title>
+  <dc:creator>Arun Koundinya Parasa</dc:creator>
+  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/cognitive_delusion/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/cognitive_delusion/image.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></p>
+</figure>
+</div>
+<p><span style="font-size: small;">Note: this blog is not about mental disorders.</span></p>
+<section id="delusion-vs-hallucation" class="level2">
+<h2 class="anchored" data-anchor-id="delusion-vs-hallucation">Delusion vs Hallucation?</h2>
+<p>Everyone would doubt the difference between delusion and Hallucination. I hope this section will bring the initial conceptual clarity.</p>
+<p>Delusion, in simple words, is having firm beliefs despite contrary evidence. Hallucination is something living in that belief or world, although it doesn’t exist.</p>
+<p>In the psychiatric world and for mental disorder patients, they often overlap.</p>
+<p>But as of now, let us step in and see these two through two different lenses.</p>
+<p><em>Example1</em>: Assume that <code>Subhash</code> loved playing cricket since his childhood. He has been to the best coaching centers in the city to get trained. But for practice, he used to play with his school friends instead of cricket ground friends. This made him believe that he was the best in his game. During <code>under 14</code> selections, he didn’t fare well compared to his peers as per the selection committee. However, <code>Subhash</code> labeled this selection as grossly politically favored to certain sections of kids as he could not believe that his skill wasn’t up to the mark. So, he still believes that he is best at his game, although there is clear evidence that he isn’t. In this scenario <code>Subhash</code> is in a delusion that he has all the necessary skills to be part of the district team.</p>
+<p><em>Example2</em>: Let’s exaggerate the behaviour of <code>Subhash</code> for this example. <code>Subhash</code> has been continuously rejected for four consecutive years and got good feedback from coaches to improve his technique and skill. Despite this, he still believes that he is good at his game. Later, to overcome these several setbacks, he abandoned attending cricket coaching classes and instead formed a small team with his school friends and lived in that world. He was so invincible with his school friends that he derived a theory and started communicating that the selection committee and coaches were corrupted, and they stopped his growth intentionally and hid his talent to resurface to the world. At this stage, he is hallucinating unknown events, which can be termed a hallucination.</p>
+<p>Reference:</p>
+<ul>
+<li><a href="https://www.healthline.com/health/mental-health/hallucinations-vs-delusions">Link</a></li>
+</ul>
+</section>
+<section id="what-is-delusion-in-information-era" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-delusion-in-information-era">What is delusion in information era?</h2>
+<p>In the information era, we have deluge access to information, which I would like to categorize into four ways:</p>
+<ul>
+<li><strong>Info A</strong>: Information that we like and is relevant.</li>
+<li><strong>Info B</strong>: Information that we don’t like and is relevant.</li>
+<li><strong>Info C</strong>: Information that we like and isn’t relevant.</li>
+<li><strong>Info D</strong>: Information that we don’t care.</li>
+</ul>
+<p>There is no empirical information about the distribution of this information. But as per my personal experience, I can say that the majority of the information sits in <code>Info D</code>. But we all care about <code>Info A</code> and <code>Info C</code>.</p>
+<p>Since we delve into the information that we only care about, there is a 100% chance that we form many <a href="https://www.psychologytoday.com/us/basics/bias">biases</a>. These <code>biases</code> will create our self-full prophecy belief system and might push us into delusion.</p>
+</section>
+<section id="why-do-we-have-delusion-and-its-probable-reasons" class="level2">
+<h2 class="anchored" data-anchor-id="why-do-we-have-delusion-and-its-probable-reasons">Why do we have delusion and its probable reasons?</h2>
+<p>The primary outcome of a delusion is a conclusion without caring for any further evidence to confirm or solidify that evidence. Rather than going through the variety of information in this era, we might get into the deluge of the information we believe. Also, Google answers what we ask and doesn’t offer what we need for our holistic thought process.</p>
+<p>There are multiple reasons to have our delusions:</p>
+<ul>
+<li>Genetic factors</li>
+<li>Biological factors</li>
+<li>Psychological factors</li>
+<li>Environmental factors</li>
+</ul>
+<p>In pre-Google era, information deluge isn’t available. Now, in the information era, this particular environment would contribute to the creation of delusions.</p>
+<p>Reference:</p>
+<ul>
+<li><a href="https://my.clevelandclinic.org/health/diseases/9599-delusional-disorder">Link</a></li>
+</ul>
+</section>
+<section id="closing-remarks" class="level2">
+<h2 class="anchored" data-anchor-id="closing-remarks">Closing remarks</h2>
+<p>There aren’t any suggestions from my side, as this is still a learning process. Furthermore, I have genuinely believed in technology and its progress. So, the onus lies on the user to use it rather than to become dependent on the devices. Also, it is wise to turn to humans occasionally instead of a device, as humans design devices.</p>
+<p><span style="font-size: xsmall;">Note: I have used Grammarly to correct English for this blog. ChatGPT isn’t used at all for this blog.</span></p>
 <script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
 </script>
 
 
 
+</section>
+
  ]]></description>
-  <category>love</category>
-  <category>story</category>
-  <category>trust</category>
-  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode3/old_index.html</guid>
-  <pubDate>Tue, 05 Nov 2024 05:00:00 GMT</pubDate>
+  <category>psychology</category>
+  <category>reflection</category>
+  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/cognitive_delusion/</guid>
+  <pubDate>Sun, 25 Feb 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/cognitive_delusion/image.png" medium="image" type="image/png" height="141" width="144"/>
+</item>
+<item>
+  <title>Extended Learnings -124 | Indian Culture | Perennial Cycle of Ānanda ( Bliss )</title>
+  <dc:creator>Arun Koundinya Parasa</dc:creator>
+  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning124/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This blog piece comes almost after a year but at the right time, albeit there is a long hiatus. Lately, I have started a Spiritual YouTube Channel (in line with this blog series), wherein I’m sharing personal-level comprehension instead of metaphysical levels.</p>
+<p>Here is the link to my YouTube Channel { <a href="https://www.youtube.com/watch?v=W6DqGmzeoM8&amp;list=PL1pdvanb8-ka0_MlE_AQjP2aRm1vFSnjX">Link</a> } ; kindly subscribe if you enjoyed this series.</p>
+<p>While I have completed the explanation of the Gnana, Karma &amp; Bhakti Yoga videos, I have realized that there is an underlying concept of perennial happiness by combining these three Yogas.</p>
+<p>Before delving directly into the blog, let me summarize the prime pointers mentioned in the Video Series.</p>
+<p>Re-cap of YouTube Channel First 4 Videos:</p>
+<p>The root cause of unhappiness is our own thinking or thought process. Since our thought process hinders us from seeing the “world as-is” and instead, we see “the world as we want to see.”</p>
+<p>Gnana Yoga: If we need to see the “world as-is,” the prime thing is not to get involved but to just observe. Such that our thought process changes from reacting to comprehending the situation.</p>
+<p>Karma Yoga: After we comprehend the situation, we need to act based on the revised thought process which, in turn, is based on our comprehension.</p>
+<p>Bhakti Yoga: Once we start to act on the thoughts based on comprehension rather than reaction, we tend to observe that the results of the actions we take are going in a positive direction. This, in turn, helps us to love our own thought process.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning124/version_arun_image.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="693"></p>
+</figure>
+</div>
+<p><u><strong>Blog</strong></u>:</p>
+<p>Let us consider an acting profession.</p>
+<p>Acting: Assume that one wants to become a good and better actor. Let us assume that he/she thinks about his/her career impartially, leading to the selection of roles with clarity in their thought process. Once he/she selects the roles, he/she gives his/her 100% in acting. However, the results are in the hands of critics and audiences, which can go either way.</p>
+<p>Since he/she is clear in his/her thought process to become a better actor, he/she takes cues from past roles and learns from critics and audiences, and further implementing them in their next movie. His/Her learnings and comprehensions about being an actor improve movie after movie. He/She tries to become a better version of thyself compared to their previous movie, as their impartial thought process focuses on being a good and better actor. This makes them happier, knowing that he/she is progressing to become a better actor. Since, there is no limit for betterment; His/Her experimentation and exploration to become a better continuous till he/she strives for it. At a distance it looks like a diligent and hardworking model. However, upon closer inspection, one can discern a continuous journey of self improvement. The Ultimate happiness is about progressing thyself without future regrets. If one can take actions “now” resulting from clear thought process, that action is the first step towards happiness. Moreover, when one’s purpose is beyond their existence, their continuous action is bounded by love towards upon their “clear” thought process. This iterative process of taking incremental steps in our own life leads to various degrees of “delta happiness”, ultimately guiding us into a perpetual state of bliss.</p>
+<p>I will be creating a YouTube Video as well on the similar lines in next couple of days. ______________________________________________________________________________________________________________</p>
+<p>My previous blogs for reference -</p>
+<ul>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/learnings-indian-culture/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/learnings-indian-culture/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning101/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning101/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning102/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning102/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning103/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning103/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning104/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning104/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning105/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning105/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning106/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning106/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning107/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning107/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning108/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning108/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning109/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning109/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning110/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning110/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning111/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning111/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning112/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning112/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning113/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning113/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning114/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning114/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning115/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning115/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning116/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning116/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning117/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning117/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning118/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning118/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning119/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning119/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning120/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning120/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning121/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning121/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning122/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning122/</a></p></li>
+<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning123/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning123/</a></p></li>
+</ul>
+<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
+</script>
+
+
+
+
+ ]]></description>
+  <category>spirituality</category>
+  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning124/</guid>
+  <pubDate>Mon, 08 Jan 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning124/version_arun_image.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
