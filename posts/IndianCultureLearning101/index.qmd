@@ -2,6 +2,7 @@
 title: "Extended Learnings -101 | Indian Culture | Why Rishis had to move to mountains???"
 author: "Arun Koundinya Parasa"
 date: "2021-01-04"
+series: spirituality
 categories: [spirituality]
 image: "rishi.jpeg"
 description: "Why Rishis had to move to mountains??? Part 101 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

@@ -2,6 +2,7 @@
 title: "Extended Learnings -121 | Indian Culture | Understanding Truth !"
 author: "Arun Koundinya Parasa"
 date: "2021-12-04"
+series: spirituality
 categories: [spirituality]
 image: "understanding.png"
 description: "Understanding Truth ! Part 121 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

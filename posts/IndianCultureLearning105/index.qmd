@@ -2,6 +2,7 @@
 title: "Extended Learnings -105 | Indian Culture | Is Celibacy Needed?"
 author: "Arun Koundinya Parasa"
 date: "2021-02-07"
+series: spirituality
 categories: [spirituality]
 image: "image105.png"
 description: "Is Celibacy Needed? Part 105 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

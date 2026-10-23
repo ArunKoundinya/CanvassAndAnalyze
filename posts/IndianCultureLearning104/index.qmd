@@ -2,6 +2,7 @@
 title: "Extended Learnings -104 | Indian Culture | Hero Worship was it Integral Part of ours?"
 author: "Arun Koundinya Parasa"
 date: "2021-01-25"
+series: spirituality
 categories: [spirituality]
 image: "worship.png"
 description: "Hero Worship was it Integral Part of ours? Part 104 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

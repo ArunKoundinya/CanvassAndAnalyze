@@ -2,6 +2,7 @@
 title: "Extended Learnings -109 | Indian Culture | Why give Naivedyam to God ?"
 author: "Arun Koundinya Parasa"
 date: "2021-03-26"
+series: spirituality
 categories: [spirituality]
 description: "Why give Naivedyam to God ? Part 109 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."
 ---

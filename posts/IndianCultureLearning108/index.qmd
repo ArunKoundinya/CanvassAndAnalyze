@@ -2,6 +2,7 @@
 title: "Extended Learnings -108 | Indian Culture | Sacrifice ?"
 author: "Arun Koundinya Parasa"
 date: "2021-03-21"
+series: spirituality
 categories: [spirituality]
 image: "image.png"
 description: "Sacrifice ? Part 108 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

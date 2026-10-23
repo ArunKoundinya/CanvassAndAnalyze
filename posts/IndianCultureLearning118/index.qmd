@@ -2,6 +2,7 @@
 title: "Extended Learnings -118 | Indian Culture | Vicissitudes of Pain!"
 author: "Arun Koundinya Parasa"
 date: "2021-09-09"
+series: spirituality
 categories: [spirituality]
 image: "4seasontree.jpeg"
 description: "Vicissitudes of Pain! Part 118 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

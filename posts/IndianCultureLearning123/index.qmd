@@ -2,6 +2,7 @@
 title: "Extended Learnings -123 | Indian Culture | Living in Truth !"
 author: "Arun Koundinya Parasa"
 date: "2022-06-14"
+series: spirituality
 categories: [spirituality]
 image: "image.png"
 description: "Living in Truth ! Part 123 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

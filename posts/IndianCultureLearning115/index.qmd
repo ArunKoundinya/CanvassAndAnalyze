@@ -2,6 +2,7 @@
 title: "Extended Learnings -115 | Indian Culture | What work to be done to Realize God?"
 author: "Arun Koundinya Parasa"
 date: "2021-05-22"
+series: spirituality
 categories: [spirituality]
 description: "What work to be done to Realize God? Part 115 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."
 ---

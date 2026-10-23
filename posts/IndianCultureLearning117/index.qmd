@@ -2,6 +2,7 @@
 title: "Extended Learnings -117 | Indian Culture | Does it Hurt You?"
 author: "Arun Koundinya Parasa"
 date: "2021-08-13"
+series: spirituality
 categories: [spirituality]
 image: "image.png"
 description: "Does it Hurt You? Part 117 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

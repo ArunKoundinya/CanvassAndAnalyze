@@ -2,7 +2,9 @@ project:
   type: website
   resources:
     - "5888dbbfcade0a44b6f08032a83338de.txt"
-  post-render: scripts/seo.py
+  post-render:
+    - scripts/seo.py
+    - scripts/series_nav.py
 
 website:
   title: "Canvass And Analyze"

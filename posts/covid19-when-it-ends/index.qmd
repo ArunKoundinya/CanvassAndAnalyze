@@ -2,6 +2,7 @@
 title: "COVID 19 : TREND, FORECAST & WHEN IT ENDS!!!!"
 author: "Arun Koundinya Parasa"
 date: "2020-06-06"
+series: covid19
 categories: [covid19]
 image: "forecast-1.jpeg"
 description: "COVID-19 trend and forecast for India: a personal epidemic-forecasting project on when the pandemic might end."

@@ -2,6 +2,7 @@
 title: "Extended Learnings - 107 | Indian Culture | If Showman is our guide; Why each has different Guided Paths?"
 author: "Arun Koundinya Parasa"
 date: "2021-03-14"
+series: spirituality
 categories: [spirituality]
 image: "showman.png"
 description: "If Showman is our guide; Why each has different Guided Paths? Part 107 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

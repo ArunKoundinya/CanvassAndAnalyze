@@ -2,6 +2,7 @@
 title: "Glossary - 101 | Indian Culture | Atman & Maya"
 author: "Arun Koundinya Parasa"
 date: "2022-07-09"
+series: spirituality
 categories: [spirituality]
 image: "image.png"
 description: "Atman & Maya: from my glossary of key ideas in Indian culture and Sanātana Dharma, written as a companion to the Extended Learnings series."

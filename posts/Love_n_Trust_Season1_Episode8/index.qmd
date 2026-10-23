@@ -2,6 +2,7 @@
 title: "LOVE & TRUST - Season -1 | Episode - 8"
 author: "Arun Koundinya Parasa"
 date: "2025-06-08"
+series: novel
 categories: [love, story, trust]
 image: "image.png"
 description: "Love & Trust, Season 1 Episode 8: a chapter from Love, Trust & Betrayal, a novel in progress by Arun Koundinya Parasa."

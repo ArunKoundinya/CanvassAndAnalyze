@@ -2,6 +2,7 @@
 title: "Extended Learnings -110 | Indian Culture | Why to Pray ?"
 author: "Arun Koundinya Parasa"
 date: "2021-04-04"
+series: spirituality
 categories: [spirituality]
 image: "praying.png"
 description: "Why to Pray ? Part 110 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

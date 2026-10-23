@@ -2,6 +2,7 @@
 title: "Extended Learnings -119 | Indian Culture | Conflict with Past!"
 author: "Arun Koundinya Parasa"
 date: "2021-11-06"
+series: spirituality
 categories: [spirituality]
 image: "conflict.png"
 description: "Conflict with Past! Part 119 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

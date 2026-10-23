@@ -2,6 +2,7 @@
 title: "COVID 19: THE CONCLUSION"
 author: "Arun Koundinya Parasa"
 date: "2020-07-11"
+series: covid19
 categories: [covid19]
 image: "conclusion-1.jpeg"
 description: "The conclusion: my summary of 100 days of reading and learning about COVID-19."

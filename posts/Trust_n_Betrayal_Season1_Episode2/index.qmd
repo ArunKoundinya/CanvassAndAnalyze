@@ -2,6 +2,7 @@
 title: "TRUST & BETRAYAL - Season -1 | Episode - 2"
 author: "Arun Koundinya Parasa"
 date: "2025-10-24"
+series: novel
 categories: [love, story, trust, betrayal]
 image: "image.png"
 description: "Trust & Betrayal, Season 1 Episode 2: a chapter from Love, Trust & Betrayal, a novel in progress by Arun Koundinya Parasa."

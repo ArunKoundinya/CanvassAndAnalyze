@@ -2,6 +2,7 @@
 title: "Extended Learnings -114 | Indian Culture | Can we Work to Realize God?"
 author: "Arun Koundinya Parasa"
 date: "2021-05-09"
+series: spirituality
 categories: [spirituality]
 image: "work112.png"
 description: "Can we Work to Realize God? Part 114 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."

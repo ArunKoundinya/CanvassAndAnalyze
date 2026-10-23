@@ -2,6 +2,7 @@
 title: "Extended Learnings -106 | Indian Culture | Any Relatable Personal Gods?"
 author: "Arun Koundinya Parasa"
 date: "2021-03-07"
+series: spirituality
 categories: [spirituality]
 image: "personalgod.png"
 description: "Any Relatable Personal Gods? Part 106 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."
