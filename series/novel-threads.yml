@@ -1,0 +1,38 @@
+# Public reader's map for the novel: one entry per character thread.
+# status: published | writing | coming. Keep future arcs and timeline out of this file.
+- name: Sanjay
+  theme: Love & Trust
+  status: published
+  note: "Seasons 1–2 · 10 chapters"
+  panel: sanjay
+  color: "#7A4A5E"
+- name: Raj
+  theme: Trust & Betrayal
+  status: writing
+  note: "Season 1 · 2 chapters"
+  panel: raj
+  color: "#B4532A"
+- name: The Driver
+  theme: Chaos & Knowing
+  status: coming
+  color: "#5E7262"
+- name: Meera
+  theme: When the Door Stayed Open
+  status: coming
+  color: "#B8862F"
+- name: Pooja
+  theme: Fear & Courage
+  status: coming
+  color: "#8C3D1C"
+- name: Pravallika
+  theme: Doubt & Faith
+  status: coming
+  color: "#4A6B7A"
+- name: Swati
+  theme: Action & Stillness
+  status: coming
+  color: "#6E6259"
+- name: Vaishaara
+  theme: Self & Service
+  status: coming
+  color: "#9A5B7A"

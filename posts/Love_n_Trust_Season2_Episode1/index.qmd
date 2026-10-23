@@ -5,7 +5,7 @@ date: "2025-08-09"
 series: novel
 categories: [love, story, trust]
 image: "image.png"
-description: "Love & Trust, Season 2 Episode 1: a chapter from Love, Trust & Betrayal, a novel in progress by Arun Koundinya Parasa."
+description: "Love & Trust, Season 2 Episode 1: a chapter from Threads of One Life, a novel in progress by Arun Koundinya Parasa."
 ---
 
 

@@ -5,7 +5,7 @@ date: "2025-10-24"
 series: novel
 categories: [love, story, trust, betrayal]
 image: "image.png"
-description: "Trust & Betrayal, Season 1 Episode 2: a chapter from Love, Trust & Betrayal, a novel in progress by Arun Koundinya Parasa."
+description: "Trust & Betrayal, Season 1 Episode 2: a chapter from Threads of One Life, a novel in progress by Arun Koundinya Parasa."
 ---
 
 Continued from previous episode - [Ep-1](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Trust_n_Betrayal_Season1_Episode1/)

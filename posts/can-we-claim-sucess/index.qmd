@@ -9,7 +9,7 @@ description: "Can we ever claim success? A reflection on what success really mea
 ---
 
 What is [*SUCCESS*]{.underline}:\
-Below reference has been taken from "[business dictionary](http://www.businessdictionary.com/definition/success.html)"
+Below reference has been taken from "[business dictionary](https://web.archive.org/web/20200923162831/http://www.businessdictionary.com/definition/success.html)"
 
 *Achievement of an action within a specified period of time or within a specified parameter. Success can also mean completing an objective or reaching a goal. Success can be expanded to encompass an entire project or be restricted to a single component of a project or task. It can be achieved within the workplace, or in an individual's personal life. For example, if an individual's personal goal is to be accepted in a new career, success would occur after the individual has been officially accepted into his or her new place of employment*.\
 

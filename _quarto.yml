@@ -24,7 +24,7 @@ website:
         href: index.qmd
       - text: Series
         menu:
-          - text: "Love, Trust & Betrayal (novel)"
+          - text: "Threads of One Life (novel)"
             href: series/novel.qmd
           - text: Thinking in Systems
             href: series/systems.qmd

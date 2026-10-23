@@ -552,3 +552,75 @@ main.content .lead-story .excerpt { font-size: .98rem; }
   &.next { text-align: right; }
 }
 @media (max-width: 560px) { .series-nav-grid { grid-template-columns: 1fr; } }
+
+// Novel: public threads map
+.series-subtitle {
+  display: block;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: $plum;
+  margin: -.3rem 0 1rem;
+}
+.threads { margin: .5rem 0 3rem; }
+.threads .loom { display: block; width: 100%; height: 70px; }
+.thread-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .8rem;
+  margin-top: -.2rem;
+  @media (max-width: 560px) { grid-template-columns: repeat(2, 1fr); }
+}
+.thread {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  padding: .9rem 1rem 1rem;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid $rule;
+  border-top: 4px solid var(--thread);
+  color: $ink;
+  text-decoration: none;
+  .thread-name {
+    font-family: $font-family-sans-serif;
+    font-size: .68rem;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--thread);
+  }
+  .thread-theme { font-family: $font-family-display; font-size: 1rem; line-height: 1.25; }
+  .thread-status { font-family: $font-family-sans-serif; font-size: .7rem; color: $muted; margin-top: auto; padding-top: .4rem; }
+  &.coming { background: transparent; border-style: dashed; border-top-style: solid; }
+  &.coming .thread-theme { color: $ink-soft; }
+}
+a.thread:hover { border-color: var(--thread); transform: translateY(-2px); transition: transform .15s; }
+.one-life {
+  text-align: center;
+  font-family: $font-family-sans-serif;
+  font-size: .72rem !important;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: $muted;
+  margin: 0 0 .2rem;
+}
+
+// Thread selection: only the chosen thread's chapters are shown
+.threads-js .thread-panel:not(.active) { display: none; }
+.thread-panel { scroll-margin-top: 5rem; animation: fadeIn .25s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+a.thread { cursor: pointer; }
+a.thread.active {
+  border-color: var(--thread);
+  box-shadow: 0 0 0 2px var(--thread) inset, 0 8px 20px rgba($ink, .08);
+}
+.thread .thread-cta {
+  font-family: $font-family-sans-serif;
+  font-size: .68rem;
+  font-weight: 600;
+  color: var(--thread);
+  margin-top: .3rem;
+  &::after { content: " ↓"; }
+}
+a.thread.active .thread-cta::after { content: " ✓"; }
+div.thread[aria-disabled] { cursor: default; opacity: .8; }

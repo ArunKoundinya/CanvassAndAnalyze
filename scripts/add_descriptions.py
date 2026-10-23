@@ -61,7 +61,7 @@ def episode(title):
         return None
     story = "Love & Trust" if m.group(1).upper().startswith("LOVE") else "Trust & Betrayal"
     return (f"{story}, Season {m.group(2)} Episode {m.group(3)}: a chapter from "
-            f"Love, Trust & Betrayal, a novel in progress by Arun Koundinya Parasa.")
+            f"Threads of One Life, a novel in progress by Arun Koundinya Parasa.")
 
 for f in sorted(glob.glob("posts/*/index.qmd")):
     s = open(f, encoding="utf-8").read()

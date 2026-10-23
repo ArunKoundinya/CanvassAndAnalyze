@@ -1,8 +1,9 @@
 ---
-title: "Love, Trust & Betrayal"
-description: "A novel in the making, published chapter by chapter. Sanjay, Raj and the people around them, on love, desire, doubt and the fragile architecture of trust."
-status: "Novel in progress · working title"
-span: "12 chapters so far"
+title: "Threads of One Life"
+subtitle: "Emotions that ground us, and remind us we are human"
+description: "A novel in the making, published chapter by chapter: eight lives, each carrying one emotion, woven into a single story about what grounds us and reminds us we are human."
+status: "Novel in progress"
+span: "8 threads · 12 chapters so far"
 color: "plum"
 glyph: "&"
 order: 1
@@ -10,6 +11,10 @@ page-layout: article
 title-block-banner: false
 body-classes: "series-page compact-list"
 listing:
+  - id: threads
+    contents: novel-threads.yml
+    template: ../_templates/threads.ejs
+    page-size: 100
   - id: lt-s1
     contents: "../posts/Love_n_Trust_Season1*/index.qmd"
     template: ../_templates/episodes.ejs
@@ -31,18 +36,23 @@ listing:
 ---
 
 ::: {.series-header}
-[Novel in progress · working title]{.kicker}
+[Novel in progress]{.kicker}
 
-# Love, Trust & Betrayal {.unnumbered .unlisted}
+# Threads of One Life {.unnumbered .unlisted}
 
-A novel in the making, published chapter by chapter. Sanjay, Raj and the people around them, on love, desire, doubt and the fragile architecture of trust.
+[Emotions that ground us, and remind us we are human]{.series-subtitle}
 
-The novel's name isn't final yet. *Love, Trust & Betrayal* is a working title while the story takes shape.
+A novel in the making, published chapter by chapter. Eight lives, each carrying one emotion: love, betrayal, chaos, openness, fear, doubt, action and service. Followed one by one, the threads weave into a single life.
 
-[12 chapters so far]{.meta}
+[8 threads · 12 chapters so far]{.meta}
 :::
 
-::: {.chapters}
+[The threads]{.arc-title}
+
+::: {#threads}
+:::
+
+::: {#thread-sanjay .thread-panel}
 [Sanjay · Love & Trust · Season 1]{#arc-lt-s1 .arc-title}
 
 ::: {#lt-s1}
@@ -52,9 +62,39 @@ The novel's name isn't final yet. *Love, Trust & Betrayal* is a working title wh
 
 ::: {#lt-s2}
 :::
+:::
 
+::: {#thread-raj .thread-panel}
 [Raj · Trust & Betrayal · Season 1]{#arc-tb-s1 .arc-title}
 
 ::: {#tb-s1}
 :::
 :::
+
+```{=html}
+<script>
+// Show only the chapters of the selected thread (Sanjay by default, or the one in the URL hash).
+(function () {
+  document.documentElement.classList.add("threads-js");
+  const cards = document.querySelectorAll(".thread[data-panel]");
+  const panels = document.querySelectorAll(".thread-panel");
+  function show(name, scroll) {
+    if (!document.getElementById("thread-" + name)) return;
+    panels.forEach(p => p.classList.toggle("active", p.id === "thread-" + name));
+    cards.forEach(c => {
+      const on = c.dataset.panel === name;
+      c.classList.toggle("active", on);
+      c.setAttribute("aria-selected", on);
+    });
+    if (scroll) document.getElementById("thread-" + name).scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  cards.forEach(c => c.addEventListener("click", e => {
+    e.preventDefault();
+    history.replaceState(null, "", "#thread-" + c.dataset.panel);
+    show(c.dataset.panel, true);
+  }));
+  const fromHash = (location.hash.match(/^#thread-(\w+)/) || [])[1];
+  show(fromHash || "sanjay", !!fromHash);
+})();
+</script>
+```

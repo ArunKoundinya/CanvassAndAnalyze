@@ -201,7 +201,7 @@ The analytics function that cannot answer that question is a reporting function 
 
 19. Klover.ai. (2025). Hindustan Unilever AI Strategy — Shikhar, field-level analytics. [Link](https://www.klover.ai/hindustan-unilever-ai-strategy-analysis-of-dominance-in-fast-moving-consumer-goods-ai/)
 
-20. Ascent Group India. (2024). Marketing Strategies of NBFCs in Rural India — Bajaj Finserv AI credit scoring. [Link](https://ascentgroupindia.com/blog/strategic-rural-marketing/marketing-strategies-of-nbfcs-in-rural-india/)
+20. Ascent Group India. (2024). Marketing Strategies of NBFCs in Rural India — Bajaj Finserv AI credit scoring. [Link](https://web.archive.org/web/20250420185232/https://ascentgroupindia.com/blog/strategic-rural-marketing/marketing-strategies-of-nbfcs-in-rural-india/)
 
 21. Analytics India Magazine. Analytics in Indian Banking Sector (ICICI debt collection model). [Link](https://analyticsindiamag.com/analytics-in-indian-banking-sector-on-a-right-track)
 

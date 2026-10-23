@@ -1,0 +1,34 @@
+<%
+const n = items.length, w = 800, h = 120, step = w / (n + 1);
+const label = { published: "Published", writing: "Being written", coming: "Coming soon" };
+%>
+```{=html}
+<div class="threads list">
+  <p class="one-life">One life · eight threads</p>
+  <svg class="loom" viewBox="0 0 <%- w %> <%- h %>" preserveAspectRatio="none" aria-hidden="true">
+    <% items.forEach((t, i) => { const x = step * (i + 1); %>
+    <path d="M<%- w / 2 %> 0 C <%- w / 2 %> 60, <%- x %> 60, <%- x %> <%- h %>" stroke="<%- t.color %>"
+          stroke-width="<%- t.status === 'coming' ? 1.5 : 3 %>" fill="none" stroke-linecap="round"
+          <% if (t.status === 'coming') { %>stroke-dasharray="4 5" opacity=".7"<% } %>/>
+    <% }) %>
+  </svg>
+  <div class="thread-grid">
+    <% for (const t of items) { %>
+    <% if (t.panel) { %>
+    <a class="thread <%- t.status %>" href="#thread-<%- t.panel %>" data-panel="<%- t.panel %>" style="--thread: <%- t.color %>">
+      <span class="thread-name"><%= t.name %></span>
+      <span class="thread-theme"><%= t.theme %></span>
+      <span class="thread-status"><%= label[t.status] %><% if (t.note) { %> · <%= t.note %><% } %></span>
+      <span class="thread-cta">Read chapters</span>
+    </a>
+    <% } else { %>
+    <div class="thread <%- t.status %>" aria-disabled="true" style="--thread: <%- t.color %>">
+      <span class="thread-name"><%= t.name %></span>
+      <span class="thread-theme"><%= t.theme %></span>
+      <span class="thread-status"><%= label[t.status] %></span>
+    </div>
+    <% } %>
+    <% } %>
+  </div>
+</div>
+```
