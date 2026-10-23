@@ -3,6 +3,7 @@ title: "Our Thinking - Our Life"
 author: "Arun Koundinya Parasa"
 date: "2018-10-27"
 categories: [motivation, reflection]
+description: "By nature humans look to reduce the burden of their regular work. This is because we usually get bored by banal work."
 ---
 
 By nature humans look to reduce the burden of their regular work. This is because we usually get bored by banal work. And this has propelled humans to think in a visionary way to place future generations in a comfort. On the other side, there are just around 1000 best inventions that has changed the world i.e.; from 'Controlled Fire' to latest 3D Printing.

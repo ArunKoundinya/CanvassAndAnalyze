@@ -1,18 +1,39 @@
 project:
   type: website
+  resources:
+    - "5888dbbfcade0a44b6f08032a83338de.txt"
+  post-render: scripts/seo.py
 
 website:
-  #comments:
-    #giscus:
-      #repo: ArunKoundinya/CanvassAndAnalyze
-  
-  title: "<img src='/images/logo.png' style='width: 2.2em; height: 2.2em; border-radius: 30%;'> <b>Canvass And Analyze</b>"
+  title: "Canvass And Analyze"
   site-url: https://arunkoundinya.github.io/CanvassAndAnalyze/
   description: "My thought process on confluence of Psychology, Analytics and Management."
-  favicon: "/images/logo.jpeg"
+  favicon: "/images/favicon.png"
+  open-graph: true
+  twitter-card: true
+  image: /images/social-card.png
+  # Analytics (needed for a real "Popular" section). Uncomment once you
+  # have a Google Analytics ID, or swap for GoatCounter/Plausible in include-in-header.
+  # google-analytics: "G-XXXXXXXXXX"
   navbar:
-    right:
+    logo: /images/logo-mark.svg
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Series
+        menu:
+          - text: "Love, Trust & Betrayal (novel)"
+            href: series/novel.qmd
+          - text: Thinking in Systems
+            href: series/systems.qmd
+          - text: Extended Learnings on Indian Culture
+            href: series/spirituality.qmd
+          - text: COVID-19 Chronicles
+            href: series/covid19.qmd
+      - text: All essays
+        href: archive.qmd
       - about.qmd
+    right:
       - icon: rss
         href: index.xml
       - icon: github
@@ -21,14 +42,13 @@ website:
         href: https://www.linkedin.com/in/arunkoundinya0710/
 
   page-footer:
-    right: "This page is built with 💛 and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2024, Arun Koundinya Parasa"
-    background: "#36494E" 
+    right: "Built with 💛 and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2017 – 2026, Arun Koundinya Parasa"
 
 format:
   html:
-    theme: lumen
+    theme: [cosmo, theme.scss]
     css: styles.css
-
-
-
+    include-in-header: _seo-head.html
+    grid:
+      body-width: 760px

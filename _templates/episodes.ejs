@@ -1,0 +1,14 @@
+```{=html}
+<div class="series-list list">
+<% for (const item of items) { %>
+  <a class="episode<%- item.image ? ' has-img' : '' %>" href="<%- item.path %>" <%= metadataAttrs(item) %>>
+    <div>
+      <h4><%= item.title %></h4>
+      <div class="excerpt"><%= item.description %></div>
+      <p class="meta"><%= item.date %><% if (item['reading-time']) { %><span class="dot">·</span><%= item['reading-time'] %><% } %></p>
+    </div>
+    <% if (item.image) { %><div class="thumb"><img src="<%- item.image %>" alt="" loading="lazy"></div><% } %>
+  </a>
+<% } %>
+</div>
+```

@@ -3,6 +3,8 @@ title: "W . I . F . M . { What is in for Me ?}"
 author: "Arun Koundinya Parasa"
 date: "2018-09-27"
 categories: [analytical, reflection]
+image: "house.jpeg"
+description: "Let us time travel in our thought process to one the first known ancient civilizations i.e.; Çatalhöyük."
 ---
 
 Let us time travel in our thought process to one the first known ancient civilizations i.e.; [Çatalhöyük](https://en.wikipedia.org/wiki/Çatalhöyük). { I'm excluding the Harappan Civilisation which in recent times made the news to be the longest and ancient civilizations of all time *(almost near to "Göbekli_Tepe"*. As still sufficient information is yet to be available for more study. }

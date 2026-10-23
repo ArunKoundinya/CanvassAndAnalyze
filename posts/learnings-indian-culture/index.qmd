@@ -3,6 +3,8 @@ title: "My Learnings On Indian Culture"
 author: "Arun Koundinya Parasa"
 date: "2020-12-31"
 categories: [spirituality]
+image: "learning-1.jpeg"
+description: "The Comprehension of Indian Culture has lost in the personalities of the gods we created and the corresponding norms which were picked from our vedas."
 ---
 
 The Comprehension of Indian Culture has lost in the personalities of the gods we created and the corresponding norms which were picked from our vedas. The offshoots of these norms have been made to selective tenets to uphold the spirit of the tradition.

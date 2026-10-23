@@ -3,6 +3,8 @@ title: "COVID 19 : TREND, FORECAST & WHEN IT ENDS!!!!"
 author: "Arun Koundinya Parasa"
 date: "2020-06-06"
 categories: [covid19]
+image: "forecast-1.jpeg"
+description: "COVID-19 trend and forecast for India: a personal epidemic-forecasting project on when the pandemic might end."
 ---
 
 [*Note*]{.underline}: This is my personal research and learning project on Epidemic Forecasting for Indian Sub Continent. Only Time will tell how true these models are !!!

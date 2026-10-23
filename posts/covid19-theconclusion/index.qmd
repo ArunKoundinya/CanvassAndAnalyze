@@ -3,6 +3,8 @@ title: "COVID 19: THE CONCLUSION"
 author: "Arun Koundinya Parasa"
 date: "2020-07-11"
 categories: [covid19]
+image: "conclusion-1.jpeg"
+description: "The conclusion: my summary of 100 days of reading and learning about COVID-19."
 ---
 
 [*Note*]{.underline}: This is my personal learning and quick summary of readings & learnings for last 100 days on various topics !!!

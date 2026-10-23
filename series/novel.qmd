@@ -1,0 +1,58 @@
+---
+title: "Love, Trust & Betrayal"
+description: "A novel in the making, published chapter by chapter. Sanjay, Raj and the people around them, on love, desire, doubt and the fragile architecture of trust."
+status: "Novel in progress"
+span: "12 chapters so far"
+color: "plum"
+glyph: "&"
+order: 1
+page-layout: article
+title-block-banner: false
+body-classes: "series-page compact-list"
+listing:
+  - id: lt-s1
+    contents: "../posts/Love_n_Trust_Season1*/index.qmd"
+    template: ../_templates/episodes.ejs
+    sort: "title"
+    date-format: "MMM D, YYYY"
+    max-description-length: 160
+  - id: lt-s2
+    contents: "../posts/Love_n_Trust_Season2*/index.qmd"
+    template: ../_templates/episodes.ejs
+    sort: "title"
+    date-format: "MMM D, YYYY"
+    max-description-length: 160
+  - id: tb-s1
+    contents: "../posts/Trust_n_Betrayal*/index.qmd"
+    template: ../_templates/episodes.ejs
+    sort: "title"
+    date-format: "MMM D, YYYY"
+    max-description-length: 160
+---
+
+::: {.series-header}
+[Novel in progress]{.kicker}
+
+# Love, Trust & Betrayal {.unnumbered .unlisted}
+
+A novel in the making, published chapter by chapter. Sanjay, Raj and the people around them, on love, desire, doubt and the fragile architecture of trust.
+
+[12 chapters so far]{.meta}
+:::
+
+::: {.chapters}
+[Sanjay · Love & Trust · Season 1]{#arc-lt-s1 .arc-title}
+
+::: {#lt-s1}
+:::
+
+[Sanjay · Love & Trust · Season 2]{#arc-lt-s2 .arc-title}
+
+::: {#lt-s2}
+:::
+
+[Raj · Trust & Betrayal · Season 1]{#arc-tb-s1 .arc-title}
+
+::: {#tb-s1}
+:::
+:::

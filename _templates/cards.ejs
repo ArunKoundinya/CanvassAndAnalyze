@@ -1,0 +1,19 @@
+```{=html}
+<div class="card-grid list">
+<% for (const item of items) { %>
+  <a class="essay-card" href="<%- item.path %>" <%= metadataAttrs(item) %>>
+    <% if (item.image) { %>
+    <div class="card-img"><img src="<%- item.image %>" alt="<%= item.title %>" loading="lazy"></div>
+    <% } else { %>
+    <div class="card-img placeholder"><%= (item.title || "").trim().charAt(0) %></div>
+    <% } %>
+    <div class="card-body">
+      <span class="kicker"><%= (item.categories && item.categories.length) ? item.categories[0] : "Essay" %></span>
+      <h4><%= item.title %></h4>
+      <div class="excerpt"><%= item.description %></div>
+      <p class="meta"><%= item.date %><% if (item['reading-time']) { %><span class="dot">·</span><%= item['reading-time'] %><% } %></p>
+    </div>
+  </a>
+<% } %>
+</div>
+```

@@ -1,0 +1,34 @@
+---
+title: "Thinking in Systems"
+description: "AI, analytics and leadership seen as systems: why data science misses business value, and how leaders end up managing images instead of people."
+status: "Ongoing"
+span: "3 essays · 2026 –"
+color: "ink"
+glyph: "↻"
+order: 2
+page-layout: article
+title-block-banner: false
+body-classes: series-page
+listing:
+  id: episodes
+  contents: "../posts/*/index.qmd"
+  include:
+    series: systems
+  template: ../_templates/episodes.ejs
+  sort: "date"
+  date-format: "MMM D, YYYY"
+  max-description-length: 160
+---
+
+::: {.series-header}
+[Series · Ongoing]{.kicker}
+
+# Thinking in Systems {.unnumbered .unlisted}
+
+AI, analytics and leadership seen as systems: why data science misses business value, and how leaders end up managing images instead of people.
+
+[3 essays · 2026 –]{.meta}
+:::
+
+::: {#episodes}
+:::

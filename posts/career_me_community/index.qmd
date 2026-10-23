@@ -3,7 +3,10 @@ title: "Career we chose, is it our identity or the community's?"
 subtitle: "How Every Indian Community Played the Same Game with Different Cards"
 author: "Arun Koundinya Parasa"
 date: "2026-04-22"
+featured: true
 categories: [culture, community, social mobility, India, parenting]
+image: "mobility_map.png"
+description: "How Every Indian Community Played the Same Game with Different Cards"
 ---
 
 A few weeks ago, someone asked me a pointed question. "Why do Telugu parents only measure their child in `CTC`?" I answered confidently. I said it was specific to the Telugu community and their `IT` pipeline to the United States. I was informed that there is a different question in every community. The Marwari parent asks "how much equity do you own?" The Gujarati parent asks "what is your turnover?" The Tamil Brahmin parent asks "which `IIT`?" The Keralite parent asks "where is your Gulf posting?" The Punjabi Jat Sikh parent asks "have you gone abroad?" Each community has its own instrument and its own question, but the underlying obsession is the same measuring the child's success through a well worked metric that is visible and comparable to the community at large. 

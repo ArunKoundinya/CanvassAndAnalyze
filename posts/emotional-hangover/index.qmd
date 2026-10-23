@@ -3,6 +3,7 @@ title: "Emotional Hangover"
 author: "Arun Koundinya Parasa"
 date: "2019-07-15"
 categories: [story, psychology]
+description: "We all know about Hangover to put in simple and my way 'it is just hanging around unconsciously'."
 ---
 
 What is Hangover?

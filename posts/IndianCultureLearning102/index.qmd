@@ -3,6 +3,8 @@ title: "Extended Learnings -102 | Indian Culture | Did Rishis created reproducib
 author: "Arun Koundinya Parasa"
 date: "2021-01-09"
 categories: [spirituality]
+image: "research.jpeg"
+description: "Did Rishis created reproducible research? Part 102 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."
 ---
 
 After completing the Introductory Essay from S. RadhaKrishnan writings on "The Bhagavadgita"; felt like writing this blog piece.

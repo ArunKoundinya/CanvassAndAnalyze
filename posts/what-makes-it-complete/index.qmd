@@ -4,6 +4,7 @@ author: "Arun Koundinya Parasa"
 date: "2019-08-03"
 categories: [motivation, reflection]
 image: "image.png"
+description: "If you have heard about 99Club. This article is about possibility of shifting from 99Club to 100Club."
 ---
 
 If you have heard about 99Club. This article is about possibility of shifting from 99Club to 100Club.

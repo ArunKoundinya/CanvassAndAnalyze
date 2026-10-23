@@ -3,6 +3,8 @@ title: "A Happy Diwali - 2020"
 author: "Arun Koundinya Parasa"
 date: "2020-11-15"
 categories: [reflection, festive]
+image: "diwali.jpeg"
+description: "Diwali or Deepavali is a popular Indian Festival where-in every kid within us awaits for the moment to burst the evening crackers."
 ---
 
 Diwali or Deepavali is a popular Indian Festival where-in every kid within us awaits for the moment to burst the evening crackers. 😁 As per the Indian Culture, it is also  associated with the phrase - " ***TAMASO MAA JYOTHIR GAMAYAA*** "

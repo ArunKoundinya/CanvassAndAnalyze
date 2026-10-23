@@ -3,6 +3,8 @@ title: "Knight G1 to F3 - Opening Move !!!"
 author: "Arun Koundinya Parasa"
 date: "2020-12-30"
 categories: [goals]
+image: "image.png"
+description: "Knight G1 to F3 is usually considered as an aggressive opening move in chess. Beginners usually get alerted when the opponent begins his game with this step."
 ---
 
 Knight G1 to F3 is usually considered as an aggressive opening move in chess. Beginners usually get alerted when the opponent begins his game with this step.

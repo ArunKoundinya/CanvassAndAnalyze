@@ -3,6 +3,8 @@ title: "Not Enough Time Trap!!!"
 author: "Arun Koundinya"
 date: "2018-10-03"
 categories: [reflection]
+image: "time.jpeg"
+description: "Time & Tide waits for none. We value our time to such an extent that we are so particular how 24 hours of a day has to be managed."
 ---
 
 Time & Tide waits for none. We value our time to such an extent that we are so particular how 24 hours of a day has to be managed. And yet how many times have we felt that a Sunday has gone like a flash. I bet most of us would experience it on every Sunday. And on that very Sunday we stack up so many [*ToDo*]{.underline} list; only to say in the evening to ourselves that "There isn't enough time!!!".

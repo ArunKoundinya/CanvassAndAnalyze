@@ -3,6 +3,8 @@ title: "LOVE & TRUST - Season -1 | Episode - 1"
 author: "Arun Koundinya Parasa"
 date: "2026-03-07"
 categories: [love, story, trust]
+image: "image.png"
+description: "Love & Trust, Season 1 Episode 1: a chapter from Love, Trust & Betrayal, a novel in progress by Arun Koundinya Parasa."
 ---
 
 Rewritten and update version of original story, published on 2022-10-22, link: [Old version](https://arunkoundinya.github.io/posts/Love_n_Trust_Season1_Episode1/old_index.html). Here I have added better character development to make the characters more unique and relatable.

@@ -3,6 +3,8 @@ title: "COVID 19 : MEDICAL SCIENCE TO OVERCOME PANDEMIC"
 author: "Arun Koundinya Parasa, Mahesh Kolli"
 date: "2020-04-15"
 categories: [covid19]
+image: "medical1.jpeg"
+description: "How medical science can help overcome the COVID-19 pandemic: the best learnings, summarised in a consumable way."
 ---
 
 [*Disclaimer*]{.underline}: Corona will go away soon. So, no need to worry. This is just our try to summarise the best learnings in a consumable way. As still this is an on-going learning field for many scientists.

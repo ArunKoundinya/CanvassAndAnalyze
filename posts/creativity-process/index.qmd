@@ -3,6 +3,8 @@ title: "Can there be a Process for Creativity"
 author: "Arun Koundinya Parasa"
 date: "2019-10-20"
 categories: [creativity, psychology]
+image: "creativity.png"
+description: "Assume that I stole few trademark recipes from best master chefs. Later, luckily I happen to create a decent restaurant using that recipes which turns to be…"
 ---
 
 Assume that I stole few trademark recipes from best master chefs. Later, luckily I happen to create a decent restaurant using that recipes which turns to be a block buster.

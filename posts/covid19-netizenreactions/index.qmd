@@ -3,6 +3,8 @@ title: "COVID-19 & NETIZENS REACTIONS"
 author: "Arun Koundinya Parasa, Mahesh Kolli"
 date: "2020-03-29"
 categories: [covid19]
+image: "fake1.jpeg"
+description: "How netizens reacted to COVID-19, checked against the WHO myth busters. Co-authored with Dr. Mahesh Kolli."
 ---
 
 *--Updated with WHO Myth Busters on 6th June 2020* This blog post as well has been co-authored with Dr. Mahesh Kolli.

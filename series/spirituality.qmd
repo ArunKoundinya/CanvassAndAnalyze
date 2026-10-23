@@ -1,0 +1,33 @@
+---
+title: "Extended Learnings on Indian Culture"
+description: "A long walk through Rishis, Gurus, Gunas and the three Yogas — my personal comprehension of Sanātana Dharma, plus a glossary of its key ideas."
+status: "Completed"
+span: "29 essays · 2020 – 2024"
+color: "terracotta"
+glyph: "ॐ"
+order: 3
+page-layout: article
+title-block-banner: false
+body-classes: "series-page compact-list"
+listing:
+  id: episodes
+  contents: "../posts/{IndianCulture*,learnings-indian-culture,ExtendedLearnings-WhatNext}/index.qmd"
+  template: ../_templates/episodes.ejs
+  sort: "date"
+  fields: [title, date, description, reading-time]
+  date-format: "MMM D, YYYY"
+  max-description-length: 160
+---
+
+::: {.series-header}
+[Series · Completed]{.kicker}
+
+# Extended Learnings on Indian Culture {.unnumbered .unlisted}
+
+A long walk through Rishis, Gurus, Gunas and the three Yogas — my personal comprehension of Sanātana Dharma, plus a glossary of its key ideas.
+
+[29 essays · 2020 – 2024]{.meta}
+:::
+
+::: {#episodes}
+:::

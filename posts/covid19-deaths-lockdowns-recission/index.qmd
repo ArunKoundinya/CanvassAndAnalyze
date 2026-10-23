@@ -3,6 +3,8 @@ title: "COVID 19: DEATHS , LOCK DOWN & RECESSION"
 author: "Arun Koundinya Parasa"
 date: "2020-04-27"
 categories: [covid19]
+image: "lockdown-1.jpeg"
+description: "Deaths, lockdowns and recession: an opinion on the trade-offs India faced during COVID-19."
 ---
 
 [*Note*]{.underline}: This is an opinionated article especially with respect to Indian sub-continent.

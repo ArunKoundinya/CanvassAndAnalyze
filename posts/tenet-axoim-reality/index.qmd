@@ -4,6 +4,7 @@ author: "Arun Koundinya Parasa"
 date: "2020-12-19"
 categories: [reflection]
 image : "image.jpeg"
+description: "Few popular beliefs that we have in India are - ' South Indians can't articulate much ', ' By the age of 28 we have to get settled in life ', ' The way they…"
 ---
 
  [***Note***]{.underline}: This is not related to Value & Belief System

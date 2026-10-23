@@ -2,7 +2,9 @@
 title: "Cognitive Delusion under Information Deluge?"
 author: "Arun Koundinya Parasa"
 date: "2024-02-25"
-categories: [pyschology, reflection]
+categories: [psychology, reflection]
+image: "image.png"
+description: "Everyone would doubt the difference between delusion and Hallucination. I hope this section will bring the initial conceptual clarity."
 ---
 
 ![](image.png){fig-align="center" width="400"}

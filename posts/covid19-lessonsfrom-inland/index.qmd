@@ -4,6 +4,7 @@ author: "Arun Koundinya Parasa, Mahesh Kolli"
 date: "2020-04-05"
 categories: [covid19]
 image: "image.png"
+description: "Lessons for India from the South Korean model and its use of analytics to contain COVID-19 during the lockdown."
 ---
 
 By the time India is in "Lock-down" phase. I {*Arun Koundinya*} have been hearing and reading a lot about the "South Korean" Model and their use of Advance Analytics in quick identification of Corona positive cases at an early stage level.

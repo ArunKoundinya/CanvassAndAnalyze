@@ -4,6 +4,7 @@ author: "Arun Koundinya Parasa"
 date: "2020-02-15"
 categories: [love]
 image: "valentines-day.png"
+description: "Who doesn't want to celebrate it every day. It is such a lovely thought to be keep it sustained for-ever."
 ---
 
 ::: {style="text-align: center;"}

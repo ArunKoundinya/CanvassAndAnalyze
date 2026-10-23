@@ -1,0 +1,16 @@
+---
+title: "All essays"
+subtitle: "Everything I've written since 2017 — filter by theme or search."
+page-layout: full
+title-block-banner: false
+listing:
+  contents: "posts/*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  date-format: "MMM D, YYYY"
+  fields: [image, date, title, subtitle, description, categories, reading-time]
+  page-size: 20
+---

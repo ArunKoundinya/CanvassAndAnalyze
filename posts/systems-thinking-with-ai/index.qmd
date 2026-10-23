@@ -3,6 +3,7 @@ title: "THINKING IN SYSTEMS WITH AI"
 subtitle: "Why Data Science and AI have not delivered the value businesses expected, and why it is not an IT problem"
 author: "Arun Koundinya Parasa"
 date: "2026-10-07"
+series: systems
 toc: true
 categories: ["AI", "Data Science", "Systems Thinking", "Business"]
 image: "image.png"
@@ -10,6 +11,7 @@ format:
   html:
     mermaid:
       theme: neutral
+description: "Why Data Science and AI have not delivered the value businesses expected, and why it is not an IT problem"
 ---
 
 This article is written for the CXOs and business heads who decide where Data Science sits in their organization and who owns what it delivers. It is also for the Heads of Data Science who make it worth it. My argument is simple **AI is not an IT project. It is a business loop, and it works only when business and Data Science learn from each other.**

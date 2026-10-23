@@ -4,6 +4,7 @@ author: "Arun Koundinya Parasa, Mahesh Kolli"
 date: "2021-05-07"
 categories: [covid19]
 image: "image.png"
+description: "COVID-19 revisited with a new strain: the second wave in India and what everyone should know."
 ---
 
  [*Note*]{.underline}: After a long hiatus we are back with a new COVID 19 series blogs to create an awareness which is aimed to help the larger community for the current wave and future waves. It is based on Mahesh personal experience from handling covid patients and our combined desk research and consultation.

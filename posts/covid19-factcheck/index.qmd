@@ -4,6 +4,7 @@ author: "Arun Koundinya Parasa, Mahesh Kolli"
 date: "2020-03-25"
 categories: [covid19]
 image: "covid19.png"
+description: "Facts and a reality check on COVID-19 in March 2020: what we knew and what we didn't."
 ---
 
 Till March 18th I *{ Arun Koundinya }* was never worried about Corona Virus. The prime reason being  is that; I was not aware of the impact that it could create and as well I was surrounded by false facts.

@@ -3,6 +3,8 @@ title: "Extended Learnings - Summary | What Next?"
 author: "Arun Koundinya Parasa"
 date: "2022-06-19"
 categories: [spirituality]
+image: "om.png"
+description: "We learned that 'Brahmacharya' are the people who embark on their travel to meet the Showman."
 ---
 
 #### [*Summary of 24 Blog Post in one go*]{.underline}: 

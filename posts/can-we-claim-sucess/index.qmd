@@ -2,8 +2,10 @@
 title: "Can we claim success?"
 author: "Arun Koundinya Parasa"
 date: "2018-09-24"
+featured: true
 categories: [analytical, reflection]
 image: success.png
+description: "Can we ever claim success? A reflection on what success really means, beyond the dictionary definition."
 ---
 
 What is [*SUCCESS*]{.underline}:\

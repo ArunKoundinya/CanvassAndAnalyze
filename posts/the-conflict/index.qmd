@@ -4,6 +4,7 @@ author: "Arun Koundinya Parasa"
 date: "2020-11-30"
 categories: [reflection, conflict]
 image : "image.png"
+description: "We usually solve many conflicts that arise outside us; but we usually submit ourselves to the conflict within us."
 ---
 
 We usually solve many conflicts that arise outside us; but we usually submit ourselves to the conflict within us. 

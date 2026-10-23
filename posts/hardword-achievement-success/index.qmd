@@ -4,6 +4,7 @@ author: "Arun Koundinya Parasa"
 date: "2017-10-08"
 categories: [story, motivation, reflection]
 image: "image.png"
+description: "Let me run through a conversation between a father and son. Where the son discovers the interlink between these three phrases and which finally makes him to…"
 ---
 
 Any Normal person assumes as in following way for these phrases:

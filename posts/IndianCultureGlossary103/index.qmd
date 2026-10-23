@@ -3,6 +3,8 @@ title: "Glossary - 103 | Indian Culture | Sanātana Dharma"
 author: "Arun Koundinya Parasa"
 date: "2022-08-29"
 categories: [spirituality]
+image: "image.png"
+description: "Sanātana Dharma: from my glossary of key ideas in Indian culture and Sanātana Dharma, written as a companion to the Extended Learnings series."
 ---
 
  Continuing from the previous blog

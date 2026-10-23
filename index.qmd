@@ -1,14 +1,111 @@
 ---
 title: "Canvass And Analyze"
-subtitle: "Let me share my thought process on confluence of Psychology, Analytics and Management."
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-  feed: true
+pagetitle: "Canvass And Analyze — essays on psychology, culture and management"
+description: "Personal essays, stories and series on the confluence of psychology, culture, analytics and management by Arun Koundinya Parasa."
 page-layout: full
-title-block-banner: true
+title-block-style: none
+toc: false
+comments: false
+body-classes: home
+listing:
+  - id: latest
+    contents: "posts/*/index.qmd"
+    sort: "date desc"
+    max-items: 5
+    template: _templates/front-page.ejs
+    page-size: 1000
+    date-format: "MMM D, YYYY"
+    max-description-length: 260
+    feed: true
+  - id: series
+    contents: series
+    sort: "order"
+    template: _templates/series-cards.ejs
+    fields: [title, description, status, span, color, glyph]
+  - id: picks
+    contents: "posts/*/index.qmd"
+    include:
+      featured: true
+    sort: "date desc"
+    template: _templates/cards.ejs
+    page-size: 1000
+    date-format: "MMM YYYY"
+    max-description-length: 140
+  - id: themes
+    contents: "posts/*/index.qmd"
+    template: _templates/themes.ejs
+    page-size: 1000
+  - id: stats
+    contents: "posts/*/index.qmd"
+    template: _templates/stats.ejs
+    page-size: 1000
 ---
+
+::: {.home-hero}
+::: {.hero-copy}
+[Personal essays · Since 2017]{.kicker}
+
+# Thinking out loud on the mind, <em>culture</em> & the choices we make. {.unnumbered .unlisted}
+
+[I write where psychology, Indian culture, analytics and management meet — reflections, long-running series, and stories about love, trust and the people we become.]{.lede}
+
+::: {.cta}
+[Start reading](#latest-section){.btn-warm}
+[Explore the series](#series-section){.btn-warm .ghost}
+:::
+:::
+
+::: {.hero-aside}
+Canvass the world around us, then analyse it honestly — that has been the idea behind every piece here.
+
+::: {#stats}
+:::
+:::
+:::
+
+::: {#latest-section .section-head}
+## Latest writing {#h-latest .unnumbered .unlisted}
+
+[All essays →](archive.qmd)
+:::
+
+::: {#latest}
+:::
+
+::: {#series-section .section-head}
+## Series {#h-series .unnumbered .unlisted}
+
+[Read in order, start to finish]{.meta}
+:::
+
+::: {#series}
+:::
+
+::: {.section-head}
+## Editor's picks {#h-picks .unnumbered .unlisted}
+
+[Hand-picked from the archive]{.meta}
+:::
+
+::: {#picks}
+:::
+
+::: {.section-head}
+## Browse by theme {#h-themes .unnumbered .unlisted}
+:::
+
+::: {#themes}
+:::
+
+::: {.subscribe-band}
+::: {}
+## Never miss an essay {#h-subscribe .unnumbered .unlisted}
+
+New writing lands every few weeks. Follow along by RSS, or connect with me on LinkedIn.
+:::
+
+::: {.cta}
+[RSS feed](index.xml){.btn-warm}
+[LinkedIn](https://www.linkedin.com/in/arunkoundinya0710/){.btn-warm .ghost}
+:::
+:::

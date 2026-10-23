@@ -3,7 +3,10 @@ title: "The Strategic Lever Nobody Pulls"
 subtitle: "What the evidence says about why analytics functions keep missing business"
 author: "Arun Koundinya Parasa"
 date: "2026-05-02"
+series: systems
 categories: [analytics, data science, strategy, non-tech, India, US]
+image: "fig-the-paradox.png"
+description: "What the evidence says about why analytics functions keep missing business"
 ---
 
 `MIT Sloan` surveyed 2,719 business executives, managers and analytics professionals. The number one barrier to getting value from analytics was not data quality. It was not model accuracy. It was not cloud infrastructure. It was translating analytics into business decisions. One respondent described the challenge as *"developing middle management skills at interpretation."*

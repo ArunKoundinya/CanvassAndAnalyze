@@ -4,6 +4,8 @@ author: "Arun Koundinya Parasa"
 date: "2025-11-09"
 categories: [suicides, crime, mental-health, self-harm]
 toc: true
+image: "image.png"
+description: "Self Injury can be suicidal or non-suicidal, ideally in literature self-harm is by definition non-suicidal, but it may be life-threating."
 ---
 
 ![](image.png){fig-align="center" width="639"}

@@ -3,6 +3,8 @@ title: "The New Beginning"
 author: "Arun Koundinya"
 date: "2017-01-22"
 categories: [reflection]
+image: "cue-routine-reward.png"
+description: "Long ago, my close friend used to say 'There is a reason for everything we do; All it needs is to put our guts to know the reason to go ahead in right…"
 ---
 
 Long ago, my close friend used to say "There is a reason for everything we do; All it needs is to put our guts to know the reason to go ahead in right direction".

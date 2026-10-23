@@ -3,6 +3,8 @@ title: "Extended Learnings -120 | Indian Culture | Conflict Hypocrisy ?"
 author: "Arun Koundinya Parasa"
 date: "2021-11-13"
 categories: [spirituality]
+image: "allisone.png"
+description: "Conflict Hypocrisy ? Part 120 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."
 ---
 
 ![](allisone.png){fig-align="center" width="400"}

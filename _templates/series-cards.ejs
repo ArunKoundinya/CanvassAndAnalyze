@@ -1,0 +1,12 @@
+```{=html}
+<div class="series-grid list">
+<% for (const item of items) { %>
+  <a class="series-card c-<%- item.color || 'terracotta' %>" data-glyph="<%= item.glyph || '' %>" href="<%- item.path %>" <%= metadataAttrs(item) %>>
+    <span class="kicker"><%= item.status || "Series" %></span>
+    <h3><%= item.title %></h3>
+    <p><%= item.description %></p>
+    <span class="series-meta"><%= item.span %> →</span>
+  </a>
+<% } %>
+</div>
+```

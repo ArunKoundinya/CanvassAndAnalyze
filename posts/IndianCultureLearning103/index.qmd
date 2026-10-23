@@ -3,6 +3,8 @@ title: "Extended Learnings -103 | Indian Culture | How Rishis became Gurus!!!"
 author: "Arun Koundinya Parasa"
 date: "2021-01-16"
 categories: [spirituality]
+image: "guru.png"
+description: "How Rishis became Gurus!!! Part 103 of Extended Learnings, my series on Indian culture, the Bhagavad Gita and Sanātana Dharma."
 ---
 
 Continuing from my previous blogs -

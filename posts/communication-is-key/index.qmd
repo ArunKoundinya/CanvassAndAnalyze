@@ -4,6 +4,7 @@ author: "Arun Koundinya Parasa"
 date: "2020-11-13"
 categories: [reflection, communication]
 image: "image.jpeg"
+description: "Communication has been the key for any relationship. However, most people say it is trust; but it is a derivative of communication and intimacy space shared…"
 ---
 
 Communication has been the key for any relationship. However, most people say it is trust; but it is a derivative of communication and intimacy space shared by each other.

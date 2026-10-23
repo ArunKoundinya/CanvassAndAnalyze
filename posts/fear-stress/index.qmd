@@ -4,6 +4,7 @@ author: "Arun Koundinya"
 date: "2017-05-11"
 categories: [reflection, motivation]
 image: "image.png"
+description: "Fear, as the Cambridge Dictionary puts it: an unpleasant emotion or thought that you have when you are frightened or worried by something dangerous, painful, or bad…"
 ---
 
 [*Cambridge Dictionary says*]{.underline}:

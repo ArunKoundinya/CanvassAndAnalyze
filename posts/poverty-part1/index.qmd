@@ -4,6 +4,7 @@ author: "Arun Koundinya Parasa"
 date: "2018-10-16"
 categories: [poverty, economy]
 image: "image.png"
+description: "[Poverty]: the state of being inferior in quality or insufficient in amount. [Hunger]: a situation in which the body does not have enough food."
 ---
 
 [***Poverty***]{.underline}: the state of being inferior in quality or insufficient in amount.

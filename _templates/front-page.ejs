@@ -1,0 +1,32 @@
+<%
+const lead = items[0];
+const rest = items.slice(1);
+const cat = (item) => (item.categories && item.categories.length) ? item.categories[0] : "Essay";
+%>
+```{=html}
+<div class="front-page list">
+  <article class="lead-story" <%= metadataAttrs(lead) %>>
+    <a href="<%- lead.path %>">
+      <% if (lead.image) { %>
+      <div class="lead-img"><img src="<%- lead.image %>" alt="<%= lead.title %>" loading="lazy"></div>
+      <% } %>
+      <span class="kicker">Latest · <%= cat(lead) %></span>
+      <h3><%= lead.title %></h3>
+      <% if (lead.subtitle) { %><p class="excerpt"><em><%= lead.subtitle %></em></p><% } %>
+      <div class="excerpt"><%= lead.description %></div>
+      <p class="meta"><%= lead.date %><% if (lead['reading-time']) { %><span class="dot">·</span><%= lead['reading-time'] %><% } %></p>
+    </a>
+  </article>
+  <div class="story-list">
+    <% for (const item of rest) { %>
+    <article class="story" <%= metadataAttrs(item) %>>
+      <a href="<%- item.path %>">
+        <span class="kicker"><%= cat(item) %></span>
+        <h4><%= item.title %></h4>
+        <p class="meta"><%= item.date %><% if (item['reading-time']) { %><span class="dot">·</span><%= item['reading-time'] %><% } %></p>
+      </a>
+    </article>
+    <% } %>
+  </div>
+</div>
+```

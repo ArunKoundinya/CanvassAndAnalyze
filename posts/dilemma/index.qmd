@@ -4,6 +4,7 @@ author: "Arun Koundinya Parasa"
 date: "2018-09-30"
 categories: [game theory, reflection]
 image: "image.png"
+description: "In this blog post i would like to discuss a special case of game theory within ourselves. Let me run thru basic introduction on game theory."
 ---
 
 In this blog post i would like to discuss a special case of game theory {Non-Cooperative game} within ourselves. Let me run thru basic introduction on game theory. { for new learners }

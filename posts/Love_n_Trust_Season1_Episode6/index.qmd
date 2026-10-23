@@ -3,6 +3,8 @@ title: "LOVE & TRUST - Season -1 | Episode - 6"
 author: "Arun Koundinya Parasa"
 date: "2025-05-25"
 categories: [love, story, trust]
+image: "image.png"
+description: "Love & Trust, Season 1 Episode 6: a chapter from Love, Trust & Betrayal, a novel in progress by Arun Koundinya Parasa."
 ---
 
 Continued from previous blogs -  [Link](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode1){.uri} -  [Link](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode2){.uri} - [Link](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode3/){.uri} - [Link](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode4/){.uri} - [Link](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode5/){.uri}

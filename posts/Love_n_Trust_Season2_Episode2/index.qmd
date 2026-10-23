@@ -3,6 +3,8 @@ title: "LOVE & TRUST - Season -2 | Episode - 2"
 author: "Arun Koundinya Parasa"
 date: "2025-10-27"
 categories: [love, story, trust]
+image: "image.png"
+description: "Love & Trust, Season 2 Episode 2: a chapter from Love, Trust & Betrayal, a novel in progress by Arun Koundinya Parasa."
 ---
 
 Continued from previous seasons - [Ep-8](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season1_Episode8/){.uri} Continued from last episode - [S2-Ep-1](https://arunkoundinya.github.io/CanvassAndAnalyze/posts/Love_n_Trust_Season2_Episode1/){.uri}

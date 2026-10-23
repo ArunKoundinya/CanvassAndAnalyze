@@ -2,8 +2,10 @@
 title: "Love, Power & Sex"
 author: "Arun Koundinya Parasa"
 date: "2019-09-17"
+featured: true
 categories: [psychology, economics]
 image: "image.png"
+description: "This post was supposed to be written as on Apr 2013 in the blog www.arunviews.com based on certain events that took in my life till that time."
 ---
 
 This post was supposed to be written as on Apr 2013 in the blog www.arunviews.com { *which is currently not available* } based on certain events that took in my life till that time. Hope it is not too late to write & publish an old thought.

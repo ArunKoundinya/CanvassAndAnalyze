@@ -3,6 +3,7 @@ title: "THE IMAGE AND THE PERSON"
 subtitle: "What Jiddu Krishnamurti and systems thinking teach a leader about seeing people as they are"
 author: "Arun Koundinya Parasa"
 date: "2026-10-15"
+series: systems
 toc: true
 categories: ["Leadership", "Systems Thinking", "Philosophy", "Management"]
 image: "image.png"
@@ -10,6 +11,7 @@ format:
   html:
     mermaid:
       theme: neutral
+description: "What Jiddu Krishnamurti and systems thinking teach a leader about seeing people as they are"
 ---
 
 This article is written for managers and leaders who build teams, assign work and decide who grows. My argument is **as leaders, we often arrive at a person based on where they are from, rather than learning from who they are. The fix is not feedback from them. It is feedback to ourselves.**

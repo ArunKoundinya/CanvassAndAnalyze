@@ -1,0 +1,18 @@
+<%
+const counts = {};
+for (const item of items) {
+  for (const c of (item.categories || [])) {
+    const key = String(c).trim();
+    counts[key] = (counts[key] || 0) + 1;
+  }
+}
+const top = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 16);
+%>
+```{=html}
+<div class="chips list">
+<% for (const [name, n] of top) { %>
+  <a class="chip" href="archive.html#category=<%- encodeURIComponent(name) %>"><%= name %> <span class="count"><%= n %></span></a>
+<% } %>
+  <a class="chip" href="archive.html">All topics →</a>
+</div>
+```

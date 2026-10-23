@@ -3,6 +3,8 @@ title: "TRUST & BETRAYAL - Season -1 | Episode - 1"
 author: "Arun Koundinya Parasa"
 date: "2025-07-21"
 categories: [love, story, trust, betrayal]
+image: "image.png"
+description: "Trust & Betrayal, Season 1 Episode 1: a chapter from Love, Trust & Betrayal, a novel in progress by Arun Koundinya Parasa."
 ---
 
 ![](image.png)

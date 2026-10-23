@@ -3,6 +3,7 @@ title: "What is Hapiness"
 author: "Arun Koundinya Parasa"
 date: "2018-03-26"
 categories: [happiness, reflection]
+description: "It's been long time I have penned my opine. This time, I chose a topic that's been greatly researched; and been perceived as a 'state'."
 ---
 
 It's been long time I have penned my opine. This time, I chose a topic that's been greatly researched; and been perceived as a "state".
