@@ -2,7 +2,7 @@
 title: "What Is Left for a Data Scientist When AI Writes the Code?"
 subtitle: "A short introduction to an article on my AI Basics blog"
 author: "Arun Koundinya Parasa"
-date: "2026-10-24"
+date: "2026-05-11"
 series: systems
 categories: [analytics, data science, AI, career]
 image: "image.png"
