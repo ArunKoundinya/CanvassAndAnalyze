@@ -1,6 +1,7 @@
 ---
 title: "Thinking in Systems"
 description: "AI, analytics and leadership seen as systems: why data science misses business value, and how leaders end up managing images instead of people."
+image: ../images/social/systems.png
 status: "Ongoing"
 span: "3 essays · 2026 –"
 color: "ink"

@@ -2,6 +2,7 @@
 title: "Canvass And Analyze"
 pagetitle: "Canvass And Analyze — essays on psychology, culture and management"
 description: "Personal essays, stories and series on the confluence of psychology, culture, analytics and management by Arun Koundinya Parasa."
+image: images/social-card.png
 page-layout: full
 title-block-style: none
 toc: false

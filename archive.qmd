@@ -1,6 +1,7 @@
 ---
 title: "All essays"
 subtitle: "Everything I've written since 2017 — filter by theme or search."
+image: images/social-card.png
 page-layout: full
 title-block-banner: false
 listing:

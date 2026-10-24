@@ -2,6 +2,7 @@
 title: "Threads of One Life"
 subtitle: "Emotions that ground us, and remind us we are human"
 description: "A novel in the making, published chapter by chapter: eight lives, each carrying one emotion, woven into a single story about what grounds us and reminds us we are human."
+image: ../images/social/novel.png
 status: "Novel in progress"
 span: "8 threads · 12 chapters so far"
 color: "plum"
