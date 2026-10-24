@@ -17,7 +17,46 @@
 <width>144</width>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Thu, 15 Oct 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 24 Oct 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>What Is Left for a Data Scientist When AI Writes the Code?</title>
+  <dc:creator>Arun Koundinya Parasa</dc:creator>
+  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Something is changing. Not just the tools. The entire job description of a data scientist is being quietly rewritten.</p>
+<p>A modular Python project that once took months of engineering discipline can now be produced in a weekend with a few prompts. AutoML platforms take a CSV and return a ranked leaderboard of models. The code is getting automated. The model is getting automated too.</p>
+<p>So what is left?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/image.png" class="img-fluid figure-img" width="405"></p>
+<figcaption>Data science sits where business, mathematics and technology meet. AI is automating the technology side; the business side is still ours.</figcaption>
+</figure>
+</div>
+<p>In the full article I argue that what remains is the part we skipped all along:</p>
+<ul>
+<li><strong>Knowing the problem before defining the data.</strong> Safety stock before forecasting, attrition drivers before retention models. This knowledge comes from sitting with a business head, not from a dataset.</li>
+<li><strong>Climbing from data to wisdom.</strong> Most teams work at the data and information levels of the DIKW pyramid and hand the output to a business head who needs knowledge and wisdom. The gap in between is a translation problem, not a tools problem.</li>
+<li><strong>The Define and Control phases of DMAIC.</strong> AI handles Measure and Analyze well. Framing the right question, and making sure the improvement holds, remain human.</li>
+</ul>
+<p>It also tells the story of how Business Analytics, built carefully since NC State’s first analytics master’s in 2007, was quietly overtaken by “the sexiest job of the 21st century”, and what got lost along the way.</p>
+<p>If you have read <a href="../../posts/analytics-strategic-lever/index.html">The Strategic Lever Nobody Pulls</a> or <a href="../../posts/systems-thinking-with-ai/index.html">Thinking in Systems with AI</a>, this is the same argument seen from the data scientist’s chair.</p>
+<p><a href="https://arunkoundinya.github.io/AIBasicswithAK/blogs/posts/what-is-left-for-data-scientists/" class="btn-warm">Read the full article on AI Basics with AK →</a></p>
+
+
+
+ ]]></description>
+  <category>analytics</category>
+  <category>data science</category>
+  <category>AI</category>
+  <category>career</category>
+  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/</guid>
+  <pubDate>Sat, 24 Oct 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/image.png" medium="image" type="image/png" height="131" width="144"/>
+</item>
 <item>
   <title>THE IMAGE AND THE PERSON</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
@@ -2718,73 +2757,6 @@ lokas tad anuvartate</em></p>
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/cognitive_delusion/</guid>
   <pubDate>Sun, 25 Feb 2024 05:00:00 GMT</pubDate>
   <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/cognitive_delusion/image.png" medium="image" type="image/png" height="141" width="144"/>
-</item>
-<item>
-  <title>Extended Learnings -124 | Indian Culture | Perennial Cycle of Ānanda ( Bliss )</title>
-  <dc:creator>Arun Koundinya Parasa</dc:creator>
-  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning124/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This blog piece comes almost after a year but at the right time, albeit there is a long hiatus. Lately, I have started a Spiritual YouTube Channel (in line with this blog series), wherein I’m sharing personal-level comprehension instead of metaphysical levels.</p>
-<p>Here is the link to my YouTube Channel { <a href="https://www.youtube.com/watch?v=W6DqGmzeoM8&amp;list=PL1pdvanb8-ka0_MlE_AQjP2aRm1vFSnjX">Link</a> } ; kindly subscribe if you enjoyed this series.</p>
-<p>While I have completed the explanation of the Gnana, Karma &amp; Bhakti Yoga videos, I have realized that there is an underlying concept of perennial happiness by combining these three Yogas.</p>
-<p>Before delving directly into the blog, let me summarize the prime pointers mentioned in the Video Series.</p>
-<p>Re-cap of YouTube Channel First 4 Videos:</p>
-<p>The root cause of unhappiness is our own thinking or thought process. Since our thought process hinders us from seeing the “world as-is” and instead, we see “the world as we want to see.”</p>
-<p>Gnana Yoga: If we need to see the “world as-is,” the prime thing is not to get involved but to just observe. Such that our thought process changes from reacting to comprehending the situation.</p>
-<p>Karma Yoga: After we comprehend the situation, we need to act based on the revised thought process which, in turn, is based on our comprehension.</p>
-<p>Bhakti Yoga: Once we start to act on the thoughts based on comprehension rather than reaction, we tend to observe that the results of the actions we take are going in a positive direction. This, in turn, helps us to love our own thought process.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning124/version_arun_image.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="693"></p>
-</figure>
-</div>
-<p><u><strong>Blog</strong></u>:</p>
-<p>Let us consider an acting profession.</p>
-<p>Acting: Assume that one wants to become a good and better actor. Let us assume that he/she thinks about his/her career impartially, leading to the selection of roles with clarity in their thought process. Once he/she selects the roles, he/she gives his/her 100% in acting. However, the results are in the hands of critics and audiences, which can go either way.</p>
-<p>Since he/she is clear in his/her thought process to become a better actor, he/she takes cues from past roles and learns from critics and audiences, and further implementing them in their next movie. His/Her learnings and comprehensions about being an actor improve movie after movie. He/She tries to become a better version of thyself compared to their previous movie, as their impartial thought process focuses on being a good and better actor. This makes them happier, knowing that he/she is progressing to become a better actor. Since, there is no limit for betterment; His/Her experimentation and exploration to become a better continuous till he/she strives for it. At a distance it looks like a diligent and hardworking model. However, upon closer inspection, one can discern a continuous journey of self improvement. The Ultimate happiness is about progressing thyself without future regrets. If one can take actions “now” resulting from clear thought process, that action is the first step towards happiness. Moreover, when one’s purpose is beyond their existence, their continuous action is bounded by love towards upon their “clear” thought process. This iterative process of taking incremental steps in our own life leads to various degrees of “delta happiness”, ultimately guiding us into a perpetual state of bliss.</p>
-<p>I will be creating a YouTube Video as well on the similar lines in next couple of days. ______________________________________________________________________________________________________________</p>
-<p>My previous blogs for reference -</p>
-<ul>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/learnings-indian-culture/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/learnings-indian-culture/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning101/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning101/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning102/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning102/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning103/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning103/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning104/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning104/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning105/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning105/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning106/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning106/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning107/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning107/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning108/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning108/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning109/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning109/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning110/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning110/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning111/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning111/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning112/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning112/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning113/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning113/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning114/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning114/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning115/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning115/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning116/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning116/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning117/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning117/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning118/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning118/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning119/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning119/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning120/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning120/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning121/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning121/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning122/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning122/</a></p></li>
-<li><p><a href="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning123/" class="uri">https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning123/</a></p></li>
-</ul>
-<script src="https://giscus.app/client.js" data-repo="ArunKoundinya/CanvassAndAnalyze" data-repo-id="R_kgDOLTnAQQ" data-category="General" data-category-id="DIC_kwDOLTnAQc4CdYId" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" async="">
-</script>
-
-
-
-
- ]]></description>
-  <category>spirituality</category>
-  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning124/</guid>
-  <pubDate>Mon, 08 Jan 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning124/version_arun_image.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
