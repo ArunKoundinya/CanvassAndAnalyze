@@ -3,9 +3,10 @@ title: "What Is Left for a Data Scientist When AI Writes the Code?"
 subtitle: "A short introduction to an article on my AI Basics blog"
 author: "Arun Koundinya Parasa"
 date: "2026-10-24"
+series: systems
 categories: [analytics, data science, AI, career]
 image: "image.png"
-description: "AI now writes the code and AutoML builds the model. What stays human for a data scientist is defining the problem and turning data into decisions. A short introduction to the full article on AI Basics with AK."
+description: "AI now writes the code and AutoML builds the model. What stays human for a data scientist: defining the problem and turning data into decisions."
 ---
 
 Something is changing. Not just the tools. The entire job description of a data scientist is being quietly rewritten.
