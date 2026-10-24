@@ -3,9 +3,9 @@
     "listing": "/series/systems.html",
     "items": [
       "/posts/analytics-strategic-lever/index.html",
+      "/posts/what-is-left-for-data-scientists/index.html",
       "/posts/systems-thinking-with-ai/index.html",
-      "/posts/image-and-person/index.html",
-      "/posts/what-is-left-for-data-scientists/index.html"
+      "/posts/image-and-person/index.html"
     ]
   },
   {
@@ -26,9 +26,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/what-is-left-for-data-scientists/index.html",
       "/posts/image-and-person/index.html",
       "/posts/systems-thinking-with-ai/index.html",
+      "/posts/what-is-left-for-data-scientists/index.html",
       "/posts/analytics-strategic-lever/index.html",
       "/posts/Love_n_Trust_Season1_Episode5/index.html",
       "/posts/career_me_community/index.html",
@@ -122,9 +122,9 @@
   {
     "listing": "/archive.html",
     "items": [
-      "/posts/what-is-left-for-data-scientists/index.html",
       "/posts/image-and-person/index.html",
       "/posts/systems-thinking-with-ai/index.html",
+      "/posts/what-is-left-for-data-scientists/index.html",
       "/posts/analytics-strategic-lever/index.html",
       "/posts/Love_n_Trust_Season1_Episode5/index.html",
       "/posts/career_me_community/index.html",

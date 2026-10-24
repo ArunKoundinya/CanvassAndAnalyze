@@ -17,46 +17,7 @@
 <width>144</width>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sat, 24 Oct 2026 04:00:00 GMT</lastBuildDate>
-<item>
-  <title>What Is Left for a Data Scientist When AI Writes the Code?</title>
-  <dc:creator>Arun Koundinya Parasa</dc:creator>
-  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Something is changing. Not just the tools. The entire job description of a data scientist is being quietly rewritten.</p>
-<p>A modular Python project that once took months of engineering discipline can now be produced in a weekend with a few prompts. AutoML platforms take a CSV and return a ranked leaderboard of models. The code is getting automated. The model is getting automated too.</p>
-<p>So what is left?</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/image.png" class="img-fluid figure-img" width="405"></p>
-<figcaption>Data science sits where business, mathematics and technology meet. AI is automating the technology side; the business side is still ours.</figcaption>
-</figure>
-</div>
-<p>In the full article I argue that what remains is the part we skipped all along:</p>
-<ul>
-<li><strong>Knowing the problem before defining the data.</strong> Safety stock before forecasting, attrition drivers before retention models. This knowledge comes from sitting with a business head, not from a dataset.</li>
-<li><strong>Climbing from data to wisdom.</strong> Most teams work at the data and information levels of the DIKW pyramid and hand the output to a business head who needs knowledge and wisdom. The gap in between is a translation problem, not a tools problem.</li>
-<li><strong>The Define and Control phases of DMAIC.</strong> AI handles Measure and Analyze well. Framing the right question, and making sure the improvement holds, remain human.</li>
-</ul>
-<p>It also tells the story of how Business Analytics, built carefully since NC State’s first analytics master’s in 2007, was quietly overtaken by “the sexiest job of the 21st century”, and what got lost along the way.</p>
-<p>If you have read <a href="../../posts/analytics-strategic-lever/index.html">The Strategic Lever Nobody Pulls</a> or <a href="../../posts/systems-thinking-with-ai/index.html">Thinking in Systems with AI</a>, this is the same argument seen from the data scientist’s chair.</p>
-<p><a href="https://arunkoundinya.github.io/AIBasicswithAK/blogs/posts/what-is-left-for-data-scientists/" class="btn-warm">Read the full article on AI Basics with AK →</a></p>
-
-
-
- ]]></description>
-  <category>analytics</category>
-  <category>data science</category>
-  <category>AI</category>
-  <category>career</category>
-  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/</guid>
-  <pubDate>Sat, 24 Oct 2026 04:00:00 GMT</pubDate>
-  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/image.png" medium="image" type="image/png" height="131" width="144"/>
-</item>
+<lastBuildDate>Thu, 15 Oct 2026 04:00:00 GMT</lastBuildDate>
 <item>
   <title>THE IMAGE AND THE PERSON</title>
   <dc:creator>Arun Koundinya Parasa</dc:creator>
@@ -771,6 +732,45 @@ Figure&nbsp;15: From AI that advises to AI that acts
   <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/systems-thinking-with-ai/</guid>
   <pubDate>Wed, 07 Oct 2026 04:00:00 GMT</pubDate>
   <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/systems-thinking-with-ai/image.png" medium="image" type="image/png" height="84" width="144"/>
+</item>
+<item>
+  <title>What Is Left for a Data Scientist When AI Writes the Code?</title>
+  <dc:creator>Arun Koundinya Parasa</dc:creator>
+  <link>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Something is changing. Not just the tools. The entire job description of a data scientist is being quietly rewritten.</p>
+<p>A modular Python project that once took months of engineering discipline can now be produced in a weekend with a few prompts. AutoML platforms take a CSV and return a ranked leaderboard of models. The code is getting automated. The model is getting automated too.</p>
+<p>So what is left?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/image.png" class="img-fluid figure-img" width="405"></p>
+<figcaption>Data science sits where business, mathematics and technology meet. AI is automating the technology side; the business side is still ours.</figcaption>
+</figure>
+</div>
+<p>In the full article I argue that what remains is the part we skipped all along:</p>
+<ul>
+<li><strong>Knowing the problem before defining the data.</strong> Safety stock before forecasting, attrition drivers before retention models. This knowledge comes from sitting with a business head, not from a dataset.</li>
+<li><strong>Climbing from data to wisdom.</strong> Most teams work at the data and information levels of the DIKW pyramid and hand the output to a business head who needs knowledge and wisdom. The gap in between is a translation problem, not a tools problem.</li>
+<li><strong>The Define and Control phases of DMAIC.</strong> AI handles Measure and Analyze well. Framing the right question, and making sure the improvement holds, remain human.</li>
+</ul>
+<p>It also tells the story of how Business Analytics, built carefully since NC State’s first analytics master’s in 2007, was quietly overtaken by “the sexiest job of the 21st century”, and what got lost along the way.</p>
+<p>If you have read <a href="../../posts/analytics-strategic-lever/index.html">The Strategic Lever Nobody Pulls</a> or <a href="../../posts/systems-thinking-with-ai/index.html">Thinking in Systems with AI</a>, this is the same argument seen from the data scientist’s chair.</p>
+<p><a href="https://arunkoundinya.github.io/AIBasicswithAK/blogs/posts/what-is-left-for-data-scientists/" class="btn-warm">Read the full article on AI Basics with AK →</a></p>
+
+
+
+ ]]></description>
+  <category>analytics</category>
+  <category>data science</category>
+  <category>AI</category>
+  <category>career</category>
+  <guid>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/</guid>
+  <pubDate>Mon, 11 May 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://arunkoundinya.github.io/CanvassAndAnalyze/posts/what-is-left-for-data-scientists/image.png" medium="image" type="image/png" height="131" width="144"/>
 </item>
 <item>
   <title>The Strategic Lever Nobody Pulls</title>
