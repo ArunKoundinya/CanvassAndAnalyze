@@ -5,7 +5,7 @@ author: "Arun Koundinya Parasa"
 date: "2026-10-07"
 series: systems
 toc: true
-categories: ["AI", "Data Science", "Systems Thinking", "Business"]
+categories: [AI, data science, systems thinking, business]
 image: "image.png"
 format:
   html:

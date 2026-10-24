@@ -2,7 +2,7 @@
 title: "PsychoGraphic Profiling?"
 author: "Arun Koundinya Parasa"
 date: "2020-02-12"
-categories: [consumerbehavior, psychology]
+categories: [consumer behaviour, psychology]
 image: "mumbai-local.png"
 description: "If we just google 'Pyschographic ' we will decent material for our consumption. However, this article is not intended on those lines."
 ---

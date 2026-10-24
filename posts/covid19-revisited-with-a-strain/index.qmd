@@ -3,7 +3,7 @@ title: "COVID 19: REVISITED WITH A NEW STRAIN"
 author: "Arun Koundinya Parasa, Mahesh Kolli"
 date: "2021-05-07"
 series: covid19
-categories: [covid19]
+categories: [COVID-19]
 image: "image.png"
 description: "COVID-19 revisited with a new strain: the second wave in India and what everyone should know."
 ---

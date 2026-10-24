@@ -3,7 +3,7 @@ title: "COVID 19 : STEROIDS , DRUGS & DEATHS"
 author: "Arun Koundinya Parasa, Mahesh Kolli"
 date: "2021-05-26"
 series: covid19
-categories: [covid19]
+categories: [COVID-19]
 image: "drugs1.png"
 description: "Steroids, drugs and deaths during India's second COVID-19 wave."
 ---

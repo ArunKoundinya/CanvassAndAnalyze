@@ -2,7 +2,7 @@
 title: "Depth & Breadth of MultiTasking"
 author: "Arun Koundinya Parasa"
 date: "2019-10-27"
-categories: [multitasking, timemanagement]
+categories: [multitasking, time management]
 image: "OneThing.png"
 description: "One and half year ago I came across these two books which helped me to improve and change my thinking on multi-tasking."
 ---

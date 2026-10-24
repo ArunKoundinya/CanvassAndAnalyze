@@ -2,7 +2,7 @@
 title: "Consumer behaviour perspective from 30K feet above Sea Level"
 author: "Arun Koundinya Parasa"
 date: "2020-02-07"
-categories: [consumerbehavior, psychology]
+categories: [consumer behaviour, psychology]
 description: "“Thy King, Thy People” was an age-old adage that we have been listening since childhoods for generations after generations."
 ---
 

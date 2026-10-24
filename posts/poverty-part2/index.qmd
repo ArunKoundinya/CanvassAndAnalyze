@@ -2,7 +2,7 @@
 title: "Does end in Poverty leads to end in Hunger? { Part - 2 }"
 author: "Arun Koundinya Parasa"
 date: "2019-10-16"
-categories: [poverty, economy]
+categories: [poverty, economics]
 image: "hungerindex.png"
 description: "World Food Day is celebrated every year across the world on 16 October which is the founding data of Food and Agriculture Organisation."
 ---

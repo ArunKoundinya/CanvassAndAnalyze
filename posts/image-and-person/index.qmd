@@ -5,7 +5,7 @@ author: "Arun Koundinya Parasa"
 date: "2026-10-15"
 series: systems
 toc: true
-categories: ["Leadership", "Systems Thinking", "Philosophy", "Management"]
+categories: [leadership, systems thinking, philosophy, management]
 image: "image.png"
 format:
   html:

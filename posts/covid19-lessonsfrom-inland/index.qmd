@@ -3,7 +3,7 @@ title: "COVID 19: LESSONS FROM 'IN' LAND"
 author: "Arun Koundinya Parasa, Mahesh Kolli"
 date: "2020-04-05"
 series: covid19
-categories: [covid19]
+categories: [COVID-19]
 image: "image.png"
 description: "Lessons for India from the South Korean model and its use of analytics to contain COVID-19 during the lockdown."
 ---
