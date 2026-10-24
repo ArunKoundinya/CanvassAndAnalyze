@@ -3,7 +3,7 @@ title: "COVID-19 Chronicles"
 description: "Written as the pandemic unfolded: facts and fear, lockdowns and recession, the second wave — and what it taught us."
 image: ../images/social/covid19.png
 status: "Completed"
-span: "10 essays · 2020 – 2021"
+span: "{n} essays · {first} – {last}"
 color: "sage"
 glyph: "19"
 order: 4
@@ -27,7 +27,7 @@ listing:
 
 Written as the pandemic unfolded: facts and fear, lockdowns and recession, the second wave — and what it taught us.
 
-[10 essays · 2020 – 2021]{.meta}
+[{n} essays · {first} – {last}]{.meta data-count="covid19"}
 :::
 
 ::: {#episodes}

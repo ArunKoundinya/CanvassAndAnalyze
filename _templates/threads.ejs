@@ -18,7 +18,7 @@ const label = { published: "Published", writing: "Being written", coming: "Comin
     <a class="thread <%- t.status %>" href="#thread-<%- t.panel %>" data-panel="<%- t.panel %>" style="--thread: <%- t.color %>">
       <span class="thread-name"><%= t.name %></span>
       <span class="thread-theme"><%= t.theme %></span>
-      <span class="thread-status"><%= label[t.status] %><% if (t.note) { %> · <%= t.note %><% } %></span>
+      <span class="thread-status"><%= label[t.status] %><% if (t.note) { %> · <span data-count="<%- t.count || '' %>"><%= t.note %></span><% } %></span>
       <span class="thread-cta">Read chapters</span>
     </a>
     <% } else { %>

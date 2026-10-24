@@ -3,7 +3,7 @@ title: "Extended Learnings on Indian Culture"
 description: "A long walk through Rishis, Gurus, Gunas and the three Yogas — my personal comprehension of Sanātana Dharma, plus a glossary of its key ideas."
 image: ../images/social/spirituality.png
 status: "Completed"
-span: "29 essays · 2020 – 2024"
+span: "{n} essays · {first} – {last}"
 color: "terracotta"
 glyph: "ॐ"
 order: 3
@@ -27,7 +27,7 @@ listing:
 
 A long walk through Rishis, Gurus, Gunas and the three Yogas — my personal comprehension of Sanātana Dharma, plus a glossary of its key ideas.
 
-[29 essays · 2020 – 2024]{.meta}
+[{n} essays · {first} – {last}]{.meta data-count="spirituality"}
 :::
 
 ::: {#episodes}

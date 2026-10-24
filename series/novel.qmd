@@ -4,7 +4,7 @@ subtitle: "Emotions that ground us, and remind us we are human"
 description: "A novel in the making, published chapter by chapter: eight lives, each carrying one emotion, woven into a single story about what grounds us and reminds us we are human."
 image: ../images/social/novel.png
 status: "Novel in progress"
-span: "8 threads · 12 chapters so far"
+span: "8 threads · {n} chapters so far"
 color: "plum"
 glyph: "&"
 order: 1
@@ -45,7 +45,7 @@ listing:
 
 A novel in the making, published chapter by chapter. Eight lives, each carrying one emotion: love, betrayal, chaos, openness, fear, doubt, action and service. Followed one by one, the threads weave into a single life.
 
-[8 threads · 12 chapters so far]{.meta}
+[8 threads · {n} chapters so far]{.meta data-count="novel"}
 :::
 
 [The threads]{.arc-title}

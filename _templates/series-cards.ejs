@@ -5,7 +5,7 @@
     <span class="kicker"><%= item.status || "Series" %></span>
     <h3><%= item.title %></h3>
     <p><%= item.description %></p>
-    <span class="series-meta"><%= item.span %> →</span>
+    <span class="series-meta"><span data-count="<%- (item.path || '').split('/').pop().replace('.qmd', '') %>"><%= item.span %></span> →</span>
   </a>
 <% } %>
 </div>

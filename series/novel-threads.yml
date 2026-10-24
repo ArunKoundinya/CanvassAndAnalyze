@@ -1,15 +1,19 @@
 # Public reader's map for the novel: one entry per character thread.
 # status: published | writing | coming. Keep future arcs and timeline out of this file.
+# note: counts fill in automatically. {n} = chapters, {seasons} = e.g. "1–2", counting the
+# posts whose folder starts with `count` (see scripts/series_nav.py).
 - name: Sanjay
   theme: Love & Trust
   status: published
-  note: "Seasons 1–2 · 10 chapters"
+  note: "Seasons {seasons} · {n} chapters"
+  count: "novel:Love_n_Trust"
   panel: sanjay
   color: "#7A4A5E"
 - name: Raj
   theme: Trust & Betrayal
   status: writing
-  note: "Season 1 · 2 chapters"
+  note: "Season {seasons} · {n} chapters"
+  count: "novel:Trust_n_Betrayal"
   panel: raj
   color: "#B4532A"
 - name: The Driver

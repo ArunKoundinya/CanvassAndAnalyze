@@ -1,9 +1,14 @@
-"""Quarto post-render step: series navigation on posts.
+"""Quarto post-render step: series navigation on posts, and live series counts.
 
 Any post with `series: <name>` in its front matter (matching series/<name>.qmd)
 gets a "Part N of M · Series" line above its title and previous/next cards
 at the end. Order is by date, except the novel, which follows its folders
 (Love & Trust S1, S2, then Trust & Betrayal).
+
+It also fills in counts anywhere a page has an element marked
+data-count="<series>" (or "<series>:<folder prefix>", or "series" for the
+number of series), replacing {n}, {first}, {last} and {seasons} in its text.
+So "{n} essays · {first} – {last}" always matches the posts that exist.
 """
 import glob, html, os, re
 
@@ -73,3 +78,45 @@ for folder, (key, i) in lookup.items():
     open(path, "w", encoding="utf-8").write(page)
     done += 1
 print(f"series_nav.py: added navigation to {done} posts")
+
+
+def fill_text(key, text):
+    if key == "series":
+        n, years, seasons = len(series), [], []
+    else:
+        name, _, prefix = key.partition(":")
+        posts = [p for p in series.get(name, {}).get("posts", []) if p["folder"].startswith(prefix)]
+        n = len(posts)
+        years = sorted(p["date"][:4] for p in posts if p["date"][:4].isdigit())
+        seasons = sorted({int(m) for p in posts for m in re.findall(r"Season(\d+)", p["folder"])})
+    span = "" if not seasons else (str(seasons[0]) if len(seasons) == 1 else f"{seasons[0]}–{seasons[-1]}")
+    return (text.replace("{n}", str(n)).replace("{first}", years[0] if years else "")
+                .replace("{last}", years[-1] if years else "").replace("{seasons}", span))
+
+
+def fill(match):
+    text = fill_text(match.group(1), match.group(3))
+    return match.group(0)[: match.start(3) - match.start(0)] + text + "<"
+
+
+filled = 0
+for path in glob.glob(os.path.join(OUT, "**", "*.html"), recursive=True):
+    page = open(path, encoding="utf-8").read()
+    if 'data-count="' not in page:
+        continue
+    new = re.sub(r'data-count="([^"]+)"([^>]*)>([^<]*)<', fill, page)
+    if new != page:
+        open(path, "w", encoding="utf-8").write(new)
+        filled += 1
+
+# The site search index holds the raw page text too, so fill the series pages' entries there.
+import json
+idx_path = os.path.join(OUT, "search.json")
+if os.path.exists(idx_path):
+    idx = json.load(open(idx_path, encoding="utf-8"))
+    for entry in idx:
+        m = re.match(r"series/([\w-]+)\.html", entry.get("href", ""))
+        if m and "{n}" in entry.get("text", ""):
+            entry["text"] = fill_text(m.group(1), entry["text"])
+    json.dump(idx, open(idx_path, "w", encoding="utf-8"), ensure_ascii=False)
+print(f"series_nav.py: filled series counts on {filled} pages")

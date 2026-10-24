@@ -85,7 +85,6 @@ def tags_for(rel):
                 {"@type": "Blog", "name": "Canvass And Analyze", "url": SITE, "author": AUTHOR},
             ],
         }
-        out.append(f'<meta property="og:url" content="{url}">')
     elif rel.startswith("series/") and fm:
         data = {"@context": "https://schema.org", "@type": "CollectionPage",
                 "name": fm.get("title", ""), "description": fm.get("description", ""),
@@ -95,6 +94,8 @@ def tags_for(rel):
     else:
         data = None
 
+    if not rel.startswith("posts/"):
+        out += ['<meta property="og:type" content="website">', f'<meta property="og:url" content="{url}">']
     if data:
         out.append('<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False) + "</script>")
     return MARK + "\n" + "\n".join(out) + "\n"
@@ -119,7 +120,17 @@ for path in files:
         html = html.replace('<meta name="robots" content="index, follow, max-image-preview:large">', "")
         open(path, "w", encoding="utf-8").write(html.replace("</head>", tag + "</head>", 1))
         continue
-    html = re.sub(r'\s*<meta property="og:(type|url)"[^>]*>', "", html) if rel.startswith("posts/") else html
+    html = re.sub(r'\s*<meta property="og:(type|url)"[^>]*>', "", html)
+    # WhatsApp and LinkedIn previews are pickier than Google: give the image's type and alt text
+    # right next to og:image.
+    m = re.search(r'<meta property="og:image" content="([^"]+)">', html)
+    if m:
+        ext = m.group(1).rsplit(".", 1)[-1].lower()
+        kind = {"jpg": "jpeg", "jpeg": "jpeg", "png": "png", "webp": "webp", "gif": "gif"}.get(ext)
+        title = re.search(r'<meta property="og:title" content="([^"]*)"', html)
+        extra = (f'\n<meta property="og:image:type" content="image/{kind}">' if kind else "") + \
+                (f'\n<meta property="og:image:alt" content="{title.group(1)}">' if title else "")
+        html = html.replace(m.group(0), m.group(0) + extra, 1)
     html = html.replace("</head>", tags_for(rel) + "</head>", 1)
     open(path, "w", encoding="utf-8").write(html)
     done += 1
