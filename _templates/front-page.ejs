@@ -1,6 +1,9 @@
 <%
 const lead = items[0];
 const rest = items.slice(1);
+// Many descriptions are generated from the subtitle; don't print the same line twice.
+const norm = (t) => String(t || "").replace(/<[^>]+>/g, "").replace(/[^a-z0-9]/gi, "").toLowerCase();
+const sameAsSubtitle = (item) => item.subtitle && norm(item.description).startsWith(norm(item.subtitle).slice(0, 60));
 const cat = (item) => (item.categories && item.categories.length) ? item.categories[0] : "Essay";
 %>
 ```{=html}
@@ -13,7 +16,7 @@ const cat = (item) => (item.categories && item.categories.length) ? item.categor
       <span class="kicker">Latest · <%= cat(lead) %></span>
       <h3><%= lead.title %></h3>
       <% if (lead.subtitle) { %><p class="excerpt"><em><%= lead.subtitle %></em></p><% } %>
-      <div class="excerpt"><%= lead.description %></div>
+      <% if (!sameAsSubtitle(lead)) { %><div class="excerpt"><%= lead.description %></div><% } %>
       <p class="meta"><%= lead.date %><% if (lead['reading-time']) { %><span class="dot">·</span><%= lead['reading-time'] %><% } %></p>
     </a>
   </article>
