@@ -81,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-name','listing-theme','listing-status','listing-note','listing-panel','listing-color',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-name','listing-theme','listing-status','listing-note','listing-count','listing-panel','listing-color',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-name","listing-theme","listing-status","listing-note","listing-panel","listing-color"],
+      searchColumns: ["listing-name","listing-theme","listing-status","listing-note","listing-count","listing-panel","listing-color"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -224,6 +224,8 @@ window.Quarto = {
 <meta property="og:title" content="Threads of One Life – Canvass And Analyze">
 <meta property="og:description" content="A novel in the making, published chapter by chapter: eight lives, each carrying one emotion, woven into a single story about what grounds us and reminds us we are human.">
 <meta property="og:image" content="https://arunkoundinya.github.io/CanvassAndAnalyze/images/social/novel.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Threads of One Life – Canvass And Analyze">
 <meta property="og:site_name" content="Canvass And Analyze">
 <meta property="og:image:height" content="630">
 <meta property="og:image:width" content="1200">
@@ -235,6 +237,8 @@ window.Quarto = {
 <meta name="twitter:card" content="summary_large_image">
 <!-- seo.py -->
 <link rel="canonical" href="https://arunkoundinya.github.io/CanvassAndAnalyze/series/novel.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://arunkoundinya.github.io/CanvassAndAnalyze/series/novel.html">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Threads of One Life", "description": "A novel in the making, published chapter by chapter: eight lives, each carrying one emotion, woven into a single story about what grounds us and reminds us we are human.", "url": "https://arunkoundinya.github.io/CanvassAndAnalyze/series/novel.html", "author": {"@type": "Person", "name": "Arun Koundinya Parasa", "url": "https://arunkoundinya.github.io/CanvassAndAnalyze/about.html", "sameAs": ["https://www.linkedin.com/in/arunkoundinya0710/", "https://github.com/ArunKoundinya"]}}</script>
 </head>
 
@@ -356,7 +360,7 @@ window.Quarto = {
 <h1 class="unnumbered unlisted">Threads of One Life</h1>
 <p><span class="series-subtitle">Emotions that ground us, and remind us we are human</span></p>
 <p>A novel in the making, published chapter by chapter. Eight lives, each carrying one emotion: love, betrayal, chaos, openness, fear, doubt, action and service. Followed one by one, the threads weave into a single life.</p>
-<p><span class="meta">8 threads · 12 chapters so far</span></p>
+<p><span class="meta" data-count="novel">8 threads · 12 chapters so far</span></p>
 </section>
 </div>
 <p><span class="arc-title">The threads</span></p>
@@ -388,7 +392,7 @@ window.Quarto = {
     <a class="thread published" href="#thread-sanjay" data-panel="sanjay" style="--thread: #7A4A5E">
       <span class="thread-name">Sanjay</span>
       <span class="thread-theme">Love &amp; Trust</span>
-      <span class="thread-status">Published · Seasons 1–2 · 10 chapters</span>
+      <span class="thread-status">Published · <span data-count="novel:Love_n_Trust">Seasons 1–2 · 10 chapters</span></span>
       <span class="thread-cta">Read chapters</span>
     </a>
     
@@ -397,7 +401,7 @@ window.Quarto = {
     <a class="thread writing" href="#thread-raj" data-panel="raj" style="--thread: #B4532A">
       <span class="thread-name">Raj</span>
       <span class="thread-theme">Trust &amp; Betrayal</span>
-      <span class="thread-status">Being written · Season 1 · 2 chapters</span>
+      <span class="thread-status">Being written · <span data-count="novel:Trust_n_Betrayal">Season 1 · 2 chapters</span></span>
       <span class="thread-cta">Read chapters</span>
     </a>
     
