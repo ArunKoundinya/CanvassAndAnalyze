@@ -632,3 +632,86 @@ div.thread[aria-disabled] { cursor: default; opacity: .8; }
   margin: 1.2rem 0 0;
   &::before { content: "↑ "; color: $terracotta; }
 }
+
+// "Listen to this post" player (added by scripts/audio_player.py)
+.listen {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  margin: -0.5rem 0 2rem;
+  padding: .75rem 1rem;
+  background: #fff;
+  border: 1px solid $rule;
+  border-radius: 14px;
+  font-family: $font-family-sans-serif;
+}
+.listen-play {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: $ink;
+  color: $paper;
+  font-size: .95rem;
+  cursor: pointer;
+  transition: background .15s, transform .15s;
+  &:hover { background: $terracotta; transform: scale(1.05); }
+  .i-pause { display: none; font-size: .7rem; letter-spacing: -1px; }
+}
+.listen.playing .listen-play { background: $terracotta; .i-play { display: none; } .i-pause { display: inline; } }
+.listen-body { flex: 1; min-width: 0; }
+.listen-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem .6rem;
+  align-items: baseline;
+  font-size: .82rem;
+  strong { color: $ink; font-weight: 600; }
+  span { color: $muted; font-size: .74rem; }
+}
+.listen-bar {
+  width: 100%;
+  margin-top: .35rem;
+  accent-color: $terracotta;
+  height: 4px;
+  cursor: pointer;
+}
+.listen-time { flex: none; font-size: .72rem; color: $muted; font-variant-numeric: tabular-nums; }
+.listen-speed {
+  flex: none;
+  border: 1px solid $rule;
+  background: transparent;
+  border-radius: 999px;
+  padding: .2rem .55rem;
+  font-size: .72rem;
+  color: $ink;
+  cursor: pointer;
+  &:hover { border-color: $terracotta; color: $terracotta; }
+}
+@media (max-width: 560px) {
+  .listen { flex-wrap: wrap; }
+  .listen-time { order: 3; }
+}
+
+// "▶ Listen · N min" badge on listing cards for narrated posts
+.listen-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  margin: .35rem .4rem 0 0;
+  padding: .15rem .6rem;
+  border-radius: 999px;
+  background: rgba($terracotta, .1);
+  color: $terracotta-d !important;
+  font-family: $font-family-sans-serif;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  text-decoration: none !important;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+a.listen-badge:hover { background: $terracotta; color: $paper !important; }
+.meta .listen-badge { margin: 0 0 0 .6rem; }
+.listen-arrived { box-shadow: 0 0 0 2px $terracotta; }

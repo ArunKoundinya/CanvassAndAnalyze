@@ -1,10 +1,12 @@
 project:
   type: website
   resources:
+    - "audio/*.mp3"
     - "5888dbbfcade0a44b6f08032a83338de.txt"
   post-render:
     - scripts/seo.py
     - scripts/series_nav.py
+    - scripts/audio_player.py
 
 website:
   title: "Canvass And Analyze"
