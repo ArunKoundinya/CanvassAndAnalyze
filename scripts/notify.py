@@ -84,10 +84,11 @@ def main(argv):
         slug = argv[i + 2] if len(argv) > i + 2 and not argv[i + 2].startswith("--") else max(
             all_posts(), key=lambda s: post_info(s).get("date_iso", ""))
         cfg = settings()
+        token = next((x["token"] for x in subscribers(cfg) if x["email"] == to.lower()), "TEST-TOKEN")  # real link if subscribed
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ssl.create_default_context()) as smtp:
             smtp.login(cfg["GMAIL_ADDRESS"], cfg["GMAIL_APP_PASSWORD"])
-            smtp.send_message(message(cfg, post_info(slug), to, "TEST-TOKEN"))
-        print(f"notify.py: sent a test email about '{slug}' to {to}")
+            smtp.send_message(message(cfg, post_info(slug), to, token))
+        print(f"notify.py: sent a test email about '{slug}' to {to}" + (" (real unsubscribe link)" if token != "TEST-TOKEN" else ""))
         return
 
     if not os.path.exists(STATE):
