@@ -16,6 +16,7 @@ Each has an HTML and a plain-text version.
 import html, json, os, re, sys
 
 SITE = "https://arunkoundinya.github.io/CanvassAndAnalyze/"
+SENDER = "canvassandanalyze@gmail.com"
 
 # ---- Brand rules -------------------------------------------------------------
 BRAND = {
@@ -144,10 +145,17 @@ def welcome(unsubscribe_url):
             + para("Every post can also be <strong>listened to</strong>: press ▶ at the top of any post.")
             + f'<p style="margin:18px 0 6px;font-family:{b["sans"]};font-size:12px;font-weight:bold;letter-spacing:1.4px;text-transform:uppercase;color:{b["muted"]};">Good places to start</p>'
             + f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">{items}</table>'
+            + f'<div style="margin:22px 0 4px;padding:14px 16px;border-radius:10px;background:{b["paper"]};border:1px solid {b["rule"]};'
+              f'font-family:{b["serif"]};font-size:14px;line-height:1.55;color:{b["ink_soft"]};">'
+              f'<strong>One small request:</strong> please add <strong>{esc(SENDER)}</strong> to your contacts, so my emails '
+              f'reach your inbox. If this one landed in Spam or Promotions, moving it to your inbox helps too.</div>'
             + para("<br>— Arun", size=15))
     text = ("Welcome to Canvass And Analyze, and thank you.\n\nGood places to start:\n"
             + "".join(f"- {t}: {u}\n" for t, _, u in starts)
-            + f"\nEvery post can also be listened to.\n\n— Arun\n\nUnsubscribe: {unsubscribe_url}")
+            + f"\nEvery post can also be listened to.\n\n"
+            + f"One small request: please add {SENDER} to your contacts, so my emails reach your inbox. "
+            + "If this one landed in Spam or Promotions, moving it to your inbox helps too.\n\n"
+            + f"— Arun\n\nUnsubscribe: {unsubscribe_url}")
     return subject, layout(pre, body, unsubscribe_url), text
 
 
