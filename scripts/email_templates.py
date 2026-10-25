@@ -54,7 +54,7 @@ def layout(preheader, body_html, unsubscribe_url=None, reason=None):
 <meta name="color-scheme" content="light"><meta name="supported-color-schemes" content="light">
 <title>{esc(b['name'])}</title></head>
 <body style="margin:0;padding:0;background:{b['paper']};">
-<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">{esc(preheader)}&#8199;&#65279;&#847;&#8199;&#65279;&#847;&#8199;&#65279;&#847;</div>
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">{esc(preheader)}</div>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:{b['paper']};">
 <tr><td align="center" style="padding:28px 14px;">
   <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
