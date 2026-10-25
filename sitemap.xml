@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/about.html</loc>
-    <lastmod>2026-10-23T17:50:39.200Z</lastmod>
-  </url>
-  <url>
-    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/series/systems.html</loc>
+    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/series/novel.html</loc>
     <lastmod>2026-10-24T00:36:03.334Z</lastmod>
   </url>
   <url>
-    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/series/covid19.html</loc>
-    <lastmod>2026-10-24T00:36:03.333Z</lastmod>
+    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/series/spirituality.html</loc>
+    <lastmod>2026-10-24T00:36:03.334Z</lastmod>
+  </url>
+  <url>
+    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/archive.html</loc>
+    <lastmod>2026-10-24T00:23:36.762Z</lastmod>
   </url>
   <url>
     <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning108/index.html</loc>
@@ -190,7 +190,7 @@
   </url>
   <url>
     <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/index.html</loc>
-    <lastmod>2026-10-25T01:14:56.539Z</lastmod>
+    <lastmod>2026-10-25T01:55:45.999Z</lastmod>
   </url>
   <url>
     <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/posts/IndianCultureLearning110/index.html</loc>
@@ -365,15 +365,15 @@
     <lastmod>2026-10-23T17:56:39.043Z</lastmod>
   </url>
   <url>
-    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/archive.html</loc>
-    <lastmod>2026-10-24T00:23:36.762Z</lastmod>
+    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/series/covid19.html</loc>
+    <lastmod>2026-10-24T00:36:03.333Z</lastmod>
   </url>
   <url>
-    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/series/spirituality.html</loc>
+    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/series/systems.html</loc>
     <lastmod>2026-10-24T00:36:03.334Z</lastmod>
   </url>
   <url>
-    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/series/novel.html</loc>
-    <lastmod>2026-10-24T00:36:03.334Z</lastmod>
+    <loc>https://arunkoundinya.github.io/CanvassAndAnalyze/about.html</loc>
+    <lastmod>2026-10-23T17:50:39.200Z</lastmod>
   </url>
 </urlset>
