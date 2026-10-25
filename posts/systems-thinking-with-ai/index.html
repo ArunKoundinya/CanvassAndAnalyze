@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-6f28e3960016098070ee2c52a731d959.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-ec536f047f0ff59879d2bec58418a43d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -259,6 +259,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+<!-- audio_player -->
+<div class="listen" id="listen" data-seconds="1858">
+  <button class="listen-play" type="button" aria-label="Play"><span class="i-play">▶</span><span class="i-pause">❚❚</span></button>
+  <div class="listen-body">
+    <div class="listen-head"><strong>Listen to this post</strong><span>31 min · AI narration by Aria</span></div>
+    <input class="listen-bar" type="range" min="0" max="1000" value="0" aria-label="Seek">
+  </div>
+  <span class="listen-time">0:00 / 30:58</span>
+  <button class="listen-speed" type="button" aria-label="Playback speed">1×</button>
+  <audio preload="none" src="../../audio/systems-thinking-with-ai.mp3"></audio>
+</div>
+
 
 
 <p>This article is written for the CXOs and business heads who decide where Data Science sits in their organization and who owns what it delivers. It is also for the Heads of Data Science who make it worth it. My argument is simple <strong>AI is not an IT project. It is a business loop, and it works only when business and Data Science learn from each other.</strong></p>
@@ -1177,4 +1189,26 @@ Figure&nbsp;15: From AI that advises to AI that acts
 
 
 
+<script>
+document.querySelectorAll(".listen").forEach(function (box) {
+  var audio = box.querySelector("audio"), play = box.querySelector(".listen-play"),
+      bar = box.querySelector(".listen-bar"), time = box.querySelector(".listen-time"),
+      speed = box.querySelector(".listen-speed"), rates = [1, 1.25, 1.5, 0.9], r = 0;
+  function fmt(s) { s = Math.max(0, Math.floor(s || 0)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); }
+  play.addEventListener("click", function () { audio.paused ? audio.play() : audio.pause(); });
+  audio.addEventListener("play", function () { box.classList.add("playing"); play.setAttribute("aria-label", "Pause"); });
+  audio.addEventListener("pause", function () { box.classList.remove("playing"); play.setAttribute("aria-label", "Play"); });
+  audio.addEventListener("timeupdate", function () {
+    if (audio.duration) bar.value = (audio.currentTime / audio.duration) * 1000;
+    time.textContent = fmt(audio.currentTime) + " / " + fmt(audio.duration || box.dataset.seconds);
+  });
+  bar.addEventListener("input", function () { if (audio.duration) audio.currentTime = (bar.value / 1000) * audio.duration; });
+  speed.addEventListener("click", function () { r = (r + 1) % rates.length; audio.playbackRate = rates[r]; speed.textContent = rates[r] + "×"; });
+  if (location.hash === "#listen") {           // arrived from a "Listen" badge
+    box.classList.add("listen-arrived");
+    box.scrollIntoView({ block: "center" });
+    audio.play().catch(function () {});          // browsers may block autoplay; the button still works
+  }
+});
+</script>
 </body></html>

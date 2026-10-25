@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6f28e3960016098070ee2c52a731d959.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ec536f047f0ff59879d2bec58418a43d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -795,4 +795,34 @@ window.Quarto = {
 
 
 
+<script>
+(function () {
+  var audio = {"ExtendedLearnings-WhatNext": 3, "IndianCultureGlossary101": 3, "IndianCultureGlossary102": 2, "IndianCultureGlossary103": 3, "IndianCultureLearning101": 2, "IndianCultureLearning102": 3, "IndianCultureLearning103": 3, "IndianCultureLearning104": 4, "IndianCultureLearning105": 4, "IndianCultureLearning106": 3, "IndianCultureLearning107": 4, "IndianCultureLearning108": 3, "IndianCultureLearning109": 4, "IndianCultureLearning110": 4, "IndianCultureLearning111": 5, "IndianCultureLearning112": 5, "IndianCultureLearning113": 5, "IndianCultureLearning114": 4, "IndianCultureLearning115": 4, "IndianCultureLearning116": 4, "IndianCultureLearning117": 5, "IndianCultureLearning118": 4, "IndianCultureLearning119": 4, "IndianCultureLearning120": 5, "IndianCultureLearning121": 5, "IndianCultureLearning122": 6, "IndianCultureLearning123": 5, "IndianCultureLearning124": 4, "Love_n_Trust_Season1_Episode1": 8, "Love_n_Trust_Season1_Episode2": 11, "Love_n_Trust_Season1_Episode3": 11, "Love_n_Trust_Season1_Episode4": 7, "Love_n_Trust_Season1_Episode5": 8, "Love_n_Trust_Season1_Episode6": 7, "Love_n_Trust_Season1_Episode7": 19, "Love_n_Trust_Season1_Episode8": 12, "Love_n_Trust_Season2_Episode1": 8, "Love_n_Trust_Season2_Episode2": 8, "Trust_n_Betrayal_Season1_Episode1": 6, "Trust_n_Betrayal_Season1_Episode2": 7, "a-happy-diwali-2020": 2, "analytics-strategic-lever": 14, "can-we-claim-sucess": 5, "career_me_community": 22, "cognitive_delusion": 5, "communication-is-key": 2, "consumer-behavior": 5, "covid19-deaths-lockdowns-recission": 7, "covid19-factcheck": 22, "covid19-fear-stress-suicide": 10, "covid19-lessonsfrom-inland": 17, "covid19-medicalscience": 22, "covid19-netizenreactions": 5, "covid19-revisited-with-a-strain": 8, "covid19-steroids-drugs-deaths": 10, "covid19-theconclusion": 7, "covid19-when-it-ends": 9, "creativity-process": 4, "crimes-against-women": 10, "dilemma": 4, "emotional-hangover": 4, "fear-stress": 10, "hardword-achievement-success": 8, "humble-assertiveness": 8, "image-and-person": 13, "learnings-indian-culture": 2, "love-is-in-air": 2, "maturity-immaturity": 3, "multi-tasking": 2, "opening-move": 2, "our-thinking-our-life": 4, "poverty-part1": 4, "poverty-part2": 4, "power-love-sex": 7, "psychographic-profiling": 4, "responsibility": 6, "self-inflicting-crimes": 7, "systems-thinking-with-ai": 31, "tenet-axoim-reality": 2, "the-conflict": 11, "the-new-beginning": 4, "time-not-enough": 4, "w-i-f-m": 5, "what-is-hapiness": 3, "what-is-hapiness-part2": 5, "what-is-left-for-data-scientists": 2, "what-makes-it-complete": 6};
+  function mark() { document.querySelectorAll(".list a[href], .quarto-listing a[href]").forEach(function (a) {
+    var m = a.getAttribute("href").match(/posts\/([^\/]+)\//);
+    if (!m || !audio[m[1]]) return;
+    var card = a.closest(".quarto-post, article, .essay-card, .episode") || a;
+    if (card.querySelector(".listen-badge")) return;
+    var badge = document.createElement("a");
+    badge.className = "listen-badge";
+    badge.href = a.getAttribute("href").replace(/index\.html$/, "") + "#listen";
+    badge.textContent = "▶ Listen · " + audio[m[1]] + " min";
+    badge.title = "AI narration";
+    badge.addEventListener("click", function (e) { e.stopPropagation(); });
+    var meta = card.querySelector(".meta, .listing-reading-time, .listing-date");
+    if (card.tagName === "A") {                    // cards that are links themselves can't hold another link
+      var span = document.createElement("span");
+      span.className = "listen-badge";
+      span.textContent = badge.textContent;
+      (meta || card).appendChild(span);
+    } else {
+      (meta ? meta.parentNode : card).insertBefore(badge, meta ? meta.nextSibling : null);
+    }
+  }); }
+  mark();
+  // Paging, sorting and filtering in listings redraw the cards; mark the new ones too.
+  var t; new MutationObserver(function () { clearTimeout(t); t = setTimeout(mark, 50); })
+    .observe(document.body, { childList: true, subtree: true });
+})();
+</script>
 </body></html>
