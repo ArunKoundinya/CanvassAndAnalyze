@@ -1,0 +1,27 @@
+---
+title: "You're subscribed"
+page-layout: article
+title-block-banner: false
+title-block-style: none
+search: false
+sitemap: false
+---
+
+::: {.status-page}
+[Subscription]{.kicker}
+
+# Thank you for subscribing {#status-title .unnumbered .unlisted}
+
+[You'll get an email whenever I publish something new. A welcome note is on its way to your inbox.]{#status-text .lede}
+
+[Back to the blog](index.qmd){.btn-warm}
+:::
+
+```{=html}
+<script>
+if (new URLSearchParams(location.search).get("status") === "invalid") {
+  document.getElementById("status-title").textContent = "That link didn't work";
+  document.getElementById("status-text").textContent = "The confirmation link is invalid or has already been replaced. Please subscribe again from any page of the blog.";
+}
+</script>
+```

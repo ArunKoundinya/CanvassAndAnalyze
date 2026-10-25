@@ -1,0 +1,19 @@
+# Cloudflare Worker for email subscriptions (see src/index.js).
+name = "canvass-subscribe"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+SITE_URL = "https://arunkoundinya.github.io/CanvassAndAnalyze/"
+FROM_EMAIL = "canvassandanalyze@gmail.com"
+FROM_NAME = "Arun Koundinya Parasa · Canvass And Analyze"
+
+# Secrets (set with `wrangler secret put`, never stored here):
+#   GMAIL_APP_PASSWORD  - Gmail app password for FROM_EMAIL
+#   TURNSTILE_SECRET    - Cloudflare Turnstile secret key
+#   ADMIN_TOKEN         - lets scripts/notify.py read the subscriber list
+
+[[d1_databases]]
+binding = "DB"
+database_name = "canvass-subscribers"
+database_id = "TO-BE-FILLED-AFTER-wrangler-d1-create"

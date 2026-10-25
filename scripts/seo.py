@@ -113,6 +113,12 @@ for path in files:
     html = open(path, encoding="utf-8").read()
     if MARK in html or "</head>" not in html:
         continue
+    if rel in ("subscribed.html", "unsubscribe.html"):
+        # utility pages for subscribers: reachable, but not something to find in search
+        html = html.replace('<meta name="robots" content="index, follow, max-image-preview:large">',
+                            '<meta name="robots" content="noindex, follow">')
+        open(path, "w", encoding="utf-8").write(html.replace("</head>", MARK + "\n</head>", 1))
+        continue
     if "old_index" in rel:
         # Superseded drafts stay reachable but shouldn't compete with the new version in search.
         new = page_url(rel.replace("old_index.html", "index.html"))
@@ -137,7 +143,7 @@ for path in files:
 sm = os.path.join(OUT, "sitemap.xml")
 if os.path.exists(sm):
     xml = open(sm, encoding="utf-8").read()
-    xml = re.sub(r"\s*<url>\s*<loc>[^<]*old_index[^<]*</loc>.*?</url>", "", xml, flags=re.S)
+    xml = re.sub(r"\s*<url>\s*<loc>[^<]*(old_index|subscribed\.html|unsubscribe\.html)[^<]*</loc>.*?</url>", "", xml, flags=re.S)
     open(sm, "w", encoding="utf-8").write(xml)
 
 print(f"seo.py: tagged {done} pages")

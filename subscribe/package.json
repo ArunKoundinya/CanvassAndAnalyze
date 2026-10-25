@@ -1,0 +1,13 @@
+{
+  "name": "canvass-subscribe",
+  "private": true,
+  "description": "Email subscriptions for Canvass And Analyze (Cloudflare Worker + D1)",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  },
+  "type": "module"
+}

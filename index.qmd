@@ -102,12 +102,15 @@ Canvass the world around us, then analyse it honestly — that has been the idea
 ::: {}
 ## Never miss an essay {#h-subscribe .unnumbered .unlisted}
 
-New writing lands every few weeks. Follow along by RSS, or connect with me on LinkedIn.
+New writing lands every few weeks. Get each new essay, chapter and series part by email, ready to read or listen to.
 :::
 
-::: {.cta}
-[RSS feed](index.xml){.btn-warm}
-[LinkedIn](https://www.linkedin.com/in/arunkoundinya0710/){.btn-warm .ghost}
+::: {.subscribe-side}
+```{=html}
+<div class="subscribe-form"></div>
+```
+
+[Or follow by [RSS](index.xml) · [LinkedIn](https://www.linkedin.com/in/arunkoundinya0710/)]{.sub-alt}
 :::
 :::
 

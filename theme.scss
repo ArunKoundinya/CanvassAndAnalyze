@@ -757,3 +757,75 @@ a.listen-badge:hover { background: $terracotta; color: $paper !important; }
   .more-go { font-family: $font-family-sans-serif; font-size: .75rem; font-weight: 600; letter-spacing: .04em; color: #F0C9B4; }
 }
 @media (max-width: 860px) { .more-from { padding: 2rem 1.5rem; } }
+
+// ---------- Email subscribe form (assets/subscribe.js) ----------
+.subscribe-side { min-width: 0; }
+.sub-form { font-family: $font-family-sans-serif; }
+.sub-label {
+  position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); // visually hidden
+}
+.sub-row { display: flex; gap: .5rem; }
+.sub-email {
+  flex: 1;
+  min-width: 0;
+  padding: .7rem 1rem;
+  border-radius: 999px;
+  border: 1px solid $rule;
+  background: #fff;
+  color: $ink;
+  font-size: .9rem;
+  &:focus { outline: 2px solid $terracotta; outline-offset: 1px; }
+}
+.sub-button {
+  flex: none;
+  padding: .7rem 1.3rem;
+  border-radius: 999px;
+  border: 1px solid $terracotta;
+  background: $terracotta;
+  color: #fff;
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover { background: $terracotta-d; }
+  &:disabled { opacity: .6; cursor: default; }
+}
+.sub-check:empty { display: none; }
+.sub-check { margin-top: .5rem; }
+.sub-msg { margin: .5rem 0 0; font-size: .82rem; min-height: 1em; }
+.sub-msg:empty { display: none; }
+.sub-msg.ok { color: #2F6B45; font-weight: 600; }
+.sub-msg.error { color: #A12D22; }
+.sub-note { margin: .45rem 0 0; font-size: .72rem; color: $muted; }
+.sub-form.done .sub-row, .sub-form.done .sub-note { display: none; }
+.sub-alt { display: block; margin-top: .8rem; font-family: $font-family-sans-serif; font-size: .78rem; }
+
+// Inside the dark home band
+.subscribe-band {
+  .sub-email { border-color: rgba($paper, .25); }
+  .sub-note, .sub-alt { color: #BFB3A6; }
+  .sub-alt a { color: #F0C9B4; }
+  .sub-msg.ok { color: #9FD3AE; }
+  .sub-msg.error { color: #F3A79E; }
+}
+
+// End-of-post card
+.subscribe-card {
+  margin: 3rem 0 1rem;
+  padding: 1.6rem 1.7rem 1.4rem;
+  border-radius: 14px;
+  background: $paper-deep;
+  border: 1px solid $rule;
+  .kicker { margin: 0 0 .2rem; }
+  h3 { margin: 0 0 1rem; font-size: 1.35rem; }
+}
+@media (max-width: 480px) { .sub-row { flex-direction: column; } .sub-button { width: 100%; } }
+
+// "You're subscribed" / "Unsubscribe" pages
+.status-page {
+  max-width: 34rem;
+  margin: 4rem auto 3rem;
+  text-align: center;
+  h1 { font-size: clamp(2rem, 5vw, 2.8rem); margin: .4rem 0 1rem; }
+  .lede { display: block; font-size: 1.1rem; color: $ink-soft; margin-bottom: 1.8rem; }
+  button.btn-warm { cursor: pointer; font-family: $font-family-sans-serif; }
+}

@@ -9,3 +9,5 @@ posts/.DS_Store
 .tts-lib/
 audio/
 __pycache__/
+subscribe/node_modules/
+subscribe/.wrangler/

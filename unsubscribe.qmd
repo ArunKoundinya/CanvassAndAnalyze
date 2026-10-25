@@ -1,0 +1,40 @@
+---
+title: "Unsubscribe"
+page-layout: article
+title-block-banner: false
+title-block-style: none
+search: false
+sitemap: false
+---
+
+::: {.status-page}
+[Subscription]{.kicker}
+
+# Unsubscribe from Canvass And Analyze {#status-title .unnumbered .unlisted}
+
+[Click below and you won't receive any more emails from me. You can always subscribe again later.]{#status-text .lede}
+
+```{=html}
+<p><button id="unsub-button" class="btn-warm" type="button">Unsubscribe me</button></p>
+<script>
+(function () {
+  var token = new URLSearchParams(location.search).get("token"),
+      endpoint = document.body.dataset.subscribeEndpoint,
+      btn = document.getElementById("unsub-button"),
+      title = document.getElementById("status-title"), text = document.getElementById("status-text");
+  if (!token || !endpoint) { btn.hidden = true; text.textContent = "This link is missing its code. Please use the unsubscribe link in one of my emails."; return; }
+  btn.addEventListener("click", function () {
+    btn.disabled = true; btn.textContent = "Unsubscribing…";
+    fetch(endpoint + "/unsubscribe?token=" + encodeURIComponent(token), { method: "POST" })
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        btn.hidden = true;
+        title.textContent = d.ok ? "You've been unsubscribed" : "That link didn't work";
+        text.textContent = d.ok ? "You won't receive any more emails. Thank you for reading, and you're always welcome back." : d.message;
+      })
+      .catch(function () { btn.disabled = false; btn.textContent = "Unsubscribe me"; text.textContent = "Couldn't reach the server. Please try again."; });
+  });
+})();
+</script>
+```
+:::
