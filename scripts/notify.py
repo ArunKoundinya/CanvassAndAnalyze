@@ -67,7 +67,6 @@ def message(cfg, post, to, token):
     m["To"] = to
     m["Subject"] = subject
     m["Date"] = email.utils.formatdate(localtime=True)
-    m["Message-ID"] = email.utils.make_msgid(domain="canvassandanalyze")
     m["List-Unsubscribe"] = f"<{one_click}>"
     m["List-Unsubscribe-Post"] = "List-Unsubscribe=One-Click"
     m.set_content(text)

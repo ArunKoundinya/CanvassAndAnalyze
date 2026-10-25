@@ -1,0 +1,41 @@
+---
+title: "Confirm your subscription"
+page-layout: article
+title-block-banner: false
+title-block-style: none
+search: false
+---
+
+::: {.status-page}
+[Subscription]{.kicker}
+
+# One click to finish {#status-title .unnumbered .unlisted}
+
+[Confirm below and you'll get an email whenever I publish something new.]{#status-text .lede}
+
+```{=html}
+<p><button id="confirm-button" class="btn-warm" type="button">Confirm my subscription</button></p>
+<p id="back-link" hidden><a class="btn-warm ghost" href="index.html">Start reading</a></p>
+<script>
+(function () {
+  var token = new URLSearchParams(location.search).get("token"),
+      endpoint = document.body.dataset.subscribeEndpoint,
+      btn = document.getElementById("confirm-button"), back = document.getElementById("back-link"),
+      title = document.getElementById("status-title"), text = document.getElementById("status-text");
+  if (!token || !endpoint) { btn.hidden = true; text.textContent = "This link is missing its code. Please use the button in your confirmation email."; return; }
+  btn.addEventListener("click", function () {
+    btn.disabled = true; btn.textContent = "Confirming…";
+    fetch(endpoint + "/confirm", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ token: token }) })
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        btn.hidden = true; back.hidden = false;
+        title.textContent = d.ok ? "Thank you for subscribing" : "That link didn't work";
+        text.textContent = d.ok ? "You're in. A welcome note is on its way, and you'll hear from me whenever something new is published."
+                                : d.message;
+      })
+      .catch(function () { btn.disabled = false; btn.textContent = "Confirm my subscription"; text.textContent = "Couldn't reach the server. Please try again."; });
+  });
+})();
+</script>
+```
+:::

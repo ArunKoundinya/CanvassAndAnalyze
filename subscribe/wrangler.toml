@@ -16,4 +16,4 @@ FROM_NAME = "Arun Koundinya Parasa · Canvass And Analyze"
 [[d1_databases]]
 binding = "DB"
 database_name = "canvass-subscribers"
-database_id = "TO-BE-FILLED-AFTER-wrangler-d1-create"
+database_id = "a6053e0e-db41-4d23-8940-b33c21fa4c66"

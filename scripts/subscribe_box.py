@@ -5,7 +5,7 @@ Until the Worker is deployed and those are filled in, nothing is added.
   - every .subscribe-form placeholder gets data-endpoint / data-sitekey
   - every post gets a subscribe card at the end of the article
   - pages with a form load assets/subscribe.js
-  - unsubscribe.html learns the Worker URL
+  - confirm.html and unsubscribe.html learn the Worker URL
 """
 import json, os, re
 
@@ -43,7 +43,7 @@ if endpoint:
                 new = new.replace('class="subscribe-form"',
                                   f'class="subscribe-form" data-endpoint="{endpoint}" data-sitekey="{sitekey}"')
                 new = new.replace("</body>", f'<script src="{root}assets/subscribe.js" defer></script>\n</body>', 1)
-            if rel == "unsubscribe.html":
+            if rel in ("unsubscribe.html", "confirm.html"):
                 new = re.sub(r"<body([^>]*)>", lambda m: f'<body{m.group(1)} data-subscribe-endpoint="{endpoint}">', new, count=1)
             if new != page:
                 open(path, "w", encoding="utf-8").write(new)

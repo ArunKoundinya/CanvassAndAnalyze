@@ -1,7 +1,8 @@
 // Canvass And Analyze: email subscriptions.
 //
 //   POST /subscribe              {email, turnstile}  -> saves as pending, emails a confirm link
-//   GET  /confirm?token=...      -> marks active, sends the welcome email, redirects to the blog
+//   POST /confirm {token}        -> marks active, sends the welcome email (called by the blog's confirm page)
+//   GET  /confirm?token=...      -> forwards to the blog's confirm page (links in older emails)
 //   POST /unsubscribe?token=...  -> marks unsubscribed (also the one-click List-Unsubscribe target)
 //   GET  /admin/subscribers      -> active subscribers for scripts/notify.py (Bearer ADMIN_TOKEN)
 //
@@ -24,7 +25,9 @@ export default {
 
     try {
       if (url.pathname === "/subscribe" && request.method === "POST") return await subscribe(request, env, cors);
-      if (url.pathname === "/confirm" && request.method === "GET") return await confirm(url, env);
+      if (url.pathname === "/confirm" && request.method === "GET")
+        return Response.redirect(`${env.SITE_URL}confirm.html?token=${encodeURIComponent(url.searchParams.get("token") || "")}`, 302);
+      if (url.pathname === "/confirm" && request.method === "POST") return await confirm(url, request, env, cors);
       if (url.pathname === "/unsubscribe" && request.method === "POST") return await unsubscribe(url, request, env, cors);
       if (url.pathname === "/admin/subscribers" && request.method === "GET") return await listSubscribers(request, env);
       return new Response("Not found", { status: 404 });
@@ -63,23 +66,26 @@ async function subscribe(request, env, cors) {
     await env.DB.prepare("INSERT INTO subscribers (email, status, token, created_at, confirm_sent_at) VALUES (?, 'pending', ?, ?, ?)")
       .bind(email, token, now, now).run();
   }
-  const mail = confirmEmail(`${workerBase(request)}/confirm?token=${token}`);
+  const mail = confirmEmail(`${env.SITE_URL}confirm.html?token=${token}`);  // link to the blog, not workers.dev
   await sendMail(env, { to: email, ...mail });
   return reply;
 }
 
-async function confirm(url, env) {
-  const token = url.searchParams.get("token") || "";
+async function confirm(url, request, env, cors) {
+  const body = await request.json().catch(() => ({}));
+  const token = String(body.token || "");
   const row = await env.DB.prepare("SELECT email, status FROM subscribers WHERE token = ?").bind(token).first();
-  if (!row) return Response.redirect(`${env.SITE_URL}subscribed.html?status=invalid`, 302);
+  if (!row || row.status === "unsubscribed") {
+    return json({ ok: false, message: "This link is not valid. Please subscribe again from any page of the blog." }, 404, cors);
+  }
   if (row.status !== "active") {
-    await env.DB.prepare("UPDATE subscribers SET status = 'active', confirmed_at = ?, unsubscribed_at = NULL WHERE token = ?")
+    await env.DB.prepare("UPDATE subscribers SET status = 'active', confirmed_at = ? WHERE token = ?")
       .bind(new Date().toISOString(), token).run();
     const unsub = `${env.SITE_URL}unsubscribe.html?token=${token}`;
     await sendMail(env, { to: row.email, ...welcomeEmail(unsub), unsubscribeUrl: unsub, oneClick: `${url.origin}/unsubscribe?token=${token}` })
       .catch((e) => console.error("welcome email failed", e)); // confirming must still succeed
   }
-  return Response.redirect(`${env.SITE_URL}subscribed.html`, 302);
+  return json({ ok: true }, 200, cors);
 }
 
 async function unsubscribe(url, request, env, cors) {
@@ -108,10 +114,6 @@ async function listSubscribers(request, env) {
 // ---- helpers ------------------------------------------------------------------
 function json(data, status = 200, headers = {}) {
   return new Response(JSON.stringify(data), { status, headers: { "Content-Type": "application/json", ...headers } });
-}
-
-function workerBase(request) {
-  return new URL(request.url).origin;
 }
 
 function randomToken() {
@@ -157,7 +159,6 @@ export function buildMessage({ fromName, from, to, subject, html, text, unsubscr
     `To: <${to}>`,
     `Subject: ${encodedWord(subject)}`,
     `Date: ${new Date().toUTCString()}`,
-    `Message-ID: <${randomToken()}@canvassandanalyze>`,
     "MIME-Version: 1.0",
     `Content-Type: multipart/alternative; boundary="${boundary}"`,
   ];
