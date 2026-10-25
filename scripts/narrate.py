@@ -76,14 +76,24 @@ def spoken_title(title):
     if m:
         story = "Love and Trust" if m.group(1).upper().startswith("LOVE") else "Trust and Betrayal"
         return f"{story}. Season {m.group(2)}, Episode {m.group(3)}."
-    t = title.replace("|", ".").replace("&", "and")
+    t = title.replace("|", ".")
     if t.isupper():  # ALL-CAPS titles read better in title case
         t = t.title()
-    return t.rstrip(".") + "."
+    t = inline(t)
+    t = re.sub(r"(?<=\s)-\s*(\d)", r"\1", t)                              # "Learnings -108" -> "Learnings 108"
+    t = re.sub(r"\s+([.?!,:;])", r"\1", t)                                 # "Sacrifice ?" -> "Sacrifice?"
+    t = re.sub(r"([.?!])[.?!]+", r"\1", t.strip().rstrip(".,").strip())
+    return t if t[-1:] in "?!" else t + "."
 
 
 def inline(t):
     t = re.sub(r"\S*\\\*\S*", "…", t)                              # censored words like \*ss\*\*le -> pause
+    t = re.sub(r"\\([^\w\s])", r"\1", t)                                # markdown escapes: \> -> >
+    t = re.sub(r"#([A-Za-z]\w+)", lambda m: re.sub(r"(?<=[a-z])(?=[A-Z])", " ", m.group(1)), t)  # #ZeroHunger
+    t = re.sub(r"\{\{<.*?>\}\}", "", t)                               # shortcodes (embedded videos)
+    t = re.sub(r"\{[^{}]*=[^{}]*\}", "", t)                            # {style="..."} attribute blocks
+    t = re.sub(r"[\U0001F300-\U0001FAFF\u2600-\u27BF]", "", t)          # emoji
+    t = re.sub(r"\^o\^\s*C\b", " degrees Celsius", t)
     t = re.sub(r"!\[[^\]]*\]\([^)]*\)(\{[^}]*\})?", "", t)        # images
     t = re.sub(r"\[\^[^\]]*\]", "", t)                             # footnote refs
     t = re.sub(r"\[([^\]]*)\]\([^)]*\)(\{[^}]*\})?", r"\1", t)     # links -> text
@@ -96,12 +106,16 @@ def inline(t):
     t = re.sub(r"\b([A-Z][a-z]+(?:[A-Z][a-z]+){2,})\b",                 # HashTagWords -> Hash Tag Words
                lambda m: re.sub(r"(?<=[a-z])(?=[A-Z])", " ", m.group(1)), t)
     t = re.sub(r"\s=\s", " means ", t)
+    t = re.sub(r"\s*-\s*>\s*", " — ", t)                                # "- >" arrows -> pause
+    t = re.sub(r"\s>\s*(?=\d)", " above ", t).replace(" < ", " below ")
+    t = t.replace("{", "").replace("}", "").replace("[", "").replace("]", "")
     t = re.sub(r"-{3,}", " ", t).replace("\\", " ")
     t = t.replace("&", " and ").replace("|", ",")
     t = re.sub(r"\s+", " ", t).strip()
     t = re.sub(r"\s*,\s*([.!?:;])", r"\1", t)                           # "word,." -> "word."
     t = re.sub(r"([.!?:;])\s*,\s*", r"\1 ", t)                          # ". , Who" -> ". Who"
-    return re.sub(r"(^,\s*|\s*,$)", "", t)
+    t = re.sub(r",(\s*,)+", ",", t)                                       # ", ," -> ","
+    return re.sub(r"(^,\s*|\s*,$)", "", t).strip()
 
 
 def narration(path):
@@ -150,7 +164,7 @@ def narration(path):
         intro.append(f"From {SERIES_TITLE[fm['series']]}, by {AUTHOR}.")
     else:
         intro.append(f"By {AUTHOR}.")
-    heard = spoken_title(fm.get("title", "")).rstrip(".").replace(". Season", ", Season")
+    heard = spoken_title(fm.get("title", "")).rstrip(".?!").replace(". Season", ", Season")
     outro = f"You have been listening to {heard}, on Canvass And Analyze."
     return fm, "\n\n".join(intro + paras + [outro])
 
