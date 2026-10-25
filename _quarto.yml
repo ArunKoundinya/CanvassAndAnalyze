@@ -47,7 +47,7 @@ website:
 
   page-footer:
     right: "Built with 💛 and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2017 – 2026, Arun Koundinya Parasa"
+    left: "&copy; 2017 – 2026 [Arun Koundinya Parasa](https://arunkoundinya.github.io/) · Also: [Tidy Tuesday](https://arunkoundinya.github.io/TidyTuesday/) · [AI Basics with AK](https://arunkoundinya.github.io/AIBasicswithAK/) · [Deep Learning](https://arunkoundinya.github.io/DeepLearning/)"
 
 format:
   html:

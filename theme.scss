@@ -161,6 +161,10 @@ main.content img { border-radius: 6px; }
   border-top: 2px solid $ink;
   padding-top: .7rem;
   margin: 4rem 0 1.5rem;
+  // Quarto offsets a targeted section with a ::before spacer, which would become a
+  // third flex item; use scroll-margin for the sticky navbar instead
+  scroll-margin-top: 70px;
+  &:target::before { display: none; }
   > section { border: none; padding: 0; margin: 0; width: 100%; }
   p { margin: 0; }
   .anchorjs-link { display: none; }
@@ -715,3 +719,41 @@ div.thread[aria-disabled] { cursor: default; opacity: .8; }
 a.listen-badge:hover { background: $terracotta; color: $paper !important; }
 .meta .listen-badge { margin: 0 0 0 .6rem; }
 .listen-arrived { box-shadow: 0 0 0 2px $terracotta; }
+
+// Home: "More from Arun" (sister sites), dark band like the subscribe section
+.more-from {
+  margin: 1.5rem 0 1rem;
+  padding: 2.4rem 2.8rem 2.8rem;
+  border-radius: 16px;
+  background: $ink;
+  color: $paper;
+  > section { border: none; padding: 0; margin: 0; }
+  .kicker { color: #F0C9B4; }
+  h2 { color: $paper; font-size: 1.9rem; margin: .3rem 0 1.4rem; border: none; padding: 0; }
+  .anchorjs-link { display: none; }
+}
+.more-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  @media (max-width: 1100px) { grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 560px)  { grid-template-columns: 1fr; }
+}
+.more-card {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  height: 100%;
+  padding: 1.2rem 1.25rem;
+  border-radius: 12px;
+  background: rgba($paper, .06);
+  border: 1px solid rgba($paper, .14);
+  color: $paper !important;
+  text-decoration: none !important;
+  transition: background .15s, border-color .15s, transform .15s;
+  &:hover { background: rgba($paper, .11); border-color: $terracotta; transform: translateY(-2px); }
+  .more-name { font-family: $font-family-display; font-size: 1.15rem; font-weight: 600; line-height: 1.25; }
+  .more-desc { font-size: .88rem; line-height: 1.5; color: #D9CFC3; flex: 1; }
+  .more-go { font-family: $font-family-sans-serif; font-size: .75rem; font-weight: 600; letter-spacing: .04em; color: #F0C9B4; }
+}
+@media (max-width: 860px) { .more-from { padding: 2rem 1.5rem; } }

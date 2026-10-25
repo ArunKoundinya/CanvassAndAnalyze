@@ -110,3 +110,34 @@ New writing lands every few weeks. Follow along by RSS, or connect with me on Li
 [LinkedIn](https://www.linkedin.com/in/arunkoundinya0710/){.btn-warm .ghost}
 :::
 :::
+
+::: {.more-from}
+[Elsewhere]{.kicker}
+
+## More from Arun {#h-more .unnumbered .unlisted}
+
+```{=html}
+<div class="more-grid">
+  <a class="more-card" href="https://arunkoundinya.github.io/TidyTuesday/">
+    <span class="more-name">Tidy Tuesday</span>
+    <span class="more-desc">Weekly TidyTuesday charts in R and Python, each with the code.</span>
+    <span class="more-go">Visit →</span>
+  </a>
+  <a class="more-card" href="https://arunkoundinya.github.io/AIBasicswithAK/">
+    <span class="more-name">AI Basics with AK</span>
+    <span class="more-desc">Free videos, slides and homework on Python, statistics and AI.</span>
+    <span class="more-go">Visit →</span>
+  </a>
+  <a class="more-card" href="https://arunkoundinya.github.io/DeepLearning/">
+    <span class="more-name">Deep Learning notebook</span>
+    <span class="more-desc">Notebooks on TensorFlow, neural networks, CNNs, LSTMs and NLP. Each one runs in Colab.</span>
+    <span class="more-go">Visit →</span>
+  </a>
+  <a class="more-card" href="https://arunkoundinya.github.io/">
+    <span class="more-name">Portfolio</span>
+    <span class="more-desc">Who I am, what I work on, and how to get in touch.</span>
+    <span class="more-go">Visit →</span>
+  </a>
+</div>
+```
+:::
