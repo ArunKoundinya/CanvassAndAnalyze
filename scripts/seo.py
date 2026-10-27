@@ -144,6 +144,9 @@ sm = os.path.join(OUT, "sitemap.xml")
 if os.path.exists(sm):
     xml = open(sm, encoding="utf-8").read()
     xml = re.sub(r"\s*<url>\s*<loc>[^<]*(old_index|subscribed\.html|unsubscribe\.html|confirm\.html)[^<]*</loc>.*?</url>", "", xml, flags=re.S)
+    # List each page under the same address its canonical link declares (".../post/", not ".../post/index.html"),
+    # otherwise Google treats every sitemap entry as a duplicate of some other URL.
+    xml = re.sub(r"(<loc>[^<]*/)index\.html(</loc>)", r"\1\2", xml)
     open(sm, "w", encoding="utf-8").write(xml)
 
 print(f"seo.py: tagged {done} pages")
