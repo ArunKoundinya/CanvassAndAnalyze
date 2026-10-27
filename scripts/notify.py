@@ -40,7 +40,7 @@ def all_posts():
 
 
 def subscribers(cfg):
-    req = urllib.request.Request(cfg["WORKER_URL"] + "/admin/subscribers",
+    req = urllib.request.Request(cfg["WORKER_URL"] + "/admin/subscribers?list=canvass",
                                  headers={"Authorization": "Bearer " + cfg["ADMIN_TOKEN"], "User-Agent": "notify.py"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)["subscribers"]

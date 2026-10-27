@@ -11,3 +11,4 @@ audio/
 __pycache__/
 subscribe/node_modules/
 subscribe/.wrangler/
+subscribe/.dev.vars

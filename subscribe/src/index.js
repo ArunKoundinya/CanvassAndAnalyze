@@ -1,17 +1,30 @@
-// Canvass And Analyze: email subscriptions.
+// Email subscriptions for Arun's sites: Canvass And Analyze and Tidy Tuesday.
+// One subscriber database; each address is subscribed per list (see LISTS).
 //
-//   POST /subscribe              {email, turnstile}  -> saves as pending, emails a confirm link
-//   POST /confirm {token}        -> marks active, sends the welcome email (called by the blog's confirm page)
-//   GET  /confirm?token=...      -> forwards to the blog's confirm page (links in older emails)
+//   POST /subscribe              {email, turnstile, list?}  -> saves as pending, emails a confirm link
+//   POST /confirm {token}        -> marks active, sends the welcome email (called by the site's confirm page)
+//   GET  /confirm?token=...      -> forwards to the site's confirm page (links in older emails)
 //   POST /unsubscribe?token=...  -> marks unsubscribed (also the one-click List-Unsubscribe target)
-//   GET  /admin/subscribers      -> active subscribers for scripts/notify.py (Bearer ADMIN_TOKEN)
+//   GET  /admin/subscribers?list=...  -> active subscribers for notify.py (Bearer ADMIN_TOKEN)
 //
+// A missing list means "canvass", so forms and scripts from before lists existed keep working.
 // Mail goes out through Gmail SMTP (app password) over a TLS socket.
 import { connect } from "cloudflare:sockets";
-import { confirmEmail, welcomeEmail } from "./templates.js";
+import * as canvassEmails from "./templates.js";
+import * as tidyTuesdayEmails from "./templates-tidytuesday.js";   // generated in the TidyTuesday repo
 
 const ALLOWED_ORIGINS = ["https://arunkoundinya.github.io", "http://localhost:4322"];
 const RESEND_AFTER_MS = 10 * 60 * 1000; // don't re-send a confirm email more often than this
+const DEFAULT_LIST = "canvass";
+
+// Each list: the site its confirm/unsubscribe pages live on, the sender's display name, and its emails.
+function lists(env) {
+  return {
+    canvass: { site: env.SITE_URL, fromName: env.FROM_NAME, emails: canvassEmails },
+    tidytuesday: { site: "https://arunkoundinya.github.io/TidyTuesday/",
+                   fromName: "Arun Koundinya Parasa · Tidy Tuesday", emails: tidyTuesdayEmails },
+  };
+}
 
 export default {
   async fetch(request, env) {
@@ -25,8 +38,7 @@ export default {
 
     try {
       if (url.pathname === "/subscribe" && request.method === "POST") return await subscribe(request, env, cors);
-      if (url.pathname === "/confirm" && request.method === "GET")
-        return Response.redirect(`${env.SITE_URL}confirm.html?token=${encodeURIComponent(url.searchParams.get("token") || "")}`, 302);
+      if (url.pathname === "/confirm" && request.method === "GET") return await confirmRedirect(url, env);
       if (url.pathname === "/confirm" && request.method === "POST") return await confirm(url, request, env, cors);
       if (url.pathname === "/unsubscribe" && request.method === "POST") return await unsubscribe(url, request, env, cors);
       if (url.pathname === "/admin/subscribers" && request.method === "GET") return await listSubscribers(request, env);
@@ -42,6 +54,9 @@ export default {
 async function subscribe(request, env, cors) {
   const body = await request.json().catch(() => ({}));
   const email = String(body.email || "").trim().toLowerCase();
+  const list = String(body.list || DEFAULT_LIST);
+  const cfg = lists(env)[list];
+  if (!cfg) return json({ ok: false, error: "Unknown list." }, 400, cors);
   if (!/^[^\s@<>()",;]+@[^\s@<>()",;]+\.[a-z]{2,}$/i.test(email) || email.length > 254) {
     return json({ ok: false, error: "Please enter a valid email address." }, 400, cors);
   }
@@ -50,8 +65,8 @@ async function subscribe(request, env, cors) {
   }
 
   const now = new Date().toISOString();
-  const row = await env.DB.prepare("SELECT status, token, confirm_sent_at FROM subscribers WHERE email = ?")
-    .bind(email).first();
+  const row = await env.DB.prepare("SELECT status, token, confirm_sent_at FROM subscribers WHERE email = ? AND list = ?")
+    .bind(email, list).first();
   // The reply is the same whatever the address's state, so the form can't be used to find out who subscribes.
   const reply = json({ ok: true, message: "Almost there. Check your inbox for a confirmation email." }, 200, cors);
 
@@ -60,29 +75,31 @@ async function subscribe(request, env, cors) {
 
   const token = row ? row.token : randomToken();
   if (row) {
-    await env.DB.prepare("UPDATE subscribers SET status = 'pending', confirm_sent_at = ?, unsubscribed_at = NULL WHERE email = ?")
-      .bind(now, email).run();
+    await env.DB.prepare("UPDATE subscribers SET status = 'pending', confirm_sent_at = ?, unsubscribed_at = NULL WHERE email = ? AND list = ?")
+      .bind(now, email, list).run();
   } else {
-    await env.DB.prepare("INSERT INTO subscribers (email, status, token, created_at, confirm_sent_at) VALUES (?, 'pending', ?, ?, ?)")
-      .bind(email, token, now, now).run();
+    await env.DB.prepare("INSERT INTO subscribers (email, list, status, token, created_at, confirm_sent_at) VALUES (?, ?, 'pending', ?, ?, ?)")
+      .bind(email, list, token, now, now).run();
   }
-  const mail = confirmEmail(`${env.SITE_URL}confirm.html?token=${token}`);  // link to the blog, not workers.dev
-  await sendMail(env, { to: email, ...mail });
+  const mail = cfg.emails.confirmEmail(`${cfg.site}confirm.html?token=${token}`);  // link to the site, not workers.dev
+  await sendMail(env, { to: email, fromName: cfg.fromName, ...mail });
   return reply;
 }
 
 async function confirm(url, request, env, cors) {
   const body = await request.json().catch(() => ({}));
   const token = String(body.token || "");
-  const row = await env.DB.prepare("SELECT email, status FROM subscribers WHERE token = ?").bind(token).first();
+  const row = await env.DB.prepare("SELECT email, list, status FROM subscribers WHERE token = ?").bind(token).first();
   if (!row || row.status === "unsubscribed") {
-    return json({ ok: false, message: "This link is not valid. Please subscribe again from any page of the blog." }, 404, cors);
+    return json({ ok: false, message: "This link is not valid. Please subscribe again from any page of the site." }, 404, cors);
   }
   if (row.status !== "active") {
     await env.DB.prepare("UPDATE subscribers SET status = 'active', confirmed_at = ? WHERE token = ?")
       .bind(new Date().toISOString(), token).run();
-    const unsub = `${env.SITE_URL}unsubscribe.html?token=${token}`;
-    await sendMail(env, { to: row.email, ...welcomeEmail(unsub), unsubscribeUrl: unsub, oneClick: `${url.origin}/unsubscribe?token=${token}` })
+    const cfg = lists(env)[row.list] || lists(env)[DEFAULT_LIST];
+    const unsub = `${cfg.site}unsubscribe.html?token=${token}`;
+    await sendMail(env, { to: row.email, fromName: cfg.fromName, ...cfg.emails.welcomeEmail(unsub),
+                          unsubscribeUrl: unsub, oneClick: `${url.origin}/unsubscribe?token=${token}` })
       .catch((e) => console.error("welcome email failed", e)); // confirming must still succeed
   }
   return json({ ok: true }, 200, cors);
@@ -102,12 +119,21 @@ async function unsubscribe(url, request, env, cors) {
   return json({ ok: known, message: known ? "You have been unsubscribed." : "This link is not valid." }, known ? 200 : 404, cors);
 }
 
+// Links in older emails point at the Worker; send them to the confirm page of the token's own site.
+async function confirmRedirect(url, env) {
+  const token = url.searchParams.get("token") || "";
+  const row = await env.DB.prepare("SELECT list FROM subscribers WHERE token = ?").bind(token).first();
+  const cfg = lists(env)[row && row.list] || lists(env)[DEFAULT_LIST];
+  return Response.redirect(`${cfg.site}confirm.html?token=${encodeURIComponent(token)}`, 302);
+}
+
 async function listSubscribers(request, env) {
   if (!env.ADMIN_TOKEN || request.headers.get("Authorization") !== `Bearer ${env.ADMIN_TOKEN}`) {
     return new Response("Unauthorized", { status: 401 });
   }
+  const list = new URL(request.url).searchParams.get("list") || DEFAULT_LIST;
   const { results } = await env.DB.prepare(
-    "SELECT email, token FROM subscribers WHERE status = 'active' ORDER BY confirmed_at").all();
+    "SELECT email, token FROM subscribers WHERE status = 'active' AND list = ? ORDER BY confirmed_at").bind(list).all();
   return json({ subscribers: results });
 }
 
@@ -176,8 +202,9 @@ export function buildMessage({ fromName, from, to, subject, html, text, unsubscr
   ].join("\r\n");
 }
 
-async function sendMail(env, { to, subject, html, text, unsubscribeUrl, oneClick }) {
-  const message = buildMessage({ fromName: env.FROM_NAME, from: env.FROM_EMAIL, to, subject, html, text, unsubscribeUrl, oneClick });
+async function sendMail(env, { to, fromName, subject, html, text, unsubscribeUrl, oneClick }) {
+  const message = buildMessage({ fromName: fromName || env.FROM_NAME, from: env.FROM_EMAIL, to, subject, html, text, unsubscribeUrl, oneClick });
+  if (env.MAIL_DRY_RUN) { console.log(`[dry run] mail to ${to}: ${subject}`); return; }   // local testing only (.dev.vars)
   const socket = connect({ hostname: "smtp.gmail.com", port: 465 }, { secureTransport: "on" });
   const writer = socket.writable.getWriter();
   const reader = socket.readable.getReader();
