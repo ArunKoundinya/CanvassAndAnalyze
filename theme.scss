@@ -675,11 +675,54 @@ div.thread[aria-disabled] { cursor: default; opacity: .8; }
   span { color: $muted; font-size: .74rem; }
 }
 .listen-bar {
+  --p: 0%;
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
   width: 100%;
-  margin-top: .35rem;
-  accent-color: $terracotta;
   height: 4px;
+  margin: .55rem 0 .3rem;
+  border-radius: 999px;
+  background: linear-gradient(to right, $terracotta var(--p), $paper-deep var(--p));
   cursor: pointer;
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px; height: 12px; border-radius: 50%; border: none; background: $terracotta;
+  }
+  &::-moz-range-thumb { width: 12px; height: 12px; border-radius: 50%; border: none; background: $terracotta; }
+}
+.listen-art {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: $paper-deep;
+}
+.listen-skip {
+  flex: none;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: $ink-soft;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  &:hover { color: $terracotta; background: rgba($terracotta, .08); }
+  span {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    font-size: .48rem;
+    font-weight: 600;
+  }
 }
 .listen-time { flex: none; font-size: .72rem; color: $muted; font-variant-numeric: tabular-nums; }
 .listen-speed {
@@ -694,8 +737,145 @@ div.thread[aria-disabled] { cursor: default; opacity: .8; }
   &:hover { border-color: $terracotta; color: $terracotta; }
 }
 @media (max-width: 560px) {
-  .listen { flex-wrap: wrap; }
-  .listen-time { order: 3; }
+  .listen { flex-wrap: wrap; gap: .5rem .6rem; }
+  .listen-art { display: none; }
+  .listen-body { flex-basis: calc(100% - 60px); }
+  .listen-time { margin-left: auto; }
+}
+.listen.listen-arrived { box-shadow: 0 0 0 3px rgba($terracotta, .25); }
+
+// Mini player docked at the bottom while a post plays and the main player is off screen
+.listen-mini {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  z-index: 1040;
+  width: min(560px, calc(100% - 2rem));
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  padding: .55rem .6rem .55rem .55rem;
+  background: $ink;
+  color: $paper;
+  border-radius: 14px;
+  box-shadow: 0 12px 32px -8px rgba(0, 0, 0, .35);
+  font-family: $font-family-sans-serif;
+  overflow: hidden;
+  transform: translate(-50%, 150%);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform .25s ease, opacity .25s ease;
+  &.show { transform: translate(-50%, 0); opacity: 1; pointer-events: auto; }
+  .listen-play { width: 38px; height: 38px; background: $terracotta; color: #fff; }
+}
+.listen-mini.playing .listen-play { .i-play { display: none; } .i-pause { display: inline; } }
+.listen-mini-progress {
+  position: absolute;
+  left: 0; right: 0; top: 0;
+  height: 3px;
+  background: rgba(255, 255, 255, .12);
+  span { display: block; height: 100%; width: 0; background: $terracotta; }
+}
+.listen-mini-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.listen-mini-title {
+  max-width: 100%;
+  font-size: .82rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.listen-mini-time { font-size: .7rem; color: #BFB3A6; font-variant-numeric: tabular-nums; }
+.listen-mini-close {
+  flex: none;
+  width: 32px; height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #BFB3A6;
+  cursor: pointer;
+  &:hover { background: rgba(255, 255, 255, .1); color: #fff; }
+}
+
+// Share buttons (added by scripts/share_buttons.py)
+.share-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .4rem;
+  font-family: $font-family-sans-serif;
+}
+.share-top { margin: -0.6rem 0 1.4rem; }
+.share-label {
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: $muted;
+  margin-right: .2rem;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .35rem;
+  min-width: 34px;
+  height: 34px;
+  padding: 0 .55rem;
+  border: 1px solid $rule;
+  border-radius: 999px;
+  background: #fff;
+  color: $ink-soft !important;
+  font-size: .78rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: color .15s, border-color .15s, background .15s;
+  .bi { font-size: .95rem; }
+  &:hover { border-color: currentColor; }
+  &.share-whatsapp:hover { color: #1FA855 !important; }
+  &.share-linkedin:hover { color: #0A66C2 !important; }
+  &.share-twitter-x:hover { color: #000 !important; }
+  &.share-facebook:hover { color: #1877F2 !important; }
+  &.share-telegram:hover { color: #229ED9 !important; }
+  &.share-envelope:hover,
+  &.share-copy:hover,
+  &.share-native:hover { color: $terracotta !important; }
+  &.copied { color: $sage !important; border-color: $sage; }
+}
+.share-top .share-btn:not(.share-copy):not(.share-native) { padding: 0; }
+.share-card {
+  margin: 3rem 0 1.5rem;
+  padding: 1.4rem 1.4rem 1.5rem;
+  border-top: 1px solid $rule;
+  border-bottom: 1px solid $rule;
+  text-align: center;
+  h3 { margin: .2rem 0 1rem; font-size: 1.3rem; }
+  .kicker { margin: 0; }
+  .share-row { justify-content: center; }
+  .share-btn { height: 38px; padding: 0 .85rem; }
+}
+// On phones the WhatsApp button leads, and the native share sheet covers the rest.
+@media (max-width: 560px) {
+  .share-top .share-btn span { display: none; }
+  .share-top .share-btn { padding: 0; }
+  .share-top .share-label { display: none; }
+  .share-card .share-btn span { display: none; }
+  .share-card .share-btn.share-native span,
+  .share-card .share-btn.share-whatsapp span,
+  .share-card .share-btn.share-copy span { display: inline; }
 }
 
 // "▶ Listen · N min" badge on listing cards for narrated posts

@@ -9,6 +9,7 @@ project:
     - scripts/seo.py
     - scripts/series_nav.py
     - scripts/audio_player.py
+    - scripts/share_buttons.py
     - scripts/subscribe_box.py
 
 website:
